@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruppāvai</title> 7.
+            <persName xml:lang="ta">Āṇṭāḷ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TPa7">
+<l>kīcu kīceṉṟu eṅkum āṉaic cāttāṉ kalantu</l>
+<l>pēciṉa pēccaravam kēṭṭilaiyō pēyp peṇṇē</l>
+<l>kācum piṟappum kalakalappak kai pērttu</l>
+<l>vāca naṟum kuḻal āycciyar mattiṉāl</l>
+<l>ōcai paṭutta tayiraravam kēṭṭilaiyō</l>
+<l>nāyakap peṇ piḷḷāy nārāyaṇaṉ mūrtti</l>
+<l>kēcavaṉaip pāṭavum nī kēṭṭē kiṭattiyō</l>
+<l>tēcamuṭaiyāy tiṟavēlōr empāvāy</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O foolish girl! Have you not heard</l>
+<l rend="indent">chirpings everywhere,</l>
+<l rend="indent">the sound of the talks uttered by the meeting king crows?</l>
+<l>Have you not heard the sound of curd[-making]</l>
+<l rend="indent">as the cowherdesses, with [their] hair fragrant with aromatic products,</l>
+<l rend="indent">move their arms, making noise with the churning staff</l>
+<l rend="indent">so that the kācu- and the piṟappu- necklaces tinkle?</l>
+<l>O chief among girls! Are you [still] lying down,</l>
+<l>even after hearing [our] singing about Nārāyaṇa, Keśava, [our] Lord?</l>
+<l>Open [the door], O lustrous [girl]!</l>
+<l>O our maidens, accept [and] consider [this] attentively!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TPa7"><interp type="alignment" select="0">4MG3M2G37MG28M2G8M2G83MG56M2G8MG19MG11M,270M</interp>
+<entry>
+<form>kīcu-kīc<c type="elided">u</c>-eṉṟu</form>
+<def>chirping sound</def>
+<form type="sandhi">kīcukīceṉṟu</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṅkum</form>
+<def>everywhere</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉaiccāttāṉ</form>
+<def>king crow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kalantu</form>
+<def>join</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēciṉa</form>
+<def>speak</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēcc<c type="elided">u</c></form>
+<def>speech</def>
+<form type="sandhi">pēcc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aravam</form>
+<def>sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭilaiyō</form>
+<def>hear</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēy<c type="geminated">p</c></form>
+<def>demoness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇṇē</form>
+<def>girl</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāc<c type="elided">u</c>-um</form>
+<def>necklace of gold coins</def>
+<form type="simple">kācu</form>
+<form type="sandhi">kāc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>piṟapp<c type="elided">u</c>-um</form>
+<def>necklace of small seed-like gold pieces</def>
+<form type="simple">piṟappu</form>
+<form type="sandhi">piṟapp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kalakalappa<c type="geminated">k</c></form>
+<def>rustle</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kai</form>
+<def>hand</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pērttu</form>
+<def>move</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāca</form>
+<def>aromatic substance</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṟum</form>
+<def>fragrant</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻal</form>
+<def>curls</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āycciyar</form>
+<def>cowherdess</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>mattiṉāl</form>
+<def>churning staff</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōcai</form>
+<def>sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭutta</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tayir</form>
+<def>curd</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aravam</form>
+<def>sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭilai-<c type="glide">y</c>ō</form>
+<def>hear</def>
+<form type="simple">kēṭṭilai</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>nāyaka<c type="geminated">p</c></form>
+<def>chief</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇ</form>
+<def>girl</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷāy</form>
+<def>girl</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nārāyaṇaṉ</form>
+<def>Nārāyaṇa</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūrtti</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēcavaṉai<c type="geminated">p</c></form>
+<def>Keśava</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭavum</form>
+<def>sing</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭ<c type="elided">u</c>-ē</form>
+<def>listen</def>
+<form type="simple">kēṭṭu</form>
+<form type="sandhi">kēṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kiṭatti-<c type="glide">y</c>ō</form>
+<def>lie</def>
+<form type="simple">kiṭatti</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>tēcam</form>
+<def>lustre</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyāy</form>
+<def>possess</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṟav<c type="elided">u</c></form>
+<def>open</def>
+<form type="sandhi">tiṟav</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēl</form>
+<def>accept</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāvāy</form>
+<def>maiden</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
