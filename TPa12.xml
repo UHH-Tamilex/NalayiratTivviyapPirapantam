@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -55,7 +52,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#TPa12"><interp type="alignment" select="0">7MG8MG13MG44MG8MG96MG13MG19MG14MG20MG8MG7MG11M,280M</interp>
+<standOff type="wordsplit" corresp="#TPa12">
+<interp type="alignment" select="0">7MG8MG13MG44MG8MG96MG13MG19MG14MG20MG8MG7MG11M,280M</interp>
 <entry>
 <form>kaṉaitt<c type="elided">u</c></form>
 <def>to bellow</def>
@@ -266,8 +264,6 @@
 <entry>
 <form>ilaṅkai<c type="geminated">k</c></form>
 <def>Laṅka</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kōmāṉai<c type="geminated">c</c></form>
@@ -354,8 +350,6 @@
 <form>īt<c type="elided">u</c></form>
 <def>this</def>
 <form type="sandhi">īt</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>eṉṉa</form>
@@ -432,5 +426,6 @@
 <gramGrp>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
