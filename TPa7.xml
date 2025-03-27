@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -53,7 +50,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#TPa7"><interp type="alignment" select="0">4MG3M2G37MG28M2G8M2G83MG56M2G8MG19MG11M,270M</interp>
+<standOff type="wordsplit" corresp="#TPa7">
+<interp type="alignment" select="0">4MG3M2G37MG28M2G8M2G83MG56M2G8MG19MG11M,270M</interp>
 <entry>
 <form>kīcu-kīc<c type="elided">u</c>-eṉṟu</form>
 <def>chirping sound</def>
@@ -194,8 +192,6 @@
 <entry>
 <form>āycciyar</form>
 <def>cowherdess</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>mattiṉāl</form>
@@ -357,8 +353,6 @@
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>em</form>
@@ -375,5 +369,6 @@
 <gramGrp>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>

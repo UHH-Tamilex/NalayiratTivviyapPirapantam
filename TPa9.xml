@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -51,7 +48,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#TPa9"><interp type="alignment" select="0">26MG26MG13MG29MG104MG27MG4MG6MG15M,258M</interp>
+<standOff type="wordsplit" corresp="#TPa9">
+<interp type="alignment" select="0">26MG26MG13MG29MG104MG27MG4MG6MG15M,258M</interp>
 <entry>
 <form>kīḻ</form>
 <def>east</def>
@@ -343,8 +341,6 @@
 <form>ārāynt<c type="elided">u</c></form>
 <def>examined</def>
 <form type="sandhi">ārāynt</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>aruḷ</form>
@@ -363,8 +359,6 @@
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>em</form>
@@ -381,5 +375,6 @@
 <gramGrp>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -54,7 +51,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#TPa5"><interp type="alignment" select="0">202MG7MG14MG13MG8MG12M,260MG</interp>
+<standOff type="wordsplit" corresp="#TPa5">
+<interp type="alignment" select="0">202MG7MG14MG13MG8MG12M,260MG</interp>
 <entry>
 <form>māyaṉai</form>
 <def>black</def>
@@ -83,8 +81,6 @@
 <entry>
 <form>maturai</form>
 <def>Maturai</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>maintaṉai<c type="geminated">t</c></form>
@@ -97,8 +93,6 @@
 <entry>
 <form>tūya</form>
 <def>pure</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>peru</form>
@@ -134,8 +128,6 @@
 <entry>
 <form>āyar</form>
 <def>cowherd</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kulattiṉil</form>
@@ -183,8 +175,6 @@
 <entry>
 <form>viḷakkam</form>
 <def>enlightenment</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ceyta</form>
@@ -366,8 +356,6 @@
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>em</form>
@@ -384,5 +372,6 @@
 <gramGrp>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>

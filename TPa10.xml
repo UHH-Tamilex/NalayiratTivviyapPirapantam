@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -53,7 +50,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#TPa10"><interp type="alignment" select="0">38MG7MG75MG36MG24MG9MG47MG12M,31MG222MG</interp>
+<standOff type="wordsplit" corresp="#TPa10">
+<interp type="alignment" select="0">38MG7MG75MG36MG24MG9MG47MG12M,31MG222MG</interp>
 <entry>
 <form>nōṟṟu<c type="geminated">c</c></form>
 <def>practise austerities</def>
@@ -187,14 +185,10 @@
 <form>paṇṭ<c type="elided">u</c></form>
 <def>previously</def>
 <form type="sandhi">paṇṭ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>oru</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>nāḷ</form>
@@ -345,8 +339,6 @@
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>em</form>
@@ -363,5 +355,6 @@
 <gramGrp>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
