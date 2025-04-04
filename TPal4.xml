@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruppaḷḷiyeḻucci</title> 4.
+            <persName xml:lang="ta">Toṇṭaraṭippoṭi</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TPal4">
+<l>mēṭṭiḷa mētikaḷ taḷaiviṭu māyarkaḷ vēyṅkuḻa lōcaiyum viṭaimaṇik kuralu</l>
+<l>mīṭṭiya vicaiticai parantaṉa vayaluḷ irintaṉa curumpiṉa milaṅkaiyar kulattai</l>
+<l>vāṭṭiya varicilai vāṉava rēṟē māmuṉi vēḷviyaik kāttava pirata</l>
+<l>māṭṭiya vaṭutiṟa layōttiyem maracē yaraṅkattam māpaḷḷi yeḻuntaru ḷāyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The collective music of the sound of the bamboo flutes of the cowherds,</l>
+<l>who untie [their] tall, young buffaloes, and the ringing of the bulls’ bells</l>
+<l>have spread in [all] directions.</l>
+<l>Swarms of bees in the paddy-fields have scampered away.</l>
+<l>O Bull among celestials with a striped bow that scorched the Laṅkan people’s clans!</l>
+<l>O our King of Ayodhyā with the might to kill [the foes],</l>
+<l>Who protected the sacrifice of the great ascetic and</l>
+<l>allowed [him] to have a bath at the completion of [his] sacrifice!</l>
+<l>O Lord of Raṅgam, do grace to wake up from sleep!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TPal4"><interp type="alignment" select="0">4MG3MR37MG18MG48MG67MG49MG21MG2M,256MG</interp>
+<entry>
+<form>mēṭṭ<c type="elided">u</c></form>
+<def>height</def>
+<form type="sandhi">mēṭṭ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷa<c type="uncertain">m</c></form>
+<def>young</def>
+<form type="sandhi">iḷam</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mētikaḷ</form>
+<def>buffalo</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taḷai</form>
+<def>tie</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭum</form>
+<def>let go</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyarkaḷ</form>
+<def>cowherd</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēyṅkuḻal</form>
+<def>bamboo flute</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ōcai-<c type="glide">y</c>um</form>
+<def>sound</def>
+<form type="simple">ōcai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>viṭai</form>
+<def>bull</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇi<c type="geminated">k</c></form>
+<def>bell</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kural-um</form>
+<def>musical note</def>
+<form type="simple">kural</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>īṭṭiya</form>
+<def>to collect</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>icai</form>
+<def>music</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ticai</form>
+<def>direction</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>parantaṉa</form>
+<def>they-spread</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vayaluḷ</form>
+<def>paddy field</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irintaṉa</form>
+<def>to scamper away</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>curump<c type="elided">u</c></form>
+<def>bee</def>
+<form type="sandhi">curump</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉam</form>
+<def>group</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkaiyar</form>
+<def>Laṅkā</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kulattai</form>
+<def>clan</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṭṭiya</form>
+<def>to scorch</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vari</form>
+<def>stripe</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cilai</form>
+<def>bow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉavar</form>
+<def>celestial</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟē</form>
+<def>bull</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>great</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉi</form>
+<def>ascetic</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēḷviyai<c type="geminated">k</c></form>
+<def>sacrifice</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kātt<c type="elided">u</c></form>
+<def>to protect</def>
+<form type="sandhi">kātt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avapiratam</form>
+<def>bath at the completion of a sacrifice</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭṭiya</form>
+<def>to cause to bathe</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṭu</form>
+<def>kill</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṟal</form>
+<def>might</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ayōtti</form>
+<def>Ayodhyā</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>em</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>aracē</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>araṅkatt<c type="elided">u</c></form>
+<def>Raṅgam</def>
+<form type="sandhi"><c type="glide">y</c>araṅkatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ammā</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḷḷi</form>
+<def>sleep</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eḻuntaruḷāy-ē</form>
+<def>to wake from sleep</def>
+<form type="simple">eḻuntaruḷāy</form>
+<form type="sandhi"><c type="glide">y</c>eḻuntaruḷāy</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
