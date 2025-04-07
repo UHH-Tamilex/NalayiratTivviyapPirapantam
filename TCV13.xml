@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruccantaviruttam</title> 13.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TCV13">
+<l>iṉṉaiyeṉṟu collalāva tillaiyātu miṭṭiṭaip</l>
+<l>piṉṉaikēḷva ṉeṉparuṉpi ṇakkuṇarnta peṟṟiyōr</l>
+<l>piṉṉaiyāya kōlamōṭu pērumūru mātiyum</l>
+<l>niṉṉaiyār niṉaikkavallar nīrmaiyālni ṉaikkilē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>There is nothing that allows [one] to say, ‘You are thus!’</l>
+<l>Great people who have realized [people’s] disagreement [concerning] You</l>
+<l>say that [You] are the Husband of the small-waisted Piṉṉai.</l>
+<l>Then, who is capable of thinking of You, with [Your] beautiful form</l>
+<l rend="indent">names, town, and the[ir] causes,</l>
+<l>unless they do [so] out of [Your own] affability!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TCV13"><interp type="alignment" select="0">20MG13MG30MG36MG4MG5MG44MG2M,160MG</interp>
+<entry>
+<form>iṉṉai</form>
+<def>like-this-you</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṟu</form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>collal</form>
+<def>speaking</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>āvat<c type="elided">u</c></form>
+<def>it becomes</def>
+<form type="sandhi">āvat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illai</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yātum</form>
+<def>anything</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭṭ<c type="elided">u</c></form>
+<def>smallness</def>
+<form type="sandhi">iṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭai<c type="geminated">p</c></form>
+<def>waist</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉṉai</form>
+<def>afterwards</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kēḷvaṉ</form>
+<def>husband</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpar</form>
+<def>he will say</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉ</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṇakk<c type="elided">u</c></form>
+<def>disagreement</def>
+<form type="sandhi">piṇakk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇarnta</form>
+<def>realised</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟṟiyōr</form>
+<def>greatness</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉṉai</form>
+<def>afterwards</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āya</form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōlamōṭu</form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēr-um</form>
+<def>name</def>
+<form type="simple">pēr</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ūr-um</form>
+<def>town</def>
+<form type="simple">ūr</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>āti-<c type="glide">y</c>um</form>
+<def>cause</def>
+<form type="simple">āti</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>niṉṉai</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ār</form>
+<def>who</def>
+<gramGrp>
+  <gram type="role">interrogative pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉaikka</form>
+<def>think</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vallar</form>
+<def>be capable</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīrmaiyāl</form>
+<def>affability</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉaikkil-ē</form>
+<def>to think</def>
+<form type="simple">niṉaikkil</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
