@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruccantaviruttam</title> 42.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TCV42">
+<l>vēṟicainta cekkarmēṉi nīṟaṇinta puñcaṭaik</l>
+<l>kīṟutiṅkaḷ vaittavaṉkai vaittavaṉka pālmicai</l>
+<l>ūṟuceṅku rutiyālni ṟaittakāra ṇantaṉai</l>
+<l>ēṟuceṉṟa ṭarttavīca pēcukūca miṉṟiyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O Lord who shamelessly went to destroy the bulls!</l>
+<l>Speak of the reason [why You] filled with the red blood that flowed [from Your body]</l>
+<l>the mighty skull placed in the hand of [Śiva] who put on the sliver of the moon</l>
+<l>On the lowly locks, the distinct one who wears ash on the red body,</l>
+<l rend="indent">who fit [the job of destruction].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TCV42"><interp type="alignment" select="0">3MG20MG98MG24MG3M,151MG</interp>
+<entry>
+<form>vēṟ<c type="elided">u</c></form>
+<def>different</def>
+<form type="sandhi">vēṟ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>icainta</form>
+<def>to fit</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cekkar</form>
+<def>redness</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉi</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṟ<c type="elided">u</c></form>
+<def>ashes</def>
+<form type="sandhi">nīṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇinta</form>
+<def>adorned</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pum</form>
+<def>lowly</def>
+<form type="sandhi">puñ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭai<c type="geminated">k</c></form>
+<def>matted locks</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kīṟu</form>
+<def>slice</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṅkaḷ</form>
+<def>moon</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaittavaṉ</form>
+<def>to place</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kai</form>
+<def>hand</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaitta</form>
+<def>placed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>mighty</def>
+<form type="sandhi">vaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kapālmicai</form>
+<def>skull</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūṟu</form>
+<def>to flow</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<form type="sandhi">ceṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kurutiyāl</form>
+<def>blood</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṟaitta</form>
+<def>to fill</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāraṇam</form>
+<def>cause</def>
+<form type="sandhi">kāraṇan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉai</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟu</form>
+<def>bull</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṉṟ<c type="elided">u</c></form>
+<def>gone</def>
+<form type="sandhi">ceṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭartta</form>
+<def>to destroy</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>īca</form>
+<def>Lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēcu</form>
+<def>to speak</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūcam</form>
+<def>shame</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟi-<c type="glide">y</c>ē</form>
+<def>without</def>
+<form type="simple">iṉṟi</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
