@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruccantaviruttam</title> 54.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TCV54">
+<l>ilaittalaicca ranturanti laṅkaikaṭṭa ḻittavaṉ</l>
+<l>malaittalaippi ṟantiḻintu vantununtu cantaṉaṅ</l>
+<l>kulaittalaitti ṟutteṟinta kuṅkumakku ḻampiṉō</l>
+<l>ṭalaittoḻuku kāviriya raṅkamēya vaṇṇalē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>He who ruined Laṅkā by shooting an arrow [with] a leaf[-like] tip</l>
+<l>is the Lord who dwells in Raṅgam by the Kāverī, which, being born in the mountain,</l>
+<l>comes descending, casts sandalwood trees [ashore],</l>
+<l>and flows dashing [against the shores] with the paste emitted by the Kamela trees</l>
+<l rend="indent">that it had scattered, shaken, and broken.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TCV54"><interp type="alignment" select="0">22MG38MG31MG6MG5MG24MG6MG18MR10MG2M,170MG</interp>
+<entry>
+<form>ilai<c type="geminated">t</c></form>
+<def>leaf</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai<c type="geminated">c</c></form>
+<def>tip</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caram</form>
+<def>arrow</def>
+<form type="sandhi">caran</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>turant<c type="elided">u</c></form>
+<def>dispatched</def>
+<form type="sandhi">turant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkai</form>
+<def>Laṅka</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭṭaḻittavaṉ</form>
+<def>to ruin</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malaittalai<c type="geminated">p</c></form>
+<def>mountain</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟant<c type="elided">u</c></form>
+<def>to be born</def>
+<form type="sandhi">piṟant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḻintu</form>
+<def>descending</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vantu</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nuntu</form>
+<def>to cast</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cantaṉam</form>
+<def>sandalwood tree</def>
+<form type="sandhi">cantaṉaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kulaitt<c type="elided">u</c></form>
+<def>scattered</def>
+<form type="sandhi">kulaitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alaitt<c type="elided">u</c></form>
+<def>shaken</def>
+<form type="sandhi">alaitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟutt<c type="elided">u</c></form>
+<def>broken</def>
+<form type="sandhi">iṟutt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṟinta</form>
+<def>to cast</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṅkuma<c type="geminated">k</c></form>
+<def>Kamela tree</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻampiṉōṭ<c type="elided">u</c></form>
+<def>paste</def>
+<form type="sandhi">kuḻampiṉōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alaitt<c type="elided">u</c></form>
+<def>dashed</def>
+<form type="sandhi">alaitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻuku</form>
+<def>flow</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāviri</form>
+<def>Kāveri</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>araṅka<c type="uncertain">m</c></form>
+<def>Raṅgam</def>
+<form type="sandhi"><c type="glide">y</c>araṅkam</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēya</form>
+<def>dwell</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṇṇal-ē</form>
+<def>Lord</def>
+<form type="simple">aṇṇal</form>
+<form type="sandhi"><c type="glide">v</c>aṇṇal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
