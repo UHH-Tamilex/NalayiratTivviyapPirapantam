@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruccantaviruttam</title> 64.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TCV64">
+<l>niṉṟatentai yūrakatti runtatentai pāṭakat</l>
+<l>taṉṟuveḵka ṇaikkiṭanta teṉṉilāta muṉṉelā</l>
+<l>maṉṟunāṉpi ṟantilēṉpi ṟantapiṉma ṟantilēṉ</l>
+<l>niṉṟatum miruntatumki ṭantatummeṉ neñcuḷē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>My Father standing in Ūrakam, my Father sitting in Pāṭakam,</l>
+<l>[His] reclining in Veḵkaṇai on that day was all before, when I did not exist!</l>
+<l>I was not born then, I have not forgotten after being born:</l>
+<l>[His] standing, sitting, and reclining are inside my heart!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TCV64"><interp type="alignment" select="0">6MG13MG7MG13MG21MG59M2G10M2G10M2G9MG2MG2M,164MG</interp>
+<entry>
+<form>niṉṟat<c type="elided">u</c></form>
+<def>stood-it</def>
+<form type="sandhi">niṉṟat</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>entai</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ūrakatt<c type="elided">u</c></form>
+<def>Ūrakam</def>
+<form type="sandhi"><c type="glide">y</c>ūrakatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruntat<c type="elided">u</c></form>
+<def>sitting</def>
+<form type="sandhi">iruntat</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>entai</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭakatt<c type="elided">u</c></form>
+<def>Pāṭakam</def>
+<form type="sandhi">pāṭakatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟu</form>
+<def>that day</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḵkaṇai<c type="geminated">k</c></form>
+<def>Veḵkaṇai</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṭantat<c type="elided">u</c></form>
+<def>reclining</def>
+<form type="sandhi">kiṭantat</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ilāta</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>before</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>elām</form>
+<def>all</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟu</form>
+<def>that day</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟantilēṉ</form>
+<def>to be born</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟanta</form>
+<def>born</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟantilēṉ</form>
+<def>forgotten</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟat<c type="elided">u</c>-um</form>
+<def>to stand</def>
+<form type="simple">niṉṟatu</form>
+<form type="sandhi">niṉṟat</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>iruntat<c type="elided">u</c>-um</form>
+<def>to sit</def>
+<form type="simple">iruntatu</form>
+<form type="sandhi"><c type="geminated">m</c>iruntat</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kiṭantat<c type="elided">u</c>-um</form>
+<def>to recline</def>
+<form type="simple">kiṭantatu</form>
+<form type="sandhi">kiṭantat</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñc<c type="elided">u</c></form>
+<def>heart</def>
+<form type="sandhi">neñc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷ-ē</form>
+<def>inside</def>
+<form type="simple">uḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
