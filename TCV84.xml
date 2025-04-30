@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruccantaviruttam</title> 84.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TCV84">
+<l>piṉpiṟakka vaittaṉaṉko laṉṟiniṉṟu taṉkaḻaṟ</l>
+<l>kaṉpuṟaikka vaittanāḷa ṟintaṉaṉko lāḻiyāṉ</l>
+<l>tantiṟatto raṉpilāva ṟivilāta nāyiṉē</l>
+<l>ṉeṉṟiṟatti leṉkolempi rāṉkuṟippil vaittatē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Did [the Lord] with the discus make [me] be born again?</l>
+<l>Or did He intend the day on which [He] will cause love for Him</l>
+<l rend="indent">to become firm [in me, with me] remaining at His feet?</l>
+<l>How come our Lord has kept me, a dog devoid of love for Him or knowledge,</l>
+<l rend="indent">in [His] mind?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TCV84"><interp type="alignment" select="0">19MG21MG3MG25MG18MG5MG8MG24MG25M2GM,159M</interp>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟakka</form>
+<def>to be born</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaittaṉaṉ-kol</form>
+<def>placed-he</def>
+<form type="simple">vaittaṉaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kol</m></gramGrp>
+</entry>
+<entry>
+<form>aṉṟi</form>
+<def>or</def>
+<gramGrp>
+  <gram type="role">conjunction</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟu</form>
+<def>remain</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḻaṟk<c type="elided">u</c></form>
+<def>feet</def>
+<form type="sandhi">kaḻaṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉp<c type="elided">u</c></form>
+<def>love</def>
+<form type="sandhi">aṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟaikka</form>
+<def>cause to be firm</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaitta</form>
+<def>placed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ</form>
+<def>day</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟintaṉaṉ-kol</form>
+<def>he-knew</def>
+<form type="simple">aṟintaṉaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kol</m></gramGrp>
+</entry>
+<entry>
+<form>āḻiyāṉ</form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tan</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṟatt<c type="elided">u</c></form>
+<def>side</def>
+<form type="sandhi">tiṟatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>or</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉp<c type="elided">u</c></form>
+<def>love</def>
+<form type="sandhi">aṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilā</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṟiv<c type="elided">u</c></form>
+<def>knowledge</def>
+<form type="sandhi"><c type="glide">v</c>aṟiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilāta</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāyiṉēṉ</form>
+<def>dog</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>en</form>
+<def>my</def>
+<form type="sandhi">eṉ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṟattil</form>
+<def>side</def>
+<form type="sandhi">ṟiṟattil</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ-kol</form>
+<def>how</def>
+<form type="simple">eṉ</form>
+<gramGrp>
+  <gram type="role">interrogative pronoun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kol</m></gramGrp>
+</entry>
+<entry>
+<form>empirāṉ</form>
+<def>our lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟippil</form>
+<def>mind</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaittat<c type="elided">u</c>-ē</form>
+<def>placing</def>
+<form type="simple">vaittatu</form>
+<form type="sandhi">vaittat</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
