@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruccantaviruttam</title> 70.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TCV70">
+<l>kuntamōṭu cūlamvēlkaṟ ṟōmaraṅkaṟ ṟaṇṭuvāḷ</l>
+<l>pantamāṉa tēvarkaḷpa rantuvāṉa kammuṟa</l>
+<l>vantavāṇa ṉīraiñnūṟu tōḷkaḷaittu ṇittanā</l>
+<l>ḷantavanta vākulama mararēya ṟivarē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The day [He] severed the thousand arms of Bāṇa who came [attacking],</l>
+<l>In such a way that the gods connected [to him] spread out</l>
+<l rend="indent">And reached the celestial world</l>
+<l>[with their] pikes, tridents, spears, large clubs, pestles, [and] swords,</l>
+<l>Only the immortals would know of their respective sorrow!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TCV70"><interp type="alignment" select="0">133MG8MG2M,144MG</interp>
+<entry>
+<form>kuntamōṭu</form>
+<def>pike</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūlam</form>
+<def>trident</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēlkaḷ</form>
+<def>spear</def>
+<form type="sandhi">vēlkaṟ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōmaraṅkaḷ</form>
+<def>large club</def>
+<form type="sandhi">ṟōmaraṅkaṟ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇṭu</form>
+<def>staff</def>
+<form type="sandhi">ṟaṇṭu</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḷ</form>
+<def>sword</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pantam</form>
+<def>relationship</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉa</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēvarkaḷ</form>
+<def>god</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>parantu</form>
+<def>spread</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉakam</form>
+<def>heaven</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>uṟa</form>
+<def>to reach</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vanta</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṇaṉ</form>
+<def>Vāṇaṉ</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īr</form>
+<def>two</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aiññūṟu</form>
+<def>five hundred</def>
+<form type="sandhi">aiñnūṟu</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōḷkaḷai<c type="geminated">t</c></form>
+<def>shoulder</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇitta</form>
+<def>to sever</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ</form>
+<def>day</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>anta</form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>anta</form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ākulam</form>
+<def>sorrow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amarar-ē</form>
+<def>celestial</def>
+<form type="simple">amarar</form>
+<gramGrp>
+  <gram type="role">honorific</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟivar-ē</form>
+<def>to know</def>
+<form type="simple">aṟivar</form>
+<form type="sandhi"><c type="glide">y</c>aṟivar</form>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
