@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -43,7 +40,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#TCV101"><interp type="alignment" select="0">5MG8MG4MG8MR9MG33MG45MG25MG2MG21M,168MG</interp>
+<standOff type="wordsplit" corresp="#TCV101">
+<interp type="alignment" select="0">5MG8MG4MG8MR9MG33MG45MG25MG2MG19MG2M,169MG</interp>
 <entry>
 <form>irant<c type="elided">u</c></form>
 <def>make request</def>
@@ -240,8 +238,6 @@
 <form>at<c type="elided">u</c></form>
 <def>that</def>
 <form type="sandhi">at</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>āka</form>
@@ -267,10 +263,13 @@
 </gramGrp>
 </entry>
 <entry>
-<form>vēṇṭumē</form>
+<form>vēṇṭum-ē</form>
 <def>to be required</def>
+<form type="simple">vēṇṭum</form>
 <gramGrp>
   <gram type="role">optative</gram>
 </gramGrp>
-</entry></standOff>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+</standOff>
 </TEI>
