@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tirumālai</title> 3.
+            <persName xml:lang="ta">Toṇṭaraṭippoṭi</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TMaL3">
+<l>vētanūṟ pirāyam nūṟu maṉicartām pukuva rēlum</l>
+<l>pātiyu muṟaṅkip pōkum niṉṟavip patiṉai yāṇṭu</l>
+<l>pētaipā lakaṉa tākum piṇipaci mūpput tuṉpa</l>
+<l>mātalāṟ piṟavi vēṇṭē ṉaraṅkamā nakaru ḷāṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Even if the humans were to reach the age of one hundred [referred to in] the Vedas,</l>
+<l>Half [of it] will be spent sleeping;</l>
+<l>the remaining fifty years [will be spent in] child[hood], boy[hood] and that [youth],</l>
+<l>disease, hunger, old age, [and] afflictions.</l>
+<l>Therefore I do not desire [re]births, O You from the big city of Raṅgam!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TMaL3"><interp type="alignment" select="0">44MG22MG26MG61M,155MG</interp>
+<entry>
+<form>vēta</form>
+<def>Veda</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nūl</form>
+<def>treatise</def>
+<form type="sandhi">nūṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāyam</form>
+<def>age</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nūṟu</form>
+<def>hundred</def>
+</entry>
+<entry>
+<form>maṉicar</form>
+<def>human being</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tām</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukuvarēlum</form>
+<def>to reach</def>
+<gramGrp>
+  <gram type="role">concessive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāti<c type="glide">y</c>-um</form>
+<def>half</def>
+<form type="simple">pāti</form>
+<form type="sandhi">pāti<c type="glide">y</c></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uṟaṅki<c type="geminated">p</c></form>
+<def>sleep</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōkum</form>
+<def>go</def>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>remain</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>i<c type="geminated">p</c>-</form>
+<def>this-</def>
+<form type="sandhi"><c type="glide">v</c>i<c type="geminated">p</c></form>
+</entry>
+<entry>
+<form>patiṉai</form>
+<def>fifty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āṇṭu</form>
+<def>year</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pētai</form>
+<def>child</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pālakaṉ</form>
+<def>boy</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>at<c type="elided">u</c></form>
+<def>that</def>
+<form type="sandhi">at</form>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṇi</form>
+<def>disease</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paci</form>
+<def>hunger</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūppu<c type="geminated">t</c></form>
+<def>old-age</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṉpam</form>
+<def>afflictions</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ātalāl</form>
+<def>therefore</def>
+<form type="sandhi">ātalāṟ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟavi</form>
+<def>birth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭēṉ</form>
+<def>want-not-I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>araṅka</form>
+<def>Raṅgam</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakar</form>
+<def>city</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷāṉē</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
