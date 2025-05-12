@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tirumālai</title> 20.
+            <persName xml:lang="ta">Toṇṭaraṭippoṭi</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TMaL20">
+<l>pāyunī raraṅkan taṉṉuṭ pāmpaṇaip paḷḷi koṇṭa</l>
+<l>māyaṉār tiruṉaṉ mārpum marakata vuruvun tōḷum</l>
+<l>tūyatā maraikkaṇ kaḷun tuvaritaḻp pavaḷa vāyu</l>
+<l>māyacīr muṭiyun tēcu maṭiyarōrk kakala lāmē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Can the servants part from</l>
+<l rend="indent">the sacred chest with Śrī,</l>
+<l rend="indent">the hue of the emerald,</l>
+<l rend="indent">the shoulders,</l>
+<l rend="indent">the pure lotus eyes,</l>
+<l rend="indent">the coral mouth with scarlet lips,</l>
+<l rend="indent">the excellent crown,</l>
+<l rend="indent">the lustre</l>
+<l>of the Dark One who sleeps on the serpent bed</l>
+<l>inside Raṅgam where the water flows?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TMaL20"><interp type="alignment" select="0">4MR20MG33M2G14MG6MG41MG12MG6M2G12MG8MG2M,169MG</interp>
+<entry>
+<form>pāyu<c type="uncertain">m</c></form>
+<def>leaping-</def>
+<form type="sandhi">pāyun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>araṅkam</form>
+<def>Raṅgam</def>
+<form type="sandhi">araṅkan</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉuḷ</form>
+<def>self</def>
+<form type="sandhi">taṉṉuṭ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāmp<c type="elided">u</c></form>
+<def>snake</def>
+<form type="sandhi">pāmp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇai<c type="geminated">p</c></form>
+<def>bed</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḷḷikoṇṭa</form>
+<def>to sleep</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māyaṉār</form>
+<def>darkness</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>Śrī</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+<form type="sandhi">ṉaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mārp<c type="elided">u</c>-um</form>
+<def>chest</def>
+<form type="simple">mārpu</form>
+<form type="sandhi">mārp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>marakata</form>
+<def>emerald</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uru-<c type="glide">v</c>um</form>
+<def>colour</def>
+<form type="simple">uru</form>
+<form type="sandhi"><c type="glide">v</c>uru</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tōḷ-um</form>
+<def>shoulder</def>
+<form type="simple">tōḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tūya</form>
+<def>pure</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāmarai<c type="geminated">k</c></form>
+<def>lotus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇkaḷum</form>
+<def>eye</def>
+<form type="sandhi">kaṇkaḷun</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuvar</form>
+<def>scarlet</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>itaḻ<c type="geminated">p</c></form>
+<def>lip</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pavaḷa</form>
+<def>coral</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy-um</form>
+<def>mouth</def>
+<form type="simple">vāy</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>āya</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cīr</form>
+<def>excellence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭi-<c type="glide">y</c>um</form>
+<def>crown</def>
+<form type="simple">muṭi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tēc<c type="elided">u</c>-um</form>
+<def>lustre</def>
+<form type="simple">tēcu</form>
+<form type="sandhi">tēc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aṭiyarōrkk<c type="elided">u</c></form>
+<def>servant</def>
+<form type="sandhi">aṭiyarōrkk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akalal</form>
+<def>parting</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām-ē</form>
+<def>becomes</def>
+<form type="simple">ām</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
