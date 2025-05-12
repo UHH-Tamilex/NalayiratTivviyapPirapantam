@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tirumālai</title> 1.
+            <persName xml:lang="ta">Toṇṭaraṭippoṭi</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TMaL1">
+<l>kāvaliṟ pulaṉai vaittuk kalitaṉaik kaṭakkap pāyntu,</l>
+<l>nāvaliṭ ṭuḻitaru kiṉṟōm namaṉtamar talaikaḷ mītē,</l>
+<l>mūvula kuṇṭu miḻnta mutalvaniṉ nāmaṅ kaṟṟa</l>
+<l>āvalip puṭaimai kaṇṭāya raṅkamā nakaru ḷāṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O First Cause who swallowed and spit out the three worlds!</l>
+<l rend="indent">[Due to our] possessing the pride of having learnt Your names,</l>
+<l rend="indent">We have kept the senses under guard;</l>
+<l rend="indent">We leapt across sins/the kali-age;</l>
+<l rend="indent">And shouting ‘Victory!’,</l>
+<l rend="indent">We wander about on the very heads of Yama’s people!</l>
+<l>Look, o You who are in the big city of Raṅgam!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TMaL1"><interp type="alignment" select="0">51MG3MG3MG31M2G9MG3MG34MG32M,45MG48MG78MG</interp>
+<entry>
+<form>kāvalil</form>
+<def>guard</def>
+<form type="sandhi">kāvaliṟ</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pulaṉai</form>
+<def>senses</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaittu<c type="geminated">k</c></form>
+<def>placed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kali</form>
+<def>Kali age</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉai<c type="geminated">k</c></form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭakka<c type="geminated">p</c></form>
+<def>overcome</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāyntu</form>
+<def>leaped</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāval-iṭṭ<c type="elided">u</c></form>
+<def>to cry victory</def>
+<form type="sandhi">nāvaliṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḻi-tarukiṉṟōm</form>
+<def>to wander about</def>
+<form type="sandhi">uḻitarukiṉṟōm</form>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>namaṉ</form>
+<def>Yama</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tamar</form>
+<def>self-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaikaḷ</form>
+<def>head</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mīt<c type="elided">u</c>-ē</form>
+<def>upon</def>
+<form type="simple">mītu</form>
+<form type="sandhi">mīt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>mū</form>
+<def>three</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ulak<c type="elided">u</c></form>
+<def>world</def>
+<form type="sandhi"><c type="glide">v</c>ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṭ<c type="elided">u</c></form>
+<def>swallow</def>
+<form type="sandhi">uṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>umiḻnta</form>
+<def>spit out</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutalva</form>
+<def>First cause</def>
+<gramGrp>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
+<def>your</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāmam</form>
+<def>name</def>
+<form type="sandhi">nāmaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṟṟa</form>
+<def>learned</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āvalipp<c type="elided">u</c></form>
+<def>pride</def>
+<form type="sandhi">āvalipp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaimai</form>
+<def>possession</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭāy</form>
+<def>seen-you</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>araṅka</form>
+<def>Raṅgam</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakar</form>
+<def>city</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷāṉē</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
