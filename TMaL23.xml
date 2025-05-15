@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tirumālai</title> 23.
+            <persName xml:lang="ta">Toṇṭaraṭippoṭi</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TMaL23">
+<l>kaṅkaiyiṟ puṉita māya kāviri naṭuvu pāṭṭup</l>
+<l>poṅkunīr parantu pāyum pūmpoḻi laraṅkan taṉṉu</l>
+<l>ḷeṅkaṇmā liṟaiva ṉīcaṉ kiṭantatōr kiṭakkai kaṇṭu</l>
+<l>meṅṅaṉa maṟantu vāḻkē ṉēḻaiyē ṉēḻai yēṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Even after seeing the posture in which our Māl, God, the Supreme Being</l>
+<l>reclines inside Raṅgam with flower groves</l>
+<l rend="indent">where gushing water flows spreading [everywhere],</l>
+<l>in the middle of the Kāverī that is holier than the Ganges,</l>
+<l>How can I—wretched I—live on forgetting [Him]. I am a wretched one!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TMaL23"><interp type="alignment" select="0">6MG36MR86ML26MG2M,159MG</interp>
+<entry>
+<form>kaṅkai-<c type="glide">y</c>iṉ</form>
+<def>Ganges</def>
+<form type="sandhi">kaṅkai<c type="glide">y</c>iṟ</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṉitam</form>
+<def>holy</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āya</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāviri</form>
+<def>Kāveri</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭuvupāṭṭu<c type="geminated">p</c></form>
+<def>central place</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṅku<c type="uncertain">m</c></form>
+<def>gushing</def>
+<form type="sandhi">poṅkun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>parantu</form>
+<def>spread</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāyum</form>
+<def>leaping-</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūm</form>
+<def>flower</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poḻil</form>
+<def>grove</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>araṅkam</form>
+<def>Raṅgam</def>
+<form type="sandhi">araṅkan</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉuḷ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṅkaḷ</form>
+<def>our</def>
+<form type="sandhi">eṅkaṇ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māl</form>
+<def>Māl</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaivaṉ</form>
+<def>Lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īcaṉ</form>
+<def>God</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṭantatōr</form>
+<def>recline</def>
+<gramGrp>
+  <gram type="role">relative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṭakkai</form>
+<def>reclining</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭum</form>
+<def>see</def>
+<gramGrp>
+  <gram type="role">concessive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṅṅaṉam</form>
+<def>how</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟantu</form>
+<def>forget</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻkēṉ</form>
+<def>to live</def>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēḻaiyēṉ</form>
+<def>wretched</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēḻaiyēṉ-ē</form>
+<def>wretched</def>
+<form type="simple">ēḻaiyēṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
