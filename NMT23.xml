@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 23.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NMT23">
+<l>vittu miṭalvēṇṭuṅ kollō viṭaiyaṭartta</l>
+<l>patti yuḻavaṉ paḻampuṉattu moytteḻunta</l>
+<l>kārmēka maṉṉa karumāl tirumēṉi</l>
+<l>nīrvāṉaṅ kāṭṭu nikaḻntu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Is there a need [for us] to sow seeds in the ancient fields of</l>
+<l>the bhakti Ploughman who subdued the bulls?</l>
+<l>The passing water[-bearing] clouds is reminiscent of the sacred body of the dark Māl</l>
+<l>who is like black clouds that rise in clusters.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NMT23"><interp type="alignment" select="0">4M2G12MG47MG46MR8M,122M</interp>
+<entry>
+<form>vitt<c type="elided">u</c>-um</form>
+<def>seed</def>
+<form type="simple">vittu</form>
+<form type="sandhi">vitt</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iṭal</form>
+<def>placing</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭum-kollō</form>
+<def>is necessary</def>
+<form type="simple">vēṇṭum</form>
+<form type="sandhi">vēṇṭuṅ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kollō</m></gramGrp>
+</entry>
+<entry>
+<form>viṭai</form>
+<def>bull</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṭartta</form>
+<def>subdue</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>patti</form>
+<def>bhakti</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḻavaṉ</form>
+<def>ploughman</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḻam</form>
+<def>ancient</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṉattu</form>
+<def>field</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moytt<c type="elided">u</c></form>
+<def>cluster</def>
+<form type="sandhi">moytt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻunta</form>
+<def>rise</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kār</form>
+<def>black</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēkam</form>
+<def>cloud</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṉa</form>
+<def>like</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>karu</form>
+<def>dark</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māl</form>
+<def>Māl</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>sacred</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉi</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉam</form>
+<def>cloud</def>
+<form type="sandhi">vāṉaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṭṭum</form>
+<def>be reminiscent</def>
+<form type="sandhi">kāṭṭun</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nikaḻntu</form>
+<def>to pass</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
