@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 38.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NMT38">
+<l>akaippiṉ maṉicarai yāṟu camayam</l>
+<l>pukaittāṉ porukaṭalṉīr vaṇṇa ṉukaikkumē</l>
+<l>lettēvar vālāṭṭu mevvāṟu ceykaiyu</l>
+<l>mappō toḻiyu maḻaippu.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>He whose hue is that of the water of the dashing sea</l>
+<l>Entraps humans devoid of uplifting [in] the six religions.</l>
+<l>If [He] stirs up, any god’s arrogant deeds, any type of deeds,</l>
+<l>[and] summons [to gods in the sacrifices] will cease then [and there].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NMT38"><interp type="alignment" select="0">6MG72M2G14MG8MG14M,118MG</interp>
+<entry>
+<form>akaipp<c type="elided">u</c></form>
+<def>uplifting</def>
+<form type="sandhi">akaipp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>not</def>
+<form type="sandhi">iṉ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉicarai</form>
+<def>human being</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āṟu</form>
+<def>six</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>camayam</form>
+<def>religion</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukaittāṉ</form>
+<def>entrap</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poru</form>
+<def>dashing</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal</form>
+<def>sea</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<form type="sandhi">ṉīr</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇaṉ</form>
+<def>hue-he</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ukaikkumēl</form>
+<def>stir up</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>e<c type="geminated">t</c></form>
+<def>any-</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tēvar</form>
+<def>god</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vālāṭṭ<c type="elided">u</c>-um</form>
+<def>arrogant deed</def>
+<form type="simple">vālāṭṭu</form>
+<form type="sandhi">vālāṭṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>evvāṟu</form>
+<def>how</def>
+</entry>
+<entry>
+<form>ceykai-<c type="glide">y</c>um</form>
+<def>deed</def>
+<form type="simple">ceykai</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>appōt<c type="elided">u</c></form>
+<def>then</def>
+<form type="sandhi">appōt</form>
+</entry>
+<entry>
+<form>oḻiyum</form>
+<def>cease</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻaippu</form>
+<def>summon</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
