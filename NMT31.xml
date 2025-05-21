@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 31.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NMT31">
+<l>mēṉāṉ mukaṉaraṉai yiṭṭaviṭu cāpan</l>
+<l>tāṉṉā raṇaṉoḻittāṉ tārakaiyuḷ vāṉōr</l>
+<l>perumāṉai yēttāta pēykāḷ piṟakkuṅ</l>
+<l>karumāyam pēciṟ katai</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Formerly, it was Nārāyaṇa who destroyed the curse</l>
+<l>placed by the four-faced [Brahmā] on Hara-Śiva on this earth.</l>
+<l>O demons who do not extol the Lord of celestials!</l>
+<l>If one speaks of the wonder of the foetus that is born,</l>
+<l rend="indent">[it would be] a [long] story.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NMT31"><interp type="alignment" select="0">3ML108M,112M</interp>
+<entry>
+<form>mēl</form>
+<def>above</def>
+<form type="sandhi">mēṉ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉmukaṉ</form>
+<def>four-faced</def>
+<form type="sandhi">ṉāṉmukaṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>araṉai</form>
+<def>Hara-Śiva</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṭṭa</form>
+<def>placed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭucāpam</form>
+<def>curse</def>
+<form type="sandhi">viṭucāpan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāraṇaṉ</form>
+<def>Nārāyaṇa</def>
+<form type="sandhi">ṉāraṇaṉ</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻittāṉ</form>
+<def>destroyed</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tārakaiyuḷ</form>
+<def>earth</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉōr</form>
+<def>heaven-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumāṉai</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ēttāta</form>
+<def>praise-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēykāḷ</form>
+<def>demon</def>
+<gramGrp>
+  <gram type="role">second person</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟakkum</form>
+<def>be-born</def>
+<form type="sandhi">piṟakkuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karu</form>
+<def>foetus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māyam</form>
+<def>wonder</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēcil</form>
+<def>speak</def>
+<form type="sandhi">pēciṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>katai</form>
+<def>story</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
