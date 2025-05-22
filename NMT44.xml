@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 44.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NMT44">
+<l>koṇṭu kuṭaṅkālmēl vaitta kuḻaviyāy</l>
+<l>taṇṭa varakkaṉ talaitāḷāṟ paṇṭeṇṇi</l>
+<l>pōṅkumara ṉiṟkum poḻilvēṅ kaṭamalaikkē</l>
+<l>pōṅkumara ruḷḷīr purintu.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O you young men! Go desiringly to the Vēṅkaṭam hills with groves</l>
+<l>where stands the Young Man, who, in former times,</l>
+<l>became an infant placed on [Brahmā’s] laps, and</l>
+<l>and went on counting the punishable Rākṣasa’ heads with [Its] feet.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NMT44"><interp type="alignment" select="0">13MG45MG14ML17MR7M2G24M,125MG</interp>
+<entry>
+<form>koṇṭu</form>
+<def>taken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭaṅkāl-mēl</form>
+<def>lap</def>
+<form type="sandhi">kuṭaṅkālmēl</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaitta</form>
+<def>placed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻavi</form>
+<def>infant</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇṭa<c type="uncertain">m</c></form>
+<def>punishment</def>
+<form type="sandhi">taṇṭav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arakkaṉ</form>
+<def>Rakṣasa</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai</form>
+<def>head</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāḷāl</form>
+<def>foot</def>
+<form type="sandhi">tāḷāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṇṭ<c type="elided">u</c></form>
+<def>previously</def>
+<form type="sandhi">paṇṭ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>eṇṇi</form>
+<def>counted</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōm</form>
+<def>went</def>
+<form type="sandhi">pōṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kumaraṉ</form>
+<def>young man</def>
+<gramGrp>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṟkum</form>
+<def>stands</def>
+<form type="sandhi">ṉiṟkum</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poḻil</form>
+<def>grove</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkaṭa<c type="uncertain">m</c></form>
+<def>Vēṅkaṭam</def>
+<form type="sandhi">vēṅkaṭam</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>malaikk<c type="elided">u</c>-ē</form>
+<def>mountain</def>
+<form type="simple">malaikku</form>
+<form type="sandhi">malaikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pōm</form>
+<def>go</def>
+<form type="sandhi">pōṅ</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kumarar</form>
+<def>young man</def>
+<gramGrp>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷḷīr</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>purintu</form>
+<def>desiringly</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
