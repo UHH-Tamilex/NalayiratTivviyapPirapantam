@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 63.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NMT63">
+<l>tarittiruntē ṉākavē tārā kaṇappōr</l>
+<l>viritturaitta veṉṉākat tuṉṉai teritteḻuti</l>
+<l>vācittuṅ kēṭṭum vaṇaṅki vaḻipaṭṭum</l>
+<l>pūcittum pōkkiṉēṉ pōtu.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>I have spent time speaking of, writing about,</l>
+<l>Reading, hearing about, bowing to, worshipping, and showing devotion to</l>
+<l>You on the cruel serpent that spoke extensively about the movement</l>
+<l rend="indent">of stellar constellations.</l>
+<l>Therefore, I have borne patiently [with this life].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NMT63"><interp type="alignment" select="0">6MG30MG16MG11MG11M2G6M2G17M2G8M2G15M,131MG</interp>
+<entry>
+<form>taritt<c type="elided">u</c></form>
+<def>bear</def>
+<form type="sandhi">taritt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruntēṉ</form>
+<def>stay-I</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākavē</form>
+<def>therefore</def>
+</entry>
+<entry>
+<form>tārākaṇa<c type="geminated">p</c></form>
+<def>stellar constellation</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōr</form>
+<def>movement</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viritt<c type="elided">u</c></form>
+<def>expound</def>
+<form type="sandhi">viritt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uraitta</form>
+<def>spseak</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ve<c type="uncertain">m</c></form>
+<def>cruel</def>
+<form type="sandhi">veṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nākatt<c type="elided">u</c></form>
+<def>serpent</def>
+<form type="sandhi">ṉākatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉṉai</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teritt<c type="elided">u</c></form>
+<def>speaking</def>
+<form type="sandhi">teritt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻuti</form>
+<def>writing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vācitt<c type="elided">u</c>-um</form>
+<def>reading</def>
+<form type="simple">vācittu</form>
+<form type="sandhi">vācitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kēṭṭ<c type="elided">u</c>-um</form>
+<def>hearing</def>
+<form type="simple">kēṭṭu</form>
+<form type="sandhi">kēṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vaṇaṅki</form>
+<def>prostrating</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻipaṭṭ<c type="elided">u</c>-um</form>
+<def>worshipping</def>
+<form type="simple">vaḻipaṭṭu</form>
+<form type="sandhi">vaḻipaṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pūcitt<c type="elided">u</c>-um</form>
+<def>showing devotion</def>
+<form type="simple">pūcittu</form>
+<form type="sandhi">pūcitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pōkkiṉēṉ</form>
+<def>spend</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōtu</form>
+<def>time</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
