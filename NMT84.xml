@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 84.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NMT84">
+<l>pitiru maṉamilēṉ piññakaṉ ṟaṉṉō</l>
+<l>ṭetirva ṉavaṉeṉakku nērā ṉatiruṅ</l>
+<l>kaḻaṟkāla maṉṉaṉaiyē kaṇṇaṉaiyē nāḷun</l>
+<l>toḻuṅkātaṟ pūṇṭēṉ toḻil.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>I who bear love—[so that my] occupation is to always worship</l>
+<l>the King with feet [adorned with] resounding anklets, Kṛṣṇa—</l>
+<l>do not have a scattered mind.</l>
+<l>I rival Śiva [in terms of knowledge but] he is no match for me.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NMT84"><interp type="alignment" select="0">6MR23MG45MG10MG29M,116MG</interp>
+<entry>
+<form>pitiru<c type="uncertain">m</c></form>
+<def>scattered</def>
+<form type="sandhi">pitirum</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉam</form>
+<def>mind</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ilēṉ</form>
+<def>not-I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piññakaṉ</form>
+<def>Pinākin-Śiva</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉōṭ<c type="elided">u</c></form>
+<def>self</def>
+<form type="sandhi">ṟaṉṉōṭ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">sociative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>etirvaṉ</form>
+<def>rival</def>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉakku</form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nērāṉ</form>
+<def>match-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>atirum</form>
+<def>resounding</def>
+<form type="sandhi">atiruṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḻal</form>
+<def>anklet</def>
+<form type="sandhi">kaḻaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāla</form>
+<def>legged</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉṉaṉai-<c type="glide">y</c>ē</form>
+<def>king</def>
+<form type="simple">maṉṉaṉai</form>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kaṇṇaṉai-<c type="glide">y</c>ē</form>
+<def>Kaṇṇaṉ</def>
+<form type="simple">kaṇṇaṉai</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>nāḷum</form>
+<def>always</def>
+<form type="sandhi">nāḷun</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻum</form>
+<def>worshipping-</def>
+<form type="sandhi">toḻuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kātal</form>
+<def>love</def>
+<form type="sandhi">kātaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūṇṭēṉ</form>
+<def>undertake</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻil</form>
+<def>occupation</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
