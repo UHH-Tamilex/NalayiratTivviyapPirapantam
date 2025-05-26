@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 79.
+            <persName xml:lang="ta">Tirumaḻicai</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NMT79">
+<l>āyntukoṇ ṭātip perumāṉai yaṉpiṉāl</l>
+<l>vāynta maṉattirutta vallārka ḷēyntata</l>
+<l>meykunta māka virumpuvarē tāmumtam</l>
+<l>vaikuntaṅ kāṇpār viraintu.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Those who, thinking out of love of the Primordial Lord,</l>
+<l>are able to place [Him] in [their] excellent hearts,</l>
+<l>Will desire their bodies fitted [with souls] to give [them] distress,</l>
+<l>wishing to see their Vaikuṇṭha swiftly.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NMT79"><interp type="alignment" select="0">5MG4MG33MG22MR22MG4MG29M,124MG</interp>
+<entry>
+<form>āyntu-koṇṭ<c type="elided">u</c></form>
+<def>selected-taken</def>
+<form type="sandhi">āyntukoṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āti<c type="geminated">p</c></form>
+<def>primordial cause</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumāṉai</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉpiṉāl</form>
+<def>love</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāynta</form>
+<def>been-excellent</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉatt<c type="elided">u</c></form>
+<def>heart</def>
+<form type="sandhi">maṉatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irutta</form>
+<def>place</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vallārkaḷ</form>
+<def>be capable</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēynta</form>
+<def>fitted</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ta<c type="uncertain">m</c></form>
+<def>self</def>
+<form type="sandhi">tam</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mey</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuntam</form>
+<def>that which gives distress</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>virumpuvar-ē</form>
+<def>desire</def>
+<form type="simple">virumpuvar</form>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tām-um</form>
+<def>self</def>
+<form type="simple">tām</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tam</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaikuntam</form>
+<def>Vaikuṇṭha</def>
+<form type="sandhi">vaikuntaṅ</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇpār</form>
+<def>they see</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viraintu</form>
+<def>hastened</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
