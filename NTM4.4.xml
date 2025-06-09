@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nācciyār Tirumoḻi</title> 4.4.
+            <persName xml:lang="ta">Āṇṭāḷ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NTM4.4">
+<l>āycci mārkaḷu māyaru mañciṭap</l>
+<l>pūtta nīḷkaṭam pēṟip pukappāyntu</l>
+<l>vāytta kāḷiyaṉ mēṉaṭa māṭiya</l>
+<l>kūtta ṉārvaril kūṭiṭu kūṭalē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O circle! [You] be joined if</l>
+<l rend="indent">the Dancer</l>
+<l rend="indent">—who danced on the flourishing Kāliya</l>
+<l rend="indent">after climbing up the tall, flowering Cadamba tree</l>
+<l rend="indent">[and] sprang into the pond in order to enter [it]</l>
+<l rend="indent">in such a way that the cowherdesses and the cowherds were scared</l>
+<l>comes [to me].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NTM4.4"><interp type="alignment" select="0">11MG6MG23MG28MG3ML35M,110MG</interp>
+<entry>
+<form>āyccimārkaḷ-um</form>
+<def>cowherdess</def>
+<form type="simple">āyccimārkaḷ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>āyar-um</form>
+<def>cowherd</def>
+<form type="simple">āyar</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>añciṭa<c type="geminated">p</c></form>
+<def>be scared</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūtta</form>
+<def>flowering</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīḷ</form>
+<def>tall</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭamp<c type="elided">u</c></form>
+<def>Kadamba-tree</def>
+<form type="sandhi">kaṭamp</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟi<c type="geminated">p</c></form>
+<def>climbed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puka<c type="geminated">p</c></form>
+<def>enter</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāyntu</form>
+<def>sprang</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāytta</form>
+<def>flourishing</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāḷiyaṉ-mēl</form>
+<def>Kāliya</def>
+<form type="sandhi">kāḷiyaṉmēṉ</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭam</form>
+<def>dance</def>
+<form type="sandhi">ṉaṭam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭiya</form>
+<def>danced</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūttaṉār</form>
+<def>dancer</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varil</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṭiṭu</form>
+<def>join</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṭalē</form>
+<def>circle</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
