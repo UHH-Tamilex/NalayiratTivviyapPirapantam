@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nācciyār Tirumoḻi</title> 5.6.
+            <persName xml:lang="ta">Āṇṭāḷ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NTM5.6">
+<l>etticai yumama rarpaṇin tēttum iruṭī kē caṉvaliceyya</l>
+<l>muttaṉṉa veṇmuṟu vaṟceyya vāyum mulaiyu maḻakaḻin tēṉāṉ</l>
+<l>kottalar kāvil maṇittaṭam kaṇpaṭai koḷḷu miḷaṅkuyi lēyeṉ</l>
+<l>tattuva ṉaivarak kūkiṟṟi yākiṟ ṟalaiyallāl kaimmāṟi lēṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The beauty of my pearl-like white teeth, red lips, and breasts have been ruined</l>
+<l>as Hṛṣīkeśa—whom the immortals pay homage to and praise from all quarters—</l>
+<l rend="indent">causes [me] pain.</l>
+<l>O young koel that sleep in a beautiful place in the grove where clusters [of</l>
+<l rend="indent">flowers] bloom!</l>
+<l>if you cry so that my true [Lord] comes, I will [give] nothing [less than my] head in return!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NTM5.6"><interp type="alignment" select="0">22MG28MG22MG7MG7MG7ML6MG91MG4MG2M,204MG</interp>
+<entry>
+<form>etticaiyum</form>
+<def>all quarters</def>
+</entry>
+<entry>
+<form>amarar</form>
+<def>immortals</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṇint<c type="elided">u</c></form>
+<def>pay homage</def>
+<form type="sandhi">paṇint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēttum</form>
+<def>praise</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruṭīkēcaṉ</form>
+<def>Hṛṣīkeśa</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vali</form>
+<def>pain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyya</form>
+<def>cause</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutt<c type="elided">u</c></form>
+<def>pearl</def>
+<form type="sandhi">mutt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṉa</form>
+<def>like</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷ</form>
+<def>white</def>
+<form type="sandhi">veṇ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṟuval</form>
+<def>teeth</def>
+<form type="sandhi">muṟuvaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyya</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy-um</form>
+<def>lips</def>
+<form type="simple">vāy</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>mulai-<c type="glide">y</c>um</form>
+<def>breast</def>
+<form type="simple">mulai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aḻak<c type="elided">u</c></form>
+<def>beauty</def>
+<form type="sandhi">aḻak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻintēṉ</form>
+<def>ruined</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<form type="sandhi">ṉāṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kott<c type="elided">u</c></form>
+<def>cluster</def>
+<form type="sandhi">kott</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alar</form>
+<def>bloom</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāvil</form>
+<def>grove</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇi<c type="geminated">t</c></form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭam</form>
+<def>place</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇpaṭai</form>
+<def>sleep</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷḷum</form>
+<def>taking-</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷam</form>
+<def>young</def>
+<form type="sandhi">iḷaṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuyilē</form>
+<def>Koel</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tattuvaṉai</form>
+<def>true-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vara<c type="geminated">k</c></form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūkiṟṟiyākil</form>
+<def>cry</def>
+<form type="sandhi">kūkiṟṟiyākiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai</form>
+<def>head</def>
+<form type="sandhi">ṟalai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>allāl</form>
+<def>except</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaimmāṟ<c type="elided">u</c></form>
+<def>exchange</def>
+<form type="sandhi">kaimmāṟ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ilēṉ-ē</form>
+<def>not-I</def>
+<form type="simple">ilēṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
