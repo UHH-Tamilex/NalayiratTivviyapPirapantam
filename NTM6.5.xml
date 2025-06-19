@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nācciyār Tirumoḻi</title> 6.5.
+            <persName xml:lang="ta">Āṇṭāḷ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NTM6.5">
+<l>katiroḷi tīpaṅ kalacamu ṭaṉēntic</l>
+<l>catiriḷa maṅkaiyar tāmvan tetirkoḷḷa</l>
+<l>maturaiyār maṉṉa ṉaṭinilai toṭṭeṅku</l>
+<l>matirap pukutak kaṉāk kaṇṭēṉ tōḻīnāṉ.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O friend! I dreamt that the king of the people of Mathurā</l>
+<l>entered [the wedding hall] wearing sandals, so that [the earth] shook,</l>
+<l>as the beautiful young women came and received [Him]</l>
+<l>holding lamps shining [like] the sun along with pots of consecrated water.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NTM6.5"><interp type="alignment" select="0">37MR16MG37MG37M,129MG</interp>
+<entry>
+<form>katir</form>
+<def>sun</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḷi</form>
+<def>shining</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīpam</form>
+<def>lamp</def>
+<form type="sandhi">tīpaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kalacamuṭaṉ</form>
+<def>pot of consecrated water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēnti<c type="geminated">c</c></form>
+<def>holding</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>catir</form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷa<c type="uncertain">m</c></form>
+<def>young</def>
+<form type="sandhi">iḷam</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṅkaiyar</form>
+<def>girls</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tām</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vant<c type="elided">u</c></form>
+<def>come</def>
+<form type="sandhi">vant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>etirkoḷḷa</form>
+<def>receive</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maturaiyār</form>
+<def>Mathurā</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉṉaṉ</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭinilai</form>
+<def>sandal</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṭṭ<c type="elided">u</c></form>
+<def>put on</def>
+<form type="sandhi">toṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṅkum</form>
+<def>everywhere</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>atira<c type="geminated">p</c></form>
+<def>shake</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukuta<c type="geminated">k</c></form>
+<def>entered</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉākkaṇṭēṉ</form>
+<def>dreamt</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōḻī</form>
+<def>friend</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
