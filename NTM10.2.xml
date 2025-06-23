@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nācciyār Tirumoḻi</title> 10.2.
+            <persName xml:lang="ta">Āṇṭāḷ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NTM10.2">
+<l>mēṟṟōṉṟip pūkkāḷ mēlula kaṅkaḷiṉ mītupōy</l>
+<l>mēṟṟōṉṟum cōti vēta mutalvar valaṅkaiyil</l>
+<l>mēṟṟōṉṟu māḻiyiṉ veñcuṭar pōlac cuṭātemmai</l>
+<l>māṟṟōlaip paṭṭavar kūṭṭattu vaittukoḷ kiṟṟirē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O flowers that appear above! Will you be able to place us</l>
+<l>in the crowd of people who have shifted to a group other than [God’s],</l>
+<l>not burning [me] like the cruel fire of the discus on the right hand</l>
+<l>of God [praised in] the Vedas from [the land of] the Light</l>
+<l rend="indent">that appears above,</l>
+<l>having gone beyond the upper worlds!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NTM10.2"><interp type="alignment" select="0">53MR52MG45MG2M,154MG</interp>
+<entry>
+<form>mēl</form>
+<def>above</def>
+<form type="sandhi">mēṟ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṉṟi<c type="geminated">p</c></form>
+<def>appeared</def>
+<form type="sandhi">ṟōṉṟi<c type="geminated">p</c></form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūkkāḷ</form>
+<def>flowers</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upper</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakaṅkaḷiṉ</form>
+<def>worlds</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mītu</form>
+<def>beyond</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>above</def>
+<form type="sandhi">mēṟ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṉṟum</form>
+<def>appears</def>
+<form type="sandhi">ṟōṉṟum</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cōti</form>
+<def>light</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēta<c type="uncertain">m</c></form>
+<def>Veda</def>
+<form type="sandhi">vētam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutalvar</form>
+<def>God</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>valam</form>
+<def>right</def>
+<form type="sandhi">valaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaiyil</form>
+<def>hand</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>above</def>
+<form type="sandhi">mēṟ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṉṟum</form>
+<def>appearing</def>
+<form type="sandhi">ṟōṉṟum</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āḻiyiṉ</form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vem</form>
+<def>cruel</def>
+<form type="sandhi">veñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṭar</form>
+<def>fire</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōla<c type="geminated">c</c></form>
+<def>be-similar</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṭāt<c type="elided">u</c></form>
+<def>burn-not</def>
+<form type="sandhi">cuṭāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emmai</form>
+<def>us</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṟṟōlaippaṭṭavar</form>
+<def>be shifted from one list to another</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṭṭattu</form>
+<def>crowd</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaittu</form>
+<def>placed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷ</form>
+<def>take</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṟṟir-ē</form>
+<def>to be able to</def>
+<form type="simple">kiṟṟir</form>
+<gramGrp>
+  <gram type="role">second person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
