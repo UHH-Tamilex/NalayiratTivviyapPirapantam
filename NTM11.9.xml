@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nācciyār Tirumoḻi</title> 11.9.
+            <persName xml:lang="ta">Āṇṭāḷ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NTM11.9">
+<l>kaṇṇālaṅ kōṭittuk kaṉṉitaṉṉaik kaippiṭippāṉ</l>
+<l>tiṇṇārn tirunta cicupālaṉ tēcaḻintu</l>
+<l>aṇṇān tirukkavē yāṅkavaḷaik kaippiṭitta</l>
+<l>peṇṇāḷaṉ pēṇumūr pēru maraṅkamē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Śrīraṅgam is the name of the town desired by the Husband of women</l>
+<l>Who held Her (Rukmiṇī) hand [in marriage] there,</l>
+<l>As Śiśupāla—who pictured marriage [with Rukmiṇī] in mind</l>
+<l>and remained certain that he would hold the hand of the maiden [in marriage]—</l>
+<l rend="indent">	lay looking upward losing lustre.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NTM11.9"><interp type="alignment" select="0">48MG18MG12MG6MG6MG36MG9MG2M,143MG</interp>
+<entry>
+<form>kaṇṇālam</form>
+<def>marriage</def>
+<form type="sandhi">kaṇṇālaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōṭittu<c type="geminated">k</c></form>
+<def>picture in the mind</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉṉi</form>
+<def>maiden</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉai<c type="geminated">k</c></form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaippiṭippāṉ</form>
+<def>hold hand in marriage</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṇ</form>
+<def>firm</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>ārnt<c type="elided">u</c></form>
+<def>become-full</def>
+<form type="sandhi"><c type="geminated">ṇ</c>ārnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irunta</form>
+<def>been</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cicupālaṉ</form>
+<def>Śiśupāla</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēc<c type="elided">u</c></form>
+<def>lustre</def>
+<form type="sandhi">tēc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻintu</form>
+<def>loosing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇṇānt<c type="elided">u</c></form>
+<def>looked-up</def>
+<form type="sandhi">aṇṇānt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irukka-<c type="glide">v</c>ē</form>
+<def>sat</def>
+<form type="simple">irukka</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āṅk<c type="elided">u</c></form>
+<def>there</def>
+<form type="sandhi"><c type="glide">y</c>āṅk</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>avaḷai<c type="geminated">k</c></form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaippiṭitta</form>
+<def>hold hand in marriage</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇṇāḷaṉ</form>
+<def>husband</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēṇum</form>
+<def>desired</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūr</form>
+<def>town</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēr-um</form>
+<def>name</def>
+<form type="simple">pēr</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>araṅkam-ē</form>
+<def>Raṅgam</def>
+<form type="simple">araṅkam</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
