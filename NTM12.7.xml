@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nācciyār Tirumoḻi</title> 12.7.
+            <persName xml:lang="ta">Āṇṭāḷ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NTM12.7">
+<l>vaṇṇan tirivum maṉaṅkuḻaivum māṉami lāmaiyum vāyveḷuppu</l>
+<l>muṇṇa luṟāmaiyu muṉmelivu mōtanīr vaṇṇaṉeṉ pāṉoruvaṉ</l>
+<l>taṇṇan tuḻāyeṉṉu mālaikoṇṭu cūṭṭat taṇiyum, pilampaṉṟaṉṉaip</l>
+<l>paṇṇaḻi yappala tēvaṉveṉṟa pāṇṭi vaṭatteṉṉai yuyttiṭumiṉ.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The change in [my] complexion, the languishing heart, the lack of modesty,</l>
+<l rend="indent">the pallor of the lips,</l>
+<l>the inability to eat, the inner suffering – [these] will be soothed when [I am] adorned</l>
+<l rend="indent">with the garland known as the cool, pretty tulsi garland</l>
+<l>of the man known as the ocean-hued [Lord]!</l>
+<l>Send me to the banyan tree Pāṇṭi, where Baladeva defeated Pralamba</l>
+<l rend="indent">So that [his] gait is destroyed.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NTM12.7"><interp type="alignment" select="0">11M2G13M2G13MG12M2G13MG10M2G5MR36ML73MG10MG7M,147MG68MG</interp>
+<entry>
+<form>vaṇṇam</form>
+<def>complexion</def>
+<form type="sandhi">vaṇṇan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiriv<c type="elided">u</c>-um</form>
+<def>change</def>
+<form type="simple">tirivu</form>
+<form type="sandhi">tiriv</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>maṉam</form>
+<def>heart</def>
+<form type="sandhi">maṉaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻaiv<c type="elided">u</c>-um</form>
+<def>languishing</def>
+<form type="simple">kuḻaivu</form>
+<form type="sandhi">kuḻaiv</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>māṉam</form>
+<def>modesty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilāmai-<c type="glide">y</c>um</form>
+<def>lack</def>
+<form type="simple">ilāmai</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>lips</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷupp<c type="elided">u</c>-um</form>
+<def>pallor</def>
+<form type="simple">veḷuppu</form>
+<form type="sandhi">veḷupp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uṇṇal</form>
+<def>eat</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟāmai-<c type="glide">y</c>um</form>
+<def>not-experiencing</def>
+<form type="simple">uṟāmai</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uḷ</form>
+<def>inner</def>
+<form type="sandhi">uṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>meliv<c type="elided">u</c>-um</form>
+<def>suffering</def>
+<form type="simple">melivu</form>
+<form type="sandhi">meliv</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ōta<c type="uncertain">m</c></form>
+<def>ocean</def>
+<form type="sandhi">ōtan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇaṉ</form>
+<def>hued-he</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpāṉ</form>
+<def>called-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oruvaṉ</form>
+<def>one-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇ</form>
+<def>cool</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>am</form>
+<def>pretty</def>
+<form type="sandhi"><c type="geminated">ṇ</c>an</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuḻāy</form>
+<def>tulasi</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mālai</form>
+<def>garland</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭu</form>
+<def>taken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūṭṭa<c type="geminated">t</c></form>
+<def>adorned</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇiyum</form>
+<def>soothed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pilampaṉ</form>
+<def>Pralamba</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉai<c type="geminated">p</c></form>
+<def>self</def>
+<form type="sandhi">ṟaṉṉai<c type="geminated">p</c></form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṇ</form>
+<def>gait</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>aḻiya<c type="geminated">p</c></form>
+<def>be-destroyed</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>palatēvaṉ</form>
+<def>Baladeva</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veṉṟa</form>
+<def>conquered</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṇṭi</form>
+<def>Pāṇṭi</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṭatt<c type="elided">u</c></form>
+<def>Banyan tree</def>
+<form type="sandhi">vaṭatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉai</form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uytt<c type="elided">u</c></form>
+<def>send</def>
+<form type="sandhi"><c type="glide">y</c>uytt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭumiṉ</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
