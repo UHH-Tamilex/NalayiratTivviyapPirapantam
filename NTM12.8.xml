@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nācciyār Tirumoḻi</title> 12.8.
+            <persName xml:lang="ta">Āṇṭāḷ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NTM12.8">
+<l>kaṟṟiṉa mēykkavum mēykkappeṟṟāṉ kāṭuvāḻ cātiyu mākappeṟṟāṉ</l>
+<l>paṟṟi yuraliṭai yāppumuṇṭāṉ pāvikā ḷuṅkaḷuk kēccukkolō</l>
+<l>kaṟṟaṉa pēci vacaiyuṇātē kālika ḷuyya maḻaitaṭuttuk</l>
+<l>koṟṟak kuṭaiyāka vēntiniṉṟa kōvart taṉatteṉṉai yuyttiṭumiṉ.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>‘He got to feed the herds of calves as [He] grazed [them]; He got to be of a birth</l>
+<l rend="indent">that lives in the forest;</l>
+<l>He got tied up to the mortar [being] caught!’ Wretches! Is [this] reproachable for you?</l>
+<l>Do not get scolded [by me] speaking what you have learned!</l>
+<l>Send me to Govardana where [He] stood holding up [the hill] as a victorious umbrella,</l>
+<l rend="indent">Blocking the rains so that the herds of cows are saved.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NTM12.8"><interp type="alignment" select="0">4MG4ML5MG27MG31M2G7MG15MG5MG25M2G62MG10MG7M,214MG</interp>
+<entry>
+<form>kaṟṟ<c type="elided">u</c></form>
+<def>calf</def>
+<form type="sandhi">kaṟṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉam</form>
+<def>herd</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēykka-<c type="glide">v</c>um</form>
+<def>graze</def>
+<form type="simple">mēykka</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>mēykka<c type="geminated">p</c></form>
+<def>graze</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟṟāṉ</form>
+<def>got</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṭu</form>
+<def>forest</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻ</form>
+<def>live</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cāti-<c type="glide">y</c>um</form>
+<def>birth</def>
+<form type="simple">cāti</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>āka<c type="geminated">p</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟṟāṉ</form>
+<def>got</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṟṟi</form>
+<def>caught</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ural</form>
+<def>mortar</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭai</form>
+<def>to</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āpp<c type="elided">u</c>-um</form>
+<def>tying</def>
+<form type="simple">āppu</form>
+<form type="sandhi"><c type="glide">y</c>āpp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uṇṭāṉ:</form>
+<def>experienced</def>
+<form type="sandhi">uṇṭāṉ</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāvikāḷ</form>
+<def>sinner</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṅkaḷukk<c type="elided">u</c></form>
+<def>you</def>
+<form type="sandhi">uṅkaḷukk</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēccu<c type="geminated">k</c>-kolō</form>
+<def>reproachable</def>
+<form type="simple">ēccu</form>
+<form type="sandhi">ēccu<c type="geminated">k</c></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kolō</m></gramGrp>
+</entry>
+<entry>
+<form>kaṟṟaṉa</form>
+<def>learned</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēci</form>
+<def>speaking</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vacai</form>
+<def>scolding</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṇāt<c type="elided">u</c>-ē</form>
+<def>experience-not</def>
+<form type="simple">uṇātu</form>
+<form type="sandhi"><c type="glide">y</c>uṇāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kālikaḷ</form>
+<def>herd of cows</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyya</form>
+<def>to be saved</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maḻai</form>
+<def>rain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭuttu<c type="geminated">k</c></form>
+<def>blocking</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṟṟa<c type="geminated">k</c></form>
+<def>rolyal</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭai</form>
+<def>umbrella</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āka</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ēnti</form>
+<def>held-up</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>stood</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōvarttaṉatt<c type="elided">u</c></form>
+<def>Govardhana</def>
+<form type="sandhi">kōvarttaṉatt</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉai</form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uytt<c type="elided">u</c></form>
+<def>send</def>
+<form type="sandhi"><c type="glide">y</c>uytt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭumiṉ</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
