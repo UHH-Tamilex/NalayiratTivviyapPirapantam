@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Nācciyār Tirumoḻi</title> 13.6.
+            <persName xml:lang="ta">Āṇṭāḷ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NTM13.6">
+<l>naṭaiyoṉ ṟillā vulakattu nanta kōpaṉ makaṉeṉṉum</l>
+<l>koṭiya kaṭiya tirumālāl kuḷappuk kūṟu koḷappaṭṭup</l>
+<l>puṭaiyum peyara killēṉāṉ pōṭkaṉ mititta vaṭippāṭṭil</l>
+<l>poṭittāṉ koṇarntu pūcīrkaḷ pōkā vuyireṉ ṉuṭampaiyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>I am even unable to move, having been caused great misery by the cruel, harsh Tirumāl</l>
+<l>Called Nandagopa’s son, in this world devoid of [proper] behaviour!</l>
+<l>Bring the dust from the footprints made by the deceitful person</l>
+<l>And smear [it] upon my body from which the life-breath does not leave!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NTM13.6"><interp type="alignment" select="0">9MG82MG15ML69MG3M,181MG</interp>
+<entry>
+<form>naṭai</form>
+<def>behaviour</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>oṉṟ<c type="elided">u</c></form>
+<def>one-it</def>
+<form type="sandhi"><c type="glide">y</c>oṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illā</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ulakattu</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nantakōpaṉ</form>
+<def>Nandagopa</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>makaṉ</form>
+<def>son</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭiya</form>
+<def>cruel</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭiya</form>
+<def>harsh</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirumālāl</form>
+<def>Tirumāl</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḷappukkūṟukoḷa<c type="geminated">p</c></form>
+<def>experience great misery</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭṭu<c type="geminated">p</c></form>
+<def>caused</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṭai-<c type="glide">y</c>um</form>
+<def>side</def>
+<form type="simple">puṭai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>peyara</form>
+<def>move</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>killēṉ</form>
+<def>unable</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<form type="sandhi">ṉāṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōṭkaṉ</form>
+<def>deceitful man</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mititta</form>
+<def>trampled</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṭippāṭṭil</form>
+<def>footprints</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṭi<c type="geminated">t</c></form>
+<def>dust</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇarntu</form>
+<def>bring</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūcīrkaḷ</form>
+<def>smear</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōkā</form>
+<def>leave-not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uyir</form>
+<def>life-breath</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>uṭampai-<c type="glide">y</c>ē</form>
+<def>body</def>
+<form type="simple">uṭampai</form>
+<form type="sandhi"><c type="geminated">ṉ</c>uṭampai</form>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
