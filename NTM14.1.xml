@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -42,7 +39,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NTM14.1"><interp type="alignment" select="0">10MG18MG10MG36MG72M2G7MG2M,161MG</interp>
+<standOff type="wordsplit" corresp="#NTM14.1">
+<interp type="alignment" select="0">10MG18MG10MG36MG72M2G7MG2M,161MG</interp>
 <entry>
 <form>paṭṭimēynt<c type="elided">u</c></form>
 <def>loitering around</def>
@@ -54,8 +52,6 @@
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kār</form>
@@ -67,8 +63,6 @@
 <entry>
 <form>ēṟu</form>
 <def>bull</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>palatēvaṟk<c type="elided">u</c></form>
@@ -81,14 +75,10 @@
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kīḻ<c type="geminated">k</c></form>
 <def>younger</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kaṉṟ<c type="elided">u</c></form>
@@ -138,7 +128,6 @@
 <def>see</def>
 <form type="simple">kaṇṭīr</form>
 <gramGrp>
-  <gram type="role">imperative</gram>
   <gram type="role">second person</gram>
   <gram type="role">perfective aspect</gram>
 </gramGrp>
@@ -230,5 +219,6 @@
   <gram type="role">plural</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
