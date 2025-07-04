@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -52,7 +49,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#TaC3"><interp type="alignment" select="0">29ML3MG44ML28MG40MG9ML30MG4MG4ML31MG10MG21MG10MG8M2G2M,287MG</interp>
+<standOff type="wordsplit" corresp="#TaC3">
+<interp type="alignment" select="0">29ML3MG44ML28MG40MG9ML30MG4MG4ML31MG10MG21MG10MG8M2G2M,287MG</interp>
 <entry>
 <form>kuṟippiṉ</form>
 <def>intention</def>
@@ -86,8 +84,6 @@
 <form>mūṉṟ<c type="elided">u</c></form>
 <def>three</def>
 <form type="sandhi">mūṉṟ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>uṭaṉ</form>
@@ -318,8 +314,6 @@
 <form>uṭal</form>
 <def>body</def>
 <form type="sandhi">uṭaṟ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>taṭa</form>
@@ -378,8 +372,6 @@
 <entry>
 <form>iṉi</form>
 <def>now</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>nām</form>
@@ -399,8 +391,6 @@
 <entry>
 <form>ākavē</form>
 <def>therefore</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>icaiyum-kol</form>
@@ -422,10 +412,8 @@
 </entry>
 <entry>
 <form>tōṟ<c type="elided">u</c></form>
-<def>ever</def>
+<def>after</def>
 <form type="sandhi">tōṟ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ūḻi</form>
@@ -439,8 +427,7 @@
 <def>end-not</def>
 <form type="simple">ōvātu</form>
 <form type="sandhi"><c type="glide">y</c>ōvāt</form>
-<gramGrp>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
