@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta"></title> XX.
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="OTA5">
+<l>araṉā raṇaṉāma māṉviṭaipuḷ ḷūrti</l>
+<l>yurainūṉ maṟaiyuṟaiyuṅ kōyil – varainīr</l>
+<l>karuma maḻippaḷippuk kaiyatuvēṉ nēmi</l>
+<l>yuruvameri kārmēṉi yoṉṟu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Hara [and] Nāraṇa<note>This is the first of a number of references to Hari-Hara, the deity consisting of both Viṣṇu and Śiva. Where the Śaiva devotees rather delegate Viṣṇu and Brahmā to a position of subservience, the Vaiṣṇava technique is for Viṣṇu to absorb the other two into his own person, Brahmā as an offshoot of his navel and Śiva as having a share of his body. Further passages are Po. 28.3f., 74, 98, Pē. 31.3f., 63.</note>  – the names, bull [and] bird – the mounts,</l>
+<l>the words – Sūtra [and] Veda, the temple they live in – mountain [and] water,</l>
+<l>the deeds – destruction [and] care, in [their] hands – spear [and] discus,</l>
+<l>the forms – flame [and] cloud, [but their] body – one.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#OTA5"><interp type="alignment" select="0">4ML6ML66MG43M,57MG64M</interp>
+<entry>
+<form>araṉ</form>
+<def>Hara</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāraṇaṉ</form>
+<def>Nārāyaṇa</def>
+<form type="sandhi">ṉāraṇaṉ</form>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāmam</form>
+<def>name</def>
+<form type="sandhi">ṉāmam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉ</form>
+<def>cow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭai</form>
+<def>bull</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puḷ</form>
+<def>bird</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ḷ</c>ūrti</form>
+<def>vehicle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>urai</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nūl</form>
+<def>treatise</def>
+<form type="sandhi">nūṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟai</form>
+<def>Veda</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṟaiyum</form>
+<def>staying</def>
+<form type="sandhi"><c type="glide">y</c>uṟaiyuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōyil</form>
+<def>temple</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varai</form>
+<def>mountain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karumam</form>
+<def>action</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻipp<c type="elided">u</c></form>
+<def>destruction</def>
+<form type="sandhi">aḻipp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷippu<c type="geminated">k</c></form>
+<def>care</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaiyatu</form>
+<def>hand-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēl</form>
+<def>spear</def>
+<form type="sandhi">vēṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nēmi</form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uruvam</form>
+<def>form</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eri</form>
+<def>flame</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kār</form>
+<def>rain cloud</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉi</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>oṉṟu</form>
+<def>one-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
