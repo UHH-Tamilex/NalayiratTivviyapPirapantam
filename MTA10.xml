@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Mutaṟṟiruvantāti</title> 10.
+            <persName xml:lang="ta">Poykaiyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="MTA10">
+<l>maṇṇu malaiyu maṟikaṭalu mārutamum</l>
+<l>viṇṇum viḻuṅkiyatu meyyeṉpa – reṇṇi</l>
+<l>lalakaḷavu kaṇṭacī rāḻiyāyk kaṉṟiv</l>
+<l>vulakaḷavu muṇṭōvuṉ vāy</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Earth, mountain, churning sea, wind and sky</l>
+<l>were swallowed that day, they say truthfully, by you</l> 
+<l>with the discus whose fame is seen as of incalculable measure.</l>
+<l>Is it of this world’s measure, your mouth?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#MTA10"><interp type="alignment" select="0">3MG3ML4MG3ML8MG2ML6MG5MG33MG21MG3MG7MG4M2G5M2G7M,64MG65M</interp>
+<entry>
+<form>maṇ-<c type="geminated">ṇ</c>um</form>
+<def>earth</def>
+<form type="simple">maṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>malai-<c type="glide">y</c>um</form>
+<def>mountain</def>
+<form type="simple">malai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>maṟi</form>
+<def>churn</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal-um</form>
+<def>sea</def>
+<form type="simple">kaṭal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>mārutam-um</form>
+<def>wind</def>
+<form type="simple">mārutam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>viṇ-<c type="geminated">ṇ</c>um</form>
+<def>sky</def>
+<form type="simple">viṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>viḻuṅkiyatu</form>
+<def>swallowing</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mey</form>
+<def>truth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">y</c>eṉpar</form>
+<def>they say(i.a.3.pl)</def>
+<form type="sandhi"><c type="geminated">y</c>eṉpa–r</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṇ</form>
+<def>count</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>il</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alak<c type="elided">u</c></form>
+<def>calculation</def>
+<form type="sandhi">alak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷavu</form>
+<def>measure</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭa</form>
+<def>seen</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cīr</form>
+<def>excellence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āḻiyāykk<c type="elided">u</c></form>
+<def>discus-you</def>
+<form type="sandhi">āḻiyāykk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟ<c type="elided">u</c></form>
+<def>is not so</def>
+<form type="sandhi">aṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="glide">v</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form><c type="geminated">v</c>ulak<c type="elided">u</c></form>
+<def>world</def>
+<form type="sandhi"><c type="geminated">v</c>ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷav<c type="elided">u</c>-um</form>
+<def>measure</def>
+<form type="simple">aḷavu</form>
+<form type="sandhi">aḷav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uṇṭ<c type="elided">u</c>-ō</form>
+<def>is</def>
+<form type="simple">uṇṭu</form>
+<form type="sandhi">uṇṭ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uṉ</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>mouth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
