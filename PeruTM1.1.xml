@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -52,7 +49,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PeruTM1.1"><interp type="alignment" select="0">73MG79MR56MR28MG17MG11MR3MG2M,275MG</interp>
+<standOff type="wordsplit" corresp="#PeruTM1.1">
+<interp type="alignment" select="0">73MG79MR56MR28MG17MG11MR3MG2M,275MG</interp>
 <entry>
 <form>iruḷ</form>
 <def>darkness</def>
@@ -273,8 +271,6 @@
 <entry>
 <form>poṉṉi</form>
 <def>Poṉṉi</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>tirai<c type="geminated">k</c></form>
@@ -385,7 +381,7 @@
 <def>rejoice</def>
 <form type="sandhi">kaḷikkun</form>
 <gramGrp>
-  <gram type="role">habitual future</gram>
+  <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -396,5 +392,6 @@
   <gram type="role">noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
