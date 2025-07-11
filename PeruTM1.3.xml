@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -51,7 +48,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PeruTM1.3"><interp type="alignment" select="0">12ML11MG7MG17MG6MG24M2G7MG9MG64MG4MG48MG3MG10MG4MG10MR3MG2M,257MG</interp>
+<standOff type="wordsplit" corresp="#PeruTM1.3">
+<interp type="alignment" select="0">12ML11MG7MG17MG6MG24M2G7MG9MG64MG4MG48MG3MG10MG4MG10MR3MG2M,257MG</interp>
 <entry>
 <form>emmāṇpiṉ</form>
 <def>all honour</def>
@@ -62,15 +60,11 @@
 <entry>
 <form>ayaṉ</form>
 <def>Aja</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>nāṉku</form>
 <def>four</def>
 <form type="sandhi">ṉāṉku</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>nāviṉāl-um</form>
@@ -99,14 +93,10 @@
 <entry>
 <form>īr</form>
 <def>two</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>iraṇṭu</form>
 <def>two-it</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>mukam-um</form>
@@ -323,8 +313,6 @@
 <entry>
 <form>kīḻ</form>
 <def>below</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>alarkaḷ</form>
@@ -345,8 +333,6 @@
 <form>aṅk<c type="elided">u</c></form>
 <def>that place</def>
 <form type="sandhi">aṅk</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>aṭiyavarōṭ<c type="elided">u</c></form>
@@ -371,7 +357,7 @@
 <def>approach</def>
 <form type="sandhi"><c type="glide">v</c>aṇukun</form>
 <gramGrp>
-  <gram type="role">habitual future</gram>
+  <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -382,5 +368,6 @@
   <gram type="role">noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
