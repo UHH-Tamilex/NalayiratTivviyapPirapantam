@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -52,7 +49,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PeruTM1.2"><interp type="alignment" select="0">85MG10MG2ML15MG15MR37MG4MG12MG21MG10MG13MG10MR3MG2M,251MG</interp>
+<standOff type="wordsplit" corresp="#PeruTM1.2">
+<interp type="alignment" select="0">85MG10MG2ML15MG15MR37MG4MG12MG21MG10MG13MG10MR3MG2M,251MG</interp>
 <entry>
 <form>vāy</form>
 <def>mouth</def>
@@ -63,14 +61,10 @@
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>īr</form>
 <def>two</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ai<c type="geminated">ñ</c></form>
@@ -83,8 +77,6 @@
 <form>nūṟu</form>
 <def>hundred</def>
 <form type="sandhi">ñūṟu</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>tutaṅkaḷ</form>
@@ -217,8 +209,6 @@
 <entry>
 <form><c type="glide">v</c>eṅkum</form>
 <def>everywhere</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>parant<c type="elided">u</c></form>
@@ -238,8 +228,6 @@
 <entry>
 <form>kīḻ<c type="geminated">k</c></form>
 <def>beneath</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kāyām</form>
@@ -273,8 +261,6 @@
 <entry>
 <form>aṉṉa</form>
 <def>resembles</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>mālai<c type="geminated">k</c></form>
@@ -407,7 +393,7 @@
 <def>praise</def>
 <form type="sandhi">vāḻttun</form>
 <gramGrp>
-  <gram type="role">habitual future</gram>
+  <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -418,5 +404,6 @@
   <gram type="role">noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
