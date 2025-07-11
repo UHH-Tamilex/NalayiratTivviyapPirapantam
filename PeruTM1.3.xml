@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Perumāḷ Tirumoḻi</title> 1.3.
+            <persName xml:lang="ta">Kulacēkaraṉ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PeruTM1.3">
+<l>emmāṇ piṉaya ṉāṉku nāviṉālum</l>
+<l>eṭuttētti īriraṇṭu mukamuṅ koṇ</l>
+<l>ṭemmāṭu meḻiṟkaṇka ḷeṭṭi ṉōṭun</l>
+<l>toḻutētti yiṉitiṟaiñca niṉṟa cempoṉ</l>
+<l>ṉammāṉṟaṉ malarkkamalak koppūḻ tōṉṟa</l>
+<l>vaṇiyaraṅkat taravaṇaiyiṟ paḷḷi koḷḷum</l>
+<l>ammāṉṟa ṉaṭiyiṇaikkī ḻalarkaḷi ṭṭaṅ</l>
+<l>kaṭiyavarō ṭeṉṟukolō vaṇuku nāḷē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>When is the day that [I shall] approach that place, along with the servants,</l>
+<l>placing blossoms beneath the pair of feet of</l>
+<l>the Lord, who sleeps on His serpent-bed in decorated Raṅgam,</l>
+<l rend="indent">as his navel with the lotus flower appears,</l>
+<l>the red gold[-like] Lord who stood so that</l>
+<l rend="indent">Aja, who is in all ways honourable, pleasingly bows down,</l>
+<l rend="indent">speaking highly of [Him], praising [Him] with all [of his] four tongues,</l>
+<l rend="indent">worshipping [and] constantly praising [Him] with [his] eight graceful eyes</l>
+<l rend="indent">[that see in] all directions and with [his] four faces?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PeruTM1.3"><interp type="alignment" select="0">12ML11MG7MG17MG6MG24M2G7MG9MG64MG4MG48MG3MG10MG4MG10MR3MG2M,257MG</interp>
+<entry>
+<form>emmāṇpiṉ</form>
+<def>all honour</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ayaṉ</form>
+<def>Aja</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉku</form>
+<def>four</def>
+<form type="sandhi">ṉāṉku</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nāviṉāl-um</form>
+<def>tongue</def>
+<form type="simple">nāviṉāl</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>eṭutt<c type="elided">u</c></form>
+<def>highly</def>
+<form type="sandhi">eṭutt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ētti</form>
+<def>praised</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īr</form>
+<def>two</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>iraṇṭu</form>
+<def>two-it</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>mukam-um</form>
+<def>face</def>
+<form type="simple">mukam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>koṇṭ<c type="elided">u</c></form>
+<def>taken</def>
+<form type="sandhi">koṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emmāṭum</form>
+<def>all directions</def>
+</entry>
+<entry>
+<form>eḻil</form>
+<def>grace</def>
+<form type="sandhi">eḻiṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇkaḷ</form>
+<def>eyes</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṭṭiṉōṭ<c type="elided">u</c>-um</form>
+<def>eight</def>
+<form type="simple">eṭṭiṉōṭu</form>
+<form type="sandhi">eṭṭiṉōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>toḻut<c type="elided">u</c></form>
+<def>worshipped</def>
+<form type="sandhi">toḻut</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ētti</form>
+<def>praised</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṉit<c type="elided">u</c></form>
+<def>pleasingly</def>
+<form type="sandhi"><c type="glide">y</c>iṉit</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaiñca</form>
+<def>bow down</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>constant</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉ<c type="geminated">ṉ</c></form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ammāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<form type="sandhi">ṟaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malar<c type="geminated">k</c></form>
+<def>blossom</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kamala<c type="geminated">k</c></form>
+<def>lotus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koppūḻ</form>
+<def>navel</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṉṟa</form>
+<def>appear</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṇi</form>
+<def>decorated</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>araṅkatt<c type="elided">u</c></form>
+<def>Raṅgam</def>
+<form type="sandhi"><c type="glide">y</c>araṅkatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arav<c type="elided">u</c></form>
+<def>serpent</def>
+<form type="sandhi">arav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇaiyil</form>
+<def>bed</def>
+<form type="sandhi">aṇaiyiṟ</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḷḷikoḷḷum</form>
+<def>sleeps</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ammāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<form type="sandhi">ṟaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṇai<c type="geminated">k</c></form>
+<def>pair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kīḻ</form>
+<def>below</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>alarkaḷ</form>
+<def>flower</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭṭ<c type="elided">u</c></form>
+<def>place</def>
+<form type="sandhi">iṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṅk<c type="elided">u</c></form>
+<def>that place</def>
+<form type="sandhi">aṅk</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭiyavarōṭ<c type="elided">u</c></form>
+<def>servants</def>
+<form type="sandhi">aṭiyavarōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟu-kolō</form>
+<def>what day</def>
+<form type="simple">eṉṟu</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kolō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṇukum</form>
+<def>approach</def>
+<form type="sandhi"><c type="glide">v</c>aṇukun</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ-ē</form>
+<def>day</def>
+<form type="simple">nāḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
