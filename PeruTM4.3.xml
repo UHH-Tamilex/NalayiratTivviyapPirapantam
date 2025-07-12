@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Perumāḷ Tirumoḻi</title> 4.3.
+            <persName xml:lang="ta">Kulacēkaraṉ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PeruTM4.3">
+<l>piṉṉiṭṭa caṭaiyāṉum piramaṉu mintiraṉum</l>
+<l>tuṉṉiṭṭup pukalariya vaikunta nīḷvācal</l>
+<l>miṉvaṭṭac cuṭarāḻi vēṅkaṭakkōṉ ṟāṉumiḻum</l>
+<l>poṉvaṭṭiṟ piṭittuṭaṉē pukappeṟuvē ṉāvēṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>[Going] along with [temple servants],</l>
+<l>carrying the gold cup in which spits the King of Veṅkaṭa,</l>
+<l rend="indent">who has a discus that glows [like] circular lightning,</l>
+<l>I shall get to enter</l>
+<l rend="indent">the lofty entrance of Vaikuṇṭha,</l>
+<l rend="indent">which Indra, Brahmā and he with plaited matted locks, pushing [each other], [find] difficult to enter.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PeruTM4.3"><interp type="alignment" select="0">4MG12MG9MG9MG6MG23MR60MG21MG2M,153MG</interp>
+<entry>
+<form>piṉṉ<c type="elided">u</c></form>
+<def>plait</def>
+<form type="sandhi">piṉṉ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭṭa</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭaiyāṉ-um</form>
+<def>matted locks</def>
+<form type="simple">caṭaiyāṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>piramaṉ-um</form>
+<def>Brahmā</def>
+<form type="simple">piramaṉ</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>intiraṉ-um</form>
+<def>Intiraṉ</def>
+<form type="simple">intiraṉ</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tuṉṉ<c type="elided">u</c></form>
+<def>approach</def>
+<form type="sandhi">tuṉṉ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭṭu<c type="geminated">p</c></form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukal</form>
+<def>enter</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ariya</form>
+<def>difficult</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaikunta<c type="uncertain">m</c></form>
+<def>Vaikuṇṭha</def>
+<form type="sandhi">vaikuntan</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nīḷ</form>
+<def>be-long</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vācal</form>
+<def>entrance</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṉ</form>
+<def>lightning</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṭṭa<c type="geminated">c</c></form>
+<def>circular</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṭar</form>
+<def>glow</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āḻi</form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkaṭa<c type="geminated">k</c></form>
+<def>Vēṅkaṭam</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kōṉ</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>self</def>
+<form type="sandhi">ṟāṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>umiḻum</form>
+<def>spit</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṭṭil</form>
+<def>cup</def>
+<form type="sandhi">vaṭṭiṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṭitt<c type="elided">u</c></form>
+<def>carrying</def>
+<form type="sandhi">piṭitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaṉē</form>
+<def>immediately</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puka<c type="geminated">p</c></form>
+<def>enter</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟuvēṉ</form>
+<def>get</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āvēṉ-ē</form>
+<def>I become</def>
+<form type="simple">āvēṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
