@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Perumāḷ Tirumoḻi</title> 4.1.
+            <persName xml:lang="ta">Kulacēkaraṉ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PeruTM4.1">
+<l>ūṉēṟu celvat tuṭaṟpiṟavi yāṉvēṇṭēṉ</l>
+<l>āṉēṟēḻ veṉṟā ṉaṭimait tiṟamallāl</l>
+<l>kūṉēṟu caṅka miṭattāṉṟaṉ vēṅkaṭattuk</l>
+<l>kōṉēri vāḻuṅ kurukāyp piṟappēṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>I will not desire birth in a body, the wealth of which [consists in having] flesh that builds up,</l>
+<l>but the state of servitude for Him who subdued the seven bulls.</l>
+<l>I shall be born as a heron living in the Kōṉēri [lake] in Veṅkaṭa</l>
+<l>of Him who has a conch that is curved to [His] left.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PeruTM4.1"><interp type="alignment" select="0">12MG23MG74MG11MG2M,125MG</interp>
+<entry>
+<form>ūṉ</form>
+<def>flesh</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟu</form>
+<def>build up</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>celvatt<c type="elided">u</c></form>
+<def>wealth</def>
+<form type="sandhi">celvatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭal</form>
+<def>body</def>
+<form type="sandhi">uṭaṟ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟavi</form>
+<def>birth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭēṉ</form>
+<def>desire-not-I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉ</form>
+<def>there</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟ<c type="elided">u</c></form>
+<def>bull</def>
+<form type="sandhi">ēṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēḻ</form>
+<def>seven</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>veṉṟāṉ</form>
+<def>subdued</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭimai<c type="geminated">t</c></form>
+<def>servitude</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṟam</form>
+<def>state</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allāl</form>
+<def>but</def>
+<gramGrp>
+  <gram type="role">conjunction</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṉ</form>
+<def>curve</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟu</form>
+<def>grow</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṅkam</form>
+<def>conch</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭattāṉ</form>
+<def>left</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<form type="sandhi">ṟaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkaṭattu<c type="geminated">k</c></form>
+<def>Vēṅkaṭam</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōṉēri</form>
+<def>Kōṉēri</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻum</form>
+<def>living-</def>
+<form type="sandhi">vāḻuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuruk<c type="elided">u</c></form>
+<def>heron</def>
+<form type="sandhi">kuruk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy<c type="geminated">p</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟappēṉ-ē</form>
+<def>born</def>
+<form type="simple">piṟappēṉ</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
