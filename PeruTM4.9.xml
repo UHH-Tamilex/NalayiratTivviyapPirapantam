@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Perumāḷ Tirumoḻi</title> 4.9.
+            <persName xml:lang="ta">Kulacēkaraṉ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PeruTM4.9">
+<l>ceṭiyāya valviṉaikaḷ tīrkkun tirumālē</l>
+<l>neṭiyāṉē vēṅkaṭavā niṉkōyi liṉvācal</l>
+<l>aṭiyārum vāṉavaru marampaiyaruṅ kiṭantiyaṅkum</l>
+<l>paṭiyāyk kiṭantuṉ pavaḷavāy kāṇpēṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O Tirumāl who destroys forceful karmas that are evil!</l>
+<l>O tall One! O You of Veṅkaṭa!</l>
+<l>At the entrance of Your temple,</l>
+<l rend="indent">I shall see Your red coral lips,</l>
+<l rend="indent">lying as a step,</l>
+<l rend="indent">on which devotees, celestial beings, Rambhā and the like dwell [and] walk about.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PeruTM4.9"><interp type="alignment" select="0">72MG9MG12MG8MG21MG17MG2M,146MG</interp>
+<entry>
+<form>ceṭi</form>
+<def>evil</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āya</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>forceful</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉaikaḷ</form>
+<def>karma</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīrkkum</form>
+<def>destroys</def>
+<form type="sandhi">tīrkkun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirumālē</form>
+<def>Tirumāl</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṭiyāṉē</form>
+<def>tall</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkaṭavā</form>
+<def>Vēṅkaṭam-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">vocative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
+<def>your</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōyiliṉ</form>
+<def>temple</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vācal</form>
+<def>entrance</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭiyār-um</form>
+<def>devotees</def>
+<form type="simple">aṭiyār</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vāṉavar-um</form>
+<def>celestial</def>
+<form type="simple">vāṉavar</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>arampaiyar-um</form>
+<def>Rambhā</def>
+<form type="simple">arampaiyar</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kiṭant<c type="elided">u</c></form>
+<def>rest</def>
+<form type="sandhi">kiṭant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyaṅkum</form>
+<def>walk about</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭi</form>
+<def>step</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āy<c type="geminated">k</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṭant<c type="elided">u</c></form>
+<def>lying</def>
+<form type="sandhi">kiṭant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉ</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pavaḷa</form>
+<def>coral</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>lips</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇpēṉ-ē</form>
+<def>I see</def>
+<form type="simple">kāṇpēṉ</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
