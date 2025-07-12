@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Mutaṟṟiruvantāti</title> 35.
+            <persName xml:lang="ta">Poykaiyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="MTA35">
+<l>āṟiya vaṉpi laṭiyārtam mārvattāṟ</l>
+<l>kūṟiya kuṟṟamāk koḷḷaṉī – tēṟi</l>
+<l>neṭiyō yaṭiyaṭaitaṟ kaṉṟē yīraintu</l>
+<l>muṭiyāṉ paṭaitta muraṇ</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Don’t take amiss what has been said with affection</l>
+<l>by [your] servants of undiminished love. Was the hostility</l> 
+<l>shown by the one with twice five heads not clearly</l>
+<l>in order to reach the feet of you, Tall one?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#MTA35"><interp type="alignment" select="0">9MG40ML25MG3M2G29M,52MG58M</interp>
+<entry>
+<form>āṟiya</form>
+<def>cool-down</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṉp<c type="elided">u</c></form>
+<def>love</def>
+<form type="sandhi"><c type="glide">v</c>aṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭiyār</form>
+<def>servant</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tam</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>ārvattāl</form>
+<def>affection</def>
+<form type="sandhi"><c type="geminated">m</c>ārvattāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟiya</form>
+<def>spoken</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟṟam</form>
+<def>mistake</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ā<c type="geminated">k</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷḷal</form>
+<def>don’t take</def>
+<form type="sandhi">koḷḷaṉ</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<form type="sandhi">ṉī</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēṟi</form>
+<def>become-clear</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṭiyōy</form>
+<def>long-you</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṭaitaṟk<c type="elided">u</c></form>
+<def>reaching</def>
+<form type="sandhi"><c type="glide">y</c>aṭaitaṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟ<c type="elided">u</c>-ē</form>
+<def>is not so</def>
+<form type="simple">aṉṟu</form>
+<form type="sandhi">aṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>īr</form>
+<def>two</def>
+</entry>
+<entry>
+<form>aintu</form>
+<def>five</def>
+</entry>
+<entry>
+<form>muṭiyāṉ</form>
+<def>crown</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭaitta</form>
+<def>created</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muraṇ</form>
+<def>antagonism</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
