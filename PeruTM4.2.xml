@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Perumāḷ Tirumoḻi</title> 4.2.
+            <persName xml:lang="ta">Kulacēkaraṉ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PeruTM4.2">
+<l>āṉāta celvat tarampaiyarkaḷ taṟcūḻa</l>
+<l>vāṉāḷuñ celvamu maṇṇaracum yāṉvēṇṭēṉ</l>
+<l>ṟēṉārpūñ cōlait tiruvēṅka ṭaccuṉaiyil</l>
+<l>mīṉāyp piṟakkum vitiyuṭaiyē ṉāvēṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>I shall not desire the wealth of ruling over the celestial world</l>
+<l>with Rambhā and the like with unending wealth surrounding [me], nor an earthly kingdom.</l>
+<l>I shall possess the good fortune of being born</l>
+<l>as a fish in the mountain spring of the sacred Veṅkaṭa with groves [full of] honey-filled flowers.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PeruTM4.2"><interp type="alignment" select="0">12MG33MG2ML7M2G75MG2M,136MG</interp>
+<entry>
+<form>āṉāta</form>
+<def>end-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>celvatt<c type="elided">u</c></form>
+<def>wealth</def>
+<form type="sandhi">celvatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arampaiyarkaḷ</form>
+<def>Rambhā</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tam</form>
+<def>self</def>
+<form type="sandhi">taṟ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻa</form>
+<def>surround</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉ</form>
+<def>celestial world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āḷum</form>
+<def>ruling-</def>
+<form type="sandhi">āḷuñ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>celvam-um</form>
+<def>wealth</def>
+<form type="simple">celvam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>maṇ<c type="geminated">ṇ</c></form>
+<def>earth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arac<c type="elided">u</c>-um</form>
+<def>kingdom</def>
+<form type="simple">aracu</form>
+<form type="sandhi">arac</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭēṉ</form>
+<def>desire-not-I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēṉ</form>
+<def>honey</def>
+<form type="sandhi">ṟēṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ār</form>
+<def>be-full-</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūm</form>
+<def>flower</def>
+<form type="sandhi">pūñ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cōlai<c type="geminated">t</c></form>
+<def>grove</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>sacred</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkaṭa<c type="geminated">c</c></form>
+<def>Vēṅkaṭam</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṉaiyil</form>
+<def>mountian spring</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mīṉ</form>
+<def>fish</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy<c type="geminated">p</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟakkum</form>
+<def>being-born</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viti</form>
+<def>good fortune</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṭaiyēṉ</form>
+<def>possess-I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āvēṉ-ē</form>
+<def>I become</def>
+<form type="simple">āvēṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
