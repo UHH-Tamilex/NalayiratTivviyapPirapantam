@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Mutaṟṟiruvantāti</title> 60.
+            <persName xml:lang="ta">Poykaiyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="MTA60">
+<l>caraṇā maṟaipayanta tāmaraiyā ṉōṭu</l>
+<l>maraṇāya maṉṉuyirkaṭ kellā – maraṇāya</l>
+<l>pērāḻi koṇṭa pirāṉaṉṟi maṟṟaṟiyā</l>
+<l>tōrāḻi cūḻnta vulaku</l>
+      </lg>
+      <lg xml:lang="en">
+<l>It does not know any other lord than the one who took the big discus</l>
+<l>as protection for all living beings<note xml:lang="en" place="foot">maṉṉu uyir, literally “permanent life” is already found as a compound referring to the living creatures in the Caṅkam corpus; cf. for example Akanānāṉūṟu 31.4.</note> who are mortal</l>
+<l>along with him from the lotus who yielded the Vedas as a refuge,</l>
+<l>– [this] world surrounded by one ocean.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#MTA60"><interp type="alignment" select="0">51MG37MG6MG17M,56MG57M</interp>
+<entry>
+<form>caraṇ</form>
+<def>refuge</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ā</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟai</form>
+<def>Veda</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>payanta</form>
+<def>yielded</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāmaraiyāṉōṭu</form>
+<def>lotus-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maraṇ</form>
+<def>mortal</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āya</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉṉuyirkaṭk<c type="elided">u</c></form>
+<def>living being</def>
+<form type="sandhi">maṉṉuyirkaṭk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellām</form>
+<def>all</def>
+<form type="sandhi">ellā–m</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>araṇ</form>
+<def>fortress</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āya</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēr</form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āḻi</form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭa</form>
+<def>taken</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟi</form>
+<def>besides</def>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>other</def>
+<form type="sandhi">maṟṟ</form>
+</entry>
+<entry>
+<form>aṟiyāt<c type="elided">u</c></form>
+<def>know-not</def>
+<form type="sandhi">aṟiyāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+</entry>
+<entry>
+<form>āḻi</form>
+<def>ocean</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻnta</form>
+<def>surrounded</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ulaku</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
