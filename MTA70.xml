@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Mutaṟṟiruvantāti</title> 70.
+            <persName xml:lang="ta">Poykaiyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="MTA70">
+<l>collun taṉaiyun toḻumiṉ viḻumuṭampu</l>
+<l>cellun taṉaiyun tirumālai – nallitaḻt</l>
+<l>tāmattāl vēḷviyāṟ ṟantirattāṉ mantirattā</l>
+<l>ṉāmattā lēttutirē ṉaṉṟu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>As long as there is speech, worship [him]. As long as the body that will fall</l>
+<l>[still] goes on, it is good if you praise Tirumāl with strands</l>
+<l>of good petals, with sacrifice, with ritual acts,</l>
+<l>with mantras [and] with names.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#MTA70"><interp type="alignment" select="0">103ML16ML4M,55MG69M</interp>
+<entry>
+<form>collum</form>
+<def>speaking</def>
+<form type="sandhi">collun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉaiyum</form>
+<def>as long as</def>
+<form type="sandhi">taṉaiyun</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻumiṉ</form>
+<def>worship</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḻum</form>
+<def>falling</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭampu</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cellum</form>
+<def>going</def>
+<form type="sandhi">cellun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉaiyum</form>
+<def>as long as</def>
+<form type="sandhi">taṉaiyun</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirumālai</form>
+<def>Tirumāl</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>itaḻ<c type="geminated">t</c></form>
+<def>petal</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāmattāl</form>
+<def>thread</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēḷviyāl</form>
+<def>sacrifice</def>
+<form type="sandhi">vēḷviyāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tantirattāl</form>
+<def>ritual act</def>
+<form type="sandhi">ṟantirattāṉ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mantirattāl</form>
+<def>Mantra</def>
+<form type="sandhi">mantirattāṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāmattāl</form>
+<def>name</def>
+<form type="sandhi">ṉāmattāl</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēttutirēl</form>
+<def>praise-your-if</def>
+<form type="sandhi">ēttutirēṉ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">subjunctive</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṉṟu</form>
+<def>good-it</def>
+<form type="sandhi">ṉaṉṟu</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
