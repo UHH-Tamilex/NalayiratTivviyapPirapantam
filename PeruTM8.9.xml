@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Perumāḷ Tirumoḻi</title> 8.9.
+            <persName xml:lang="ta">Kulacēkaraṉ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PeruTM8.9">
+<l>taḷaiyaviḻu naṟuṅkuñcit tayarataṉṟaṉ kulamatalāy</l>
+<l>vaḷaiyavoru cilaiyataṉāl matiḷilaṅkai yaḻittavaṉē</l>
+<l>kaḷaikaḻunīr maruṅkalaruṅ kaṇapuratteṉ karumaṇiyē</l>
+<l>yiḷaiyavarkaṭ karuḷuṭaiyā yirākavaṉē tālēlō.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O Support of the lineage of Daśaratha</l>
+<l rend="indent">with fragrant tufts of hair, the fastening of which becomes loosened!</l>
+<l>O You who destroyed the fortressed Laṅkā with a unique bow, for [it] to bend!</l>
+<l>O Apple of my eye from Kaṇapuram</l>
+<l rend="indent">where the purple waterlilies that were weeded out blossom on the side!</l>
+<l>O Rāghava who has grace for the younger brothers! Tālēlō!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PeruTM8.9"><interp type="alignment" select="0">11MR98MG16MG26MG27M,181MG</interp>
+<entry>
+<form>taḷai</form>
+<def>fastening</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aviḻum</form>
+<def>become loose</def>
+<form type="sandhi"><c type="glide">y</c>aviḻun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṟum</form>
+<def>fragrant</def>
+<form type="sandhi">naṟuṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuñci<c type="geminated">t</c></form>
+<def>tuft of hair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tayarataṉ</form>
+<def>Daśaratha</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<form type="sandhi">ṟaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kula</form>
+<def>lineage</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>matalāy</form>
+<def>support</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷaiya</form>
+<def>to bend</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oru</form>
+<def>unique</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>cilai</form>
+<def>bow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ataṉāl</form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>matiḷ</form>
+<def>fortress</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkai</form>
+<def>Laṅka</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aḻittavaṉē</form>
+<def>destroyed</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷai</form>
+<def>to weed</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḻunīr</form>
+<def>waterlily</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruṅk<c type="elided">u</c></form>
+<def>side</def>
+<form type="sandhi">maruṅk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alarum</form>
+<def>blossoms</def>
+<form type="sandhi">alaruṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇapuratt<c type="elided">u</c></form>
+<def>Kaṇapuram</def>
+<form type="sandhi">kaṇapuratt</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karumaṇiyē</form>
+<def>sapphire</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iḷaiyavarkaṭk<c type="elided">u</c></form>
+<def>younger brothers</def>
+<form type="sandhi"><c type="glide">y</c>iḷaiyavarkaṭk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aruḷ</form>
+<def>grace</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyāy</form>
+<def>possess</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irākavaṉē</form>
+<def>Rāghava</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tālēlō</form>
+<def>tālēlō</def>
+</entry></standOff>
+</TEI>
