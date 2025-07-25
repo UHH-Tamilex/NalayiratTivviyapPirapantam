@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Perumāḷ Tirumoḻi</title> 9.2.
+            <persName xml:lang="ta">Kulacēkaraṉ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PeruTM9.2">
+<l>vevvāyēṉ vevvuraikēṭ ṭirunilattai vēṇṭātē viraintu veṉṟi</l>
+<l>maivāya kaḷiṟoḻintu tēroḻintu māvoḻintu vaṉamē mēvi</l>
+<l>neyvāya vēlneṭuṅkaṇ ṇēriḻaiyu miḷaṅkōvum piṉpu pōka</l>
+<l>evvāṟu naṭantaṉaiyem mirāmāvō vemperumā ṉeṉcey kēṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O our Lord, O our Rāma! What shall I do?</l>
+<l rend="indent">Having listened to the cruel words of me with a cruel mouth,</l>
+<l rend="indent">not desiring the vast earth, making haste,</l>
+<l rend="indent">leaving off the horses, leaving off the chariot,</l>
+<l rend="indent">leaving off the victorious, black-mouthed male elephant,</l>
+<l rend="indent">[and] reaching the forest, how [ever] did You walk,</l>
+<l rend="indent">as She with fine jewels [and] with eyes long as spears with oiled tips and the prince went behind [You]?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PeruTM9.2"><interp type="alignment" select="0">20MG3MR14M2G26MG29MG30MG9MG37MG20MG2M,199MG</interp>
+<entry>
+<form>ve<c type="geminated">v</c></form>
+<def>cruel</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāyēṉ</form>
+<def>mouth</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ve<c type="geminated">v</c></form>
+<def>cruel</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">v</c>urai</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭ<c type="elided">u</c></form>
+<def>listened</def>
+<form type="sandhi">kēṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iru<c type="uncertain">m</c></form>
+<def>vast</def>
+<form type="sandhi">irun</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nilattai</form>
+<def>earht</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭāt<c type="elided">u</c>-ē</form>
+<def>desire-not</def>
+<form type="simple">vēṇṭātu</form>
+<form type="sandhi">vēṇṭāt</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>viraintu</form>
+<def>makeing haste</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veṉṟi</form>
+<def>victory</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mai</form>
+<def>black</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāya</form>
+<def>mouth</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷiṟ<c type="elided">u</c></form>
+<def>elephant-bull</def>
+<form type="sandhi">kaḷiṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻintu</form>
+<def>leaving off</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēr</form>
+<def>chariot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻintu</form>
+<def>leaving off</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>horse</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oḻintu</form>
+<def>leaving off</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṉam-ē</form>
+<def>forest</def>
+<form type="simple">vaṉam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>mēvi</form>
+<def>reaching</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ney</form>
+<def>oil</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāya</form>
+<def>lips</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēl</form>
+<def>spear</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṭum</form>
+<def>long</def>
+<form type="sandhi">neṭuṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nēr</form>
+<def>fineness</def>
+<form type="sandhi">ṇēr</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḻai-<c type="glide">y</c>um</form>
+<def>jewel</def>
+<form type="simple">iḻai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iḷaṅkō-<c type="glide">v</c>um</form>
+<def>prince</def>
+<form type="simple">iḷaṅkō</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>piṉpu</form>
+<def>behind</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pōka</form>
+<def>went</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>evvāṟu</form>
+<def>how</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭantaṉai</form>
+<def>walk</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>em<c type="geminated">m</c></form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irāmā-<c type="glide">v</c>ō</form>
+<def>Rāma</def>
+<form type="simple">irāmā</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>emperumāṉ</form>
+<def>our lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what</def>
+<gramGrp>
+  <gram type="role">interrogative pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceykēṉ-ē</form>
+<def>do</def>
+<form type="simple">ceykēṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

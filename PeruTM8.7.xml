@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Perumāḷ Tirumoḻi</title> 8.7.
+            <persName xml:lang="ta">Kulacēkaraṉ</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PeruTM8.7">
+<l>āliṉilaip pālakaṉā yaṉṟulaka muṇṭavaṉē</l>
+<l>vāliyaikkoṉ ṟaraciḷaiya vāṉarattuk kaḷittavaṉē</l>
+<l>kāliṉmaṇi karaiyalaikkuṅ kaṇapuratteṉ karumaṇiyē</l>
+<l>ālinakark katipatiyē yayōttimaṉē tālēlō.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O You who swallowed the world that day as an infant on a banyan leaf!</l>
+<l>O You who, having killed Vālin, gave [his] kingdom to the young monkey!</l>
+<l>O Apple of my eye from Kaṇapuram, where due to the wind, pearls dash against the shores!</l>
+<l>O king of the town of Āli! O King of Ayodhyā, tālēlō!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PeruTM8.7"><interp type="alignment" select="0">21MG26MG4MG17MG43MG22MG27M,165MG</interp>
+<entry>
+<form>āliṉ</form>
+<def>banyan</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilai<c type="geminated">p</c></form>
+<def>leaf</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pālakaṉ</form>
+<def>infant</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy</form>
+<def>as</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟ<c type="elided">u</c></form>
+<def>that day</def>
+<form type="sandhi">aṉṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakam</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṭavaṉē</form>
+<def>swallowed</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāliyai<c type="geminated">k</c></form>
+<def>Vālin</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṉṟ<c type="elided">u</c></form>
+<def>killed</def>
+<form type="sandhi">koṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arac<c type="elided">u</c></form>
+<def>kingdom</def>
+<form type="sandhi">arac</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷaiya</form>
+<def>young</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉarattukk<c type="elided">u</c></form>
+<def>monkey</def>
+<form type="sandhi">vāṉarattukk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷittavaṉē</form>
+<def>gave</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāliṉ</form>
+<def>wind</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇi</form>
+<def>pearls</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karai</form>
+<def>shore</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>alaikkum</form>
+<def>dash against</def>
+<form type="sandhi"><c type="glide">y</c>alaikkuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇapuratt<c type="elided">u</c></form>
+<def>Kaṇapuram</def>
+<form type="sandhi">kaṇapuratt</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karumaṇiyē</form>
+<def>sapphire</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āli</form>
+<def>Āli</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakarkk<c type="elided">u</c></form>
+<def>city</def>
+<form type="sandhi">nakarkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>atipatiyē</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ayōtti</form>
+<def>Ayodhyā</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉē</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tālēlō</form>
+<def>tālēlō</def>
+</entry></standOff>
+</TEI>
