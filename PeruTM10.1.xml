@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -31,7 +28,7 @@
 <l>aṅkaṇeṭu matiṭpuṭaicū ḻayōttiyeṉṉu maṇinakarat tulakaṉaittum viḷakkuñ cōti</l>
 <l>veṅkatirōṉ kulattukkōr viḷakkāyt tōṉṟi viṇmuḻutu muyakkoṇṭa vīraṉṟaṉṉaic</l>
 <l>ceṅkaṇeṭuṅ karumukilai yirāmaṉ ṟaṉṉait tillainakart tiruccitra kūṭan taṉṉuḷ</l>
-<l>eṅkaḷtaṉi mutalvaṉaiyem perumāṉ ṟaṉṉai yeṉṟukolō kaṇkuḷirak kāṇu nāḷē.</l>
+<l>ḷeṅkaḷtaṉi mutalvaṉaiyem perumāṉ ṟaṉṉai yeṉṟukolō kaṇkuḷirak kāṇu nāḷē.</l>
       </lg>
       <lg xml:lang="en">
 <l>When is the day [I shall] see, so that [my] eyes are refreshed,</l>
@@ -45,7 +42,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PeruTM10.1"><interp type="alignment" select="0">5ML3MR36MG4MG39MG8MG45ML102MG18MR3MG2M,274MG</interp>
+<standOff type="wordsplit" corresp="#PeruTM10.1">
+<interp type="alignment" select="0">5ML3MR36MG4MG39MG8MG45ML103MG18MR3MG2M,275MG</interp>
 <entry>
 <form>am</form>
 <def>beautiful</def>
@@ -94,8 +92,6 @@
 <entry>
 <form>ayōtti</form>
 <def>Ayodhyā</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>eṉṉum</form>
@@ -176,8 +172,6 @@
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>viḷakk<c type="elided">u</c></form>
@@ -345,7 +339,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>eṅkaḷ</form>
+<form><c type="geminated">ḷ</c>eṅkaḷ</form>
 <def>our</def>
 <gramGrp>
   <gram type="role">pronoun</gram>
@@ -428,5 +422,6 @@
   <gram type="role">noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
