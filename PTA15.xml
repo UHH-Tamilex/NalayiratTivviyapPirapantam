@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyatiruvantāti</title> 15.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTA15">
+<l>pārttō retiritā neñcē paṭutuyaram</l>
+<l>pērttōtap pīṭaḻivām pēccillai yārttōtan</l>
+<l>tammēṉi tāṭaṭavat tāṅkiṭantu tammuṭaiya</l>
+<l>cemmēṉik kaṇvaḷarvār cīr.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Having seen understand, having encountered give [yourself], o heart,</l>
+<l>once the misery that befalls [us] is destroyed there will be no talk of our perishing</l>
+<l>in the greatness of [its] flood: </l>
+<l>the excellence of him who slumbers with his red body, lying himself</l>
+<l>while the body of the flood roars [and] strokes [his] feet.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTA15"><interp type="alignment" select="0">5MG30MG7MG10MG10MG14ML49M,130MG</interp>
+<entry>
+<form>pārtt<c type="elided">u</c></form>
+<def>seen</def>
+<form type="sandhi">pārtt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>etiri</form>
+<def>encountered</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tā</form>
+<def>give</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcē</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭu</form>
+<def>befalls</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuyaram</form>
+<def>misery</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pērtt<c type="elided">u</c></form>
+<def>destroy</def>
+<form type="sandhi">pērtt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōta<c type="geminated">p</c></form>
+<def>flood</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pīṭ<c type="elided">u</c></form>
+<def>greatness</def>
+<form type="sandhi">pīṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻivām</form>
+<def>perishing</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēcc<c type="elided">u</c></form>
+<def>talk</def>
+<form type="sandhi">pēcc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illai</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ārtt<c type="elided">u</c></form>
+<def>roared</def>
+<form type="sandhi"><c type="glide">y</c>ārtt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōtam</form>
+<def>flood</def>
+<form type="sandhi">ōtan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tam</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉi</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāḷ</form>
+<def>foot</def>
+<form type="sandhi">tāṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭava<c type="geminated">t</c></form>
+<def>stroke</def>
+<form type="sandhi">ṭaṭava<c type="geminated">t</c></form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tām</form>
+<def>self</def>
+<form type="sandhi">tāṅ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṭantu</form>
+<def>lying</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tam</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>uṭaiya</form>
+<def>possess</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">genitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉi<c type="geminated">k</c></form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇvaḷarvār</form>
+<def>slumbers</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cīr</form>
+<def>excellence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
