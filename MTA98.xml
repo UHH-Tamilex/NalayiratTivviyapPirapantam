@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Mutaṟṟiruvantāti</title> 98.
+            <persName xml:lang="ta">Poykaiyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="MTA98">
+<l>poṉṟikaḻu mēṉip puricaṭaiyam puṇṇiyaṉu</l>
+<l>niṉṟulakan tāya neṭumālu – meṉṟu</l>
+<l>miruvaraṅkat tāṟṟiriva rēlu moruva</l>
+<l>ṉoruvaṉaṅkat teṉṟu muḷaṉ</l>
+      </lg><n
+      <lg xml:lang="en">
+<l>The body glittering with gold: the virtuous one with matted locks</l>
+<l>and tall Māl who constantly extends the world, even if</l>
+<l>they always wander around with a body of two, always</l>
+<l>one is present in the body of the other.<note xml:lang="en" place="foot">For further references to Hari-Hara see Po. 5 (with note), 74, Pē. 63.</note></l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#MTA98"><interp type="alignment" select="0">10ML24MGMR4MG17MG31MG20MG9M,62MG60M</interp>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tikaḻum</form>
+<def>glittering</def>
+<form type="sandhi">ṟikaḻum</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉi<c type="geminated">p</c></form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puri</form>
+<def>be-twisted</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭaiyam</form>
+<def>matted hair</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṇṇiyaṉ-um</form>
+<def>merit-he</def>
+<form type="simple">puṇṇiyaṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>niṉṟ<c type="elided">u</c></form>
+<def>stood</def>
+<form type="sandhi">niṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakam</form>
+<def>world</def>
+<form type="sandhi">ulakan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāya</form>
+<def>spread</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṭumāl-um</form>
+<def>Neṭumāl</def>
+<form type="simple">neṭumāl</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>eṉṟum</form>
+<def>always</def>
+</entry>
+<entry>
+<form>iruvar</form>
+<def>two-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṅkattāṉ</form>
+<def>body</def>
+<form type="sandhi">aṅkattāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirivarēl-um</form>
+<def>they wander-if</def>
+<form type="simple">tirivarēl</form>
+<form type="sandhi">ṟirivarēl</form>
+<gramGrp>
+  <gram type="role">concessive</gram>
+  <gram type="role">conditional</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>oruvaṉ</form>
+<def>one-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oruvaṉ</form>
+<def>one-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṅkatt<c type="elided">u</c></form>
+<def>body</def>
+<form type="sandhi">aṅkatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟum</form>
+<def>always</def>
+</entry>
+<entry>
+<form>uḷaṉ</form>
+<def>he is</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
