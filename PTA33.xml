@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyatiruvantāti</title> 33.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTA33">
+<l>yātāṉu moṉṟaṟiyiṟ ṟaṉṉukakki leṉkolō</l>
+<l>yātāṉu nērntaṇukā vāṟutāṉ yātāṉun</l>
+<l>tēṟumā ceyyā vacurarkaḷai nēmiyāṟ</l>
+<l>pāṟupā ṟākkiṉāṉ pāl.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>If one knows anything, if one rejoices in him, what</l>
+<l>is the way not to get close, accepting everything,</l>
+<l>to him who has brought into just ruin,</l>
+<l>with [his] discus], the Asuras who clearly did not do anything?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTA33"><interp type="alignment" select="0">10MG19MG10MR5MG56MG7MG4M,116MG</interp>
+<entry>
+<form>yātāṉum</form>
+<def>anything</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>oṉṟ<c type="elided">u</c></form>
+<def>one-it</def>
+<form type="sandhi">oṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟiyil</form>
+<def>know</def>
+<form type="sandhi">aṟiyiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<form type="sandhi">ṟaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ukakkil</form>
+<def>rejoice</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ-kolō</form>
+<def>what</def>
+<form type="simple">eṉ</form>
+<gramGrp>
+  <gram type="role">interrogative pronoun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kolō</m></gramGrp>
+</entry>
+<entry>
+<form>yātāṉum</form>
+<def>anything</def>
+<form type="sandhi">yātāṉun</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nērnt<c type="elided">u</c></form>
+<def>accepting</def>
+<form type="sandhi">nērnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇukā</form>
+<def>approach-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āṟu</form>
+<def>way</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yātāṉum</form>
+<def>anything</def>
+<form type="sandhi">yātāṉun</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tēṟum</form>
+<def>be clear</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ā</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyyā</form>
+<def>do-not-they</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>acurarkaḷai</form>
+<def>Asura</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nēmiyāl</form>
+<def>discus</def>
+<form type="sandhi">nēmiyāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṟu</form>
+<def>ruin</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṟ<c type="elided">u</c></form>
+<def>ruin</def>
+<form type="sandhi">pāṟ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkiṉāṉ-pāl</form>
+<def>create</def>
+<form type="sandhi">ākkiṉāṉpāl</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
