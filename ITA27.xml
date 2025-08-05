@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Iraṇṭān Tiruvantāti</title> 27.
+            <persName xml:lang="ta">Pūtattāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ITA27">
+<l>patiyamaintu nāṭip parutteḻunta cintai</l>
+<l>matiyuriñci vāṉmukaṭu nōkkik – katimikuttaṅ</l>
+<l>kōṟēṭi yōṭuṅ koḻuntatē pōṉṟatē</l>
+<l>māṟēṭi yōṭu maṉam.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The mind  that settles in a place [but] rises, searching, growing,</l>
+<l>resembles a shoot that looks up to the sky, rubbing against the moon,</l>
+<l>with increasing speed, running in search of a good support,</l>
+<l>– the mind that runs in search of Māl.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ITA27"><interp type="alignment" select="0">23MG49MG5ML16M2G7M2G4ML8ML5M,62MG62MG</interp>
+<entry>
+<form>pati</form>
+<def>abode</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>amaintu</form>
+<def>settled</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṭi<c type="geminated">p</c></form>
+<def>investigated</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>parutt<c type="elided">u</c></form>
+<def>become-large</def>
+<form type="sandhi">parutt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻunta</form>
+<def>risen</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cintai</form>
+<def>mind</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mati</form>
+<def>moon</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uriñci</form>
+<def>rubbed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉ</form>
+<def>sky</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mukaṭu</form>
+<def>top</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōkki<c type="geminated">k</c></form>
+<def>looked-at</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kati</form>
+<def>way</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mikutt<c type="elided">u</c></form>
+<def>exceeded</def>
+<form type="sandhi">mikutt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>am</form>
+<def>pretty</def>
+<form type="sandhi">aṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōl</form>
+<def>stem</def>
+<form type="sandhi">kōṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēṭi</form>
+<def>searched</def>
+<form type="sandhi">ṟēṭi</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ōṭum</form>
+<def>running</def>
+<form type="sandhi"><c type="glide">y</c>ōṭuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḻuntat<c type="elided">u</c>-ē</form>
+<def>shoot-it</def>
+<form type="simple">koḻuntatu</form>
+<form type="sandhi">koḻuntat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pōṉṟat<c type="elided">u</c>-ē</form>
+<def>resemble</def>
+<form type="simple">pōṉṟatu</form>
+<form type="sandhi">pōṉṟat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>māl</form>
+<def>Māl(p.n..)</def>
+<form type="sandhi">māṟ</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēṭi</form>
+<def>searched</def>
+<form type="sandhi">ṟēṭi</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ōṭum</form>
+<def>running</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉam</form>
+<def>mind</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
