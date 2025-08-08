@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Iraṇṭān Tiruvantāti</title> 3.
+            <persName xml:lang="ta">Pūtattāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ITA3">
+<l>paricu naṟumalarāṟ pāṟkaṭalāṉ pātam</l>
+<l>purivār pukappeṟuvar pōlām purivārkaḷ</l>
+<l>tollamarar kēḷvit tulaṅkoḷicēr tōṟṟattu</l>
+<l>nallamarar kōmāṉ ṉakar</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Those who worship the feet of the one from the milk ocean</l>
+<l>with excellent<note xml:lang="en" place="foot">Or “with fragrant blossoms as a gift.”</note> fragrant blossoms, it seems as if<note xml:lang="en" place="foot">In pōl ām, line 2, pōl is ignored by the Tārkkatīrttar Rāmānujācāryar, but from the point of view of morphology, there are two possible interpretations, namely either a verbal root pōl (“to be similar“) plus ām for ākum as habitual future, or a contracted verbal noun pōl for pōkal (“to go“) plus ām for ākum. For the former, one would rather expect the direct form pōlum (cf. verse 5.1), while the latter could here be understood in the sense of a modern optative form: “let us go (and act just like these devotees).“ A possible parallel is to be found Periyatiruvantāti (PTA) 55.3, where however the dative of the personal pronoun rather supports a literal interpretation: emakk’ avarai+ kāṇal ām eppōtum uḷḷāl, “for us there always is [the possibility of] seeing him with the mind.“ [Further parallels: PTA 69.3f. cintaṉaiyēṉ taṉṉai | yārkk’ aṭal ām, Po. 100.2 īr aṭiyum kāṇal ām eṉ neñcē, Pē. 79.2 pērttāl piṟapp’ ēḻum pērkkal ām.]</note> they will get to enter</l>
+<l>the city of the king of good immortals, with an appearance of light</l>
+<l>that shines with the aural teaching of the ancient immortals<note xml:lang="en" place="foot">The verse projects here the opposition between tol amarar and nal amarar, explained as paḻaiyarkaḷāṉa brahmādi tēvarkaḷ, “the gods beginning with Brahmā that are ancient”, and ślākyamāṉa nityasūrikaḷ, “eternal Lords that are to be praised”, by the Tārkkatīrttar Rāmānujācāryar.</note> who worship [him].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ITA3"><interp type="alignment" select="0">88MG34M,123M</interp>
+<entry>
+<form>paricu</form>
+<def>quality</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṟu</form>
+<def>fragrant</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malarāl</form>
+<def>blossom</def>
+<form type="sandhi">malarāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāl</form>
+<def>milk</def>
+<form type="sandhi">pāṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭalāṉ</form>
+<def>ocean-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pātam</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>purivār</form>
+<def>worship-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puka<c type="geminated">p</c></form>
+<def>enter</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟuvar</form>
+<def>they will obtain</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōl</form>
+<def>be-similar</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>purivārkaḷ</form>
+<def>worship-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tol</form>
+<def>old</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>amarar</form>
+<def>immortals</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēḷvi<c type="geminated">t</c></form>
+<def>hearing/śruti</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tulaṅk<c type="elided">u</c></form>
+<def>shine</def>
+<form type="sandhi">tulaṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḷi</form>
+<def>brightness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cēr</form>
+<def>join</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṟṟattu</form>
+<def>appearance</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>amarar</form>
+<def>immortals</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōmāṉ</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakar</form>
+<def>city</def>
+<form type="sandhi">ṉakar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

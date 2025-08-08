@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Iraṇṭān Tiruvantāti</title> 15.
+            <persName xml:lang="ta">Pūtattāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ITA15">
+<l>tirintatu veñcamattut tērkaṭavi yaṉṟu</l>
+<l>pirintatu cītaiyaimāṉ piṉpōyp – purintatuvuṅ</l>
+<l>kaṇpaḷḷi koḷḷa vaḻakiyatē nākattiṉ</l>
+<l>ṟaṇpaḷḷi koḷvāṉ ṟaṉakku</l>
+      </lg>
+      <lg xml:lang="en">
+<l>That he wandered, urging the chariot in hot battle, that day,</l>
+<l>that he separated from Sītā, going after the deer<note xml:lang="en" place="foot">When Rāvaṇa wanted to lure Rāma away from Sītā, he sent his uncle Marica in the form of a golden deer – a rarity coveted by Sītā who sent her husband out to catch it for her so that she remained behind alone and vulnerable; cf. Pē. 52.2.</note>, and that he</l>
+<l>to have a bed on the ground<note xml:lang="en" place="foot">The last of three mythic deeds here appears problematic – what does kaṇ paḷḷi koḷḷa actually refer to? If we take kaṇ in the sense of “place, area”, this might be another allusion to his Rāma form, sleeping on the forest ground during his exile. Alternatively, we may consider “for [his] eyes to take rest”, i.e. an allusion to his Nārāyaṇa form going to sleep on the serpent, but that would not tie in well with line 4 which alludes to the selfsame act.</note> – is that [so] beautiful[ly done] by the one<note xml:lang="en" place="foot">Here we find the first of two instances (Pū. 15 and 19) of a poetic figure that is called nindāstuti in the Sanskrit tradition, i.e., a verse where the praise of god is cloaked by slighting him, a figure much more prominent in the Śaiva tradition, taking up, for example, the whole of the 12th section of the Tiruvācakam.</note></l>
+<l>who has [his] cool bed on the snake?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ITA15"><interp type="alignment" select="0">71MG25M2G30M,61MG67M</interp>
+<entry>
+<form>tirintatu</form>
+<def>wandering</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vem</form>
+<def>hot</def>
+<form type="sandhi">veñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>camattu<c type="geminated">t</c></form>
+<def>battle</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēr</form>
+<def>chariot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭavi</form>
+<def>urged</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉṟu</form>
+<def>that day</def>
+</entry>
+<entry>
+<form>pirintatu</form>
+<def>separating</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cītaiyai</form>
+<def>Cītai</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṉ</form>
+<def>deer</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+</entry>
+<entry>
+<form>pōy<c type="geminated">p</c></form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>purintatu-<c type="glide">v</c>um</form>
+<def>desiring</def>
+<form type="simple">purintatu</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>area</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḷḷi</form>
+<def>resting place</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷḷa</form>
+<def>take</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aḻakiyat<c type="elided">u</c>-ē</form>
+<def>beauty-it</def>
+<form type="simple">aḻakiyatu</form>
+<form type="sandhi"><c type="glide">v</c>aḻakiyat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>nākattiṉ</form>
+<def>snake</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇ</form>
+<def>cool</def>
+<form type="sandhi">ṟaṇ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḷḷi</form>
+<def>resting place</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷvāṉ</form>
+<def>take-he(part.n.i.a.m.sg..)</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉakku</form>
+<def>self</def>
+<form type="sandhi">ṟaṉakku</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

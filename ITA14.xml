@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Iraṇṭān Tiruvantāti</title> 14.
+            <persName xml:lang="ta">Pūtattāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ITA14">
+<l>paṇṭip perumpatiyai yākkip paḻipāvaṅ</l>
+<l>koṇṭiṅku vāḻvāraik kūṟātē – yeṇṭicaiyum</l>
+<l>pērttakara nāṉkuṭaiyāṉ pērōtip pētaikā</l>
+<l>ṭīrttakara rāmiṉ ṟirintu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Without talking to those who live here with guilt [and] sin,</l>
+<l>making [their] bellies great places<note xml:lang="en" place="foot">Here Tarkkatīrttar Rāmānujācāryar glosses pati with ūr, but one might also take it as a Sanskrit derivation from pati-, “lord”, and understand that these foolish people make their bellies their masters (oral suggestion by Lynn Ate).</note>, o foolish people, reciting the names</l>
+<l>of the one possessing four arms that stretch to<note xml:lang="en" place="foot">Here pērtta poses a semantic problem; while the current meaning of peyarttal is “to destroy”, the context demands something like “to reach” or “to stretch to”.</note> all eight directions,</l>
+<l>turn [to him and] make yourselves pure<note xml:lang="en" place="foot">This verse contains the only occurrence of the designation tīrttakarar, clearly a derivation from Sanskrit tīrthakara-, “making a ford, a passage”, traditionally refering to a Jina, but the Tamil meanings for tīrttam include “ritual purity”, which would bring it closer to the Tārkkatīrttar Rāmānujācāryar’s gloss jakattai paricuttappaṭuttukiṟavarkaḷ.</note>.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ITA14"><interp type="alignment" select="0">37MG28MG13MR4MG22ML21M,130M</interp>
+<entry>
+<form>paṇṭi<c type="geminated">p</c></form>
+<def>belly</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perum</form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>patiyai</form>
+<def>place</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ākki<c type="geminated">p</c></form>
+<def>made-become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḻi</form>
+<def>guilt</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāvam</form>
+<def>evil</def>
+<form type="sandhi">pāvaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭ<c type="elided">u</c></form>
+<def>taken</def>
+<form type="sandhi">koṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṅku</form>
+<def>here</def>
+</entry>
+<entry>
+<form>vāḻvārai<c type="geminated">k</c></form>
+<def>live-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟāt<c type="elided">u</c>-ē</form>
+<def>talk-not</def>
+<form type="simple">kūṟātu</form>
+<form type="sandhi">kūṟātē</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>eṇ</form>
+<def>eight</def>
+</entry>
+<entry>
+<form>ticai-<c type="glide">y</c>um</form>
+<def>direction</def>
+<form type="simple">ticai</form>
+<form type="sandhi">ṭicai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pērtta</form>
+<def>stretched(pey.p.a)</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karam</form>
+<def>arm</def>
+<form type="sandhi">karan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉk<c type="elided">u</c></form>
+<def>four</def>
+<form type="sandhi">nāṉk</form>
+</entry>
+<entry>
+<form>uṭaiyāṉ</form>
+<def>possess-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēr</form>
+<def>name</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōti<c type="geminated">p</c></form>
+<def>recited</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pētaikāḷ</form>
+<def>simpleton</def>
+<form type="sandhi">pētaikāṭ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīrttakarar</form>
+<def>ritual-purity-they</def>
+<form type="sandhi">ṭīrttakarar</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āmiṉ</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirintu</form>
+<def>turned</def>
+<form type="sandhi">ṟirintu</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
