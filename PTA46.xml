@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyatiruvantāti</title> <num>46</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTA46">
+<l>nāṉkūṟuṅ kūṟṟava tittaṉaiyē nāṇāḷun</l>
+<l>tēṅkōta nīruruvaṉ ceṅkaṇmā ṉīṅkāta</l>
+<l>mākatiyām vennarakiṟ cērāmaṟ kāppataṟku</l>
+<l>nīkatiyā neñcē niṉai.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Thus far the words I speak: day after day</l>
+<l>think, heart what is the way for you</l>
+<l>to guard [us] from joining hot hell, that is the way</l>
+<l>not abandoned, red-eyed Māl, he who has the colour of water from the rising flood.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTA46"><interp type="alignment" select="0">16MG7MG2MG3ML2MG6MG3MR18ML61M,125MG</interp>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟum</form>
+<def>speak</def>
+<form type="sandhi">kūṟuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟṟavat<c type="elided">u</c></form>
+<def>word</def>
+<form type="sandhi">kūṟṟavat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ittaṉai-<c type="glide">y</c>ē:</form>
+<def>thus far</def>
+<form type="sandhi">ittaṉai<c type="glide">y</c>ē</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ</form>
+<def>day</def>
+<form type="sandhi">nāṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ-um</form>
+<def>day</def>
+<form type="simple">nāḷ</form>
+<form type="sandhi">ṇāḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tēṅk<c type="elided">u</c></form>
+<def>rising</def>
+<form type="sandhi">tēṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōtam</form>
+<def>flood</def>
+<form type="sandhi">ōtan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uruvaṉ</form>
+<def>colour</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<form type="sandhi">ceṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māl</form>
+<def>Māl</def>
+<form type="sandhi">māṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṅkāta</form>
+<def>abandon-not</def>
+<form type="sandhi">ṉīṅkāta</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>great</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kati</form>
+<def>way</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ām</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vem</form>
+<def>hot</def>
+<form type="sandhi">ven</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>narakil</form>
+<def>hell</def>
+<form type="sandhi">narakiṟ</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērāmal</form>
+<def>join-not</def>
+<form type="sandhi">cērāmaṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāppataṟku</form>
+<def>guard</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kati</form>
+<def>way</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ā</form>
+<def>what</def>
+<gramGrp>
+  <gram type="role">interrogative pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcē</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉai</form>
+<def>think</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
