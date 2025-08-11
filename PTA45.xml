@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyatiruvantāti</title> <num>45</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTA45">
+<l>viṉaiyār taramuyalum vemmaiyē yañci</l>
+<l>tiṉaiyāñ ciṟitaḷavuñ cella niṉaiyātu</l>
+<l>vācakattāl lēttiṉēṉ vāṉōr toḻutiṟaiñcu</l>
+<l>nāyakattāṉ poṉṉaṭikaḷ nāṉ.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Fearing the heat those with [bad] karma strive to give</l>
+<l>without thinking to swerve even a little that is [the size of] a millet’s [grain]</l>
+<l>with [my] speech I have praised the golden feet of the leader</l>
+<l>to whom the celestials bow in worship.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTA45"><interp type="alignment" select="0">25MG20MG4M2G44MG7MR24M,129MG</interp>
+<entry>
+<form>viṉaiyār</form>
+<def>karma</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tara</form>
+<def>give</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muyalum</form>
+<def>striving</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vemmai-<c type="glide">y</c>ē</form>
+<def>heat</def>
+<form type="simple">vemmai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>añci</form>
+<def>fearing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṉai</form>
+<def>millet</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ām</form>
+<def>becomes</def>
+<form type="sandhi"><c type="glide">y</c>āñ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciṟit<c type="elided">u</c></form>
+<def>little-it</def>
+<form type="sandhi">ciṟit</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷav<c type="elided">u</c>-um</form>
+<def>size</def>
+<form type="simple">aḷavu</form>
+<form type="sandhi">aḷav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cella</form>
+<def>swerve</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉaiyātu</form>
+<def>think-not</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vācakattāl</form>
+<def>speech</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>ēttiṉēṉ</form>
+<def>praise</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉōr</form>
+<def>celestial-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻut<c type="elided">u</c></form>
+<def>worshipped</def>
+<form type="sandhi">toḻut</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaiñcum</form>
+<def>bow</def>
+<form type="sandhi">iṟaiñcun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāyakattāṉ</form>
+<def>leader</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>aṭikaḷ</form>
+<def>feet</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
