@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyatiruvantāti</title> <num>73</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTA73">
+<l>pūvaiyuṅ kāyāvu nīlamum pūkkiṉṟa</l>
+<l>kāvi malareṉṟuṅ kāṇṭōṟu pāviyēṉ</l>
+<l>mellāvi meymikavē pūrikku mavvavai</l>
+<l>yellām pirāṉuruvē yeṉṟu.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Bilberry, ironwood, blue lotus, flowering</l>
+<l>water-lilies – whenever I see such blossoms the soft soul</l>
+<l>[and] body of me evil-doer are very full, thinking that all those</l>
+<l>are the forms of the lord.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTA73"><interp type="alignment" select="0">5MG7MG2MR5MG27MG25MG31MG8M,116MG</interp>
+<entry>
+<form>pūvai-<c type="glide">y</c>um</form>
+<def>bilberry</def>
+<form type="simple">pūvai</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kāyā-<c type="glide">v</c>um</form>
+<def>ironwood tree</def>
+<form type="simple">kāyā</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>nīlam-um</form>
+<def>blue lotus</def>
+<form type="simple">nīlam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pūkkiṉṟa</form>
+<def>flowering</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāvi</form>
+<def>water-lily</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malar</form>
+<def>blossoms</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟum</form>
+<def>always</def>
+<form type="sandhi">eṉṟuṅ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇ-tōṟu</form>
+<def>see</def>
+<form type="sandhi">kāṇṭōṟu</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāviyēṉ</form>
+<def>evil-doer</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mel</form>
+<def>soft</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āvi</form>
+<def>soul</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mey</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mika-<c type="glide">v</c>ē</form>
+<def>very</def>
+<form type="simple">mika</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pūrikkum</form>
+<def>full</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>a<c type="geminated">v</c></form>
+<def>that</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>avai</form>
+<def>those</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ellām</form>
+<def>all</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uru-<c type="glide">v</c>ē</form>
+<def>form</def>
+<form type="simple">uru</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṟu</form>
+<def>thinking</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
