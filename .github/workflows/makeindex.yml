@@ -27,8 +27,8 @@ jobs:
         run: |
           cd lib/_indexer
           yarn install
-          yarn pageindex '(?:PaLTM|AAP|TPa|TCV|NMT|TMaL|TPal|MTA|TaC|NTM)' "Nālāyirat Tivviyap Pirapantam"
-          yarn todb '(?:PaLTM|AAP|TPa|TCV|NMT|TMaL|TPal|MTA|TaC|NTM)'
+          yarn pageindex '(?:PaLTM|AAP|TPa|TCV|NMT|TMaL|TPal|MTA|TaC|NTM|ITA|TaC|PTA|PeruTM|KC|PTM|TKT|TNT|TEI|CM|PM|MuTA|TV|TVM)' "Nālāyirat Tivviyap Pirapantam"
+          yarn todb '(?:PaLTM|AAP|TPa|TCV|NMT|TMaL|TPal|MTA|TaC|NTM|ITA|TaC|PTA|PeruTM|KC|PTM|TKT|TNT|TEI|CM|PM|MuTA|TV|TVM)'
           yarn dbtohtml "Nālāyirat Tivviya Pirapantam"
           cd ../..
           git pull
