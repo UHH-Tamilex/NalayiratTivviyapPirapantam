@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kaṇṇinuṇ Ciṟuttāmpu</title> <num>7</num>.
+            <persName xml:lang="ta">Maturakavi Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="KC7">
+<l>kaṇṭu koṇṭu eṉṉaik kārimāṟappirāṉ</l>
+<l>paṇṭai valviṉai pāṟṟi aruḷiṉāṉ</l>
+<l>eṇṭicaiyum ariya iyampukēṉ</l>
+<l>oṇtamiḻc caṭakōpaṉ aruḷaiyē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Karimārapirāṉ saw and took me in,</l>
+<l>[he] graciously removed [my] previous bad karma.</l>
+<l>I proclaim so that all the eight quarters know</l>
+<l>the grace of Caṭakōpaṉ, the [master of] bright Tamiḻ.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#KC7"><interp type="alignment" select="0">64MG9MG31MG2M,73MG35M</interp>
+<entry>
+<form>kaṇṭu</form>
+<def>saw</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭu</form>
+<def>took</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉai<c type="geminated">k</c></form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kārimāṟappirāṉ</form>
+<def>Karimārapirāṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṇṭai</form>
+<def>previous</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>power</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉai</form>
+<def>karma</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṟṟi</form>
+<def>removed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aruḷiṉāṉ</form>
+<def>graciously do</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṇ</form>
+<def>eight</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ticai-<c type="glide">y</c>um</form>
+<def>direction</def>
+<form type="simple">ticai</form>
+<form type="sandhi">ṭicai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aṟiya</form>
+<def>know</def>
+<form type="sandhi">ariyai</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyampukēṉ</form>
+<def>proclaim</def>
+<form type="sandhi">yampukēṉ</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṇ</form>
+<def>bright</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tamiḻ<c type="geminated">c</c></form>
+<def>Tamiḻ</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭakōpaṉ</form>
+<def>Caṭakōpaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aruḷai-<c type="glide">y</c>ē</form>
+<def>grace</def>
+<form type="simple">aruḷai</form>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
