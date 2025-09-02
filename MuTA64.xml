@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Mūṉṟān Tiruvantāti</title> 64.
+            <persName xml:lang="ta">Pēyyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="MuTA64">
+<l>icainta varavamum veṟpuṅ kaṭalum</l>
+<l>pacaintaṅ kamutu paṭuppa – vacaintu</l>
+<l>kaṭainta varuttamō kacciveḵ kāviṟ</l>
+<l>kiṭantiruntu niṉṟatuvu maṅku</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Lying, sitting and standing there in Kacci, in Veḵkā,</l>
+<l>is that endurance for [him who] churned to exhaustion</l>
+<l>in order to bring forth the ambrosia there after having united</l>
+<l>the consenting snake, mountain and ocean?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#MuTA64"><interp type="alignment" select="0">14MG6M2G7MG9MG3MG37MG20MG13MG7M,57MG67M</interp>
+<entry>
+<form>icainta</form>
+<def>agreed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aravam-um</form>
+<def>snake</def>
+<form type="simple">aravam</form>
+<form type="sandhi"><c type="glide">v</c>aravam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>veṟp<c type="elided">u</c>-um</form>
+<def>mountain</def>
+<form type="simple">veṟpu</form>
+<form type="sandhi">veṟp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṭal-um</form>
+<def>sea</def>
+<form type="simple">kaṭal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pacaint<c type="elided">u</c></form>
+<def>stuck-together</def>
+<form type="sandhi">pacaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṅk<c type="elided">u</c></form>
+<def>thus</def>
+<form type="sandhi">aṅk</form>
+</entry>
+<entry>
+<form>amutu</form>
+<def>ambrosia</def>
+</entry>
+<entry>
+<form>paṭuppa</form>
+<def>bring-forth</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>acaintu</form>
+<def>been-wearied</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭainta</form>
+<def>churned</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varuttam-ō</form>
+<def>suffering</def>
+<form type="simple">varuttam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>kacci</form>
+<def>Kacci</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḵkāvil</form>
+<def>Veḵkā</def>
+<form type="sandhi">veḵkāviṟ</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṭant<c type="elided">u</c></form>
+<def>lied</def>
+<form type="sandhi">kiṭant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruntu</form>
+<def>sat</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟatu-<c type="glide">v</c>um</form>
+<def>standing</def>
+<form type="simple">niṉṟatu</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aṅku</form>
+<def>thus</def>
+</entry></standOff>
+</TEI>
