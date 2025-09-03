@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Mūṉṟān Tiruvantāti</title> 75.
+            <persName xml:lang="ta">Pēyyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="MuTA75">
+<l>cārntakaṭu tēyppat taṭāviyakōṭ ṭuccivā</l>
+<l>yūrntiyaṅkum veṇmatiyi ṉoṇmuyalaic – cērntu</l>
+<l>ciṉavēṅkai pārkkun tirumalaiyē yāyaṉ</l>
+<l>puṉavēṅkai nāṟum poruppu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The sacred mountain,</l>
+<l>where the angry tiger peers closely at the bright hare in the white moon</l>
+<l>that moves up crawling to the curved mountain top</l>
+<l>in order to closely rub [its] belly, is the height</l>
+<l>that is fragrant of the kino tree  by the cowherd’s fields.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#MuTA75"><interp type="alignment" select="0">5MG24MG11MG38MG22MG11MG18M,70MG64M</interp>
+<entry>
+<form>cārnt<c type="elided">u</c></form>
+<def>approached</def>
+<form type="sandhi">cārnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akaṭu</form>
+<def>belly</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēyppa<c type="geminated">t</c></form>
+<def>rub</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭāviya</form>
+<def>curved</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōṭṭ<c type="elided">u</c></form>
+<def>peak</def>
+<form type="sandhi">kōṭṭ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ucci</form>
+<def>summit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>opening</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūrnt<c type="elided">u</c></form>
+<def>crawled</def>
+<form type="sandhi">ūrnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyaṅkum</form>
+<def>stirring</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷ</form>
+<def>white</def>
+<form type="sandhi">veṇ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>matiyiṉ</form>
+<def>moon</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḷ</form>
+<def>bright</def>
+<form type="sandhi">oṇ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muyalai<c type="geminated">c</c></form>
+<def>hare</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērntu</form>
+<def>joined</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciṉam</form>
+<def>anger</def>
+<form type="sandhi">ciṉa</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkai</form>
+<def>tiger</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pārkkum</form>
+<def>looking-out-for</def>
+<form type="sandhi">pārkkun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>holiness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malai-<c type="glide">y</c>ē</form>
+<def>mountain</def>
+<form type="simple">malai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āyaṉ</form>
+<def>cowherd</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṉam</form>
+<def>field</def>
+<form type="sandhi">puṉa</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkai</form>
+<def>kino tree</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṟum</form>
+<def>being-fragrant</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poruppu</form>
+<def>mountain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

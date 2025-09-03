@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Mūṉṟān Tiruvantāti</title> 74.
+            <persName xml:lang="ta">Pēyyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="MuTA74">
+<l>nalamē valituko ṉañcūṭṭu vaṉpēy</l>
+<l>nilamē puraṇṭupōy vīḻac – calamētāṉ</l>
+<l>veṅkoṅkai yuṇṭāṉai mīṭṭāycci yūṭṭuvāṉ</l>
+<l>ṟaṉkoṅkai vāyvaittāḷ cārntu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Is it strong, the goodness</l>
+<l>of the cowherdess who again put [him] close to her breast in</l>
+<l>order to feed him, him who had drunk only water  from the cruel breast</l>
+<l>so that the strong demoness fell to the ground in contortions,</l>
+<l>	having fed [him] poison?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#MuTA74"><interp type="alignment" select="0">5MG7MG3ML3MG15MG22MG25MG38M,54MG70M</interp>
+<entry>
+<form>nalam-ē</form>
+<def>goodness</def>
+<form type="simple">nalam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>valitu-kol</form>
+<def>strong-it</def>
+<form type="simple">valitu</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kol</m></gramGrp>
+</entry>
+<entry>
+<form>nañc<c type="elided">u</c></form>
+<def>poison</def>
+<form type="sandhi">ṉañc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūṭṭu</form>
+<def>feed</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>strong</def>
+<form type="sandhi">vaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēy</form>
+<def>demoness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nilam-ē</form>
+<def>ground</def>
+<form type="simple">nilam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>puraṇṭu</form>
+<def>rolled</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīḻa<c type="geminated">c</c></form>
+<def>fall</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>calam-ē</form>
+<def>water</def>
+<form type="simple">calam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vem</form>
+<def>hot</def>
+<form type="sandhi">veṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṅkai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṇṭāṉai</form>
+<def>drunk-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mīṭṭ<c type="elided">u</c></form>
+<def>again</def>
+<form type="sandhi">mīṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āycci</form>
+<def>cowherdess</def>
+<gramGrp>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ūṭṭuvāṉ</form>
+<def>feed</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<form type="sandhi">ṟaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṅkai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>opening</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaittāḷ</form>
+<def>put-she</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cārntu</form>
+<def>approached</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
