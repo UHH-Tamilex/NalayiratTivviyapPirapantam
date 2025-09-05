@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Mūṉṟān Tiruvantāti</title> 98.
+            <persName xml:lang="ta">Pēyyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="MuTA98">
+<l>imañcūḻ malaiyu miruvicumpuṅ kāṟṟu</l>
+<l>mamañcūḻn taṟaviḷaṅkit tōṉṟu – namaṉcūḻ</l>
+<l>narakattu nammai naṇukāmaṟ kāppāṉ</l>
+<l>ṟurakattai vāypiḷantāṉ ṟoṭṭu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>As the mountains embraced by snow, as the vast sky and as wind,</l>
+<l>he appears fully luminous all around(?) ,</l>
+<l>the one who protects us from getting near hell embraced by Yama,</l>
+<l>the one who by touch tore open the mouth of the horse.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#MuTA98"><interp type="alignment" select="0">12MG12M2G6M2G11MG81M,128M</interp>
+<entry>
+<form>imam</form>
+<def>snow</def>
+<form type="sandhi">imañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻ</form>
+<def>envelop</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malai-<c type="glide">y</c>um</form>
+<def>mountain</def>
+<form type="simple">malai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iru</form>
+<def>big</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vicump<c type="elided">u</c>-um</form>
+<def>sky</def>
+<form type="simple">vicumpu</form>
+<form type="sandhi">vicump</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kāṟṟ<c type="elided">u</c>-um</form>
+<def>wind</def>
+<form type="simple">kāṟṟu</form>
+<form type="sandhi">kāṟṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>amam</form>
+<def>all</def>
+<form type="sandhi">amañ</form>
+</entry>
+<entry>
+<form>cūḻnt<c type="elided">u</c></form>
+<def>enveloped</def>
+<form type="sandhi">cūḻnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟa</form>
+<def>subside</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḷaṅki<c type="geminated">t</c></form>
+<def>shone</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṉṟum</form>
+<def>appears</def>
+<form type="sandhi">tōṉṟu–</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>namaṉ</form>
+<def>Yama</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻ</form>
+<def>envelop</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>narakattu</form>
+<def>hell</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nammai</form>
+<def>us</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṇukāmal</form>
+<def>near-not</def>
+<form type="sandhi">naṇukāmaṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāppāṉ</form>
+<def>protect</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>turakattai</form>
+<def>horse</def>
+<form type="sandhi">ṟurakattai</form>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>mouth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷantāṉ</form>
+<def>tore-open-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṭṭu</form>
+<def>touched</def>
+<form type="sandhi">ṟoṭṭu</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
