@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruneṭuntāṇṭakam</title> <num>5</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār </persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TNT5">
+<l>oṇmitiyil puṉaluruvi yōrukāl niṟpa</l>
+<l>vorukāluṅ kāmarucī ravuṇa ṉuḷḷat</l>
+<l>teṇmatiyuṅ kaṭantaṇṭa mītu pōki</l>
+<l>yiruvicumpi ṉūṭupō yeḻuntu mēlait</l>
+<l>taṇmatiyuṅ katiravaṉun tavira vōṭit</l>
+<l>tārakaiyiṉ puṟantaṭavi yappāl mikku</l>
+<l>maṇmuḻutu makappaṭuttu niṉṟa ventai</l>
+<l>malarpuraiyun tiruvaṭiyē vaṇaṅki ṉēṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Entering into the water in a beautiful step, as one foot remained,</l>
+<l rend="indent">one foot, surpassing the thoughts conceived in the mind</l>
+<l>Of the demon of enviable wealth, going above the cosmic egg,</l>
+<l rend="indent">rising into the vast heavens, racing higher,</l>
+<l>As it left [behind] the cool moon and the rayed [sun],</l>
+<l rend="indent">brushing the back of the stars [and] surpassing that region,</l>
+<l>I bow to the flower-like sacred feet of our father</l>
+<l rend="indent">who [thus] encompassed the whole world.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TNT5"><interp type="alignment" select="0">38MG23MG6MG9MG5ML44MG12MG98MG12MG2M,257MG</interp>
+<entry>
+<form>oṇ</form>
+<def>bright</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mitiyil</form>
+<def>step</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṉal</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uruvi</form>
+<def>entering</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>oru</form>
+<def>one</def>
+<form type="sandhi"><c type="glide">y</c>ōru</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṟpa</form>
+<def>remained</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oru</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl-um</form>
+<def>foot</def>
+<form type="simple">kāl</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kāmaru</form>
+<def>desirable</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cīr</form>
+<def>wealth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avuṇaṉ</form>
+<def>demon</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷḷatt<c type="elided">u</c></form>
+<def>mind</def>
+<form type="sandhi">uḷḷatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṇ</form>
+<def>conceived</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mati-<c type="glide">y</c>um</form>
+<def>thought</def>
+<form type="simple">mati</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṭant<c type="elided">u</c></form>
+<def>surpassing</def>
+<form type="sandhi">kaṭant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇṭam</form>
+<def>cosmic egg</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mītu</form>
+<def>above</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pōki</form>
+<def>going</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iru</form>
+<def>vast</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vicumpiṉ</form>
+<def>heaven</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūṭu</form>
+<def>into</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻuntu</form>
+<def>risen</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēlai<c type="geminated">t</c></form>
+<def>high</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇ</form>
+<def>cool</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mati-<c type="glide">y</c>um</form>
+<def>moon</def>
+<form type="simple">mati</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>katiravaṉ-um</form>
+<def>sun</def>
+<form type="simple">katiravaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tavira</form>
+<def>left behind</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ōṭi<c type="geminated">t</c></form>
+<def>run</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tārakaiyiṉ</form>
+<def>star</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṟam</form>
+<def>back</def>
+<form type="sandhi">puṟan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭavi</form>
+<def>brushing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>a<c type="geminated">p</c></form>
+<def>that</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pāl</form>
+<def>region</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mikku</form>
+<def>be-high</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇ</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muḻutum</form>
+<def>whole</def>
+</entry>
+<entry>
+<form>akappaṭuttu</form>
+<def>encompassed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>stood</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>entai</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malar</form>
+<def>flower</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puraiyum</form>
+<def>resembling-</def>
+<form type="sandhi">puraiyun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>sacred</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṭi-<c type="glide">y</c>ē</form>
+<def>foot</def>
+<form type="simple">aṭi</form>
+<form type="sandhi"><c type="glide">v</c>aṭi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>vaṇaṅkiṉēṉ-ē</form>
+<def>bow</def>
+<form type="simple">vaṇaṅkiṉēṉ</form>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
