@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruviruttam</title> <num>23</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TV23">
+<l>puṉamō puṉattaya lēvaḻi pōku maruviṉaiyēṉ</l>
+<l>maṉamō makaḷirnuṅ kāvalcol līrpuṇṭa rīkattaṅkēḻ</l>
+<l>vaṉamō raṉaiyakaṇ ṇāṉkaṇṇaṉ vāṉā ṭamarunteyvat</l>
+<l>tiṉamō raṉaiyīrka ḷāyivai yōnum miyalvukaḷē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Is it the field or the mind of me with difficult karma who goes the way near</l>
+<l>the field, girls, that is under your guard? Speak! Since you are like a group</l>
+<l>of deities that live in the heavenly land of Kaṇṇaṉ, him with eyes</l>
+<l>that are like a forest of lotus lustre, these, are they your qualities?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TV23"><interp type="alignment" select="0">5MG7MG4MG26MG66ML2MG13MG22MG15MGM,170M</interp>
+<entry>
+<form>puṉam-ō</form>
+<def>field</def>
+<form type="simple">puṉam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>puṉatt<c type="elided">u</c></form>
+<def>field</def>
+<form type="sandhi">puṉatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ayal-ē</form>
+<def>neighbourhood</def>
+<form type="simple">ayal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>vaḻi</form>
+<def>way</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōkum</form>
+<def>going</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aru</form>
+<def>difficult</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉaiyēṉ</form>
+<def>karma-I</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉam-ō</form>
+<def>mind</def>
+<form type="simple">maṉam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>makaḷir</form>
+<def>women</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>num</form>
+<def>your</def>
+<form type="sandhi">nuṅ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāval</form>
+<def>guard</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>collīr</form>
+<def>speak</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṇṭarīkattam</form>
+<def>lotus</def>
+<form type="sandhi">puṇṭarīkattaṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēḻ</form>
+<def>lustre</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṉam</form>
+<def>forest</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+</entry>
+<entry>
+<form>aṉaiya</form>
+<def>such-they</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇāṉ</form>
+<def>eye-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇaṉ</form>
+<def>Kaṇṇaṉ(p.n.m.sg.)</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉ</form>
+<def>heaven</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṭ<c type="elided">u</c></form>
+<def>land</def>
+<form type="sandhi">ṉāṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amarum</form>
+<def>dwelling</def>
+<form type="sandhi">amarun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teyvatt<c type="elided">u</c></form>
+<def>god</def>
+<form type="sandhi">teyvatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉam</form>
+<def>group</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+</entry>
+<entry>
+<form>aṉaiyīrkaḷ</form>
+<def>like-you</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivai-<c type="glide">y</c>ō</form>
+<def>these</def>
+<form type="simple">ivai</form>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>num</form>
+<def>your</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>iyalpukaḷ-ē</form>
+<def>qualities</def>
+<form type="simple">iyalpukaḷ</form>
+<form type="sandhi"><c type="geminated">m</c>iyalvukaḷ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

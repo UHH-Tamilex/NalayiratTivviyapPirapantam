@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruviruttam</title> <num>21</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TV21">
+<l>cūṭṭunaṉ mālaikaḷ tūyaṉa vēntiviṇ ṇōrkaṇaṉṉī</l>
+<l>rāṭṭiyan tūpan tarāniṟka vēyaṅkōr māyaiyiṉā</l>
+<l>līṭṭiya veṇṇey toṭuvuṇṇap pōntimi lēṟṟuvaṉkūṉ</l>
+<l>kōṭṭiṭai yāṭiṉai kūttaṭa lāyartaṅ kompiṉukkē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>While celestials keep offering good garlands that are pure to adorn [you],</l>
+<l>bathing [you] in good water, giving pretty incense, did you go there by magic,</l>
+<l>to dig into [and] eat the stored butter, did you dance the dance</l>
+<l>between the humped bull’s strong curved horns for the twig of the murderous cowherds?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TV21"><interp type="alignment" select="0">36ML26MG6MG38MG18MG15MG20M2GM,168M</interp>
+<entry>
+<form>cūṭṭu</form>
+<def>adornment</def>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+<form type="sandhi">naṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mālaikaḷ</form>
+<def>garlands</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tūyaṉa</form>
+<def>pure-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ēnti</form>
+<def>offered</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṇṇōrkaḷ</form>
+<def>celestials</def>
+<form type="sandhi">viṇṇōrkaṇ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+<form type="sandhi">ṇaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<form type="sandhi">ṉīr</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭṭi</form>
+<def>bathed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>am</form>
+<def>pretty</def>
+<form type="sandhi"><c type="glide">y</c>an</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tūpam</form>
+<def>incence</def>
+<form type="sandhi">tūpan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tarā</form>
+<def>given</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṟka-<c type="glide">v</c>ē</form>
+<def>stand</def>
+<form type="simple">niṟka</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṅk<c type="elided">u</c></form>
+<def>thus</def>
+<form type="sandhi"><c type="glide">y</c>aṅk</form>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+</entry>
+<entry>
+<form>māyaiyiṉāl</form>
+<def>magic</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṭṭiya</form>
+<def>stored</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veṇṇey</form>
+<def>butter</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṭu</form>
+<def>dig</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uṇṇa<c type="geminated">p</c></form>
+<def>eat</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōnt<c type="elided">u</c></form>
+<def>come</def>
+<form type="sandhi">pōnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>imil</form>
+<def>hump</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟṟu</form>
+<def>bull</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>strong</def>
+<form type="sandhi">vaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṉ</form>
+<def>curve</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōṭṭ<c type="elided">u</c></form>
+<def>horn</def>
+<form type="sandhi">kōṭṭ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭai</form>
+<def>middle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āṭiṉai</form>
+<def>you danced</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūtt<c type="elided">u</c></form>
+<def>dance</def>
+<form type="sandhi">kūtt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭal</form>
+<def>killing</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyar</form>
+<def>cowherd</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tam</form>
+<def>self</def>
+<form type="sandhi">taṅ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kompiṉukk<c type="elided">u</c>-ē</form>
+<def>twig</def>
+<form type="simple">kompiṉukku</form>
+<form type="sandhi">kompiṉukk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
