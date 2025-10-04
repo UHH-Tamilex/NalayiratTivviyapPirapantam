@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruviruttam</title> <num>31</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TV31">
+<l>icaimiṉkaḷ tūteṉ ṟicaittā licaiyila meṉṟalaimē</l>
+<l>lacaimiṉka ḷeṉṟā lacaiyuṅko lāmampoṉ māmaṇikaḷ</l>
+<l>ticaimiṉ miḷirun tiruvēṅ kaṭattuvaṉ ṟāṭcimayam</l>
+<l>micaimiṉ miḷiriya pōvāṉ vaḻikkoṇṭa mēkaṅkaḷē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>If [I] speak “speak as [my] messengers!” there is no speaking. If [I] say</l>
+<l>“move over my head!” will they move? Yes – the clouds that took the way</l>
+<l>to go to Vēṅkaṭam where flashes gleam in [all] directions, – pretty gold</l>
+<l>[and] big sapphires  – for lightning to gleam on the strong-footed summits.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TV31"><interp type="alignment" select="0">13MG3MG49MG100MGM,170M</interp>
+<entry>
+<form>icaimiṉkaḷ</form>
+<def>speak</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tūt<c type="elided">u</c></form>
+<def>messenger</def>
+<form type="sandhi">tūt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>icaittāl</form>
+<def>speak-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>icaiyilam</form>
+<def>speak-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai</form>
+<def>head</def>
+<form type="sandhi">ṟalai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>over</def>
+</entry>
+<entry>
+<form>acaimiṉkaḷ</form>
+<def>move</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟāl</form>
+<def>say-if</def>
+</entry>
+<entry>
+<form>acaiyum-kol</form>
+<def>moves</def>
+<form type="simple">acaiyum</form>
+<form type="sandhi">acaiyuṅ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kol</m></gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>am</form>
+<def>pretty</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇikaḷ</form>
+<def>sapphires</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ticai</form>
+<def>direction</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṉ</form>
+<def>lightning</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miḷirum</form>
+<def>rolling</def>
+<form type="sandhi">miḷirun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiruvēṅkaṭattu</form>
+<def>Śrīraṅgam</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>strong</def>
+<form type="sandhi">vaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāḷ</form>
+<def>foot</def>
+<form type="sandhi">ṟāṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cimayam</form>
+<def>summit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>micai</form>
+<def>elevation</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṉ</form>
+<def>lightning</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miḷiriya</form>
+<def>roll</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōvāṉ</form>
+<def>go</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻi<c type="geminated">k</c></form>
+<def>way</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭa</form>
+<def>taken</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēkaṅkaḷ-ē</form>
+<def>cloud</def>
+<form type="simple">mēkaṅkaḷ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
