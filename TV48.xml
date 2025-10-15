@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruviruttam</title> <num>48</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TV48">
+<l>melliya lākkaik kirumi kuruviṉ miḷirtantāṅkē</l>
+<l>celliya celkait tulakaiyeṉ kāṇumeṉ ṉāluntaṉṉaic</l>
+<l>colliya cūḻaṟ ṟirumā lavaṉkavi yātukaṟṟēṉ</l>
+<l>palliyiṉ colluñcol lākkoḷva tōvuṇṭu paṇṭupaṇṭē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Like a maggot with body of soft nature turning in a sore,</l>
+<l>it goes as it goes, how will it see the world? Timumāl, with [his] intention</l>
+<l>for me too to speak about him all days, poems on him, what have I learned?</l>
+<l>Is even the word of the lizard taken as unspoken? It was [so] in all former times.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TV48"><interp type="alignment" select="0">39M2G16MG76MG15M2G15M2GM,170M</interp>
+<entry>
+<form>mel</form>
+<def>soft</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>iyal</form>
+<def>nature</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkai<c type="geminated">k</c></form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kirumi</form>
+<def>maggot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuruviṉ</form>
+<def>sore</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miḷir</form>
+<def>turn</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tantāṅk<c type="elided">u</c>-ē</form>
+<def>given-like</def>
+<form type="simple">tantāṅku</form>
+<form type="sandhi">tantāṅk</form>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>celliya</form>
+<def>go</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>celkaitt<c type="elided">u</c></form>
+<def>going-it</def>
+<form type="sandhi">celkaitt</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakai</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉ</form>
+<def>what</def>
+</entry>
+<entry>
+<form>kāṇum</form>
+<def>will see</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉālum</form>
+<def>all days</def>
+<form type="sandhi">eṉṉālun</form>
+</entry>
+<entry>
+<form>taṉṉai<c type="geminated">c</c></form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>colliya</form>
+<def>spoken</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻal</form>
+<def>intending</def>
+<form type="sandhi">cūḻaṟ</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirumāl</form>
+<def>Tirumāl</def>
+<form type="sandhi">ṟirumāl</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kavi</form>
+<def>poem</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yātu</form>
+<def>what</def>
+</entry>
+<entry>
+<form>kaṟṟēṉ</form>
+<def>I learned</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>palliyiṉ</form>
+<def>gecko</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col-<c type="geminated">l</c>um</form>
+<def>word</def>
+<form type="simple">col</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>collā<c type="geminated">k</c></form>
+<def>speak-not-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷvat<c type="elided">u</c>-ō</form>
+<def>taking</def>
+<form type="simple">koḷvatu</form>
+<form type="sandhi">koḷvat</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uṇṭu</form>
+<def>is</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṇṭu</form>
+<def>formerly</def>
+</entry>
+<entry>
+<form>paṇṭ<c type="elided">u</c>-ē</form>
+<def>formerly</def>
+<form type="simple">paṇṭu</form>
+<form type="sandhi">paṇṭ</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
