@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruviruttam</title> <num>46</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TV46">
+<l>maṭaneñca meṉṟun tamateṉṟu mōrkaru maṅkaruti</l>
+<l>viṭaneñcai yuṟṟār viṭavō vamaiyumap poṉpeyarōṉ</l>
+<l>ṟaṭaneñcaṅ kīṇṭa pirāṉār tamataṭik kīḻviṭappōyt</l>
+<l>tiṭaneñca māyemmai nīttiṉṟu tāṟun tirikiṉṟatē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Those who, thinking it an ignorant heart and thinking it their’s reflect upon [a course</l>
+<l>of] action [and] experienced a heart to be sent off, are they content to let it go?</l>
+<l>When we send [it] off under the feet of the lord, who tore the broad heart of that one with the name of gold,</l>
+<l>it went as a strong heart, leaving us, [and] wanders until today.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TV46"><interp type="alignment" select="0">13M2G7MG3M2G37MG49MG37MG19M2GM,176M</interp>
+<entry>
+<form>maṭa</form>
+<def>ignorance</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcam</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c>-um</form>
+<def>said</def>
+<form type="simple">eṉṟu</form>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tamat<c type="elided">u</c></form>
+<def>self-it</def>
+<form type="sandhi">tamat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c>-um</form>
+<def>said</def>
+<form type="simple">eṉṟu</form>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+</entry>
+<entry>
+<form>karumam</form>
+<def>action</def>
+<form type="sandhi">karumaṅ</form>
+</entry>
+<entry>
+<form>karuti</form>
+<def>considered</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭa</form>
+<def>let-go</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcai</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṟṟār</form>
+<def>had-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭa-<c type="glide">v</c>ō</form>
+<def>let-go</def>
+<form type="simple">viṭa</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>amaiyum</form>
+<def>is content</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>a<c type="geminated">p</c></form>
+<def>that</def>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peyarōṉ</form>
+<def>name-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭa</form>
+<def>broad</def>
+<form type="sandhi">ṟaṭa</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcam</form>
+<def>heart</def>
+<form type="sandhi">neñcaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kīṇṭa</form>
+<def>torn-apart</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāṉār</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tamat<c type="elided">u</c></form>
+<def>self</def>
+<form type="sandhi">tamat</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">genitive</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi<c type="geminated">k</c></form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kīḻ</form>
+<def>below</def>
+</entry>
+<entry>
+<form>viṭa<c type="geminated">p</c></form>
+<def>let-go</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy<c type="geminated">t</c></form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṭa</form>
+<def>strength</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcam</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emmai</form>
+<def>us</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nītt<c type="elided">u</c></form>
+<def>left</def>
+<form type="sandhi">nītt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟu</form>
+<def>today</def>
+</entry>
+<entry>
+<form>tāṟum</form>
+<def>until</def>
+<form type="sandhi">tāṟun</form>
+</entry>
+<entry>
+<form>tirikiṉṟat<c type="elided">u</c>-ē</form>
+<def>it wanders</def>
+<form type="simple">tirikiṉṟatu</form>
+<form type="sandhi">tirikiṉṟat</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">present tense</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
