@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi </title> <num>2.1.2</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM2.1.2">
+<l>uṟavu cuṟṟameṉ ṟoṉṟi lāvoru vaṉu kantavar</l>
+<l>tammai maṇmicaip</l>
+<l>piṟavi yēkeṭup pāṉa tukaṇṭeṉ neñcamaṉpāy</l>
+<l>kuṟavar mātarka ḷōṭu vaṇṭuku ṟiñci maruḷicai</l>
+<l>pāṭum vēṅkaṭat</l>
+<l>taṟava nāyakaṟ kiṉṟa ṭimaittoḻil pūṇṭāyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O My companion heart, having seen that he destroys rebirth on this earth</l>
+<l>For those who rejoice in [him], the one without any attachments or relations,</l>
+<l>Today you assumed the duty of service to our virtuous one,</l>
+<l rend="indent">the master of Vēṅkaṭam,</l>
+<l>Where bees sing kuṟiñci tunes of wonderment along with hill maidens.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM2.1.2"><interp type="alignment" select="0">14MG3MG40MG17MG66MG5MG8MG3MG18MG2M,184MG</interp>
+<entry>
+<form>uṟavu</form>
+<def>attachments</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṟṟam</form>
+<def>relations</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṉṟ<c type="elided">u</c></form>
+<def>one-it</def>
+<form type="sandhi">oṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilā</form>
+<def>without</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oruvaṉ</form>
+<def>one-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ukantavar</form>
+<def>rejoice</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tammai</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇ</form>
+<def>earth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>micai<c type="geminated">p</c></form>
+<def>on</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟavi-<c type="glide">y</c>ē</form>
+<def>birth</def>
+<form type="simple">piṟavi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>keṭuppāṉ</form>
+<def>destroy</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>atu</form>
+<def>that</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭ<c type="elided">u</c></form>
+<def>seen</def>
+<form type="sandhi">kaṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcam</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉpāy</form>
+<def>companion</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟavar</form>
+<def>hill inhabitant</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mātarkaḷōṭu</form>
+<def>maiden</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṭu</form>
+<def>bee</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟiñci</form>
+<def>Kuṟiñci</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruḷ</form>
+<def>resemble</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>icai</form>
+<def>tune</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭum</form>
+<def>sing</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkaṭatt<c type="elided">u</c></form>
+<def>Vēṅkaṭam</def>
+<form type="sandhi">vēṅkaṭatt</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟavaṉ</form>
+<def>virtue-he</def>
+<form type="sandhi">aṟava</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nāyakaṟk<c type="elided">u</c></form>
+<def>master</def>
+<form type="sandhi">nāyakaṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟ<c type="elided">u</c></form>
+<def>today</def>
+<form type="sandhi">iṉṟ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭimai<c type="geminated">t</c></form>
+<def>service</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻil</form>
+<def>duty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūṇṭāy-ē</form>
+<def>assumed</def>
+<form type="simple">pūṇṭāy</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
