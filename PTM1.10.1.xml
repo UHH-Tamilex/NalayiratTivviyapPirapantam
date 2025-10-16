@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi </title> <num>1.10.1</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM1.10.1">
+<l>kaṇṇārk kaṭaṟcū ḻilaṅkaik kiṟaivantaṉ</l>
+<l>tiṇṇā kampiḷak ka<supplied>c</supplied>caram celavuyttāy</l>
+<l>viṇṇōr toḻumvēṅ kaṭamā malaimēya</l>
+<l>vaṇṇā vaṭiyē ṉiṭaraik kaḷaiyāyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>You who shot an arrow so [it] went to split the strong chest</l>
+<l>Of the lord of Lanka, encircled by the space-filled sea,</l>
+<l>Lord who dwells on the great Vēṅkaṭa Mountain where celestials worship;</l>
+<l>I am your servant; cast off [my] pain!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM1.10.1"><interp type="alignment" select="0">24MG26M2G35ML37MG2M,128MG</interp>
+<entry>
+<form>kaṇ</form>
+<def>space</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>ār<c type="geminated">k</c></form>
+<def>be-full-</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal</form>
+<def>sea</def>
+<form type="sandhi">kaṭaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻ</form>
+<def>encircled</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkaikk<c type="elided">u</c></form>
+<def>Lanka</def>
+<form type="sandhi">ilaṅkaikk</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaivaṉ</form>
+<def>lord</def>
+<form type="sandhi">iṟaivan</form>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṇ</form>
+<def>strong</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>ākam</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷakka[<c type="geminated"></c>]</form>
+<def>split</def>
+<form type="sandhi">piḷakkac<c type="geminated"></c></form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caram</form>
+<def>arrow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cela</form>
+<def>go</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uyttāy</form>
+<def>shoot</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṇṇōr</form>
+<def>celestial</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻum</form>
+<def>worship</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkaṭam</form>
+<def>Vēṅkaṭam</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>great</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malai</form>
+<def>mountain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēya</form>
+<def>dwell</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṇṇā</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṭiyēṉ</form>
+<def>servant</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭarai<c type="geminated">k</c></form>
+<def>pain</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷaiyāy-ē</form>
+<def>cast off</def>
+<form type="simple">kaḷaiyāy</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
