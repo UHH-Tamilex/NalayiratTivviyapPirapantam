@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>2.6.1</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM2.6.1">
+<l>naṇṇāta vāḷavuṇa riṭaippukku vāṉavaraip</l>
+<l>peṇṇāki yamutūṭṭum perumāṉār maruviṉiya</l>
+<l>taṇṇārnta kaṭaṉmallait talacayaṉat tuṟaivārai</l>
+<l>yeṇṇātē yiruppārai yiṟaippoḻutu meṇṇōmē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>We will not think for even a second of those who exist without thinking</l>
+<l>Of the one who dwells in Talacayaṉam at Mallai by the outspread sea,</l>
+<l rend="indent">sweet and cool,</l>
+<l>Where appears the great lord who, as a woman having entered</l>
+<l>Into the midst of the hostile, cruel demons, fed nectar to the celestials.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM2.6.1"><interp type="alignment" select="0">48MG19MG38MG15M2G22M2G7MG2M,158MG</interp>
+<entry>
+<form>naṇṇāta</form>
+<def>attached-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḷ</form>
+<def>cruelty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avuṇar</form>
+<def>demon</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭai<c type="geminated">p</c></form>
+<def>midst</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukku</form>
+<def>entered</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉavarai<c type="geminated">p</c></form>
+<def>celestial</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇ</form>
+<def>woman</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>āki</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>amut<c type="elided">u</c></form>
+<def>nectar</def>
+<form type="sandhi"><c type="glide">y</c>amut</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūṭṭum</form>
+<def>fed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumāṉār</form>
+<def>great one</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruv<c type="elided">u</c></form>
+<def>appears</def>
+<form type="sandhi">maruv</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉiya</form>
+<def>sweet</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇ</form>
+<def>cool</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>ārnta</form>
+<def>outspread</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal</form>
+<def>sea</def>
+<form type="sandhi">kaṭaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mallai<c type="geminated">t</c></form>
+<def>Mallai</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talacayaṉatt<c type="elided">u</c></form>
+<def>Talacayaṉam</def>
+<form type="sandhi">talacayaṉatt</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟaivārai</form>
+<def>dwells</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṇṇāt<c type="elided">u</c>-ē</form>
+<def>think-not</def>
+<form type="simple">eṇṇātu</form>
+<form type="sandhi"><c type="glide">y</c>eṇṇāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iruppārai</form>
+<def>exist</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṟai<c type="geminated">p</c></form>
+<def>second</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poḻut<c type="elided">u</c>-um</form>
+<def>time</def>
+<form type="simple">poḻutu</form>
+<form type="sandhi">poḻut</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>eṇṇōm-ē</form>
+<def>think-not</def>
+<form type="simple">eṇṇōm</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
