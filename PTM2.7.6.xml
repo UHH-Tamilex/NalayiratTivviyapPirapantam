@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>2.7.6</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM2.7.6">
+<l>taṉkuṭik kētun takkavā niṉaiyāḷ taṭaṅkaṭal nuṭaṅkeyi lilaṅkai</l>
+<l>vaṉkuṭi maṭaṅka vāḷamar tolaitta vārttaikēṭ ṭiṉpuṟum mayaṅkum</l>
+<l>miṉkoṭi maruṅkul curuṅkamēl neruṅki meṉmulai poṉpayan tirunta</l>
+<l>veṉkoṭi yivaḷuk keṉṉiṉain tiruntā yiṭaventai yentaipi rāṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>She does not properly consider anything for her clan.</l>
+<l rend="indent">She feels delight hearing the word that ended the cruel battle</l>
+<l>So that the strong clan yielded Lanka, its walls shaken by the vast sea,</l>
+<l rend="indent">[And] she swoons.</l>
+<l>What were you intending, lord father of Iṭaventai, for my creeper girl,</l>
+<l>Whose soft breasts have turned sallow, bearing down [from] above</l>
+<l rend="indent">as her lightning-thin waist dwindles?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM2.7.6"><interp type="alignment" select="0">9MG35MG51MG3MG61MG21MG9MG29M,224MG</interp>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭikk<c type="elided">u</c></form>
+<def>clan</def>
+<form type="sandhi">kuṭikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ētum</form>
+<def>anything</def>
+<form type="sandhi">ētun</form>
+</entry>
+<entry>
+<form>takkavā</form>
+<def>properly</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉaiyāḷ</form>
+<def>consider-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">feminine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭam</form>
+<def>vast</def>
+<form type="sandhi">taṭaṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal</form>
+<def>sea</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nuṭaṅk<c type="elided">u</c></form>
+<def>shaken</def>
+<form type="sandhi">nuṭaṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eyil</form>
+<def>wall</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkai</form>
+<def>Laṅka</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>strong</def>
+<form type="sandhi">vaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭi</form>
+<def>clan</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṭaṅka</form>
+<def>yield</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḷ</form>
+<def>cruel</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amar</form>
+<def>battle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tolaitta</form>
+<def>ended</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vārttai</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭ<c type="elided">u</c></form>
+<def>heard</def>
+<form type="sandhi">kēṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉp<c type="elided">u</c></form>
+<def>pleasure</def>
+<form type="sandhi">iṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟum</form>
+<def>feels</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mayaṅkum</form>
+<def>swoons</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṉ</form>
+<def>lightning</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭi</form>
+<def>creeper</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruṅkul</form>
+<def>waist</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>curuṅka</form>
+<def>dwindles</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>above</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>neruṅki</form>
+<def>bearing down</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mel</form>
+<def>soft</def>
+<form type="sandhi">meṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mulai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>payant<c type="elided">u</c></form>
+<def>turns</def>
+<form type="sandhi">payant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irunta</form>
+<def>been</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭi</form>
+<def>creeper</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ivaḷukk<c type="elided">u</c></form>
+<def>her</def>
+<form type="sandhi"><c type="glide">y</c>ivaḷukk</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">feminine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉaint<c type="elided">u</c></form>
+<def>intending</def>
+<form type="sandhi">ṉiṉaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruntāy</form>
+<def>you were</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭaventai</form>
+<def>Iṭaventai</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>entai</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāṉē</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
