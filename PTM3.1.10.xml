@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>3.1.10</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM3.1.10">
+<l>mūva rākiya voruvaṉai mūvula kuṇṭumiḻn taḷantāṉai</l>
+<l>tēvar tāṉavar ceṉṟuceṉ ṟiṟaiñca<supplied>t</supplied>taṇ  tiruvayin tirapurattu</l>
+<l>mēvu cōtiyai vēlvala vaṉkali kaṉṟivi ritturaitta</l>
+<l>pāvu taṇṭamiḻ pattivai pāṭiṭap pāvaṅkaḷ payilāvē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Sins will not remain when [one] finishes singing these ten [songs]</l>
+<l rend="indent">in pervasive, graceful Tamil,</l>
+<l>Composed by Kalikaṉṟi, skilled with the spear, elaborating on the light</l>
+<l rend="indent">which abides in cool Tiruvayintirapuram,</l>
+<l>As deva-s and dānava-s, arriving continuously, worship</l>
+<l rend="indent">the one who became three,</l>
+<l>The one who measured the three worlds,</l>
+<l rend="indent">having consumed [and] spewed [them out again].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM3.1.10"><interp type="alignment" select="0">26MG3MG6MG30MG67MG23MG7MG18MG3M,190MG</interp>
+<entry>
+<form>mūvar</form>
+<def>three-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākiya</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oruvaṉai</form>
+<def>one-he</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mū</form>
+<def>three</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ulak<c type="elided">u</c></form>
+<def>world</def>
+<form type="sandhi"><c type="glide">v</c>ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṭ<c type="elided">u</c></form>
+<def>consumed</def>
+<form type="sandhi">uṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>umiḻnt<c type="elided">u</c></form>
+<def>spit</def>
+<form type="sandhi">umiḻnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷantāṉai</form>
+<def>measure</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēvar</form>
+<def>Deva</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉavar</form>
+<def>Dānava</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṉṟu</form>
+<def>arriving</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṉṟ<c type="elided">u</c></form>
+<def>arriving</def>
+<form type="sandhi">ceṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaiñca<c type="geminated">t</c></form>
+<def>worship</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇ</form>
+<def>cool</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiruvayintirapurattu</form>
+<def>Tiruvayintirapuram</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēvu</form>
+<def>abide</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cōtiyai</form>
+<def>light</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēl</form>
+<def>spear</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>valavaṉ</form>
+<def>skilled-he</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kalikaṉṟi</form>
+<def>Kalikaṉṟi</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viritt<c type="elided">u</c></form>
+<def>elaborating</def>
+<form type="sandhi">viritt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uraitta</form>
+<def>composed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāvu</form>
+<def>pervasive</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇ</form>
+<def>pleasant</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tamiḻ</form>
+<def>Tamiḻ</def>
+<form type="sandhi">ṭamiḻ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>patt<c type="elided">u</c></form>
+<def>ten</def>
+<form type="sandhi">patt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivai</form>
+<def>these</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭ<c type="elided">u</c></form>
+<def>singing</def>
+<form type="sandhi">pāṭ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭa<c type="geminated">p</c></form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāvaṅkaḷ</form>
+<def>sin</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>payilā-<c type="glide">v</c>ē</form>
+<def>remain-not</def>
+<form type="simple">payilā</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
