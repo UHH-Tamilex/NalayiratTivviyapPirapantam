@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>3.3.3</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM3.3.3">
+<l>paṇṭivaṉ veṇṇeyuṇ ṭāṉeṉ ṟāycciyar kūṭiyi ḻippa</l>
+<l>veṇṭicai yōrumva ṇaṅka viṇaimaru tūṭuna ṭantiṭ</l>
+<l>ṭaṇṭarum vāṉatta varu māyira nāmaṅka ḷōṭu</l>
+<l>tiṇṭiṟal pāṭava ruvāṉ cittira kūṭattuḷ ḷāṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The one who appeared so that the herdesses once altogether complained,</l>
+<l rend="indent">“He ate the butter,”</l>
+<l>Having walked between twined marutu [trees]</l>
+<l rend="indent">as those of [all] eight directions bowed,</l>
+<l>So that celestials and those of heaven sang of his firm strength,</l>
+<l>Along with his one-thousand names, he is the one present in Citrakūṭam.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM3.3.3"><interp type="alignment" select="0">4MG18MG30MG19MG9MG3MG5MG12MG7MR43MG5MG2M,167MG</interp>
+<entry>
+<form>paṇṭ<c type="elided">u</c></form>
+<def>formerly</def>
+<form type="sandhi">paṇṭ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ivaṉ</form>
+<def>this one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veṇṇey</form>
+<def>butter</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṭāṉ</form>
+<def>he ate</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āycciyar</form>
+<def>cowherdess</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṭi</form>
+<def>together</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iḻippa</form>
+<def>complain</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṇ</form>
+<def>eight</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ticaiyōr-um</form>
+<def>direction</def>
+<form type="simple">ticaiyōr</form>
+<form type="sandhi">ṭicaiyōr</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vaṇaṅka</form>
+<def>bow</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṇai</form>
+<def>pair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>marut<c type="elided">u</c></form>
+<def>marutu-tree</def>
+<form type="sandhi">marut</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūṭu</form>
+<def>middle</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭant<c type="elided">u</c></form>
+<def>walked</def>
+<form type="sandhi">naṭant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭṭ<c type="elided">u</c></form>
+<def>do</def>
+<form type="sandhi">iṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇṭar-um</form>
+<def>celestial</def>
+<form type="simple">aṇṭar</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vāṉattavar-um</form>
+<def>heaven</def>
+<form type="simple">vāṉattavar</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>āyiram</form>
+<def>thousand</def>
+<form type="sandhi">āyiran</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nāmaṅkaḷōṭu</form>
+<def>name</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṇ</form>
+<def>firm</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṟal</form>
+<def>strength</def>
+<form type="sandhi">ṭiṟal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭa</form>
+<def>sing</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varuvāṉ</form>
+<def>appeared</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cittirakūṭatt<c type="elided">u</c></form>
+<def>Citrakūṭam</def>
+<form type="sandhi">cittirakūṭatt</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷḷāṉ-ē</form>
+<def>in-he</def>
+<form type="simple">uḷḷāṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
