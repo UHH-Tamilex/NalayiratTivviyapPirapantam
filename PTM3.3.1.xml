@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>3.3.1</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM3.3.1">
+<l>vāṭama rutiṭai pōki mallaraik koṉṟokkalit tiṭṭu</l>
+<l>āṭaṉṉaṉ māvuṭait tāya rāniraik kaṉṟiṭar tīrppāṉ</l>
+<l>kūṭiya māmaḻai kātta kūttaṉe ṉavaru kiṉṟāṉ</l>
+<l>cēṭuyar pūmpoḻil tillaic cittira kūṭattuḷ  ḷāṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The one who was able to come to be called the performer</l>
+<l rend="indent">who guarded against the excessive, great torrent</l>
+<l>To end the suffering that day for the herders and the cattle herd,</l>
+<l rend="indent">having split the fine, prancing horse,</l>
+<l>Killed the wrestlers, shouting [triumphantly],</l>
+<l rend="indent">and gone between the marutu [trees] so that they withered,</l>
+<l>He is the one present in Citrakūṭam in Tillai</l>
+<l rend="indent">with gardens of graceful, tall flowers.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM3.3.1"><interp type="alignment" select="0">9MG21MG8MG20MG12MG3MG51MG32MG5MG2M,171MG</interp>
+<entry>
+<form>vāṭa</form>
+<def>withered</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>marut<c type="elided">u</c></form>
+<def>marutu-tree</def>
+<form type="sandhi">marut</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭai</form>
+<def>between</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōki</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mallarai<c type="geminated">k</c></form>
+<def>wrestler</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṉṟ<c type="elided">u</c></form>
+<def>killed</def>
+<form type="sandhi">koṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>okkalitt<c type="elided">u</c></form>
+<def>shouting</def>
+<form type="sandhi">okkalitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭṭu</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭal</form>
+<def>prancing</def>
+<form type="sandhi">āṭaṉ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>fine</def>
+<form type="sandhi">ṉaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>horse</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uṭaitt<c type="elided">u</c></form>
+<def>split</def>
+<form type="sandhi"><c type="glide">v</c>uṭaitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyar</form>
+<def>cowherd</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ā</form>
+<def>cow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niraikk<c type="elided">u</c></form>
+<def>herd</def>
+<form type="sandhi">niraikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟ<c type="elided">u</c></form>
+<def>that day</def>
+<form type="sandhi">aṉṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭar</form>
+<def>suffering</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīrppāṉ</form>
+<def>end</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṭiya</form>
+<def>excessive</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>great</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maḻai</form>
+<def>rain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kātta</form>
+<def>guarded</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūttaṉ</form>
+<def>performer</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉa</form>
+<def>be called</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varu</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṉṟāṉ</form>
+<def>be able</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cēṭ<c type="elided">u</c></form>
+<def>graceful</def>
+<form type="sandhi">cēṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyar</form>
+<def>be-tall</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūm</form>
+<def>flower</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poḻil</form>
+<def>garden</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tillai<c type="geminated">c</c></form>
+<def>Tillai</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cittirakūṭatt<c type="elided">u</c></form>
+<def>Citrakūṭam</def>
+<form type="sandhi">cittirakūṭatt</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷḷāṉ-ē</form>
+<def>in-he</def>
+<form type="simple">uḷḷāṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
