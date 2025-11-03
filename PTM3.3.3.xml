@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -44,13 +41,12 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PTM3.3.3"><interp type="alignment" select="0">4MG18MG30MG19MG9MG3MG5MG12MG7MR43MG5MG2M,167MG</interp>
+<standOff type="wordsplit" corresp="#PTM3.3.3">
+<interp type="alignment" select="0">4MG18MG30MG19MG9MG3MG5MG12MG7MR43MG5MG2M,167MG</interp>
 <entry>
 <form>paṇṭ<c type="elided">u</c></form>
 <def>formerly</def>
 <form type="sandhi">paṇṭ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ivaṉ</form>
@@ -63,8 +59,6 @@
 <entry>
 <form>veṇṇey</form>
 <def>butter</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>uṇṭāṉ</form>
@@ -86,8 +80,6 @@
 <entry>
 <form>āycciyar</form>
 <def>cowherdess</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kūṭi</form>
@@ -106,8 +98,6 @@
 <entry>
 <form><c type="glide">v</c>eṇ</form>
 <def>eight</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ticaiyōr-um</form>
@@ -146,8 +136,6 @@
 <entry>
 <form>ūṭu</form>
 <def>middle</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>naṭant<c type="elided">u</c></form>
@@ -169,8 +157,6 @@
 <form>aṇṭar-um</form>
 <def>celestial</def>
 <form type="simple">aṇṭar</form>
-<gramGrp>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
@@ -187,8 +173,6 @@
 <form>āyiram</form>
 <def>thousand</def>
 <form type="sandhi">āyiran</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>nāmaṅkaḷōṭu</form>
@@ -237,6 +221,7 @@
 <form type="sandhi">cittirakūṭatt</form>
 <gramGrp>
   <gram type="role">proper name</gram>
+  <gram type="role">oblique</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -250,5 +235,6 @@
   <gram type="role">singular</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
