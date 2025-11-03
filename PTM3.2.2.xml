@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>3.2.2</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM3.2.2">
+<l>kāyō ṭunīṭu kaṉiyuṇ ṭuvīcu kaṭuṅkāl nukarntu neṭuṅkā lamaintu</l>
+<l>tīyō ṭuniṉṟu tavañcey yavēṇṭā tirumār paṉaiccin taiyuḷvait tumeṉpīr</l>
+<l>vāyō tuvētam malikiṉ ṟatolcīr maṟaiyā ḷarnāḷum muṟaiyāl vaḷartta</l>
+<l>tīyōṅ kavōṅkap pukaḻōṅ kutillait tiruccit rakūṭam ceṉṟucēr miṉkaḷē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>You who say, ‘We keep in mind the one with Tiru at his chest,’</l>
+<l rend="indent">it is not necessary to do penance,</l>
+<l>Staying with the five fires for long periods, eating overripe fruit with unripe,</l>
+<l rend="indent">suffering the fierce winds which buffet!</l>
+<l>Go and gather at Tiruccitrakūṭam in Tillai, where fame rises</l>
+<l rend="indent">since the flames continue to rise,</l>
+<l>Which Vedic experts of ancient fame, who broadcast the Vedas</l>
+<l rend="indent">chanted orally, nurture daily according to the rules,</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM3.2.2"><interp type="alignment" select="0">80MG149MG2M,232MG</interp>
+<entry>
+<form>kāyōṭu</form>
+<def>unripe fruit</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṭu</form>
+<def>be overripe</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉi</form>
+<def>ripe fruit</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṇṭu</form>
+<def>eating</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīcu</form>
+<def>buffet</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭum</form>
+<def>fast</def>
+<form type="sandhi">kaṭuṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl</form>
+<def>wind</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nukarntu</form>
+<def>suffering</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṭum</form>
+<def>long</def>
+<form type="sandhi">neṭuṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kālam</form>
+<def>time</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aintu</form>
+<def>five</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīyoṭu</form>
+<def>fire</def>
+<form type="sandhi">tīyōṭu</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟu</form>
+<def>staying</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tavam</form>
+<def>penance</def>
+<form type="sandhi">tavañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyya</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭām</form>
+<def>must-not</def>
+<form type="sandhi">vēṇṭā</form>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>Tiru</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mārpaṉai<c type="geminated">c</c></form>
+<def>chest-he</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cintai</form>
+<def>mind</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḷ</form>
+<def>in</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaittum</form>
+<def>keep</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpīr</form>
+<def>say-you</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>mouth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōtu</form>
+<def>chant</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vētam</form>
+<def>Veda</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malikiṉṟa</form>
+<def>broadcast</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tol</form>
+<def>ancient</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cīr</form>
+<def>fame</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟaiyāḷar</form>
+<def>Vedic experts</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷum</form>
+<def>daily</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>muṟaiyāl</form>
+<def>according to rule</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷartta</form>
+<def>nurture</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tī</form>
+<def>fire</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ōṅka</form>
+<def>rise</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ōṅka<c type="geminated">p</c></form>
+<def>rise</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukaḻ</form>
+<def>fame</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōṅku</form>
+<def>rise</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tillai<c type="geminated">t</c></form>
+<def>Tillai</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiruccitrakūṭam</form>
+<def>Tiruccitrakūṭam</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṉṟu</form>
+<def>go</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērmiṉkaḷ-ē</form>
+<def>gather</def>
+<form type="simple">cērmiṉkaḷ</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
