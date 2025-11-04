@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>3.5.1</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM3.5.1">
+<l>vantuṉa taṭiyēṉ maṉampukun tāypukun tataṟpiṉ ṇaṅkumeṉ</l>
+<l>cinta ṉaikkiṉi yāytiru vēyeṉ ṉāruyirē</l>
+<l>antaḷi raṇiyā racōki ṉiḷantaḷir kaḷkalan tavaiyeṅkum</l>
+<l>centaḻal puraiyum tiruvā liyammāṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Having come [here], you entered the mind of your servant, me;</l>
+<l rend="indent">after entering, you are sweetness for my thoughts which revere [you],</l>
+<l>My treasure, my dear life,</l>
+<l>Lord of sacred Āli where young leaves of the aśoka [tree],</l>
+<l rend="indent">covered with beautiful bud ornaments,</l>
+<l>Being jumbled everywhere, resemble scarlet flames.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM3.5.1"><interp type="alignment" select="0">4MG4MG32M2G18MG60MG42M,165MG</interp>
+<entry>
+<form>vant<c type="elided">u</c></form>
+<def>come</def>
+<form type="sandhi">vant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉat<c type="elided">u</c></form>
+<def>you</def>
+<form type="sandhi">uṉat</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">genitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭiyēṉ</form>
+<def>servant</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉam</form>
+<def>mind</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukuntāy</form>
+<def>enter</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukuntataṉ</form>
+<def>entering</def>
+<form type="sandhi">pukuntataṟ</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇaṅkum</form>
+<def>revere</def>
+<form type="sandhi">ṇaṅkum</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cintaṉaikk<c type="elided">u</c></form>
+<def>thoughts</def>
+<form type="sandhi">cintaṉaikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉiyāy</form>
+<def>sweetness</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiruvē</form>
+<def>treasure</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉ</form>
+<def>my-</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ār</form>
+<def>dear</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyirē</form>
+<def>life</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>am</form>
+<def>beautiful</def>
+<form type="sandhi">an</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taḷir</form>
+<def>bud</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇi</form>
+<def>ornament</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ār</form>
+<def>be-full-</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>acōkiṉ</form>
+<def>Aśoka tree</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷam</form>
+<def>young</def>
+<form type="sandhi">iḷan</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taḷirkaḷ</form>
+<def>leaves</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kalant<c type="elided">u</c></form>
+<def>jumbled</def>
+<form type="sandhi">kalant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avai</form>
+<def>those</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṅkum</form>
+<def>everywhere</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<form type="sandhi">cen</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taḻal</form>
+<def>flame</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puraiyum</form>
+<def>resemble</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>sacred</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āli</form>
+<def>Āli</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ammāṉē</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
