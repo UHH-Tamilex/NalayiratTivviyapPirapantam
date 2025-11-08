@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruviruttam</title> <num>64</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TV64">
+<l>irukkār moḻiyā ṉeṟiyiḻuk kāmai yulakaḷanta</l>
+<l>tiruttā ḷiṇainilat tēvar vaṇaṅkuvar yāmumavā</l>
+<l>vorukkā viṉaiyoṭu memmoṭu nontu kaṉiyiṉmaiyiṟ</l>
+<l>karukkāy kaṭippavar pōṟṟiru nāmaccoṟ kaṟṟaṉamē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>With words of ṛgvedic verse the gods on earth bow before the holy foot pair</l>
+<l>that measured the world without swerving from the path. We too, suffering</l>
+<l>from uncontrolled Karma and from ourselves, like people nibbling nascent</l>
+<l>unripe fruit in the absence of ripe fruit, have learned to speak [his] holy names with love.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TV64"><interp type="alignment" select="0">5MG9ML18MG41MG27M2GMR59MGM,169M</interp>
+<entry>
+<form>irukk<c type="elided">u</c></form>
+<def>Ṛg Veda</def>
+<form type="sandhi">irukk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ār</form>
+<def>be-full</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moḻiyāl</form>
+<def>word</def>
+<form type="sandhi">moḻiyāṉ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṟi</form>
+<def>path</def>
+<form type="sandhi">ṉeṟi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iḻukkāmai</form>
+<def>not-serwing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ulak<c type="elided">u</c></form>
+<def>world</def>
+<form type="sandhi"><c type="glide">y</c>ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷanta</form>
+<def>measured</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru<c type="geminated">t</c></form>
+<def>holiness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāḷ</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṇai</form>
+<def>pair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nila<c type="geminated">t</c></form>
+<def>ground</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēvar</form>
+<def>gods</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇaṅkuvar</form>
+<def>they-bow</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yām-um</form>
+<def>we</def>
+<form type="simple">yām</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>avā</form>
+<def>longing</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>orukkā</form>
+<def>control-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉaiyoṭum</form>
+<def>karma</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emmoṭ<c type="elided">u</c>-um</form>
+<def>us</def>
+<form type="simple">emmoṭu</form>
+<form type="sandhi">emmoṭ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">sociative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>nontu</form>
+<def>ached</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉi</form>
+<def>ripe fruit</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṉmaiyiṉ</form>
+<def>absence</def>
+<form type="sandhi"><c type="glide">y</c>iṉmaiyiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karu<c type="geminated">k</c></form>
+<def>embryo</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāy</form>
+<def>unripe fruit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭippavar</form>
+<def>nibble-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōl</form>
+<def>be-similar</def>
+<form type="sandhi">pōṟ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>holiness</def>
+<form type="sandhi">ṟiru</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāma<c type="geminated">c</c></form>
+<def>name</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>speak</def>
+<form type="sandhi">coṟ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṟṟaṉam-ē</form>
+<def>we-learned</def>
+<form type="simple">kaṟṟaṉam</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
