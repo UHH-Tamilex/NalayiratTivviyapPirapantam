@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -46,7 +43,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PTM3.8.2"><interp type="alignment" select="0">77MG5M2G54MG7MR61MR15M2G11MG9M,247MG</interp>
+<standOff type="wordsplit" corresp="#PTM3.8.2">
+<interp type="alignment" select="0">77MG5M2G54MG7MR61MR15M2G11MG9M,247MG</interp>
 <entry>
 <form>mutalai<c type="geminated">t</c></form>
 <def>crocodile</def>
@@ -255,8 +253,6 @@
 <entry>
 <form>neṟṟi<c type="geminated">p</c></form>
 <def>front</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>pavaḷa<c type="geminated">k</c></form>
@@ -348,9 +344,9 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṇimāṭa[<c type="geminated"></c>]</form>
+<form>maṇimāṭa[<c type="geminated"/>]</form>
 <def>Maṇimāṭa</def>
-<form type="sandhi">maṇimāṭak<c type="geminated"></c></form>
+<form type="sandhi">maṇimāṭak<c type="geminated"/></form>
 <gramGrp>
   <gram type="role">proper name</gram>
 </gramGrp>
@@ -367,7 +363,7 @@
 <def>worship</def>
 <form type="sandhi">vaṇaṅk</form>
 <gramGrp>
-  <gram type="role">verbal root</gram>
+  <gram type="role">imperative</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -385,5 +381,6 @@
 <gramGrp>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
