@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruviruttam</title> <num>72</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TV72">
+<l>cūḻkiṉṟa kaṅkuṟ curuṅkā viruḷiṉ karuntiṇimpaip</l>
+<l>pōḻkiṉṟa tiṅkaḷam piḷḷaiyum pōḻka tuḻāymalarkkē</l>
+<l>tāḻkiṉṟa neñcat torutami yāṭṭiyēṉ māmaikkiṉṟu</l>
+<l>vāḻkiṉṟa vāṟitu vōvantu tōṉṟiṟṟu vāliyatē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>a (= a new image of the moon as a ray of hope in the darkness)</l>
+<l>The moon child too, that cuts across the black denseness of unshrinking darkness</l>
+<l>in the surrounding night, let it cross. Is this the way to live on today</l>
+<l>for the dark complexion of me, one solitary woman, with a heart low</l>
+<l>because of the Tulsi blossoms? Something pure has turned up.</l>
+<l></l>
+<l>b (= the old topos of the moon that hinders the rendez-vous)</l>
+<l>Let the moon child too be split, that splits the black denseness of unshrinking darkness</l>
+<l>in the surrounding night. Is this the way to live on today</l> 
+<l>for the dark complexion of me, one solitary woman, with a heart low</l>
+<l>because of the Tulsi blossoms? Something white has turned up.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TV72"><interp type="alignment" select="0">64MG20M2G16MG22MG15MG3MG22M2GM,172M</interp>
+<entry>
+<form>cūḻkiṉṟa</form>
+<def>surrounding</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṅkul</form>
+<def>night</def>
+<form type="sandhi">kaṅkuṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>curuṅkā</form>
+<def>shrink-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iruḷiṉ</form>
+<def>darkness</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karum</form>
+<def>black</def>
+<form type="sandhi">karun</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṇimpai<c type="geminated">p</c></form>
+<def>denseness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōḻkiṉṟa</form>
+<def>crossing</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṅkaḷam</form>
+<def>moon</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷai-<c type="glide">y</c>um</form>
+<def>child</def>
+<form type="simple">piḷḷai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pōḻka</form>
+<def>may cross</def>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuḻāy</form>
+<def>tulasi</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malarkk<c type="elided">u</c>-ē</form>
+<def>blossom</def>
+<form type="simple">malarkku</form>
+<form type="sandhi">malarkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tāḻkiṉṟa</form>
+<def>being-low(pey.pres.)</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcatt<c type="elided">u</c></form>
+<def>heart</def>
+<form type="sandhi">neñcatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oru</form>
+<def>one</def>
+</entry>
+<entry>
+<form>tami</form>
+<def>solitude</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āṭṭiyēṉ</form>
+<def>woman-I</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māmaikk<c type="elided">u</c></form>
+<def>darkness</def>
+<form type="sandhi">māmaikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟu</form>
+<def>today</def>
+</entry>
+<entry>
+<form>vāḻkiṉṟa</form>
+<def>living</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āṟ<c type="elided">u</c></form>
+<def>way</def>
+<form type="sandhi"><c type="glide">v</c>āṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>itu-<c type="glide">v</c>ō</form>
+<def>this</def>
+<form type="simple">itu</form>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>vantu</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṉṟiṟṟu</form>
+<def>it appeared</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāliyat<c type="elided">u</c>-ē</form>
+<def>purity-it</def>
+<form type="simple">vāliyatu</form>
+<form type="sandhi">vāliyat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
