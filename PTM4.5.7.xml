@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>4.5.7</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM4.5.7">
+<l>kuṉṟamum vāṉum maṇṇuṅ kuḷirpuṉal tiṅka ḷōṭu niṉṟaveñ</l>
+<l>cuṭaru mallā nilaikaḷu māya ventai</l>
+<l>maṉṟamum vayaluṅ kāvum māṭamum maṇaṅkoṇ ṭeṅkum</l>
+<l>teṉṟalvan tulavum nāṅkūrt tirumaṇik kūṭat tāṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Our father who, besides the hills, the sky, the earth, cool waters,</l>
+<l>The moon, and the enduring hot sun, became [all] things that endure,</l>
+<l>Is the one in Tirumaṇikkūṭam in Nāṅkūr where the southern breeze wanders,</l>
+<l rend="indent">reaching everywhere,</l>
+<l>Bringing fragrances to village squares, paddy fields, gardens, and mansions.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM4.5.7"><interp type="alignment" select="0">6MG5MG5MG35MG14MG17MG7MG4MG8MG11MG15MG30MG2M,170MG</interp>
+<entry>
+<form>kuṉṟam-um</form>
+<def>hill</def>
+<form type="simple">kuṉṟam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vāṉ-um</form>
+<def>sky</def>
+<form type="simple">vāṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>maṇ-<c type="geminated">ṇ</c>um</form>
+<def>earth</def>
+<form type="simple">maṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kuḷir</form>
+<def>coldness</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>puṉal</form>
+<def>waters</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṅkaḷōṭu</form>
+<def>moon</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>enduring</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vem</form>
+<def>hot</def>
+<form type="sandhi">veñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṭar-um</form>
+<def>sun</def>
+<form type="simple">cuṭar</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>allā</form>
+<def>besides</def>
+<gramGrp>
+  <gram type="role">conjunction</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nilaikaḷ-um</form>
+<def>enduring things</def>
+<form type="simple">nilaikaḷ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>āya</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>entai</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉṟam-um</form>
+<def>village common</def>
+<form type="simple">maṉṟam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vayal-um</form>
+<def>paddy field</def>
+<form type="simple">vayal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kā-<c type="glide">v</c>um</form>
+<def>garden</def>
+<form type="simple">kā</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>māṭam-um</form>
+<def>mansion</def>
+<form type="simple">māṭam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>maṇam</form>
+<def>fragrance</def>
+<form type="sandhi">maṇaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭ<c type="elided">u</c></form>
+<def>bringing</def>
+<form type="sandhi">koṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṅkum</form>
+<def>everywhere</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>teṉṟal</form>
+<def>southern breeze</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vant<c type="elided">u</c></form>
+<def>come</def>
+<form type="sandhi">vant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulavum</form>
+<def>wander</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṅkūr<c type="geminated">t</c></form>
+<def>Nāṅkūr</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tirumaṇikkūṭattāṉ-ē</form>
+<def>Tirumaṇikkūṭam</def>
+<form type="simple">tirumaṇikkūṭattāṉ</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
