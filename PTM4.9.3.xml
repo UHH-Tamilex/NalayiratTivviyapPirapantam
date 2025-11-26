@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>4.9.3</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM4.9.3">
+<l>pēcu kiṉṟa tituvē vaiya mīra ṭiyālaḷanta</l>
+<l>mūci vaṇṭu muraluṅ kaṇṇi muṭiyī rumaikkāṇum</l>
+<l>ācai yeṉṉuṅ kaṭalil vīḻntiṅ kayarntō mayalārum</l>
+<l>ēcu kiṉṟa tituvē kāṇu minta ḷūrīrē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>What [I] am saying is just this: You with a garland crown,</l>
+<l>Where swarming bees hum, who measured the world in two steps,</l>
+<l>Sinking in the sea named ‘desire of seeing you,’ we faltered here.</l>
+<l>See, what others are scorning is just this, you of Intaḷūr.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM4.9.3"><interp type="alignment" select="0">10MG3MG2MG50MG30MG3MG14MG11MG3MG5MG13M,153MG</interp>
+<entry>
+<form>pēcukiṉṟat<c type="elided">u</c></form>
+<def>saying</def>
+<form type="sandhi">pēcukiṉṟat</form>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>itu-<c type="glide">v</c>ē:</form>
+<def>this</def>
+<form type="sandhi">itu<c type="glide">v</c>ē</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaiyam</form>
+<def>earth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īr</form>
+<def>two</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi</form>
+<def>step</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ālaḷanta</form>
+<def>measured</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūci</form>
+<def>swarmed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṭu</form>
+<def>bee</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muralum</form>
+<def>to hum</def>
+<form type="sandhi">muraluṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇi</form>
+<def>garlnad</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭiyīr</form>
+<def>crown</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ummai<c type="geminated">k</c></form>
+<def>you</def>
+<form type="sandhi">umai<c type="geminated">k</c></form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇum</form>
+<def>seeing</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ācai</form>
+<def>desire</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṉum</form>
+<def>called</def>
+<form type="sandhi"><c type="glide">y</c>eṉṉuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭalil</form>
+<def>sea</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīḻnt<c type="elided">u</c></form>
+<def>sinking</def>
+<form type="sandhi">vīḻnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṅk<c type="elided">u</c></form>
+<def>here</def>
+<form type="sandhi">iṅk</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ayarntōm</form>
+<def>faulter</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ayalār-um</form>
+<def>others</def>
+<form type="simple">ayalār</form>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ēcukiṉṟat<c type="elided">u</c></form>
+<def>scorn</def>
+<form type="sandhi">ēcukiṉṟat</form>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>itu-<c type="glide">v</c>ē</form>
+<def>this</def>
+<form type="simple">itu</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kāṇ-um</form>
+<def>see</def>
+<form type="simple">kāṇ</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>intaḷūrīrē</form>
+<def>Intaḷūr</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
