@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>4.7.6</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM4.7.6">
+<l>kallāl kaṭalai yaṇaikaṭ ṭiyukantāy</l>
+<l>nallār palarvē tiyarmaṉ ṉiyanāṅkūr</l>
+<l>celvā tiruveḷ ḷa<supplied>k</supplied>kuḷat  tuṟaivāṉē,</l>
+<l>yellā viṭaruṅ keṭumā ṟaruḷāyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>You who was pleased having built a dam of the sea with stones,</l>
+<l>Noble of Nāṅkūr where many good people [and] Vedic experts dwell,</l>
+<l>One who dwells in Tiruveḷḷakkuḷam,</l>
+<l>Be gracious in a way that all suffering is destroyed.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM4.7.6"><interp type="alignment" select="0">83MG19MG9MG6MG2M,92MG29MG</interp>
+<entry>
+<form>kallāl</form>
+<def>stone</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭalai</form>
+<def>sea</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṇai</form>
+<def>dam</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭṭi</form>
+<def>built</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ukantāy</form>
+<def>pleased-you</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nallār</form>
+<def>good-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>palar</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vētiyar</form>
+<def>Veda</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉṉiya</form>
+<def>remain</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṅkūr</form>
+<def>Nāṅkūr</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>celvā</form>
+<def>noble</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiruveḷḷakkuḷatt<c type="elided">u</c></form>
+<def>Tiruveḷḷakkuḷam</def>
+<form type="sandhi">tiruveḷḷakkuḷatt</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟaivāṉē</form>
+<def>dwells</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ellā</form>
+<def>all</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṭar-um</form>
+<def>affliction</def>
+<form type="simple">iṭar</form>
+<form type="sandhi"><c type="glide">v</c>iṭar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>keṭum</form>
+<def>destroyed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṟ<c type="elided">u</c></form>
+<def>way</def>
+<form type="sandhi">āṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aruḷāy-ē</form>
+<def>be gracious</def>
+<form type="simple">aruḷāy</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
