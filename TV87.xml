@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruviruttam</title> <num>87</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TV87">
+<l>pulampuṅ kaṉakuraṟ pōḻvāya vaṉṟilum pūṅkaḻipāyn</l>
+<l>talampuṅ kaṉakuraṟ cūḻtirai yāḻiyu māṅkavainiṉ</l>
+<l>valampuḷ ḷatunalam pāṭu mitukuṟṟa mākavaiyañ</l>
+<l>cilampum paṭiceyva tētiru mālit tiruviṉaiyē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The lamenting, hoarse-voiced Aṉṟil with gaping mouth and the murmuring</l>
+<l>hoarse-voiced ocean with surrounding waves, leaping over into the flowered backwaters,</l>
+<l>they are like that. She sings the goodness of your strong bird. If this is a fault,</l>
+<l>acting in a way that the world resounds [with it], is this the holy work of Tirumāl?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TV87"><interp type="alignment" select="0">30M2G14MG28MG6MG65M2G19MG2M,172M</interp>
+<entry>
+<form>pulampum</form>
+<def>lamenting</def>
+<form type="sandhi">pulampuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉa</form>
+<def>be-hoarse</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kural</form>
+<def>voice</def>
+<form type="sandhi">kuraṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōḻ</form>
+<def>be-cleft</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāya</form>
+<def>mouth</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṉṟil<c type="elided">u</c>-um</form>
+<def>Aṉṟil bird</def>
+<form type="simple">aṉṟilu</form>
+<form type="sandhi"><c type="glide">v</c>aṉṟil</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pūm</form>
+<def>flower</def>
+<form type="sandhi">pūṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḻi</form>
+<def>backwaters</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāynt<c type="elided">u</c></form>
+<def>leapt</def>
+<form type="sandhi">pāynt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alampum</form>
+<def>murmuring</def>
+<form type="sandhi">alampuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉa</form>
+<def>be-hoarse</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kural</form>
+<def>voice</def>
+<form type="sandhi">kuraṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻ</form>
+<def>surround</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirai</form>
+<def>wave</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āḻi-<c type="glide">y</c>um</form>
+<def>ocean</def>
+<form type="simple">āḻi</form>
+<form type="sandhi"><c type="glide">y</c>āḻi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>āṅk<c type="elided">u</c></form>
+<def>there</def>
+<form type="sandhi">āṅk</form>
+</entry>
+<entry>
+<form>avai</form>
+<def>those</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
+<def>your</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>valam</form>
+<def>strength</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puḷḷatu</form>
+<def>bird</def>
+<gramGrp>
+  <gram type="role">genitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nalam</form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭum</form>
+<def>sings</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>itu</form>
+<def>this</def>
+</entry>
+<entry>
+<form>kuṟṟam</form>
+<def>mistake</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaiyam</form>
+<def>world</def>
+<form type="sandhi">vaiyañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cilampum</form>
+<def>resounding</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭi</form>
+<def>manner</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyvat<c type="elided">u</c>-ē</form>
+<def>acting</def>
+<form type="simple">ceyvatu</form>
+<form type="sandhi">ceyvat</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tirumāl</form>
+<def>Tirumāl</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">t</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>tiru</form>
+<def>sacredness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉai-<c type="glide">y</c>ē</form>
+<def>work</def>
+<form type="simple">viṉai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
