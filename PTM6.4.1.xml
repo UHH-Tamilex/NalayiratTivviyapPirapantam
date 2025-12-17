@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -42,7 +39,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PTM6.4.1"><interp type="alignment" select="0">3MG18MG8MG44MG8MG8MG7MG14MR29M,146MG</interp>
+<standOff type="wordsplit" corresp="#PTM6.4.1">
+<interp type="alignment" select="0">3MG18MG8MG44MG8MG8MG7MG14MR29M,146MG</interp>
 <entry>
 <form>kaṇ-<c type="geminated">ṇ</c>um</form>
 <def>eye</def>
@@ -114,8 +112,6 @@
 <entry>
 <form>paiya</form>
 <def>carefully</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>naṭamiṉ</form>
@@ -135,8 +131,6 @@
 <entry>
 <form>muṉ</form>
 <def>before</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>viṇ-<c type="geminated">ṇ</c>um</form>
@@ -195,8 +189,6 @@
 <entry>
 <form>naṟaiyūr</form>
 <def>Naṟaiyūr</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>nām</form>
@@ -219,7 +211,7 @@
 <form>eḻu</form>
 <def>rise</def>
 <gramGrp>
-  <gram type="role">verbal root</gram>
+  <gram type="role">imperative</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -228,5 +220,6 @@
 <gramGrp>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
