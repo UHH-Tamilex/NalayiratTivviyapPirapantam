@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -42,13 +39,12 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PTM6.4.2"><interp type="alignment" select="0">4MG33MG20MG3MG39MG39M,142MG</interp>
+<standOff type="wordsplit" corresp="#PTM6.4.2">
+<interp type="alignment" select="0">4MG33MG20MG3MG39MG39M,142MG</interp>
 <entry>
 <form>koṅk<c type="elided">u</c></form>
 <def>fragrance</def>
 <form type="sandhi">koṅk</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>uṇ</form>
@@ -98,8 +94,6 @@
 <form>iṅk<c type="elided">u</c></form>
 <def>here</def>
 <form type="sandhi">iṅk</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>eṉ</form>
@@ -161,8 +155,6 @@
 <entry>
 <form>muṉ</form>
 <def>before</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>tiṅkaḷ</form>
@@ -220,8 +212,6 @@
 <entry>
 <form>uṭai</form>
 <def>possess</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>naṅkaḷ</form>
@@ -234,8 +224,6 @@
 <entry>
 <form>naṟaiyūr</form>
 <def>Naṟaiyūr</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>nām</form>
@@ -258,7 +246,7 @@
 <form>eḻu</form>
 <def>rise</def>
 <gramGrp>
-  <gram type="role">verbal root</gram>
+  <gram type="role">imperative</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -267,5 +255,6 @@
 <gramGrp>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
