@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>6.5.7</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM6.5.7">
+<l>muntu nūlum muppu rinūlum muṉṉīnta</l>
+<l>anta ṇāḷaṉ piḷḷai yaiyaññāṉ ṟaḷittāṉūr</l>
+<l>pontil vāḻum piḷḷaik kākip puḷḷōṭi</l>
+<l>nantu vārum paimpu ṉalvāvi naṟaiyūrē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The city of him who gave [back] that day the young one of the brahmin</l>
+<l>Who had previously given [him] the ancient threads</l>
+<l rend="indent">and thrice-twined [sacred] thread,</l>
+<l>Is Naṟaiyūr with stepwells of fresh water where a bird runs [in]</l>
+<l rend="indent">and scoops up snails,</l>
+<l>For the sake of the young ones which live in the hollow [of a tree].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM6.5.7"><interp type="alignment" select="0">8MG12MG35MG28MG42MG2M,131MG</interp>
+<entry>
+<form>muntu</form>
+<def>ancient</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nūl-um</form>
+<def>thread</def>
+<form type="simple">nūl</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>mu<c type="geminated">p</c></form>
+<def>three</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>puri</form>
+<def>twined</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nūl-um</form>
+<def>thread</def>
+<form type="simple">nūl</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>previously</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>īnta</form>
+<def>given</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>antaṇāḷaṉ</form>
+<def>brahmin</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷaiyai</form>
+<def>child</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>a<c type="geminated">ñ</c></form>
+<def>that</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ñāṉṟ<c type="elided">u</c></form>
+<def>day</def>
+<form type="sandhi">ñāṉṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷittāṉ</form>
+<def>gave</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūr</form>
+<def>city</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pontil</form>
+<def>hollow</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻum</form>
+<def>live</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷaikk<c type="elided">u</c></form>
+<def>child</def>
+<form type="sandhi">piḷḷaikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āki<c type="geminated">p</c></form>
+<def>being</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puḷ</form>
+<def>bird</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ḷ</c>ōṭi</form>
+<def>run</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nantu</form>
+<def>snail</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vārum</form>
+<def>scoop up</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paim</form>
+<def>fresh</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṉal</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāvi</form>
+<def>stepwell</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṟaiyūr-ē</form>
+<def>Naṟaiyūr</def>
+<form type="simple">naṟaiyūr</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
