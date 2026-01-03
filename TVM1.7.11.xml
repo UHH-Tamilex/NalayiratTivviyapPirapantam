@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>1.7.11</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM1.7.11">
+<l>kuṭaintuvaṇ ṭuṇṇum tuḻāymuṭi yāṉai</l>
+<l>yaṭainta teṉ kurukūrccaṭa kōpaṉ</l>
+<l>miṭainta col toṭai yāyirattippat</l>
+<l>tuṭaintu nōykaḷai yōṭu vikkumē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>These ten in the thousand of the wreath of words set close</l>
+<l>by Caṭakōpaṉ from southern Kurukūr who approaches</l>
+<l>the one with the Tulsi crown worked through [and] eaten by bees</l>
+<l>will break [and] chase away pains.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM1.7.11"><interp type="alignment" select="0">12MG71MG6MG25MGM,119M</interp>
+<entry>
+<form>kuṭaintu</form>
+<def>worked-through</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṭ<c type="elided">u</c></form>
+<def>bee</def>
+<form type="sandhi">vaṇṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṇum</form>
+<def>eating</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuḻāy</form>
+<def>tulasi</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭiyāṉai</form>
+<def>crown</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṭainta</form>
+<def>reached</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teṉ</form>
+<def>south</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kurukūr<c type="geminated">c</c></form>
+<def>Kurukūr</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭakōpaṉ</form>
+<def>Caṭakōpaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṭainta</form>
+<def>set-close</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṭai</form>
+<def>wreath</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āyiratt<c type="elided">u</c></form>
+<def>thousand</def>
+<form type="sandhi"><c type="glide">y</c>āyiratt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">p</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>patt<c type="elided">u</c></form>
+<def>ten</def>
+<form type="sandhi">patt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaintu</form>
+<def>broken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōykaḷai</form>
+<def>pains</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ōṭuvikkum-ē</form>
+<def>will chase away</def>
+<form type="simple">ōṭuvikkum</form>
+<form type="sandhi"><c type="glide">y</c>ōṭuvikkum</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+  <gram type="role">causative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

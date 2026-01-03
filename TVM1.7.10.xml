@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>1.7.10</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM1.7.10">
+<l>akali lakalu maṇuki laṇukum</l>
+<l>pukalu mariyaṉ poruvalla ṉemmā</l>
+<l>ṉikari lavaṉpukaḻ pāṭi yiḷaippilam</l>
+<l>pakalu miravum paṭintu kuṭaintē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>If one leaves he leaves. If one comes close he comes close.</l>
+<l>He is difficult to enter, he is without equal, our lord.</l>
+<l>Singing the praise of him who is matchless we are without fatigue,</l>
+<l>day and night settling [and] toiling.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM1.7.10"><interp type="alignment" select="0">29MG23ML26MG9MG6M2G16M2GM,118M</interp>
+<entry>
+<form>akalil</form>
+<def>depart-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akalum</form>
+<def>departs</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇukil</form>
+<def>approach-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇukum</form>
+<def>approaches</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukal-um</form>
+<def>entering</def>
+<form type="simple">pukal</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ariyaṉ</form>
+<def>difficult-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poru</form>
+<def>equal</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>allaṉ</form>
+<def>not-so-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emmāṉ</form>
+<def>our Lord</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nikar</form>
+<def>lustre</def>
+<form type="sandhi">ṉikar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
+<def>that one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukaḻ</form>
+<def>praise</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭi</form>
+<def>sung</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iḷaipp<c type="elided">u</c></form>
+<def>fatigue</def>
+<form type="sandhi"><c type="glide">y</c>iḷaipp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilam</form>
+<def>not-we</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pakal-um</form>
+<def>midday</def>
+<form type="simple">pakal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>irav<c type="elided">u</c>-um</form>
+<def>night</def>
+<form type="simple">iravu</form>
+<form type="sandhi">irav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>paṭintu</form>
+<def>having settled</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭaint<c type="elided">u</c>-ē</form>
+<def>toiled</def>
+<form type="simple">kuṭaintu</form>
+<form type="sandhi">kuṭaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
