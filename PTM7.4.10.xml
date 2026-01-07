@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -46,7 +43,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PTM7.4.10"><interp type="alignment" select="0">48MG149M2G2M,201MG</interp>
+<standOff type="wordsplit" corresp="#PTM7.4.10">
+<interp type="alignment" select="0">48MG149M2G2M,201MG</interp>
 <entry>
 <form>pū</form>
 <def>flower</def>
@@ -182,8 +180,6 @@
 <entry>
 <form>cēṟai</form>
 <def>Cēṟai</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>ammāṉ</form>
@@ -226,14 +222,10 @@
 <entry>
 <form>parakālaṉ</form>
 <def>Parakālaṉ</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kalikaṉṟi</form>
 <def>Kalikaṉṟi</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>oli</form>
@@ -303,8 +295,6 @@
 <entry>
 <form>mēl</form>
 <def>atop</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>cūṭṭumiṉ</form>
@@ -354,5 +344,6 @@
   <gram type="role">absolutive</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
