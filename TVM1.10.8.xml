@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>1.10.8</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM1.10.8">
+<l>celva nāraṇa ṉeṉṟacol kēṭṭalu</l>
+<l>malkuṅ kaṇpaṉi nāṭuvaṉ māyamē</l>
+<l>yallu naṉpaka lumiṭai vīṭiṉṟi</l>
+<l>nalki yeṉṉai viṭā ṉampi nampiyē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>As soon as I hear the word that say “o lord, Nārāyaṇa”,</l>
+<l>tears well up in [my] eyes. I ponder the wonder.</l>
+<l>By night and by day without release</l>
+<l>he grants [his presence and] does not let me go, Nampi, Nampi.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM1.10.8"><interp type="alignment" select="0">5MR20MG2ML24MG4MG2MR8MG9MG20ML9MG2M,115M</interp>
+<entry>
+<form>celvam</form>
+<def>prosperity</def>
+<form type="sandhi">celvan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāraṇaṉ</form>
+<def>Nārāyaṇa</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟa</form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭal-um</form>
+<def>hearing</def>
+<form type="simple">kēṭṭal</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>malkum</form>
+<def>increase</def>
+<form type="sandhi">malkuṅ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṉi</form>
+<def>tear</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṭuvaṉ</form>
+<def>I ponder</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māyam-ē</form>
+<def>wonder</def>
+<form type="simple">māyam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>al-<c type="geminated">l</c>um</form>
+<def>night</def>
+<form type="simple">al</form>
+<form type="sandhi"><c type="glide">y</c>al</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+<form type="sandhi">naṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pakal-um</form>
+<def>day</def>
+<form type="simple">pakal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iṭai</form>
+<def>middle</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīṭ<c type="elided">u</c></form>
+<def>release</def>
+<form type="sandhi">vīṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟi</form>
+<def>without</def>
+</entry>
+<entry>
+<form>nalki</form>
+<def>granted</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṉai</form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭāṉ</form>
+<def>let-go-not-he</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nampi</form>
+<def>his lordship</def>
+<form type="sandhi">ṉampi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nampi-<c type="glide">y</c>ē</form>
+<def>his lordship</def>
+<form type="simple">nampi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

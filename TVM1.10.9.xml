@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>1.10.9</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM1.10.9">
+<l>nampi yaitteṉ kuṟuṅkuṭi niṉṟavac</l>
+<l>cempo ṉētika ḻuntiru mūrttiyai</l>
+<l>yumpar vāṉava rātiyañ cōtiyai</l>
+<l>yempi rāṉaiyeṉ colli maṟappaṉō.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Nampi, the brilliant form that shines with that</l>
+<l>red gold who stays in southern Kuṟuṅkuṭi,</l>
+<l>the primordial effulgence of the celestials beyond,</l>
+<l>our lord, saying what will I forget him?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM1.10.9"><interp type="alignment" select="0">35MG73MG2M,111MG</interp>
+<entry>
+<form>nampiyai<c type="geminated">t</c></form>
+<def>his lordship</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teṉ</form>
+<def>south</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟuṅkuṭi</form>
+<def>Kuṟuṅkuṭi</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>stood</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>a<c type="geminated">c</c></form>
+<def>that-</def>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉ-ē</form>
+<def>gold</def>
+<form type="simple">poṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tikaḻum</form>
+<def>glittering</def>
+<form type="sandhi">tikaḻun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>brilliance</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūrttiyai</form>
+<def>manifestation</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>umpar</form>
+<def>beyond</def>
+</entry>
+<entry>
+<form>vāṉavar</form>
+<def>celestials</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ātiyam</form>
+<def>beginning</def>
+<form type="sandhi">ātiyañ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cōtiyai</form>
+<def>light</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>empirāṉai</form>
+<def>our lord</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉ</form>
+<def>what</def>
+</entry>
+<entry>
+<form>colli</form>
+<def>spoken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟappaṉ-ō</form>
+<def>I forget</def>
+<form type="simple">maṟappaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry></standOff>
+</TEI>
