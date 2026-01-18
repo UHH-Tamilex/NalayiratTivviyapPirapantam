@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>2.2.10</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM2.2.10">
+<l>kaḷvā vemmaiyu mēḻu lakuni</l>
+<l>ṉuḷḷē tōṟṟiya viṟaiva veṉṟu</l>
+<l>veḷḷēṟa ṉāṉmuka ṉintiraṉ vāṉavar</l>
+<l>puḷḷūr tikaḻal paṇintēt tuvarē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Saying “o robber, lord who made appear inside</l>
+<l>yourself both us and the seven worlds”,</l>
+<l>the one on the white bull the one with four faces, Indra [and] the celestials</l>
+<l>humbly praise the anklet[ted feet] of [him on] the bird vehicle.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM2.2.10"><interp type="alignment" select="0">11MG9M2GMR5MG29ML40MG7MGM,111M</interp>
+<entry>
+<form>kaḷvā</form>
+<def>robber</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>emmai-<c type="glide">y</c>um</form>
+<def>us</def>
+<form type="simple">emmai</form>
+<form type="sandhi"><c type="glide">v</c>emmai</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ēḻ</form>
+<def>seven</def>
+</entry>
+<entry>
+<form>ulak<c type="elided">u</c>-um</form>
+<def>world</def>
+<form type="simple">ulaku</form>
+<form type="sandhi">ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
+<def>your</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷ-<c type="geminated">ḷ</c>ē</form>
+<def>inside</def>
+<form type="simple">uḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tōṟṟiya</form>
+<def>made-appear</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṟaiva</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉṟu</form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷ</form>
+<def>white</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ḷ</c>ēṟaṉ</form>
+<def>bull-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāl</form>
+<def>four</def>
+<form type="sandhi">ṉāṉ</form>
+</entry>
+<entry>
+<form>mukaṉ</form>
+<def>face-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>intiraṉ</form>
+<def>Intiraṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉavar</form>
+<def>celestials</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puḷ</form>
+<def>bird</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ḷ</c>ūrti</form>
+<def>vehicle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḻal</form>
+<def>ankleted foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṇint<c type="elided">u</c></form>
+<def>been-humble</def>
+<form type="sandhi">paṇint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēttuvar-ē</form>
+<def>they praise</def>
+<form type="simple">ēttuvar</form>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

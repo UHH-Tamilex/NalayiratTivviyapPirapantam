@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>2.2.11</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM2.2.11">
+<l>ētta vēḻula kuṅkoṇṭa kōlak</l>
+<l>kūtta ṉaikkuru kūrccaṭa kōpaṉcol</l>
+<l>vāynta vāyirat tuḷḷivai pattuṭa</l>
+<l>ṉētta vallārk killaiyō rūṉamē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>For those able to praise</l>
+<l>with these ten among the excellent thousand</l>
+<l>spoken by Caṭakōpaṉ from Kurukūr on the beautiful</l>
+<l>dancer who took the seven worlds while they were praising</l>
+	<l>the will be no deficiency.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM2.2.11"><interp type="alignment" select="0">11M2G55MG11MG16MG12MGM,112M</interp>
+<entry>
+<form>ētta</form>
+<def>praise</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ēḻ</form>
+<def>seven</def>
+</entry>
+<entry>
+<form>ulak<c type="elided">u</c>-um</form>
+<def>world</def>
+<form type="simple">ulaku</form>
+<form type="sandhi">ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>koṇṭa</form>
+<def>taken</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōla<c type="geminated">k</c></form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūttaṉai<c type="geminated">k</c></form>
+<def>dancer</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kurukūr<c type="geminated">c</c></form>
+<def>Kurukūr</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭakōpaṉ</form>
+<def>Caṭakōpaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>speak</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāynta</form>
+<def>been-excellent</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āyiratt<c type="elided">u</c></form>
+<def>thousand</def>
+<form type="sandhi"><c type="glide">v</c>āyiratt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷ</form>
+<def>inside</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ḷ</c>ivai</form>
+<def>these</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>patt<c type="elided">u</c></form>
+<def>ten</def>
+<form type="sandhi">patt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaṉ</form>
+<def>together</def>
+</entry>
+<entry>
+<form>ētta</form>
+<def>praise</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vallārkk<c type="elided">u</c></form>
+<def>capable-they</def>
+<form type="sandhi">vallārkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illai</form>
+<def>is not</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ōr</form>
+<def>one</def>
+</entry>
+<entry>
+<form>ūṉam-ē</form>
+<def>deficiency</def>
+<form type="simple">ūṉam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

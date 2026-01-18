@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>2.2.7</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM2.2.7">
+<l>paḷḷi yālilai yēḻula kuṅkoḷḷum</l>
+<l>vaḷḷal valva yiṟṟu perumā</l>
+<l>ṉuḷḷu ḷāraṟi vāra vaṉṟaṉ</l>
+<l>kaḷḷa māya maṉakka ruttē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>A banyan leaf as a bed, our lord with a strong stomach</l>
+<l>that took the seven worlds, a liberal donor,</l>
+<l>who will know in [their] minds the intention</l>
+<l>of his deceptive, illusive mind?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM2.2.7"><interp type="alignment" select="0">19M2G56MR4MR11M2GM,97M</interp>
+<entry>
+<form>paḷḷi</form>
+<def>resting place</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āl</form>
+<def>banyan tree</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilai</form>
+<def>leaf</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ēḻ</form>
+<def>seven</def>
+</entry>
+<entry>
+<form>ulak<c type="elided">u</c>-um</form>
+<def>world</def>
+<form type="simple">ulaku</form>
+<form type="sandhi">ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>koḷḷum</form>
+<def>taking</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷḷal</form>
+<def>donor</def>
+</entry>
+<entry>
+<form>val</form>
+<def>strong</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vayiṟṟu</form>
+<def>belly</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumāṉ</form>
+<def>great one</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷ<c type="geminated">ḷ</c></form>
+<def>inside</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷ</form>
+<def>inside</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ār</form>
+<def>who</def>
+</entry>
+<entry>
+<form>aṟivār</form>
+<def>they know</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
+<def>that one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<form type="sandhi">ṟaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷḷa<c type="uncertain">m</c></form>
+<def>deception</def>
+<form type="sandhi">kaḷḷam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māya<c type="uncertain">m</c></form>
+<def>illusion</def>
+<form type="sandhi">māyam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉa<c type="geminated">k</c></form>
+<def>mind</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karutt<c type="elided">u</c>-ē</form>
+<def>intention</def>
+<form type="simple">karuttu</form>
+<form type="sandhi">karutt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

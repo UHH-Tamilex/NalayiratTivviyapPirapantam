@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>2.2.8</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM2.2.8">
+<l>karutti ṟēvu mellāp poruḷum</l>
+<l>varuttitta māyap pirāṉaiyaṉṟi yārē</l>
+<l>tiruttit tiṇṇilai mūvulakun taṉṉu</l>
+<l>ḷiruttik kākku miyalvi ṉārē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Except for the illusive lord who made grow</l>
+<l>by [his] intention the gods and all things, who</l>
+<l>is of the nature to perfectly create [and] guard</l>
+<l>inside himself the three world of solid state?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM2.2.8"><interp type="alignment" select="0">8ML2M2G12MG32MG24M2G30MGM,117M</interp>
+<entry>
+<form>karuttiṉ</form>
+<def>intention</def>
+<form type="sandhi">karuttiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēv<c type="elided">u</c>-um</form>
+<def>god</def>
+<form type="simple">tēvu</form>
+<form type="sandhi">ṟēv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ellā<c type="geminated">p</c></form>
+<def>all</def>
+</entry>
+<entry>
+<form>poruḷ-um</form>
+<def>object</def>
+<form type="simple">poruḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>varuttitta</form>
+<def>made-grow</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māya<c type="geminated">p</c></form>
+<def>illusion</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāṉai</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉṟi</form>
+<def>besides</def>
+</entry>
+<entry>
+<form>yār-ē</form>
+<def>who</def>
+<form type="simple">yār</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tirutti<c type="geminated">t</c></form>
+<def>perfected</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṇ</form>
+<def>firm</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nilai</form>
+<def>standing</def>
+<form type="sandhi">ṇilai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mū</form>
+<def>three</def>
+</entry>
+<entry>
+<form><c type="glide">v</c>ulak<c type="elided">u</c>-um</form>
+<def>world</def>
+<form type="simple">ulaku</form>
+<form type="sandhi"><c type="glide">v</c>ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>uḷ</form>
+<def>inside</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irutti<c type="geminated">k</c></form>
+<def>made-stay</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kākkum</form>
+<def>guarding</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyalviṉār-ē</form>
+<def>nature-they</def>
+<form type="simple">iyalviṉār</form>
+<gramGrp>
+  <gram type="role">pronominal noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
