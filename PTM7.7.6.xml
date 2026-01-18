@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>7.7.6</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM7.7.6">
+<l>tōyā viṉtayir neyyamu tuṇṇac coṉṉār collina kumparicē peṟṟa</l>
+<l>tāyā lāppuṇṭi runtaḻu tēṅkun tāṭā ḷātarai yōrkkumviṇ ṇōrkkum</l>
+<l>cēyāy kirētati rētatu vāpa rakali yukamivai nāṉkumu ṉāṉāy</l>
+<l>āyā niṉṉaṭi yaṉṟimaṟ ṟaṟiyē ṉaḻuntūr mēlticai niṉṟavam māṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>You of powerful feet who sobbed, wailing,</l>
+<l rend="indent">being tied by the mother who got [you],</l>
+<l>When you ate the sweet, uncongealed curds, ghee, and milk</l>
+<l rend="indent">in a way that those who spoke, telling [of it], laughed,</l>
+<l>You who are remote from those of heaven and those of earth,</l>
+<l rend="indent">you who long ago became the four yugas: Kreta, Treta, Dvāpara, and Kali,</l>
+<l>Herder, besides your feet, I do not know any[thing] other,</l>
+<l rend="indent">lord who stands at the west side of Aḻuntūr.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM7.7.6"><interp type="alignment" select="0">20MG26M2G17MG5MG4MG21M2G10M2G46ML25MG34M,219MG</interp>
+<entry>
+<form>tōyā</form>
+<def>congeal-not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṉ</form>
+<def>sweet</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tayir</form>
+<def>curd</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ney</form>
+<def>ghee</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">y</c>amut<c type="elided">u</c></form>
+<def>milk</def>
+<form type="sandhi"><c type="geminated">y</c>amut</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṇa<c type="geminated">c</c></form>
+<def>ate</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>coṉṉār</form>
+<def>spoke</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>colli</form>
+<def>telling</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakum</form>
+<def>laughed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paric<c type="elided">u</c>-ē</form>
+<def>way</def>
+<form type="simple">paricu</form>
+<form type="sandhi">paric</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>peṟṟa</form>
+<def>got</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāyāl</form>
+<def>mother</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āppuṇṭ<c type="elided">u</c></form>
+<def>tied</def>
+<form type="sandhi">āppuṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irunt<c type="elided">u</c></form>
+<def>being</def>
+<form type="sandhi">irunt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻut<c type="elided">u</c></form>
+<def>sobbed</def>
+<form type="sandhi">aḻut</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṅkum</form>
+<def>wailing</def>
+<form type="sandhi">ēṅkun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṭāḷā</form>
+<def>powerful feet</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taraiyōrkk<c type="elided">u</c>-um</form>
+<def>earth</def>
+<form type="simple">taraiyōrkku</form>
+<form type="sandhi">taraiyōrkk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>viṇṇōrkk<c type="elided">u</c>-um</form>
+<def>heaven</def>
+<form type="simple">viṇṇōrkku</form>
+<form type="sandhi">viṇṇōrkk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cēyāy</form>
+<def>remote</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kirēta</form>
+<def>Kreta</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirēta</form>
+<def>Treta</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuvāpara</form>
+<def>Dvāpara</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kali</form>
+<def>Kali</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yukam</form>
+<def>yuga</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivai</form>
+<def>these</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉkum</form>
+<def>four</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>previously</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉāy</form>
+<def>became</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyā</form>
+<def>herder</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
+<def>your</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>aṭi</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉṟi</form>
+<def>besides</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>other</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟiyēṉ</form>
+<def>I don't know</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻuntūr</form>
+<def>Aḻantūr</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>west</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ticai</form>
+<def>direction</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>stood</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ammāṉē</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
