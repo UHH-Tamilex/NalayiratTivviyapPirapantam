@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>2.2.5</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM2.2.5">
+<l>takumcīrt taṉṟaṉi mutali ṉuḷḷē</l>
+<l>mikuntē vummep poruḷum paṭaikkat</l>
+<l>takuṅkō lattā maraikkaṇṇa ṉemmāṉ</l>
+<l>mikuñcō timēla raṟivār yavarē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Inside his sole base of befitting excellence</l>
+<l>to create all the many gods and things</l>
+<l>our lord Kṛṣṇa with befitting beautiful lotus eyes,</l>
+<l>who are those who know [any] above [him] in ample splendour?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM2.2.5"><interp type="alignment" select="0">25MG10M2G10MG65MGM,116M</interp>
+<entry>
+<form>takum</form>
+<def>befitting</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cīr<c type="geminated">t</c></form>
+<def>excellence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉi</form>
+<def>solitude</def>
+<form type="sandhi">ṟaṉi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutaliṉ</form>
+<def>base</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷ-<c type="geminated">ḷ</c>ē</form>
+<def>inside</def>
+<form type="simple">uḷ</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>mikum</form>
+<def>being-numerous</def>
+<form type="sandhi">mikun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēv<c type="elided">u</c>-um</form>
+<def>god</def>
+<form type="simple">tēvu</form>
+<form type="sandhi">tēv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>e<c type="geminated">p</c></form>
+<def>what</def>
+</entry>
+<entry>
+<form>poruḷ-um</form>
+<def>matter</def>
+<form type="simple">poruḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>paṭaikka<c type="geminated">t</c></form>
+<def>create</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>takum</form>
+<def>befitting</def>
+<form type="sandhi">takuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōla<c type="geminated">t</c></form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāmarai<c type="geminated">k</c></form>
+<def>lotus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<superEntry type="ambiguous">
+<entry><entry>
+<form>kaṇṇaṉ</form>
+<def>Kaṇṇaṉ</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry></entry>
+<entry><entry>
+<form>kaṇṇaṉ</form>
+<def>eye-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
+<entry>
+<form>emmāṉ</form>
+<def>our Lord</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mikum</form>
+<def>increasing</def>
+<form type="sandhi">mikuñ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cōti</form>
+<def>light</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēlar</form>
+<def>above-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟivār</form>
+<def>they know</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yavar-ē</form>
+<def>who</def>
+<form type="simple">yavar</form>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
