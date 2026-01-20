@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>2.3.5</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM2.3.5">
+<l>iṉiyār ñāṉaṅkaḷā leṭukka leḻāta ventāy</l>
+<l>kaṉivār vīṭṭiṉpa mēyeṉ kaṭaṟpaṭā vamutē</l>
+<l>taṉiyēṉ vāḻmutalē poḻilēḻu mēṉa moṉṟāy</l>
+<l>nuṉiyār kōṭṭil vaittā yuṉpātañ cērntēṉē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Now who [is there] to weigh [you] by cognitions, my father who does not rise?</l>
+<l>Pleasure of liberation, full of compassion, ambrosia that did not touch the sea,</l>
+<l>living basis of solitary me – I joined the feet of you who as a boar</l>
+<l>placed on [you] pointed tusk all the seven groves.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM2.3.5"><interp type="alignment" select="0">39MG6MG5MG18M2G16MG8MG9MG36MGM,147M</interp>
+<entry>
+<form>iṉi</form>
+<def>now</def>
+</entry>
+<entry>
+<form>yār</form>
+<def>who</def>
+</entry>
+<entry>
+<form>ñāṉaṅkaḷāl</form>
+<def>cognition</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṭukkal</form>
+<def>lifting</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻāta</form>
+<def>rise-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>entāy</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉiv<c type="elided">u</c></form>
+<def>compassion</def>
+<form type="sandhi">kaṉiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ār</form>
+<def>be full</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīṭṭ<c type="elided">u</c></form>
+<def>liberation</def>
+<form type="sandhi">vīṭṭ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉpam-ē</form>
+<def>pleasure</def>
+<form type="simple">iṉpam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal</form>
+<def>sea</def>
+<form type="sandhi">kaṭaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭā</form>
+<def>happen-not</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>amut<c type="elided">u</c>-ē</form>
+<def>ambrosia</def>
+<form type="simple">amutu</form>
+<form type="sandhi"><c type="glide">v</c>amut</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>taṉiyēṉ</form>
+<def>solitary-I</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻ</form>
+<def>live</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutal-ē</form>
+<def>base</def>
+<form type="simple">mutal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>poḻil</form>
+<def>grove</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēḻ-um</form>
+<def>seven</def>
+<form type="simple">ēḻ</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ēṉam</form>
+<def>boar</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṉṟ<c type="elided">u</c></form>
+<def>one-it</def>
+<form type="sandhi">oṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nuṉi</form>
+<def>tip</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ār</form>
+<def>be full</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōṭṭil</form>
+<def>tusk</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaittāy</form>
+<def>placed-you</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉ</form>
+<def>your</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pātam</form>
+<def>foot</def>
+<form type="sandhi">pātañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērntēṉ-ē</form>
+<def>I joined</def>
+<form type="simple">cērntēṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
