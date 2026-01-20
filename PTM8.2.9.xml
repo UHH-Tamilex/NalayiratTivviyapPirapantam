@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>8.2.9</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM8.2.9">
+<l>muḷḷeyi ṟēyntila kūḻai muṭikoṭā</l>
+<l>teḷḷiya ḷeṉpatōr tēcila ḷeṉceykēṉ</l>
+<l>kaḷḷaviḻ cōlaik kaṇapuraṅ kaitoḻum</l>
+<l>piḷḷaiyaip piḷḷaiyeṉ ṟeṇṇap peṟuvarē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Her bud[-like] teeth are not even; [her] hair does not permit a coil.</l>
+<l>There is not the glow that is a mature woman. What do I do?</l>
+<l>This child who worships, hands [joined],</l>
+<l rend="indent">in Kaṇṇapuram with groves where nectar drips,</l>
+<l>Do they know to consider that [she] is a child?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM8.2.9"><interp type="alignment" select="0">8MG33MG5MG63MG12MGM,127M</interp>
+<entry>
+<form>muḷ</form>
+<def>bud</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ḷ</c>eyiṟ<c type="elided">u</c></form>
+<def>tooth</def>
+<form type="sandhi"><c type="geminated">ḷ</c>eyiṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēyntila</form>
+<def>similar-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūḻai</form>
+<def>hair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭi</form>
+<def>hair knot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭā</form>
+<def>permit-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teḷḷiyaḷ</form>
+<def>mature</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpat<c type="elided">u</c></form>
+<def>say-it</def>
+<form type="sandhi">eṉpat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tēc<c type="elided">u</c></form>
+<def>lustre</def>
+<form type="sandhi">tēc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaḷ</form>
+<def>not she</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceykēṉ</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷ</form>
+<def>nectar</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ḷ</c>aviḻ</form>
+<def>drip</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cōlai<c type="geminated">k</c></form>
+<def>grove</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇapuram</form>
+<def>Ka[ṇ]ṇapuram</def>
+<form type="sandhi">kaṇapuraṅ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kai</form>
+<def>hand</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻum</form>
+<def>worships</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷaiyai<c type="geminated">p</c></form>
+<def>child</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷai</form>
+<def>child</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi"><c type="glide">y</c>eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṇṇa<c type="geminated">p</c></form>
+<def>consider</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟuvar-ē</form>
+<def>know</def>
+<form type="simple">peṟuvar</form>
+<gramGrp>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
