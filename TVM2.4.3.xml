@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>2.4.3</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM2.4.3">
+<l>irakka maṉattō ṭeriyaṇai</l>
+<l>yarakku meḻukumok kumiva</l>
+<l>ḷirakka meḻīritaṟ keṉceykē</l>
+<l>ṉarakka ṉilaṅkaiceṟ ṟīrukkē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>This one resembles sealing wax</l>
+<l>on a bed of flame, with a mind merciful</l>
+<l>towards you who subdued Laṅkā [and its] king.</l>
+<l>You who don’t rise to mercy, what shall I do about it?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM2.4.3"><interp type="alignment" select="0">7ML7MG20M2G27MG31M2GM,100M</interp>
+<entry>
+<form>irakkam</form>
+<def>compassion</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉattōṭ<c type="elided">u</c></form>
+<def>mind</def>
+<form type="sandhi">maṉattōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eri</form>
+<def>flame</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṇai</form>
+<def>bed</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>arakku</form>
+<def>sealing wax</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>meḻuk<c type="elided">u</c>-um</form>
+<def>wax</def>
+<form type="simple">meḻuku</form>
+<form type="sandhi">meḻuk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>okkum</form>
+<def>resembles</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivaḷ</form>
+<def>this one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irakkam</form>
+<def>compassion</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻīr</form>
+<def>rise-not-you</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>itaṟk<c type="elided">u</c></form>
+<def>this</def>
+<form type="sandhi">itaṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what</def>
+</entry>
+<entry>
+<form>ceykēṉ</form>
+<def>I do</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arakkaṉ</form>
+<def>Rakṣasa</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkai</form>
+<def>Laṅka</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṟṟīrukk<c type="elided">u</c>-ē</form>
+<def>subdued-you</def>
+<form type="simple">ceṟṟīrukku</form>
+<form type="sandhi">ceṟṟīrukk</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>2.4.2</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM2.4.2">
+<l>vāṇutalim maṭavara lummaik</l>
+<l>kāṇumācaiyuṇ ṇaikiṉ ṟāḷviṟal</l>
+<l>vāṇaṉāyiran tōṭṭuṇit tīrummaik</l>
+<l>kāṇanī rirakka milīrē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>This simple [girl] with a bright forehead</l>
+<l>languishes in longing to see you, who are without mercy</l>
+<l>in [your] nature, when one sees you who cut off</l>
+<l>the thousand shoulders of victorious Bhāṇa.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM2.4.2"><interp type="alignment" select="0">3ML93MGM,99M</interp>
+<entry>
+<form>vāḷ</form>
+<def>light</def>
+<form type="sandhi">vāṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nutal</form>
+<def>forehead</def>
+<form type="sandhi">ṇutal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">m</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>maṭavaral</form>
+<def>simplicity</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ummai<c type="geminated">k</c></form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇum</form>
+<def>seeing</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ācai</form>
+<def>desire</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḷ</form>
+<def>inside</def>
+<form type="sandhi"><c type="glide">y</c>uṇ</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naikiṉṟāḷ</form>
+<def>she languishes(pres.f.sg.)</def>
+<form type="sandhi">ṇaikiṉṟāḷ</form>
+<gramGrp>
+  <gram type="role">feminine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṟal</form>
+<def>victory</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṇaṉ</form>
+<def>Vāṇaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyiram</form>
+<def>thousand</def>
+<form type="sandhi">āyiran</form>
+</entry>
+<entry>
+<form>tōḷ</form>
+<def>shoulder</def>
+<form type="sandhi">tōṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇittīr</form>
+<def>cut-off-you</def>
+<form type="sandhi">ṭuṇittīr</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ummai<c type="geminated">k</c></form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇa</form>
+<def>see</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>nature</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irakkam</form>
+<def>pity</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilīr-ē</form>
+<def>without-you</def>
+<form type="simple">ilīr</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
