@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Tiruvāymoḻi</title> <num>2.4.1</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM2.4.1">
+<l>āṭiyāṭi yakamka rain ticai</l>
+<l>pāṭippāṭik kaṇṇīrmal kiyeṅku</l>
+<l>nāṭināṭi naraciṅkā veṉṟu</l>
+<l>vāṭi vāṭumiv vāṇutalē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Dancing, dancing, [her] heart dissolving, music</l>
+<l>singing, singing, tears welling up, everywhere</l>
+<l>searching, searching, saying “Narasiṃha!”,</l>
+<l>fading she fades [away], this [girl with] bright forehead.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM2.4.1"><interp type="alignment" select="0">19MG30MR36ML4MGM,94M</interp>
+<entry>
+<form>āṭi</form>
+<def>danced</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āṭi</form>
+<def>danced</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>akam</form>
+<def>inside</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karaint<c type="elided">u</c></form>
+<def>dissolved</def>
+<form type="sandhi">karaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>icai</form>
+<def>music</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭi<c type="geminated">p</c></form>
+<def>sung</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭi<c type="geminated">k</c></form>
+<def>sung</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇīr</form>
+<def>eye water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malki</form>
+<def>welled-up</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṅkum</form>
+<def>where</def>
+<form type="sandhi"><c type="glide">y</c>eṅkun</form>
+</entry>
+<entry>
+<form>nāṭi</form>
+<def>searched</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṭi</form>
+<def>searched</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naraciṅkā</form>
+<def>Naraciṅkaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉṟu</form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṭi</form>
+<def>faded</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṭum</form>
+<def>fades</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">v</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>vāḷ</form>
+<def>light</def>
+<form type="sandhi">vāṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nutal-ē</form>
+<def>forehead</def>
+<form type="simple">nutal</form>
+<form type="sandhi">ṇutal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
