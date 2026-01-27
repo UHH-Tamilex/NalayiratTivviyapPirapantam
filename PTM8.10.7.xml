@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>8.10.7</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM8.10.7">
+<l>veḷḷainīr veḷḷat taṇainta varavaṇaimēl</l>
+<l>tuḷḷunīr meḷḷat tuyiṉṟa perumāṉē</l>
+<l>vaḷḷalē yuṉṟamark keṉṟum namaṉṟamar</l>
+<l>kaḷḷarpōl kaṇṇa purattuṟai yammāṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Great lord who sleeps calmly in the crashing sea</l>
+<l>On the serpent bed which lies in an ocean of white water,</l>
+<l>Beneficent one, Death’s agents are always thieves, it seems,</l>
+<l>To your people, lord who dwells in Kaṇṇapuram.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM8.10.7"><interp type="alignment" select="0">16MG12MG53MG35MG12M,131MG</interp>
+<entry>
+<form>veḷḷai</form>
+<def>white</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷḷatt<c type="elided">u</c></form>
+<def>ocean</def>
+<form type="sandhi">veḷḷatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇainta</form>
+<def>lie in</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>arav<c type="elided">u</c></form>
+<def>serpent</def>
+<form type="sandhi"><c type="glide">v</c>arav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇai</form>
+<def>bed</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tuḷḷu</form>
+<def>crashing</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>sea</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>meḷḷa<c type="geminated">t</c></form>
+<def>calmly</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuyiṉṟa</form>
+<def>slept</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumāṉē</form>
+<def>great lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷḷalē</form>
+<def>beneficient one</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṉ</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tamarkk<c type="elided">u</c></form>
+<def>self</def>
+<form type="sandhi">ṟamarkk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟum</form>
+<def>always</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>namaṉ</form>
+<def>Yama</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tamar</form>
+<def>self-they</def>
+<form type="sandhi">ṟamar</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷḷar</form>
+<def>thief</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōl</form>
+<def>be similar</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇapuratt<c type="elided">u</c></form>
+<def>Kaṇṇapuram</def>
+<form type="sandhi">kaṇṇapuratt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟai</form>
+<def>dwell</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ammāṉē</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
