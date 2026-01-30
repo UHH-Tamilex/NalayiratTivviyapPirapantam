@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>9.2.7</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM9.2.7">
+<l>piṇiyaviḻ tāma raimoṭ ṭalarttum pēraru ḷāḷar kolyā ṉaṟiyēṉ</l>
+<l>paṇiyumeṉ neñca miteṉkol tōḻī paṇṭivar tammai yumkaṇ ṭaṟiyōm</l>
+<l>aṇikeḻu tāma raiyaṉ ṉakaṇṇu maṅkaiyum paṅka yamē ṉivāṉat</l>
+<l>taṇikeḻu māmu kilēyu moppa raccō voruva raḻaki yavā.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Is he the one of great grace who opens lotus buds whose spirals loosen?</l>
+<l>I don’t know! My heart surrenders.  What is this?</l>
+<l rend="indent">Dear friend, we do not recognize seeing him before.</l>
+<l>[His] eyes are like beautiful bright lotuses, and his fine hands too are lotuses.</l>
+<l>[In] body, he resembles a beautiful, bright huge cloud in the sky.</l>
+<l rend="indent">Oh, the way that one is handsome!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM9.2.7"><interp type="alignment" select="0">20MG19MG29MG2MG11MG10MG7MG28MG8MG11ML9MG14MG30M,209MG</interp>
+<entry>
+<form>piṇi</form>
+<def>spiral</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aviḻ</form>
+<def>loosen</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāmarai</form>
+<def>lotus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moṭṭ<c type="elided">u</c></form>
+<def>bud</def>
+<form type="sandhi">moṭṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alarttum</form>
+<def>opens</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēr</form>
+<def>great</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aruḷāḷar-kol</form>
+<def>grace-he</def>
+<form type="simple">aruḷāḷar</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kol</m></gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟiyēṉ</form>
+<def>I don't know</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṇiyum</form>
+<def>surrenders</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcam</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>it<c type="elided">u</c></form>
+<def>this</def>
+<form type="sandhi">it</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ-kol</form>
+<def>what</def>
+<form type="simple">eṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kol</m></gramGrp>
+</entry>
+<entry>
+<form>tōḻī</form>
+<def>friend</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṇṭ<c type="elided">u</c></form>
+<def>before</def>
+<form type="sandhi">paṇṭ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ivar</form>
+<def>this one</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tammai-<c type="glide">y</c>um</form>
+<def>self</def>
+<form type="simple">tammai</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṇṭ<c type="elided">u</c></form>
+<def>seen</def>
+<form type="sandhi">kaṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟiyōm</form>
+<def>recognise-not-we</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇi</form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>keḻu</form>
+<def>brightness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāmarai</form>
+<def>lotus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉṉa</form>
+<def>like</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ-<c type="geminated">ṇ</c>um</form>
+<def>eye</def>
+<form type="simple">kaṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>am</form>
+<def>pretty</def>
+<form type="sandhi">aṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kai-<c type="glide">y</c>um</form>
+<def>hand</def>
+<form type="simple">kai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>paṅkayam</form>
+<def>lotus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉi</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉatt<c type="elided">u</c></form>
+<def>sky</def>
+<form type="sandhi">vāṉatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇi</form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>keḻu</form>
+<def>have</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mukil-ēyum</form>
+<def>cloud</def>
+<form type="simple">mukil</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ēyum</m></gramGrp>
+</entry>
+<entry>
+<form>oppar</form>
+<def>resembles</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>accō</form>
+<def>oh!</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oruvar</form>
+<def>one person</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻakiya</form>
+<def>handsome</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ā</form>
+<def>way</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
