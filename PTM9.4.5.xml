@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>9.4.5</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM9.4.5">
+<l>villā lilaṅkai malaṅkac caranturanta</l>
+<l>vallāḷaṉ piṉpōṉa neñcam varumaḷavum</l>
+<l>ellāru meṉṟaṉṉai yēcilum pēciṭiṉum</l>
+<l>pullāṇi yemperumāṉ poykēṭ ṭiruntēṉē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Even if everyone scolds me, even if they talk,</l>
+<l>Until my heart, which followed the mighty lord</l>
+<l>Who discharged arrows with his bow to trouble Laṅkā,</l>
+<l>Returns, I stay in Pullāṇi, listening to the lies of our lord.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM9.4.5"><interp type="alignment" select="0">90MG30MG7MG2M,131MG</interp>
+<entry>
+<form>villāl</form>
+<def>bow</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkai</form>
+<def>Laṅka</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>malaṅka<c type="geminated">c</c></form>
+<def>troubl</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caram</form>
+<def>arrow</def>
+<form type="sandhi">caran</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>turanta</form>
+<def>discharged</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vallāḷaṉ</form>
+<def>mighty man</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pōṉa</form>
+<def>followed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcam</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varum</form>
+<def>returns</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷavum</form>
+<def>until</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellārum</form>
+<def>everyone</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉai</form>
+<def>self</def>
+<form type="sandhi">ṟaṉṉai</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ēcilum</form>
+<def>scold</def>
+<gramGrp>
+  <gram type="role">concessive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēc<c type="elided">u</c></form>
+<def>talk</def>
+<form type="sandhi">pēc</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭiṉum</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">concessive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pullāṇi</form>
+<def>Pullāṇi</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>em</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumāṉ</form>
+<def>great one</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poy</form>
+<def>lie</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭ<c type="elided">u</c></form>
+<def>listening</def>
+<form type="sandhi">kēṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruntēṉ-ē</form>
+<def>stay</def>
+<form type="simple">iruntēṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
