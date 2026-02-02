@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>9.3.6</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM9.3.6">
+<l>eḷki neñcē niṉaintiṅ kirunteṉ toḻutumeḻu</l>
+<l>vaḷḷal māyaṉ maṇivaṇ ṇaṉemmāṉ maruvumiṭam</l>
+<l>kaḷḷa viḻumma larkkā viyuntū maṭaṟkaitaiyum</l>
+<l>puḷḷu maḷḷal paḻaṉaṅ kaḷumcūḻn tapullāṇiyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>[My] heart, having sat here, thinking [of him], hesitating, what [then]?</l>
+<l rend="indent">Arise; We will worship</l>
+<l>In Pullāṇi surrounded by muddy, wet lands and birds,</l>
+<l>Honeyed unfurled blossoming blue lilies, and white-leafed screw pine,</l>
+<l>The place where lives our lord, the jewel-hued one, beneficent Māyaṉ.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM9.3.6"><interp type="alignment" select="0">16MG3MG5MG69MG16MG6MG18MG15MG3M,158MG</interp>
+<entry>
+<form>eḷki</form>
+<def>hesitating</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcē</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉaint<c type="elided">u</c></form>
+<def>thinking</def>
+<form type="sandhi">niṉaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṅk<c type="elided">u</c></form>
+<def>here</def>
+<form type="sandhi">iṅk</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>irunt<c type="elided">u</c></form>
+<def>sitting</def>
+<form type="sandhi">irunt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻutum</form>
+<def>worship-we</def>
+<gramGrp>
+  <gram type="role">subjunctive</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻu</form>
+<def>arise</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷḷal</form>
+<def>beneficence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māyaṉ</form>
+<def>Māyaṉ</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇi</form>
+<def>jewel</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇaṉ</form>
+<def>colour-he</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>emmāṉ</form>
+<def>our Lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruvum</form>
+<def>live</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭam</form>
+<def>place</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷ</form>
+<def>honey</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ḷ</c>aviḻum</form>
+<def>opening-</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malar<c type="geminated">k</c></form>
+<def>blossom</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāvi-<c type="glide">y</c>um</form>
+<def>blue lily</def>
+<form type="simple">kāvi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tū</form>
+<def>whiteness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṭal</form>
+<def>leaf</def>
+<form type="sandhi">maṭaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaitai-<c type="glide">y</c>um</form>
+<def>screwpine</def>
+<form type="simple">kaitai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>puḷ-<c type="geminated">ḷ</c>um</form>
+<def>bird</def>
+<form type="simple">puḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aḷḷal</form>
+<def>mud</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḻaṉaṅkaḷ-um</form>
+<def>field</def>
+<form type="simple">paḻaṉaṅkaḷ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cūḻnta</form>
+<def>surrounded</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pullāṇi-<c type="glide">y</c>ē</form>
+<def>Pullāṇi</def>
+<form type="simple">pullāṇi</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
