@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>9.7.2</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM9.7.2">
+<l>miṉṉumā valliyum vañciyum veṉṟanuṇ ṇiṭainu ṭaṅkum</l>
+<l>aṉṉameṉ ṉaṭaiyiṉār kalaviyai yaruvarut tañci ṉāyēl</l>
+<l>tuṉṉumā maṇimuṭip pañcavark kākimuṉ tūtu ceṉṟa</l>
+<l>maṉṉaṉār vallavāḻ collumā vallaiyāy maruvu neñcē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>If you tremble, loathing the embrace of those with the slow gait of a swan,</l>
+<l>Who curve with thin waists that rival lightning, beautiful creepers, and vines,</l>
+<l>Oh, heart, firmly embrace the way that tells of Vallavāḻ, [the city of] the king</l>
+<l>Who once went as a messenger for the Five,</l>
+<l rend="indent">[their] crowns fitted with huge sapphires.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM9.7.2"><interp type="alignment" select="0">3MG3ML6MG8MG29ML31MG35MG59M,180MG</interp>
+<entry>
+<form>miṉ-<c type="geminated">ṉ</c>um</form>
+<def>lightning</def>
+<form type="simple">miṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>valli-<c type="glide">y</c>um</form>
+<def>creeper</def>
+<form type="simple">valli</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vañci-<c type="glide">y</c>um</form>
+<def>vine</def>
+<form type="simple">vañci</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>veṉṟa</form>
+<def>rival</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nuṇ</form>
+<def>thin</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>iṭai</form>
+<def>waist</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nuṭaṅkum</form>
+<def>curve</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṉam</form>
+<def>swan</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mel</form>
+<def>soft</def>
+<form type="sandhi">meṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭaiyiṉār</form>
+<def>gait</def>
+<form type="sandhi">ṉaṭaiyiṉār</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kalaviyai</form>
+<def>embrace</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aruvarutt<c type="elided">u</c></form>
+<def>loathing</def>
+<form type="sandhi"><c type="glide">y</c>aruvarutt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>añciṉāyēl</form>
+<def>tremble</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṉṉu</form>
+<def>fitted</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>huge</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇi</form>
+<def>sapphire</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭi<c type="geminated">p</c></form>
+<def>crown</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pañcavarkk<c type="elided">u</c></form>
+<def>five</def>
+<form type="sandhi">pañcavarkk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āki</form>
+<def>being</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>before</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tūtu</form>
+<def>messenger</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṉṟa</form>
+<def>went</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉṉaṉār</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vallavāḻ</form>
+<def>Vallavāḻ</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>collum</form>
+<def>tell of</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ā</form>
+<def>way</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vallai</form>
+<def>firm</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruvu</form>
+<def>embrace</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcē</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
