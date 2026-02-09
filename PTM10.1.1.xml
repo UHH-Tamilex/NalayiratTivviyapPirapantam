@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>10.1.1</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM10.1.1">
+<l>orunal cuṟṟame ṉakkuyi roṇporuḷ</l>
+<l>varunal tolkati yākiya maintaṉai</l>
+<l>nerunal kaṇṭatu nīrmalai yiṉṟupōy</l>
+<l>karunel cuḻkaṇṇa maṅkaiyuḷ kāṇṭumē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>[My] dear friend, my life, the man who became</l>
+<l>The superior ancient way through which comes great benefit,</l>
+<l>Seeing [him] yesterday was in Nīrmalai; going today, we will see [him]</l>
+<l>In Kaṇṇamaṅkai, encircled by paddy with kernels.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM10.1.1"><interp type="alignment" select="0">17MG15MR85MG2M,121MG</interp>
+<entry>
+<form>oru</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṟṟam</form>
+<def>kinfolk</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉakk<c type="elided">u</c></form>
+<def>me</def>
+<form type="sandhi">eṉakk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyir</form>
+<def>life</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṇ</form>
+<def>bright</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poruḷ</form>
+<def>benefit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varum</form>
+<def>coming</def>
+<form type="sandhi">varun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tol</form>
+<def>ancient</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kati</form>
+<def>way</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ākiya</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maintaṉai</form>
+<def>young man</def>
+<gramGrp>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nerunal</form>
+<def>yesterday</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭatu</form>
+<def>seeing</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīrmalai</form>
+<def>Nīrmalai</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṉṟu</form>
+<def>this day</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy</form>
+<def>going</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karu</form>
+<def>kernel</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nel</form>
+<def>paddy</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuḻ</form>
+<def>encircled</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇamaṅkai</form>
+<def>Kaṇṇamaṅkai</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḷ</form>
+<def>in</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇṭum-ē</form>
+<def>see</def>
+<form type="simple">kāṇṭum</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
