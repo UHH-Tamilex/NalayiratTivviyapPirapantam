@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>10.3.2</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM10.3.2">
+<l>empi rāṉē yeṉṉai yāḷvā yeṉṟeṉṟa laṟṟātē</l>
+<l>yampiṉ vāyppaṭ ṭāṟṟa killā tintira cittaḻintāṉ</l>
+<l>nampi yaṉumā cukki rīvā vaṅkata ṉēnaḷaṉē</l>
+<l>kumpa karṇaṉ paṭṭup pōṉāṉ kuḻama ṇitūramē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Indrajit, having not cried out again and again, “My lord, you rule me!”</l>
+<l>Being unable to bear suffering arrowheads, perished.</l>
+<l>Oh, Prince Hanumān, Sugrīva, Angada, Nala,</l>
+<l>Kumbhakarṇa is dead and gone. Kuḻamaṇitūram!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM10.3.2"><interp type="alignment" select="0">23MG3MG7M2G15MG10MG10MG77MG2M,154MG</interp>
+<entry>
+<form>em</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāṉē</form>
+<def>Lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṉai</form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āḷvāy</form>
+<def>rule</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alaṟṟāt<c type="elided">u</c>-ē</form>
+<def>cry out-not</def>
+<form type="simple">alaṟṟātu</form>
+<form type="sandhi">alaṟṟāt</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ampiṉ</form>
+<def>arrow</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy<c type="geminated">p</c></form>
+<def>head</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭṭ<c type="elided">u</c></form>
+<def>suffering</def>
+<form type="sandhi">paṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṟṟa</form>
+<def>bear</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>killāt<c type="elided">u</c></form>
+<def>be able-not</def>
+<form type="sandhi">killāt</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>intiracitt<c type="elided">u</c></form>
+<def>Indrajit</def>
+<form type="sandhi">intiracitt</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻintāṉ</form>
+<def>perished</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nampi</form>
+<def>prince</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉumā</form>
+<def>Hanumān</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cukkirīvā</form>
+<def>Sugrīva</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṅkataṉē</form>
+<def>Angada</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naḷaṉē</form>
+<def>Nala</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kumpakarṇaṉ</form>
+<def>Kumbhakarṇa</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭṭu<c type="geminated">p</c></form>
+<def>die</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōṉāṉ</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻamaṇitūram-ē</form>
+<def>Kuḻamaṇitūram</def>
+<form type="simple">kuḻamaṇitūram</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
