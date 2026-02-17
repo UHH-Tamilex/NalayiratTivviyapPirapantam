@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>10.4.6</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM10.4.6">
+<l>piḷḷai kaḷceyvaṉa ceyyāy pēciṉpe ritum valiyai</l>
+<l>kaḷḷam maṉattilu ṭaiyai kāṇavē tīmai kaḷceyti</l>
+<l>yuḷḷa murukiyeṉ koṅkai yōṭṭantu pāynti ṭukiṉṟa</l>
+<l>paḷḷik kuṟippu<supplied>c</supplied>cey  yātē pālamu tuṇṇanī vārāy.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>You do not do what children do; if [your] strength is told, it is immense.</l>
+<l>You have slyness in your heart; you do mischief [for all] to see.</l>
+<l>[When my] heart melts, my breasts flow freely, creating a flood.</l>
+<l>Without making a pretense of sleep, come to suckle my ambrosial milk.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM10.4.6"><interp type="alignment" select="0">32M2G34MG48MG28M2G8MG12M,168MG</interp>
+<entry>
+<form>piḷḷaikaḷ</form>
+<def>children</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyvaṉa</form>
+<def>deeds</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyyāy</form>
+<def>do-you</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēciṉ</form>
+<def>speak</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perit<c type="elided">u</c>-um</form>
+<def>immense-it</def>
+<form type="simple">peritu</form>
+<form type="sandhi">perit</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>valiyai</form>
+<def>strength</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷḷam</form>
+<def>slyness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉattil</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyai</form>
+<def>possess-you</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇa-<c type="glide">v</c>ē</form>
+<def>see</def>
+<form type="simple">kāṇa</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tīmaikaḷ</form>
+<def>mischief</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyti</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḷḷam</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uruki</form>
+<def>melts</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṅkai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ōṭṭantu</form>
+<def>create flooding</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāynt<c type="elided">u</c></form>
+<def>flow</def>
+<form type="sandhi">pāynt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭukiṉṟa</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḷḷi<c type="geminated">k</c></form>
+<def>sleep</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟippu<c type="geminated">c</c></form>
+<def>pretense</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyyāt<c type="elided">u</c>-ē</form>
+<def>make-not</def>
+<form type="simple">ceyyātu</form>
+<form type="sandhi">ceyyāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pāl</form>
+<def>milk</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amut<c type="elided">u</c></form>
+<def>ambrosia</def>
+<form type="sandhi">amut</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṇa</form>
+<def>suckle</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vārāy</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
