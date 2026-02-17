@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -31,7 +28,8 @@
 <l>pūṅkōtai yāycci kaṭaiveṇṇey pukkuṇṇa</l>
 <l>vāṅkava ḷārttup puṭaikkap puṭaiyuṇṭu</l>
 <l>vēṅki yiruntu ciṇuṅki viḷaiyāṭum</l>
-<l>ōṅkōta vaṇṇaṉē cappāṇi yoḷimaṇi  vaṇṇaṉē cappāṇi.</l>
+<l>ōṅkōta vaṇṇaṉē cappāṇi</l>
+<l rend="indent">yoḷimaṇi  vaṇṇaṉē cappāṇi.</l>
       </lg>
       <lg xml:lang="en">
 <l>You, the hue of swelling waves, who played at whining,</l>
@@ -43,7 +41,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PTM10.5.1"><interp type="alignment" select="0">29MG8MG61MG40M,140MG</interp>
+<standOff type="wordsplit" corresp="#PTM10.5.1">
+<interp type="alignment" select="0">29MG8MG61MG40M,140MG</interp>
 <entry>
 <form>pūm</form>
 <def>flower</def>
@@ -76,8 +75,6 @@
 <entry>
 <form>veṇṇey</form>
 <def>butter</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>pukk<c type="elided">u</c></form>
@@ -98,8 +95,6 @@
 <form><c type="glide">v</c>āṅk<c type="elided">u</c></form>
 <def>there</def>
 <form type="sandhi"><c type="glide">v</c>āṅk</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>avaḷ</form>
@@ -220,5 +215,6 @@
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
