@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>10.3.5</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM10.3.5">
+<l>veṉṟi tantōm māṉam vēṇṭōm tāṉa memakkāka</l>
+<l>viṉṟu tammi ṉeṅkaḷ vāṇā ḷempe rumāṉtamarkāḷ</l>
+<l>niṉṟu kāṇīr kaṇka ḷāra nīrem maikkollātē</l>
+<l>kuṉṟu pōla vāṭu kiṉṟōm kuḻama ṇitūramē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>We conceded victory; we do not want glory.</l>
+<l>Give us our full lives now as charity to us, oh, companions of our lord.</l>
+<l>Without slaying us, stay and watch until your eyes fill;</l>
+<l>Like mountains, we are dancing to the kuḻamaṇitūram.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM10.3.5"><interp type="alignment" select="0">32MG22ML53M2G33MG2M,121MG24MG</interp>
+<entry>
+<form>veṉṟi</form>
+<def>victory</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tantōm</form>
+<def>conceded</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṉam</form>
+<def>glory</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭōm</form>
+<def>want-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉam</form>
+<def>charity</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emakk<c type="elided">u</c></form>
+<def>us</def>
+<form type="sandhi">emakk</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṉṟu</form>
+<def>now</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tammiṉ</form>
+<def>give</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṅkaḷ</form>
+<def>us</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻ</form>
+<def>live</def>
+<form type="sandhi">vāṇ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ</form>
+<def>day</def>
+<form type="sandhi">ṇāḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tamarkāḷ</form>
+<def>companions</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">vocative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟu</form>
+<def>stay</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇīr</form>
+<def>watch</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇkaḷ</form>
+<def>eyes</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āra</form>
+<def>become full</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emmai<c type="geminated">k</c></form>
+<def>us</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kollāt<c type="elided">u</c>-ē</form>
+<def>kill-not</def>
+<form type="simple">kollātu</form>
+<form type="sandhi">kollāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kuṉṟu</form>
+<def>mountain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōla</form>
+<def>be like</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭukiṉṟōm</form>
+<def>dance</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻamaṇitūram-ē</form>
+<def>kuḻamaṇitūram</def>
+<form type="simple">kuḻamaṇitūram</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
