@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>10.5.8</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM10.5.8">
+<l>yāyum piṟaru maṟiyāta yāmattu</l>
+<l>māya valavaippeṇ vantu mulaitara</l>
+<l>pēyeṉ ṟavaḷaip piṭittu <supplied>vu</supplied>yiruṇṭa</l>
+<l>vāyava ṉēkoṭṭāy cappāṇi</l>
+<l rend="indent">mālvaṇṇaṉē koṭṭāy cappāṇi.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>When a wicked woman, whom I and others did not know,</l>
+<l>Coming in disguise in the darkness, gave [you] her breast,</l>
+<l>Grabbing her saying, “[She’s] a demon,”</l>
+<l>You, whose lips sucked out her life, please clap your hands;</l>
+<l rend="indent">dark-hued one, please clap your hands!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM10.5.8"><interp type="alignment" select="0">3MG7MG51MG14MGMG53M,133MG</interp>
+<entry>
+<form>yāy-um</form>
+<def>I</def>
+<form type="simple">yāy</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>piṟar-um</form>
+<def>other-they</def>
+<form type="simple">piṟar</form>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aṟiyāta</form>
+<def>know-not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāmattu</form>
+<def>darkness</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māya</form>
+<def>disguise</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>valavai<c type="geminated">p</c></form>
+<def>wicked woman</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇ</form>
+<def>woman</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vantu</form>
+<def>coming</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mulai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tara</form>
+<def>gave</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēy</form>
+<def>demoness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaḷai<c type="geminated">p</c></form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṭittu</form>
+<def>grabbing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>[<c type="glide">v</c>]uyir</form>
+<def>life</def>
+<form type="sandhi"><c type="glide">v</c>uyir</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṭa</form>
+<def>sucked</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāyavaṉē</form>
+<def>lips</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭṭāy</form>
+<def>clap</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cappāṇi</form>
+<def>clapping hands</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māl</form>
+<def>dark</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇaṉē</form>
+<def>hued</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭṭāy</form>
+<def>clap</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cappāṇi</form>
+<def>clapping hands</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
