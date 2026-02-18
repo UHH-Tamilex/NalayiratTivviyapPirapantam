@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>10.7.12</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM10.7.12">
+<l>accam tiṉaittaṉai yillaiyip piḷḷaik kāṇmaiyum cēva kamum</l>
+<l>ucciyil mutti vaḷartteṭut tēṉuk kuraittilaṉ tāṉiṉ ṟupōy</l>
+<l>paccilaip pūṅkaṭam pēṟi vicaikoṇṭu pāyntupuk kāyi ravāy</l>
+<l>naccaḻal poykaiyil nākatti ṉōṭu piṇaṅkinī vantāy pōlum.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>This child does not have [even] a trifling amount of fear,</l>
+<l rend="indent">only daring and heroics.</l>
+<l>He does not tell me anything – me, who nurtured him nuzzling his head.</l>
+<l>Having gone [out] today, climbing up a flowering, evergreen kaṭampu,</l>
+<l>Leaping hastily into a pond where poison from a thousand mouths burns,</l>
+<l rend="indent">it seems you came and tangled with a serpent.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM10.7.12"><interp type="alignment" select="0">33MG5MG10MG21MG10MG6MG32MG23MG5MG7MG45M,206MG</interp>
+<entry>
+<form>accam</form>
+<def>fear</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṉai<c type="geminated">t</c></form>
+<def>small amount</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉai</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>illai</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>i<c type="geminated">p</c></form>
+<def>this-</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷaikk<c type="elided">u</c></form>
+<def>child</def>
+<form type="sandhi">piḷḷaikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṇmai-<c type="glide">y</c>um</form>
+<def>daring</def>
+<form type="simple">āṇmai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cēvakam-um</form>
+<def>heroics</def>
+<form type="simple">cēvakam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ucciyil</form>
+<def>crown of the head</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutti</form>
+<def>nuzzle</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷartt<c type="elided">u</c></form>
+<def>nurtured</def>
+<form type="sandhi">vaḷartt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṭuttēṉukk<c type="elided">u</c></form>
+<def>raise</def>
+<form type="sandhi">eṭuttēṉukk</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uraitt<c type="elided">u</c></form>
+<def>tell</def>
+<form type="sandhi">uraitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṉ</form>
+<def>not-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟu</form>
+<def>this day</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paccilai<c type="geminated">p</c></form>
+<def>evergreen</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūm</form>
+<def>flowering</def>
+<form type="sandhi">pūṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭamp<c type="elided">u</c></form>
+<def>Kadamba-tree</def>
+<form type="sandhi">kaṭamp</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟi</form>
+<def>climbed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vicai</form>
+<def>speed</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭu</form>
+<def>taken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāyntu</form>
+<def>leaping</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukk<c type="elided">u</c></form>
+<def>entered</def>
+<form type="sandhi">pukk</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyiram</form>
+<def>thousand</def>
+<form type="sandhi">āyira</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>mouth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nacc<c type="elided">u</c></form>
+<def>poison</def>
+<form type="sandhi">nacc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻal</form>
+<def>burn</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poykaiyil</form>
+<def>pond</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nākattiṉōṭu</form>
+<def>serpent</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṇaṅki</form>
+<def>be entangled</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vantāy</form>
+<def>come-you</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pōlum</form>
+<def>it seems</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
