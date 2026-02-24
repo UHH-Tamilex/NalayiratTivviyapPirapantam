@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>11.2.2</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM11.2.2">
+<l>pūṅkuruntocit tāṉaikāyntari māccekut</l>
+<l>tāṅkuvēḻat tiṉkompukoṇṭu vaṉpēymulai</l>
+<l>vāṅkiyuṇṭavav vāyaṉiṟkaviv vāyaṉvāy</l>
+<l>ēṅkuvēyṅkuḻa leṉṉōṭā ṭumiḷamaiyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Having broken the budding kuruntu, killed an elephant,</l>
+<l>Conquered a hostile horse, then plucked the tusk from the elephant,</l>
+<l>When he, whose lovely lips latched and sucked the powerful demon’s breast,</l>
+<l>Stays [near], the bamboo flute that sounds at this herder’s lips</l>
+<l rend="indent">moves in madness with me.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM11.2.2"><interp type="alignment" select="0">9MG5MG9MG12MG51ML33MG10MG3M,138MG</interp>
+<entry>
+<form>pūm</form>
+<def>budding</def>
+<form type="sandhi">pūṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kurunt<c type="elided">u</c></form>
+<def>kuruntu tree</def>
+<form type="sandhi">kurunt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ocitt<c type="elided">u</c></form>
+<def>broken</def>
+<form type="sandhi">ocitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉai</form>
+<def>elephant</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāynt<c type="elided">u</c></form>
+<def>killed</def>
+<form type="sandhi">kāynt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ari</form>
+<def>enemy</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā<c type="geminated">c</c></form>
+<def>horse</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cekutt<c type="elided">u</c></form>
+<def>conquered</def>
+<form type="sandhi">cekutt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṅku</form>
+<def>then</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vēḻattiṉ</form>
+<def>elephant-bull</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kompu</form>
+<def>tusk</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭu</form>
+<def>taken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>powerful</def>
+<form type="sandhi">vaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēy</form>
+<def>demoness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mulai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṅki</form>
+<def>latched</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṇṭa</form>
+<def>sucked</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>am</form>
+<def>lovely</def>
+<form type="sandhi"><c type="glide">v</c>av</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāyaṉ</form>
+<def>lips</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṟka</form>
+<def>stays</def>
+<form type="sandhi">ṉiṟka</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>i<c type="geminated">v</c></form>
+<def>this-</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āyaṉ</form>
+<def>cowherd</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>lips</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṅku</form>
+<def>sounds</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēy<c type="geminated">ṅ</c></form>
+<def>bamboo</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻal</form>
+<def>flute</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉōṭ<c type="elided">u</c></form>
+<def>with me</def>
+<form type="sandhi">eṉṉōṭ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭum</form>
+<def>moves</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷamai-<c type="glide">y</c>ē</form>
+<def>madness</def>
+<form type="simple">iḷamai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
