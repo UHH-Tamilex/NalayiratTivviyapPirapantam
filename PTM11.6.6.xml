@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>11.6.6</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM11.6.6">
+<l>pēyirukku neṭuveḷḷam peruvicumpiṉ mītōṭip perukukālam</l>
+<l>tāyirukkum vaṇṇamē yummaittaṉ vayiṟṟirutti yuyyakkoṇṭāṉ</l>
+<l>pōyirukka maṟṟiṅkōr pututteyvaṅ koṇṭāṭun toṇṭīrpeṟṟa</l>
+<l>tāyirukka maṇaivennīrāṭ ṭutirōmāṭ ṭātataka vaṟṟīrē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>You devotees who celebrate another new deity here</l>
+<l rend="indent">when you have left the one</l>
+<l>Who took you to save [you], placing you in his belly in the way of a mother,</l>
+<l>At the time when a vast flood, where [only] spirits lived, swelled,</l>
+<l rend="indent">spreading over the great heavens,</l>
+<l>Would you bathe the [birthing] stool in warm water</l>
+<l rend="indent">since a mother who birthed [a child] sat [there],</l>
+<l rend="indent">you who are without morality which is not [within your] ability?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM11.6.6"><interp type="alignment" select="0">9MR25MG31MG17MG31MG3MG59MG13MG5MG2M,203MG</interp>
+<entry>
+<form>pēy</form>
+<def>spirit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irukkum</form>
+<def>live</def>
+<form type="sandhi">irukkun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṭu</form>
+<def>vast</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷḷam</form>
+<def>flood</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peru</form>
+<def>great</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vicumpiṉ</form>
+<def>heavens</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mīt<c type="elided">u</c></form>
+<def>above</def>
+<form type="sandhi">mīt</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ōṭi<c type="geminated">p</c></form>
+<def>spreading</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peruku</form>
+<def>swelled</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kālam</form>
+<def>time</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāy</form>
+<def>mother</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irukkum</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇam-ē</form>
+<def>way</def>
+<form type="simple">vaṇṇam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ummai<c type="geminated">t</c></form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vayiṟṟ<c type="elided">u</c></form>
+<def>belly</def>
+<form type="sandhi">vayiṟṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irutti</form>
+<def>placed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uyya<c type="geminated">k</c></form>
+<def>to save</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭāṉ</form>
+<def>took-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy</form>
+<def>left</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irukka</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>other</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṅk<c type="elided">u</c></form>
+<def>here</def>
+<form type="sandhi">iṅk</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>putu<c type="geminated">t</c></form>
+<def>new</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teyvam</form>
+<def>deity</def>
+<form type="sandhi">teyvaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭāṭum</form>
+<def>celebrate</def>
+<form type="sandhi">koṇṭāṭun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṇṭīr</form>
+<def>devotees</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟṟa</form>
+<def>birthed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāy</form>
+<def>mother</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irukka</form>
+<def>being</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇai</form>
+<def>stool</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vem</form>
+<def>warm</def>
+<form type="sandhi">ven</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭṭutir-ō</form>
+<def>bathe</def>
+<form type="simple">āṭṭutir</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>māṭṭāta</form>
+<def>not able</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>takav<c type="elided">u</c></form>
+<def>morality</def>
+<form type="sandhi">takav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟṟīr-ē</form>
+<def>without</def>
+<form type="simple">aṟṟīr</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
