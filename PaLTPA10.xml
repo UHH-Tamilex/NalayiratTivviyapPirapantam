@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruppallāṇṭu</title> <num>10</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTPA10">
+<l>ennā ḷemperu māṉuṉṟa ṉakkaṭi yōmeṉ ṟeḻuttuppaṭṭa</l>
+<l>vannā ḷēyaṭi yōṅkaḷa ṭikkuṭil vīṭupeṟ ṟuyntatukāṇ</l>
+<l>centāḷ tōṟṟit tirumatu raiyuṭcilai kuṉit taintalaiya</l>
+<l>painnā kattalaip pāyntava ṉēyuṉṉaip pallāṇṭu kūṟutumē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Our Lord, the day on which we [became] your servants,</l>
+<l rend="indent">that very day when the letter appeared,</l>
+<l>we, who are your servants, obtained the salvation of freedom in the abode of [your] feet. See!</l>
+<l>[On that] good day, we proclaim “many years” to you,</l>
+<l rend="indent">the one who lept on the head of the five headed cobra,</l>
+<l rend="indent">appearing in holy Maturai, roaring, and dancing.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTPA10"><interp type="alignment" select="0">22MG9MG18MG28MG47MG57MGM,188M</interp>
+<entry>
+<form>e<c type="geminated">n</c></form>
+<def>which</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ</form>
+<def>day</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉ</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉakk<c type="elided">u</c></form>
+<def>self</def>
+<form type="sandhi">ṟaṉakk</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭiyōm</form>
+<def>servant</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>which day</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻuttu<c type="geminated">p</c></form>
+<def>letter</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭṭa</form>
+<def>appeared</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>a<c type="geminated">n</c></form>
+<def>that</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ-ē</form>
+<def>day</def>
+<form type="simple">nāḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṭiyōṅkaḷ</form>
+<def>servant</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi<c type="geminated">k</c></form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭil</form>
+<def>abode</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīṭu</form>
+<def>freedom</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟṟ<c type="elided">u</c></form>
+<def>obtained</def>
+<form type="sandhi">peṟṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyntatu</form>
+<def>salvation</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇ</form>
+<def>see</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>good</def>
+<form type="sandhi">cen</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ</form>
+<def>day</def>
+<form type="sandhi">tāḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṟṟi<c type="geminated">t</c></form>
+<def>appeared</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>holy</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maturai</form>
+<def>Maturai</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḷ</form>
+<def>in</def>
+<form type="sandhi"><c type="glide">y</c>uṭ</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cilai</form>
+<def>roared</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṉitt<c type="elided">u</c></form>
+<def>danced</def>
+<form type="sandhi">kuṉitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aim</form>
+<def>five</def>
+<form type="sandhi">ain</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaiya</form>
+<def>headed</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pai<c type="geminated">n</c></form>
+<def>hood</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāka<c type="geminated">t</c></form>
+<def>cobra</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai<c type="geminated">p</c></form>
+<def>head</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāyntavaṉē</form>
+<def>leapt</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṉṉai<c type="geminated">p</c></form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pal</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āṇṭu</form>
+<def>year</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟutum-ē</form>
+<def>proclaim</def>
+<form type="simple">kūṟutum</form>
+<gramGrp>
+  <gram type="role">subjunctive</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
