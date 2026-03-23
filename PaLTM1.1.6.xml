@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -42,7 +39,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PaLTM1.1.6"><interp type="alignment" select="0">3MG6MG65MG6MG30MGM,116M</interp>
+<standOff type="wordsplit" corresp="#PaLTM1.1.6">
+<interp type="alignment" select="0">3MG6MG65MG6MG30MGM,116M</interp>
 <entry>
 <form>kai-<c type="glide">y</c>um</form>
 <def>arm</def>
@@ -85,8 +83,6 @@
 <entry>
 <form>paiya</form>
 <def>gently</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>āṭṭi<c type="geminated">p</c></form>
@@ -190,12 +186,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>vāyuḷ-ē</form>
+<form>vāy</form>
 <def>mouth</def>
-<form type="simple">vāyuḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷ-ē</form>
+<def>in</def>
+<form type="simple">uḷ</form>
 <gramGrp>
   <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
