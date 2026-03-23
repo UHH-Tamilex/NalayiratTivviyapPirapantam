@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>1.1.8</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM1.1.8">
+<l>pattu nāḷuṅ kaṭanta viraṇṭānā</l>
+<l>ḷetti caiyuñ cayamaraṅ kōṭittu</l>
+<l>matta māmalai tāṅkiya maintaṉai</l>
+<l>yuttā ṉañcey tukantaṉa rāyarē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>[On] the second day after ten days,</l>
+<l>[they] erected a triumphal arch [on] all the cardinal points,</l>
+<l>[and] having awakened the son who held up the mountain of the must-elephant,</l>
+<l>the cowherds were pleased.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM1.1.8"><interp type="alignment" select="0">24MR10MG59MG13MGM,111M</interp>
+<entry>
+<form>pattu</form>
+<def>ten</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷum</form>
+<def>day</def>
+<form type="sandhi">nāḷuṅ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭanta</form>
+<def>be after</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iraṇṭām</form>
+<def>second</def>
+<form type="sandhi"><c type="glide">v</c>iraṇṭān</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ</form>
+<def>day</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>e<c type="geminated">t</c></form>
+<def>all</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>ticai-<c type="glide">y</c>um</form>
+<def>cardinal points</def>
+<form type="simple">ticai</form>
+<gramGrp>
+  <gram type="role">masculine</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cayamaram</form>
+<def>triumphal arch</def>
+<form type="sandhi">cayamaraṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōṭittu</form>
+<def>erected</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mattamā</form>
+<def>musth-elephant</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malai</form>
+<def>mountain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṅkiya</form>
+<def>held up</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maintaṉai</form>
+<def>son</def>
+<gramGrp>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uttāṉam</form>
+<def>awakening</def>
+<form type="sandhi"><c type="glide">y</c>uttāṉañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyt<c type="elided">u</c></form>
+<def>made</def>
+<form type="sandhi">ceyt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ukantaṉar</form>
+<def>be pleased</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyar-ē</form>
+<def>cowherd</def>
+<form type="simple">āyar</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
