@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -52,7 +49,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PaLTM2.3.8"><interp type="alignment" select="0">8MG11MG35MG43MG4MG9MG46MG46MG2M,212M</interp>
+<standOff type="wordsplit" corresp="#PaLTM2.3.8">
+<interp type="alignment" select="0">8MG11MG35MG15M2G8M2G11M2G9MG4MG9MG46MG46MG2M,218M</interp>
 <entry>
 <form>eṉ</form>
 <def>my</def>
@@ -166,26 +164,34 @@
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">y</c>aṭittum</form>
+<form><c type="glide">y</c>aṭitt<c type="elided">u</c>-um</form>
 <def>beating</def>
+<form type="simple">aṭittu</form>
+<form type="sandhi"><c type="glide">y</c>aṭitt</form>
 <gramGrp>
-  <gram type="role">concessive</gram>
+  <gram type="role">absolutive</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
-<form>piṭittum</form>
+<form>piṭitt<c type="elided">u</c>-um</form>
 <def>catching</def>
+<form type="simple">piṭittu</form>
+<form type="sandhi">piṭitt</form>
 <gramGrp>
-  <gram type="role">concessive</gram>
+  <gram type="role">absolutive</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
-<form>aṉaivarkkum</form>
+<form>aṉaivarkk<c type="elided">u</c>-um</form>
 <def>such-they</def>
-<form type="sandhi">aṉaivarkkuṅ</form>
+<form type="simple">aṉaivarkku</form>
+<form type="sandhi">aṉaivarkk</form>
 <gramGrp>
   <gram type="role">dative</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>kāṭṭiṟṟ<c type="elided">u</c></form>
@@ -352,5 +358,6 @@
   <gram type="role">noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
