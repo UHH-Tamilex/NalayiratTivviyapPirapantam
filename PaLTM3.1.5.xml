@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>3.1.5</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM3.1.5">
+<l>muppō tumkaṭain tīṇṭiya veṇṇeyi ṉōṭu tayirum viḻuṅki</l>
+<l>kappā lāyarkaḷ kāviṟ koṇarnta kalattoṭu cāyttup paruki</l>
+<l>meyppā luṇṭaḻu piḷḷaikaḷ pōlanī vimmivim miyaḻu kiṉṟa</l>
+<l>appā vuṉṉai yaṟintukoṇ ṭēṉuṉak kañcuva ṉammam taravē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Lord who, devouring the curds and butter</l>
+<l rend="indent">that [I had] gathered, having churning [it] three times,</l>
+<l>And tipping and drinking the pots that had been brought,</l>
+<l rend="indent">carried by herders on a pole,</l>
+<l>is sobing and sobing,</l>
+<l rend="indent">wailing like crying children drinking breast milk!</l>
+<l>I have come to know you,</l>
+<l rend="indent">[and] I am afraid to give you [my] breast milk.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM3.1.5"><interp type="alignment" select="0">6M2G9MG22MG67MG65MG16MG3M,194MG</interp>
+<entry>
+<form>mu<c type="geminated">p</c></form>
+<def>three</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pōt<c type="elided">u</c>-um</form>
+<def>time</def>
+<form type="simple">pōtu</form>
+<form type="sandhi">pōt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṭaint<c type="elided">u</c></form>
+<def>churned</def>
+<form type="sandhi">kaṭaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṇṭiya</form>
+<def>gathered</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veṇṇeyiṉōṭu</form>
+<def>butter</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tayir-um</form>
+<def>curd</def>
+<form type="simple">tayir</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>viḻuṅki</form>
+<def>devoured</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kappāl</form>
+<def>shoulder</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyarkaḷ</form>
+<def>cowherd</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāvil</form>
+<def>pole</def>
+<form type="sandhi">kāviṟ</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇarnta</form>
+<def>brought</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kalattoṭu</form>
+<def>pot</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cāyttu<c type="geminated">p</c></form>
+<def>tipping</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paruki</form>
+<def>drinking</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mey<c type="geminated">p</c></form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāl</form>
+<def>milk</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṭ<c type="elided">u</c></form>
+<def>consume</def>
+<form type="sandhi">uṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻu</form>
+<def>cry</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷaikaḷ</form>
+<def>children</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōla</form>
+<def>be similar</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vimmi</form>
+<def>sobbed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vimmi</form>
+<def>sobbed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aḻukiṉṟa</form>
+<def>cry</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>appā</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uṉṉai</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟintu</form>
+<def>know</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭēṉ</form>
+<def>I took</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉakk<c type="elided">u</c></form>
+<def>you</def>
+<form type="sandhi">uṉakk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>añcuvaṉ</form>
+<def>fear</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ammam</form>
+<def>breast milk</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tara-<c type="glide">v</c>ē</form>
+<def>give</def>
+<form type="simple">tara</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
