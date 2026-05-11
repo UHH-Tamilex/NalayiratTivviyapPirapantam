@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>3.2.8</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM3.2.8">
+<l>paṉṉiru tiṅkaḷ vayiṟṟil koṇṭavap pāṅkiṉāl</l>
+<l>eṉiḷaṅ koṅkai yamutamūṭ ṭiyeṭut tuyāṉ</l>
+<l>poṉṉaṭi nōvap pulariyē kāṉilkaṉ ṟiṉpiṉ</l>
+<l>eṉṉiḷañ ciṅkattaip pōkkiṉē ṉellēpā vamē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Just as he was kept in the womb for 12 months,</l>
+<l>I have raised [him] and fed [him] the nectar of my young breasts,</l>
+<l>I sent my young lion after the calves in the forest at dawn</l>
+<l rend="indent">so that [now his] golden feet ache.</l>
+<l>Alas! What a sin!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM3.2.8"><interp type="alignment" select="0">88MG52M,140MG</interp>
+<entry>
+<form>paṉṉiru</form>
+<def>twelve</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṅkaḷ</form>
+<def>month</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vayiṟṟil</form>
+<def>belly</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭa</form>
+<def>keep</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>a<c type="geminated">p</c></form>
+<def>that</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṅkiṉāl</form>
+<def>similarity</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷam</form>
+<def>young</def>
+<form type="sandhi">iḷaṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṅkai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>amutam</form>
+<def>ambrosia</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūṭṭi</form>
+<def>fed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṭuttu</form>
+<def>raised</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>aṭi</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōva<c type="geminated">p</c></form>
+<def>ache</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pulari-<c type="glide">y</c>ē</form>
+<def>dawn</def>
+<form type="simple">pulari</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kāṉil</form>
+<def>forest</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉṟiṉ</form>
+<def>calf</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>iḷam</form>
+<def>young</def>
+<form type="sandhi"><c type="geminated">ṉ</c>iḷañ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciṅkattai<c type="geminated">p</c></form>
+<def>lion</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōkkiṉēṉ</form>
+<def>sent</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellē</form>
+<def>ah!</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāvamē</form>
+<def>sin</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
