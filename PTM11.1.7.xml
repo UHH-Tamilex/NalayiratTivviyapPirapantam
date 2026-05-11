@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>11.1.7</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM11.1.7">
+<l>pūvai vaṇṇaṉār puḷḷiṉ mēlvara</l>
+<l>mēvi niṉṟunāṉ kaṇṭa taṇṭamō</l>
+<l>vīvi laiṅkaṇai villi yampukōt</l>
+<l>tāvi yēyilak kāka veyvatē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Is the punishment [for the fact] that I, [with] continual longing,</l>
+<l>Saw him the hue of the [blue] pūvai [blossoms] as he arrived on a bird,</l>
+<l>That the archer with five [flower] arrows, nocking his darts,</l>
+<l>Ceaselessly shoots at [my] soul as his target?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM11.1.7"><interp type="alignment" select="0">49MG4MG24MG3MG8MG9M2G2M,105MG</interp>
+<entry>
+<form>pūvai</form>
+<def>pūvai</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇaṉār</form>
+<def>hued-he</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puḷḷiṉ</form>
+<def>bird</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>on</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vara</form>
+<def>arrived</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēvi</form>
+<def>longing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟu</form>
+<def>continual</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭa</form>
+<def>seen</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇṭam-ō</form>
+<def>punishment</def>
+<form type="simple">taṇṭam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>vīv<c type="elided">u</c></form>
+<def>interruption</def>
+<form type="sandhi">vīv</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>without</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aim</form>
+<def>five</def>
+<form type="sandhi">aiṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇai</form>
+<def>arrow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>villi</form>
+<def>archer</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ampu</form>
+<def>dart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōtt<c type="elided">u</c></form>
+<def>nocking</def>
+<form type="sandhi">kōtt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āvi-<c type="glide">y</c>ē</form>
+<def>soul</def>
+<form type="simple">āvi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ilakk<c type="elided">u</c></form>
+<def>target</def>
+<form type="sandhi"><c type="glide">y</c>ilakk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eyvat<c type="elided">u</c>-ē</form>
+<def>shoots</def>
+<form type="simple">eyvatu</form>
+<form type="sandhi"><c type="glide">v</c>eyvat</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

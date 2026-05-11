@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>10.8.3</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM10.8.3">
+<l>karuḷak koṭiyoṉ ṟuṭaiyīr taṉippākīr</l>
+<l>uruḷac cakaṭa matuṟak kilnimirttīr</l>
+<l>maruḷaik koṭupā ṭivantil lampukuntīr</l>
+<l>iruḷat tituveṉ ṉituveṉ ṉituveṉṉō.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>You who has a Garuḍa banner, unique rider,</l>
+<l>You straightened out in [your] sleep so that a cart rolled over;</l>
+<l>You entered our yard, having arrived singing, with a love song</l>
+<l>In the dark! What is this? What is this? What is this?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM10.8.3"><interp type="alignment" select="0">15MG32MG36MG20MG20MG3M,130MG</interp>
+<entry>
+<form>karuḷa<c type="geminated">k</c></form>
+<def>Garuḍa</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭi</form>
+<def>banner</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>oṉṟ<c type="elided">u</c></form>
+<def>one-it</def>
+<form type="sandhi"><c type="glide">y</c>oṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyīr</form>
+<def>possess-you</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉi<c type="geminated">p</c></form>
+<def>uniqueness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pākīr</form>
+<def>rider</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uruḷa<c type="geminated">c</c></form>
+<def>roll</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cakaṭam</form>
+<def>cart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>at<c type="elided">u</c></form>
+<def>that</def>
+<form type="sandhi">at</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟakkil</form>
+<def>sleep</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nimirttīr</form>
+<def>straighten out</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruḷai<c type="geminated">k</c></form>
+<def>love song</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭu</form>
+<def>with</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭi</form>
+<def>singing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vant<c type="elided">u</c></form>
+<def>come</def>
+<form type="sandhi">vant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illam</form>
+<def>yard</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukuntīr</form>
+<def>entered</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruḷatt<c type="elided">u</c></form>
+<def>darkness</def>
+<form type="sandhi">iruḷatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>itu</form>
+<def>this</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉ</form>
+<def>what</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>itu</form>
+<def>this</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉ</form>
+<def>what</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>itu</form>
+<def>this</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉ-<c type="geminated">ṉ</c>ō</form>
+<def>what</def>
+<form type="simple">eṉ</form>
+<form type="sandhi"><c type="glide">v</c>eṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry></standOff>
+</TEI>

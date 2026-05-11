@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>1.1.9</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM1.1.9">
+<l>kiṭakkil toṭṭil kiḻiya vutaittiṭu</l>
+<l>meṭuttuk koḷḷil maruṅkai yiṟuttiṭu</l>
+<l>moṭukkip pulki lutarattē pāyntiṭu</l>
+<l>miṭukki lāmaiyāl nāṉmelin tēṉṉaṅkāy</l>
+      </lg>
+      <lg xml:lang="en">
+<l>If [he] lays down, [he] kicks so that the cradle breaks.</l>
+<l>If [he] is carried and held, [he] smashes the side of [my] body.</l>
+<l>If [he] is subdued and embraced, [he] pounces on [my] belly.</l>
+<l>Ladies! Because of being without strength, I have become weak.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM1.1.9"><interp type="alignment" select="0">27MG31MG30MG4ML5MG26M,128M</interp>
+<entry>
+<form>kiṭakkil</form>
+<def>lay down</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṭṭil</form>
+<def>cradle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiḻiya</form>
+<def>break</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>utaitt<c type="elided">u</c></form>
+<def>kicked</def>
+<form type="sandhi"><c type="glide">v</c>utaitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭum</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṭuttu<c type="geminated">k</c></form>
+<def>carried</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷḷil</form>
+<def>taken</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruṅkai</form>
+<def>side of the body</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṟutt<c type="elided">u</c></form>
+<def>smash</def>
+<form type="sandhi"><c type="glide">y</c>iṟutt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭum</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṭukki<c type="geminated">p</c></form>
+<def>subdued</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pulkil</form>
+<def>embrace-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>utarattē</form>
+<def>belly</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāynt<c type="elided">u</c></form>
+<def>pouces</def>
+<form type="sandhi">pāynt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭum</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṭukk<c type="elided">u</c></form>
+<def>strength</def>
+<form type="sandhi">miṭukk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilāmaiyāl</form>
+<def>being without</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>melintēṉ</form>
+<def>become weak</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṅkāy</form>
+<def>lady</def>
+<form type="sandhi">ṉaṅkāy</form>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

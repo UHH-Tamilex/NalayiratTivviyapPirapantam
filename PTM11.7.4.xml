@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>11.7.4</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM11.7.4">
+<l>kūṭā viraṇiyaṉaik kūrukirāl mārviṭanta</l>
+<l>vōṭā vaṭalariyai yumparār kōmaṉai</l>
+<l>tōṭār naṟuntuḻāy mārvaṉai yārvattāl</l>
+<l>pāṭātār pāṭṭeṉṟum pāṭṭalla kēṭṭāmē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The songs of those who do not sing with passion of the celestials’ king,</l>
+<l>The unretreating battle lion which, with sharp claws,</l>
+<l rend="indent">pierced the chest of lifeless Hiraṇya,</l>
+<l>The one on whose chest is blossom-covered scented tulasī,</l>
+<l>Are never songs; [this] we have heard.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM11.7.4"><interp type="alignment" select="0">29MG39MG40MG9MG10MG2M,133MG</interp>
+<entry>
+<form>kūṭā</form>
+<def>live-not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iraṇiyaṉai<c type="geminated">k</c></form>
+<def>Hiraṇya</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūr</form>
+<def>sharpness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ukirāl</form>
+<def>claw</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mārv<c type="elided">u</c></form>
+<def>chest</def>
+<form type="sandhi">mārv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭanta</form>
+<def>dug out</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ōṭā</form>
+<def>relent-not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṭal</form>
+<def>battle</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ariyai</form>
+<def>lion</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>umparār</form>
+<def>celestial</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōmaṉai</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṭ<c type="elided">u</c></form>
+<def>blossom</def>
+<form type="sandhi">tōṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ār</form>
+<def>be full</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṟum</form>
+<def>fragrant</def>
+<form type="sandhi">naṟun</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuḻāy</form>
+<def>tulasi</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mārvaṉai</form>
+<def>chest</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ārvattāl</form>
+<def>passion</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭātār</form>
+<def>sing-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭṭ<c type="elided">u</c></form>
+<def>song</def>
+<form type="sandhi">pāṭṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟum</form>
+<def>always</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭṭ<c type="elided">u</c></form>
+<def>song</def>
+<form type="sandhi">pāṭṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alla</form>
+<def>not so-they</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭām-ē</form>
+<def>hear-we</def>
+<form type="simple">kēṭṭām</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

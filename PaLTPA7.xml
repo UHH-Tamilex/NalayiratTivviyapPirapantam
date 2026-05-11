@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruppallāṇṭu</title> <num>7</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTPA7">
+<l>tīyiṟ polikiṉṟa ceñcuṭa rāḻi tikaḻtiruc cakkarattiṉ</l>
+<l>kōyiṟ poṟiyālē yoṟṟuṇṭu niṉṟu kuṭikuṭi yāṭceykiṉṟōm</l>
+<l>māyap porupaṭai vāṇaṉai yāyiran tōḷum poḻikuruti</l>
+<l>pāyac cuḻaṟṟiya vāḻival lāṉukkup pallāṇṭu kūṟutumē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Having been permanently touched by the mark of the temple of [His] holy discus</l>
+<l>[with] the splendour of the discus of the red sun that abounds with fire,</l>
+<l rend="indent">generation after generation we are servants.</l>
+<l>We proclaim many years for [that] mighty man [with] the discus that was brandished at Bāṇa,</l>
+<l rend="indent">[whose] army fought [with] deceit,</l>
+<l>so that the blood that poured forth from [his] thousand shoulders gushed.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTPA7"><interp type="alignment" select="0">58MG65MG56MGM,183M</interp>
+<entry>
+<form>tīyil</form>
+<def>fire</def>
+<form type="sandhi">tīyiṟ</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>polikiṉṟa</form>
+<def>abound</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">present tense</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<form type="sandhi">ceñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cutar</form>
+<def>sun</def>
+<form type="sandhi">cuṭar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āḻi</form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tikaḻ</form>
+<def>splendour</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru<c type="geminated">c</c></form>
+<def>holy</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cakkarattiṉ</form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōyil</form>
+<def>temple</def>
+<form type="sandhi">kōyiṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṟiyāl-ē</form>
+<def>mark</def>
+<form type="simple">poṟiyāl</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>oṟṟuṇṭu</form>
+<def>touched</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟu</form>
+<def>permanently</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭi</form>
+<def>generation</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭi</form>
+<def>generation</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āḷ</form>
+<def>servant</def>
+<form type="sandhi"><c type="glide">y</c>āṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceykiṉṟōm</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māya<c type="geminated">p</c></form>
+<def>deceit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poru</form>
+<def>fought</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭai</form>
+<def>army</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṇaṉai</form>
+<def>Bāṇa</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āyiram</form>
+<def>thousand</def>
+<form type="sandhi"><c type="glide">y</c>āyiran</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tōḷ-um</form>
+<def>shoulder</def>
+<form type="simple">tōḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>poḻi</form>
+<def>pour forth</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuruti</form>
+<def>blood</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāya<c type="geminated">c</c></form>
+<def>gushed</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuḻaṟṟiya</form>
+<def>brandished</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āḻi</form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vallāṉukku<c type="geminated">p</c></form>
+<def>might-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pal</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āṇṭu</form>
+<def>year</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟutum-ē</form>
+<def>proclaim</def>
+<form type="simple">kūṟutum</form>
+<gramGrp>
+  <gram type="role">subjunctive</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

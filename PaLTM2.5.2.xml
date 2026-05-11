@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>2.5.2</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM2.5.2">
+<l>pēyiṉ mulaiyuṇṭa piḷḷai yivaṉmuṉṉam</l>
+<l>māyac cakaṭum marutu miṟuttavaṉ</l>
+<l>kāyā malarvaṇṇaṉ kaṇṇaṉ karuṅkuḻal</l>
+<l>tūytāka vantukuḻal vārāyak kākkāy</l>
+<l rend="indent">tūmaṇivaṇ ṇaṉkuḻal vārāyak kākkāy</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Come so that the curly black hair of Kannan—</l>
+<l rend="indent">he who has the colour of the Kaya flower,</l>
+<l rend="indent">he who broke the disguised cart and the marutu trees,</l>
+<l rend="indent">the child who had previously drank from the breast of the demoness—</l>
+<l>is immaculate,</l>
+<l>Caw! Caw! Comb [his] curly hair.</l>
+<l>Caw! Caw! Comb the curly hair of he with the colour of a pure jewel.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM2.5.2"><interp type="alignment" select="0">42M2G7M2G46MG56M,156M</interp>
+<entry>
+<form>pēyiṉ</form>
+<def>demoness</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mulai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṇṭa</form>
+<def>drank</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷai</form>
+<def>child</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ivaṉ</form>
+<def>this one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉṉam</form>
+<def>previously</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>māya<c type="geminated">c</c></form>
+<def>disguise</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cakaṭ<c type="elided">u</c>-um</form>
+<def>cart</def>
+<form type="simple">cakaṭu</form>
+<form type="sandhi">cakaṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>marut<c type="elided">u</c>-um</form>
+<def>myrobalan-tree</def>
+<form type="simple">marutu</form>
+<form type="sandhi">marut</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iṟuttavaṉ</form>
+<def>broke</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāyā</form>
+<def>kāyā tree</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malar</form>
+<def>flower</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇaṉ</form>
+<def>colour-he</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇaṉ</form>
+<def>Kaṇṇaṉ</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karum</form>
+<def>black</def>
+<form type="sandhi">karuṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻal</form>
+<def>curly hair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tūyt<c type="elided">u</c></form>
+<def>immaculate</def>
+<form type="sandhi">tūyt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vantu</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻal</form>
+<def>curly hair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vārāy</form>
+<def>comb</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akkākkāy</form>
+<def>caw! caw!</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tū</form>
+<def>pure</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇi</form>
+<def>jewel</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇaṉ</form>
+<def>colour-he</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻal</form>
+<def>curly hair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vārāy</form>
+<def>comb</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akkākkāy</form>
+<def>caw! caw!</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

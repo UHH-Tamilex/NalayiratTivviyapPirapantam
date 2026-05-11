@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>11.2.8</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM11.2.8">
+<l>maṉcuṟumā liruñcōlai niṉṟamaṇāḷaṉār</l>
+<l>neñcaniṟai koṇṭupōyiṉār niṉaikiṉṟilar</l>
+<l>veñcuṭarpōy viṭiyāmalev viṭampukkatō</l>
+<l>nañcuṭalan tuyiṉṟālnamak kiṉinallatē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>My beloved, who stands in misty Māliruñcōlai,</l>
+<l>Took away the whole of my heart; he does not think [anything of it].</l>
+<l>Was the blazing sun, having set, caught somewhere without dawning?</l>
+<l>If this baneful body would sleep, it would yet be a good thing for us!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM11.2.8"><interp type="alignment" select="0">4MG34MR63M2G5MG20MG9M2G2M,144MG</interp>
+<entry>
+<form>maṉc<c type="elided">u</c></form>
+<def>mist</def>
+<form type="sandhi">maṉc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟu</form>
+<def>have</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māliruñcōlai</form>
+<def>Māliruñcōlai</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>stood</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇāḷaṉār</form>
+<def>beloved</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcam</form>
+<def>heart</def>
+<form type="sandhi">neñcan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṟai</form>
+<def>fullness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭu</form>
+<def>took</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōyiṉār</form>
+<def>went away</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉaikiṉṟilar</form>
+<def>think-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">present tense</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vem</form>
+<def>blazing</def>
+<form type="sandhi">veñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṭar</form>
+<def>sun</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭiyāmal</form>
+<def>dawn-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>e<c type="geminated">v</c></form>
+<def>some</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṭam</form>
+<def>place</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukkat<c type="elided">u</c>-ō</form>
+<def>caught</def>
+<form type="simple">pukkatu</form>
+<form type="sandhi">pukkat</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>nañc<c type="elided">u</c></form>
+<def>poison</def>
+<form type="sandhi">nañc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭalam</form>
+<def>body</def>
+<form type="sandhi">uṭalan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuyiṉṟāl</form>
+<def>sleep</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>namakk<c type="elided">u</c></form>
+<def>us</def>
+<form type="sandhi">namakk</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉi</form>
+<def>now</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nallat<c type="elided">u</c>-ē</form>
+<def>good-it</def>
+<form type="simple">nallatu</form>
+<form type="sandhi">nallat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

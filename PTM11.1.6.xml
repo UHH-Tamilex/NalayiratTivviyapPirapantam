@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>11.1.6</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM11.1.6">
+<l>ceṉṟu vārcilai vaḷaitti laṅkaiyai</l>
+<l>veṉṟa villiyār vīra mēkolō</l>
+<l>muṉṟil peṇṇaimēl muḷarik kūṭṭakat</l>
+<l>taṉṟi liṉkura laṭaru meṉṉaiyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>What [about] the heroism of the archer who,</l>
+<l>Going to Laṅkā, bending the long bow, conquered [it]?</l>
+<l>The call of the black ibis in its twiggy nest</l>
+<l>Atop of the courtyard palm assaults me.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM11.1.6"><interp type="alignment" select="0">20MG28MG31MG5MG23MG3M,114MG</interp>
+<entry>
+<form>ceṉṟu</form>
+<def>going</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vār</form>
+<def>be long</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cilai</form>
+<def>bow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷaitt<c type="elided">u</c></form>
+<def>bending</def>
+<form type="sandhi">vaḷaitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkaiyai</form>
+<def>Laṅkā</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veṉṟa</form>
+<def>conquered</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>villiyār</form>
+<def>archer</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīram-ē</form>
+<def>heroism</def>
+<form type="simple">vīram</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kolō</form>
+<def>what</def>
+</entry>
+<entry>
+<form>muṉṟil</form>
+<def>front yard</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇṇai</form>
+<def>Palmyra palm</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>atop</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>muḷari<c type="geminated">k</c></form>
+<def>twig</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṭṭ<c type="elided">u</c></form>
+<def>nest</def>
+<form type="sandhi">kūṭṭ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akatt<c type="elided">u</c></form>
+<def>inside</def>
+<form type="sandhi">akatt</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟiliṉ</form>
+<def>black ibis</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kural</form>
+<def>call</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭarum</form>
+<def>assaults</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉai-<c type="glide">y</c>ē</form>
+<def>me</def>
+<form type="simple">eṉṉai</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

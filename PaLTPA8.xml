@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruppallāṇṭu</title> <num>8</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTPA8">
+<l>neyyiṭai nallatōr cōṟum niyatamu mattāṇic cēvakamum</l>
+<l>kaiyaṭaik kāyum kaḻuttukkup pūṇoṭu kātukkuk kuṇṭalamum</l>
+<l>meyyiṭa nallatōr cāntamum tanteṉṉai veḷḷuyi rākkavalla</l>
+<l>paiyuṭai nākap pakaikkoṭi yāṉukkup pallāṇṭu kūṟuvēṉ</l>
+      </lg>
+      <lg xml:lang="en">
+<l>[He] gave to me good boiled rice in ghee, restraint, service of [His] chamber,</l>
+<l>Areca nut[for my] hands, gold-earring for [my] ears along with ornaments for [my] neck,</l>
+<l>and good sandal on [my] body for the purpose of making my soul pure;</l>
+<l>I proclaim “many years”</l>
+<l rend="indent">for he who has a banner of the enemy of poweful snakes with hoods.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTPA8"><interp type="alignment" select="0">19M2G9MG16MG14MG35MG9MR14MG6MG68M,199M</interp>
+<entry>
+<form>ney</form>
+<def>ghee</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">y</c>iṭai</form>
+<def>in</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nallatōr</form>
+<def>good</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>cōṟ<c type="elided">u</c>-um</form>
+<def>cooked rice</def>
+<form type="simple">cōṟu</form>
+<form type="sandhi">cōṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>niyatam-um</form>
+<def>restraint</def>
+<form type="simple">niyatam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>attāṇi<c type="geminated">c</c></form>
+<def>chamber</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cēvakam-um</form>
+<def>service</def>
+<form type="simple">cēvakam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kai</form>
+<def>hand</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṭaikkāy-um</form>
+<def>areca nut</def>
+<form type="simple">aṭaikkāy</form>
+<form type="sandhi"><c type="glide">y</c>aṭaikkāy</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaḻuttukku<c type="geminated">p</c></form>
+<def>neck</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūṇoṭu</form>
+<def>ornament</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kātukku<c type="geminated">k</c></form>
+<def>ear</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṇṭalam-um</form>
+<def>earrings</def>
+<form type="simple">kuṇṭalam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>mey</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">y</c>iṭam</form>
+<def>on</def>
+<form type="sandhi"><c type="geminated">y</c>iṭan</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nallatōr</form>
+<def>good</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>cāntam-um</form>
+<def>sandal wood</def>
+<form type="simple">cāntam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tant<c type="elided">u</c></form>
+<def>given</def>
+<form type="sandhi">tant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉai</form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷ</form>
+<def>pure</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ḷ</c>uyir</form>
+<def>soul</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākka</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>valla</form>
+<def>power</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pai</form>
+<def>hood</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṭai</form>
+<def>possess</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>nāka<c type="geminated">p</c></form>
+<def>snake</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pakai<c type="geminated">k</c></form>
+<def>enemy</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭiyāṉukku<c type="geminated">p</c></form>
+<def>banner</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pal</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āṇṭu</form>
+<def>year</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟuvēṉ</form>
+<def>proclaim</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

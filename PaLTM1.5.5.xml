@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>1.5.5</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM1.5.5">
+<l>mattaḷa vuntayirum vārkuḻal naṉmaṭavār</l>
+<l rend="indent">vaittaṉa neykaḷavāl vārivi ḻuṅkiyoruṅ</l>
+<l>kottavi ṇaimaruta muṉṉiya vantavarai</l>
+<l rend="indent">yūruka rattiṉoṭu muntiya ventiṟalōy</l>
+<l>muttiṉi ḷamuṟuval muṟṟava ruvataṉmuṉ</l>
+<l rend="indent">muṉṉamu kattaṇiyār moykuḻal kaḷalaiya</l>
+<l>vattave ṉakkorukā lāṭuka ceṅkīrai</l>
+<l rend="indent">yāyarkaḷ pōrēṟē yāṭuka vāṭukavē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Having taken by the handful with trickery,</l>
+<l rend="indent">[you] totally devoured the ghee that was kept by the good women</l>
+<l>with long, curling hair, along with the curds</l>
+<l rend="indent">that measured [as high as] the churning rod,</l>
+<l>You who has great strength who opposed with thighs and hands</l>
+<l rend="indent">those who emerged from the identical twin Marutam [trees]!</l>
+<l>So that [your] beautiful thick curls sway to and fro in front of [your] face</l>
+<l rend="indent">[with] young, pearl [like] teeth before becoming fully grown,</l>
+<l>O Father, dance one time for me!</l>
+<l rend="indent">Battle bull of the cowherds, dance the Ceṅkīrai, please dance!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM1.5.5"><interp type="alignment" select="0">4MG11MG55MG108MG34MG45MG2M,265M</interp>
+<entry>
+<form>matt<c type="elided">u</c></form>
+<def>churning rod</def>
+<form type="sandhi">matt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷavum</form>
+<def>measured</def>
+<form type="sandhi">aḷavun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tayir-um</form>
+<def>curd</def>
+<form type="simple">tayir</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vār</form>
+<def>be long</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻal</form>
+<def>curly hair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṉ</form>
+<def>good</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṭavār</form>
+<def>lady-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaittaṉa</form>
+<def>kept</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ney</form>
+<def>ghee</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷavāl</form>
+<def>trickery</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāri</form>
+<def>take by hand</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḻuṅki</form>
+<def>devoured</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>oruṅk<c type="elided">u</c></form>
+<def>all together</def>
+<form type="sandhi"><c type="glide">y</c>oruṅk</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>otta</form>
+<def>be identical</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṇai</form>
+<def>twin</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>marutam</form>
+<def>Marutam tree</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉṉiya</form>
+<def>rise</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vantavarai</form>
+<def>came</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ūru</form>
+<def>thigh</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karattiṉoṭu</form>
+<def>hand</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muntiya</form>
+<def>opposed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vem</form>
+<def>mighty</def>
+<form type="sandhi">ven</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṟalōy</form>
+<def>strength</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muttiṉ</form>
+<def>pearl</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷa</form>
+<def>young</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṟuval</form>
+<def>teeth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṟṟa</form>
+<def>fully</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>varuvataṉ</form>
+<def>come into being</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>before</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉṉa</form>
+<def>in front</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mukatt<c type="elided">u</c></form>
+<def>face</def>
+<form type="sandhi">mukatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇi</form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ār</form>
+<def>be full</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moy</form>
+<def>be thick</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻalkaḷ</form>
+<def>curly locks</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alaiya</form>
+<def>sway</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>atta</form>
+<def>father</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉakk<c type="elided">u</c></form>
+<def>me</def>
+<form type="sandhi"><c type="glide">v</c>eṉakk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oru</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl</form>
+<def>time</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭuka</form>
+<def>dance</def>
+<gramGrp>
+  <gram type="role">subjunctive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṅkīrai</form>
+<def>Ceṅkīrai</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āyarkaḷ</form>
+<def>cowherd</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōr</form>
+<def>battle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟē</form>
+<def>bull</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āṭuka</form>
+<def>dance</def>
+<gramGrp>
+  <gram type="role">subjunctive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āṭuka-<c type="glide">v</c>ē</form>
+<def>dance</def>
+<form type="simple">āṭuka</form>
+<form type="sandhi"><c type="glide">v</c>āṭuka</form>
+<gramGrp>
+  <gram type="role">subjunctive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

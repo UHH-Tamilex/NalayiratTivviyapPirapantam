@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>1.8.5</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM1.8.5">
+<l>kaḻalmaṉṉar cūḻak katirpōl viḷaṅki</l>
+<l>yeḻaluṟṟu mīṉṭē yiruntuṉṉai nōkkuñ</l>
+<l>cuḻalaip perituṭait tuccō taṉaṉai</l>
+<l>yaḻala viḻittāṉē yaccōvaccō</l>
+<l rend="indent">vāḻiyaṅ kaiyaṉē yaccōvaccō.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>He who gazed hotly at the very deceitful Duryodhana,</l>
+<l>who, shining like the sun</l>
+<l rend="indent">while surrounded by kings with warrior’s anklets,</l>
+<l>saw you, began to depart, returned, and sat down! Oh! Oh!</l>
+<l>He who bears the discus in his hand! Oh! Oh!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM1.8.5"><interp type="alignment" select="0">44M2G7MG24MG67M,145MG</interp>
+<entry>
+<form>kaḻal</form>
+<def>warrior anklet</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉṉar</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻa<c type="geminated">k</c></form>
+<def>surround</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>katir</form>
+<def>sun</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōl</form>
+<def>be similar</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḷaṅki</form>
+<def>shine</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eḻal</form>
+<def>departure</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟṟu</form>
+<def>begun</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mīṇṭ<c type="elided">u</c>-ē</form>
+<def>returned</def>
+<form type="simple">mīṇṭu</form>
+<form type="sandhi">mīṉṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>irunt<c type="elided">u</c></form>
+<def>sat down</def>
+<form type="sandhi"><c type="glide">y</c>irunt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉṉai</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōkkum</form>
+<def>saw</def>
+<form type="sandhi">nōkkuñ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuḻalai<c type="geminated">p</c></form>
+<def>deceit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perit<c type="elided">u</c></form>
+<def>greatly</def>
+<form type="sandhi">perit</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭai<c type="geminated">t</c></form>
+<def>possess</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tuccōtaṉaṉai</form>
+<def>Duryodhana</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aḻala</form>
+<def>hot</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḻittāṉē</form>
+<def>gaze</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>accō</form>
+<def>oh!</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>accō</form>
+<def>oh!</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āḻi</form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṅkaiyaṉē</form>
+<def>hand</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>accō</form>
+<def>oh!</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>accō</form>
+<def>oh!</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

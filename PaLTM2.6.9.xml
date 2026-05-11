@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>2.6.9</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM2.6.9">
+<l>teṉṉilaṅkai maṉṉaṉ cirantōḷ tuṇiceytu</l>
+<l>miṉṉilaṅku pūṇvi pīṭaṇa nampik</l>
+<l>keṉṉilaṅku nāmat taḷavu maraceṉṟa</l>
+<l>miṉṉilaṅ kāraṟkōr kōlkoṇṭuvā</l>
+<l rend="indent">vēṅkaṭa vāṇarkkōr kōlkoṇṭuvā.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Bring a staff for the one with the necklace</l>
+<l rend="indent">that shines [like] lightning,</l>
+<l>who, having cut to pieces the head and arms</l>
+<l rend="indent">of the king of Laṅkā in the South,</l>
+<l>said to lord Vibhīṣaṇa with jewels that shine like lightning</l>
+<l rend="indent">“[Reign] such that my shining name reaches [the whole] kingdom.”</l>
+<l>Bring a staff for the resident of Vēṅkaṭam.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM2.6.9"><interp type="alignment" select="0">62MG15MG10MG13MG5MG26MG13M,149MG</interp>
+<entry>
+<form>teṉ</form>
+<def>south</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ilaṅkai</form>
+<def>Laṅka</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉṉaṉ</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciram</form>
+<def>head</def>
+<form type="sandhi">ciran</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōḷ</form>
+<def>arm</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇi</form>
+<def>piece</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceytu</form>
+<def>made</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṉ</form>
+<def>lightning</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ilaṅku</form>
+<def>shine</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūṇ</form>
+<def>jewel</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vipīṭaṇa</form>
+<def>Vibhīṣaṇa</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nampikk<c type="elided">u</c></form>
+<def>lord</def>
+<form type="sandhi">nampikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ilaṅku</form>
+<def>shine</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāmatt<c type="elided">u</c></form>
+<def>name</def>
+<form type="sandhi">nāmatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷavum</form>
+<def>so far as</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arac<c type="elided">u</c></form>
+<def>kingdom</def>
+<form type="sandhi">arac</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟa</form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṉ</form>
+<def>lightning</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ilaṅk<c type="elided">u</c></form>
+<def>shine</def>
+<form type="sandhi"><c type="geminated">ṉ</c>ilaṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āraṟk<c type="elided">u</c></form>
+<def>necklace</def>
+<form type="sandhi">āraṟk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kōl</form>
+<def>staff</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭuvā</form>
+<def>bring</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkaṭa</form>
+<def>Vēṅkaṭam</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṇarkk<c type="elided">u</c></form>
+<def>resident</def>
+<form type="sandhi">vāṇarkk</form>
+<gramGrp>
+  <gram type="role">third person</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kōl</form>
+<def>staff</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭuvā</form>
+<def>bring</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruppallāṇṭu</title> <num>12</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTPA12">
+<l>pallāṇ ṭeṉṟu pavittira ṉaippara mēṭṭiyai cārṅkameṉṉum</l>
+<l>villāṇ ṭāṉṟaṉṉai villipput tūrviṭṭu cittaṉ virumpiyacol</l>
+<l>nallāṇ ṭeṉṟu naviṉṟuraip pārnamō nārāya ṇāyaveṉṟu</l>
+<l>pallāṇ ṭumpara mātmaṉaic cūḻntirun tēttuvar pallāṇṭē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Those who say the loving words of Viṭṭu Cittaṉ of Villiputtūr,</l>
+<l>saying “many years” to the Pure One,</l>
+<l rend="indent">the Supreme Being, to him, the Master of every bow-string and bow,</l>
+<l>uttering “good year,” saying “Namo Nārāyaṇāya,”</l>
+<l>and circumambulating the Supreme Soul with “many years”,</l>
+<l>they will [get to] praise [Him] with “many years”</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTPA12"><interp type="alignment" select="0">7MG98MG10MG34M2G20MG5MG14M2GM,198M</interp>
+<entry>
+<form>pal</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āṇṭ<c type="elided">u</c></form>
+<def>year</def>
+<form type="sandhi"><c type="geminated">l</c>āṇṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟu</form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pavittiraṉai<c type="geminated">p</c></form>
+<def>pure-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paramēṭṭiyai</form>
+<def>Supreme Being</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cārṅkam</form>
+<def>Śārṅga bow</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>all</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vil</form>
+<def>bow-string</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āṇṭāṉ</form>
+<def>master</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉai</form>
+<def>self</def>
+<form type="sandhi">ṟaṉṉai</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>villipputtūr</form>
+<def>Villiputtūr</def>
+</entry>
+<entry>
+<form>viṭṭu</form>
+<def>Viṭṭu</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cittaṉ</form>
+<def>Cittaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>virumpiya</form>
+<def>loving</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āṇṭ<c type="elided">u</c></form>
+<def>year</def>
+<form type="sandhi"><c type="geminated">l</c>āṇṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟu</form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naviṉṟ<c type="elided">u</c></form>
+<def>uttered</def>
+<form type="sandhi">naviṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uraippār</form>
+<def>say-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>namō</form>
+<def>obeissance</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nārāyaṇāya</form>
+<def>Nārāyaṇa</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉṟu</form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pal</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āṇṭ<c type="elided">u</c>-um</form>
+<def>year</def>
+<form type="simple">āṇṭu</form>
+<form type="sandhi"><c type="geminated">l</c>āṇṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>paramātmaṉai<c type="geminated">c</c></form>
+<def>Supreme Soul</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻnt<c type="elided">u</c></form>
+<def>circumambulating</def>
+<form type="sandhi">cūḻnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irunt<c type="elided">u</c></form>
+<def>be</def>
+<form type="sandhi">irunt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēttuvar</form>
+<def>they praise</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pal</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āṇṭ<c type="elided">u</c>-ē</form>
+<def>year</def>
+<form type="simple">āṇṭu</form>
+<form type="sandhi"><c type="geminated">l</c>āṇṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

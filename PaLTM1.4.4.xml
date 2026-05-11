@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>1.4.4</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM1.4.4">
+<l>cakkarak kaiyaṉ taṭaṅkaṇṇāl malara viḻit</l>
+<l>tokkalai mēlirun tuṉṉaiyē cuṭṭik kāṭṭuṅkāṇ</l>
+<l>takka taṟitiyēl canti rācalam ceyyātē</l>
+<l>makkaṭ peṟāta malaṭa ṉallaiyēl vākaṇṭāy</l>
+      </lg>
+      <lg xml:lang="en">
+<l>He whose hands [hold] the discus opened [his] big eyes wide,</l>
+<l>sitting on my hip, [he] points out and reveals you, see!</l>
+<l>If you know what is proper, Moon, do not deceive [him],</l>
+<l>if you are not a sterile man who has not begotten children, come and see!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM1.4.4"><interp type="alignment" select="0">37MG15MG5MG23MG26M2G36M,148M</interp>
+<entry>
+<form>cakkara<c type="geminated">k</c></form>
+<def>discus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaiyaṉ</form>
+<def>hand-he</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭam</form>
+<def>big</def>
+<form type="sandhi">taṭaṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇāl</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malara</form>
+<def>wide</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḻitt<c type="elided">u</c></form>
+<def>opened-the-eyes</def>
+<form type="sandhi">viḻitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>okkalai</form>
+<def>hip</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>irunt<c type="elided">u</c></form>
+<def>sitting</def>
+<form type="sandhi">irunt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉṉai-<c type="glide">y</c>ē</form>
+<def>you</def>
+<form type="simple">uṉṉai</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>cuṭṭi<c type="geminated">k</c></form>
+<def>pointed-out</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṭṭum</form>
+<def>reveals</def>
+<form type="sandhi">kāṭṭuṅ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇ</form>
+<def>see</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>takkat<c type="elided">u</c></form>
+<def>proper-it</def>
+<form type="sandhi">takkat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟitiyēl</form>
+<def>know</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cantirā</form>
+<def>moon</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>calam</form>
+<def>deceit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyyāt<c type="elided">u</c>-ē</form>
+<def>do-not</def>
+<form type="simple">ceyyātu</form>
+<form type="sandhi">ceyyāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>makkaḷ</form>
+<def>children</def>
+<form type="sandhi">makkaṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟāta</form>
+<def>beget not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malaṭaṉ</form>
+<def>sterile man</def>
+<gramGrp>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allaiyēl</form>
+<def>not-be</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vā</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭāy</form>
+<def>see</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

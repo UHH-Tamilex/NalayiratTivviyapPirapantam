@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>2.2.4</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM2.2.4">
+<l>kañcaṉ ṟaṉṉāṟ puṇarkkap paṭṭa kaḷḷac cakaṭu kalakka ḻiyap</l>
+<l>pañci yaṉṉa mella ṭiyāṟ pāynta pōtu nonti ṭummeṉ</l>
+<l>ṟañci ṉēṉkā ṇamarar kōvē yāyar kūṭṭat taḷavaṉ ṟālō</l>
+<l>kañca ṉaiyuṉ vañca ṉaiyāl valaippa ṭuttāy mulaiyu ṇāyē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Look! I feared that you would suffer</l>
+<l>when you attacked the treacherous cart</l>
+<l rend="indent">that had been created by Kaṃsa</l>
+<l>with your tender, cotton-like feet so that it was shattered and ruined.</l>
+<l>King of immortals! You who caught Kaṃsa with your own deceit,</l>
+<l rend="indent">there was no limit to the [fear of] the herder clan that day.</l>
+<l>Drink from [my] breast!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM2.2.4"><interp type="alignment" select="0">44MG40MG8MG32MG4MG3MG49MGM,188M</interp>
+<entry>
+<form>kañcaṉ</form>
+<def>Kaṃsa</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉāl</form>
+<def>self</def>
+<form type="sandhi">ṟaṉṉāṟ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">instrumental</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṇarkka<c type="geminated">p</c></form>
+<def>create</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭṭa</form>
+<def>happened</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷḷa<c type="geminated">c</c></form>
+<def>treachery</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cakaṭu</form>
+<def>cart</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kalakk<c type="elided">u</c></form>
+<def>shattered</def>
+<form type="sandhi">kalakk</form>
+<gramGrp>
+  <gram type="role">causative</gram>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻiya<c type="geminated">p</c></form>
+<def>be-ruined</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pañci</form>
+<def>cotton</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉṉa</form>
+<def>like</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>mel</form>
+<def>tender</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>aṭiyāl</form>
+<def>feet</def>
+<form type="sandhi"><c type="geminated">l</c>aṭiyāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāynta</form>
+<def>attacked</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōtu</form>
+<def>when</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nont<c type="elided">u</c></form>
+<def>suffering</def>
+<form type="sandhi">nont</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭum</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi"><c type="geminated">m</c>eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>añciṉēṉ</form>
+<def>I feared</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇ</form>
+<def>look</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amarar</form>
+<def>immortals</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōvē</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āyar</form>
+<def>cowherd</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṭṭatt<c type="elided">u</c></form>
+<def>group</def>
+<form type="sandhi">kūṭṭatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷav<c type="elided">u</c></form>
+<def>measure</def>
+<form type="sandhi">aḷav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟ<c type="elided">u</c></form>
+<def>that day</def>
+<form type="sandhi">aṉṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ālō</form>
+<def>is-no</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kañcaṉai</form>
+<def>Kaṃsa</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṉ</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vañcaṉaiyāl</form>
+<def>deceit</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>valaippaṭuttāy</form>
+<def>caught</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">participial noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mulai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṇāy-ē</form>
+<def>drink</def>
+<form type="simple">uṇāy</form>
+<form type="sandhi"><c type="glide">y</c>uṇāy</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

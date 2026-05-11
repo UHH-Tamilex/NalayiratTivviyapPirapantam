@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periya Tirumoḻi</title> <num>11.2.7</num>.
+            <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PTM11.2.7">
+<l>kāmaṉṟaṉak kumuraiyallēṉ kaṭalvaṇṇaṉār</l>
+<l>māmaṇavā ḷareṉakkuttā  ṉumakaṉcollil</l>
+<l>yāmaṅkaḷtō ṟerivīcumeṉ ṉiḷaṅkoṅkaikaḷ</l>
+<l>māmaṇivaṇṇar tiṟattavāy vaḷarkiṉṟavē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>I have no complaints against Kāma. If [you] ask [why], the sea-hued one</l>
+<l>Is [my] dark beloved; [so Kāma] is my son, [too.]</l>
+<l>My young breasts, where he hurls flames all of the time,</l>
+<l>Rise only because of the dark gem-hued one.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PTM11.2.7"><interp type="alignment" select="0">57MG2ML21MG56MG3M,142MG</interp>
+<entry>
+<form>kāmaṉ</form>
+<def>Kāma</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉakku</form>
+<def>self</def>
+<form type="sandhi">ṟaṉakku</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>murai</form>
+<def>complaint</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>allēṉ</form>
+<def>I have no</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal</form>
+<def>sea</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇaṉār</form>
+<def>hued-he</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>dark</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇavāḷar</form>
+<def>beloved</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉakku<c type="geminated">t</c></form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ-um</form>
+<def>self</def>
+<form type="simple">tāṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>makaṉ</form>
+<def>son</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>collil</form>
+<def>ask</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāmaṅkaḷ</form>
+<def>time</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṟ<c type="elided">u</c></form>
+<def>every</def>
+<form type="sandhi">tōṟ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>eri</form>
+<def>flame</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīcum</form>
+<def>hurls</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>iḷam</form>
+<def>young</def>
+<form type="sandhi"><c type="geminated">ṉ</c>iḷaṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṅkaikaḷ</form>
+<def>breasts</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>dark</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇi</form>
+<def>gem</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇar</form>
+<def>hue-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṟattavāy</form>
+<def>because of</def>
+</entry>
+<entry>
+<form>vaḷarkiṉṟa-<c type="glide">v</c>ē</form>
+<def>rise</def>
+<form type="simple">vaḷarkiṉṟa</form>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
