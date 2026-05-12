@@ -1,9 +1,13 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> 3.3.7
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>3.3.7</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -12,7 +16,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p/>
+            <summary><p></p>
             </summary>
           </msContents>    
         </msDesc>
@@ -20,28 +24,28 @@
     </fileDesc>
     <revisionDesc><change/></revisionDesc>
   </teiHeader>
-<text xml:lang="ta">
+<text xml:lang="ta" type="edition">
   <body>
     <div rend="parallel">
       <lg xml:id="PaLTM3.3.7">
-<l>paṉṟiyumāmaiyummīṉamumākiya pāṟkaṭalvaṇṇā uṉmēl</l>
-<l>kaṉṟiṉuruvākimēypulattēvanta kaḷḷamacuraṉtaṉṉai</l>
-<l>ceṉṟupiṭittucciṟukkaikaḷālē viḷaṅkāyeṟintāypōlum</l>
-<l>eṉṟumeṉpiḷḷaikkuttīmaikaḷceyvārkaḷ aṅṅaṉamāvārkaḷē</l>
-</lg>
-<lg xml:lang="en">
-<l>You with the complexion of the milk ocean</l> 
+<l>paṉṟiyu māmaiyum mīṉamu mākiya pāṟkaṭal vaṇṇā vuṉmēl</l>
+<l>kaṉṟi ṉuruvāki mēypulat tēvanta kaḷḷa vacuraṉ taṉṉai</l>
+<l>ceṉṟu piṭittuc ciṟukkaika ḷālē viḷaṅkā yeṟintāy pōlum</l>
+<l>eṉṟumeṉ piḷḷaikkut tīmaikaḷ ceyvārka ḷaṅṅaṉa māvār kaḷē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>You with the complexion of the milk ocean</l>
 <l rend="indent">who became the boar, the tortoise, and the fish!</l>
-<l>You with the little hands, approaching and seizing that demon</l> 
-<l rend="indent">who came in the field to graze in the form of a calf to deceive you!</l>
-<l>[Now] it seems you have thrown an unripe fruit of the wood-apple tree—</l> 
+<l>With [your] little hands, approaching and seizing</l>
+<l rend="indent">that demon who came in the field to graze</l>
+<l rend="indent">in the form of a calf [to] deceive you,</l>
+<l>[now] it seems you have thrown an unripe fruit of the wood-apple tree,</l>
 <l rend="indent">those who harass my child always end up like that!</l>
-</lg>
+      </lg>
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PaLTM3.3.7">
-<interp type="alignment" select="0">5MG7MG8MG47M2G50MG69MGM,194M</interp>
+<standOff type="wordsplit" corresp="#PaLTM3.3.7"><interp type="alignment" select="0">5MG7MG8MG48M2G50MG69MG2M,195MG</interp>
 <entry>
 <form>paṉṟi-<c type="glide">y</c>um</form>
 <def>boar</def>
@@ -71,9 +75,10 @@
 </entry>
 <entry>
 <form>ākiya</form>
-<def>became</def>
+<def>become</def>
 <gramGrp>
   <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -86,20 +91,20 @@
 </entry>
 <entry>
 <form>kaṭal</form>
-<def>sea</def>
+<def>ocean</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>vaṇṇā</form>
-<def>colour</def>
+<def>hue</def>
 <gramGrp>
   <gram type="role">vocative</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>uṉ</form>
+<form><c type="glide">v</c>uṉ</form>
 <def>you</def>
 <gramGrp>
   <gram type="role">oblique</gram>
@@ -107,9 +112,10 @@
 </entry>
 <entry>
 <form>mēl</form>
-<def>on</def>
+<def>to</def>
 <gramGrp>
-  <gram type="role">adverb</gram>
+  <gram type="role">locative</gram>
+  <gram type="role">postposition</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -128,16 +134,15 @@
 </entry>
 <entry>
 <form><c type="glide">v</c>āki</form>
-<def>be</def>
+<def>become</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>mēy</form>
-<def>graze</def>
+<def>graze-</def>
 <gramGrp>
-  <gram type="role">verbal root</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -146,7 +151,7 @@
 <form type="simple">pulattu</form>
 <form type="sandhi">pulatt</form>
 <gramGrp>
-  <gram type="role">locative</gram>
+  <gram type="role">oblique</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
@@ -155,17 +160,18 @@
 <def>come</def>
 <gramGrp>
   <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>kaḷḷam</form>
-<def>deception</def>
+<form>kaḷḷa</form>
+<def>deceive</def>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">infinitive</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>acuraṉ</form>
+<form><c type="glide">v</c>acuraṉ</form>
 <def>demon</def>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -173,28 +179,30 @@
 </entry>
 <entry>
 <form>taṉṉai</form>
-<def>that</def>
+<def>self</def>
 <gramGrp>
+  <gram type="role">singular</gram>
   <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>ceṉṟu</form>
-<def>move</def>
+<def>approaching</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>piṭittu<c type="geminated">c</c></form>
-<def>grasp</def>
+<def>seizing</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>ciṟu<c type="geminated">k</c></form>
-<def>little</def>
+<def>small</def>
 <gramGrp>
   <gram type="role">adjective</gram>
 </gramGrp>
@@ -204,35 +212,29 @@
 <def>hand</def>
 <form type="simple">kaikaḷāl</form>
 <gramGrp>
-  <gram type="role">vocative</gram>
+  <gram type="role">instrumental</gram>
   <gram type="role">plural</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
-<form>viḷam</form>
-<def>wood-apple</def>
-<form type="sandhi">viḷaṅ</form>
+<form>viḷaṅkāy</form>
+<def>wood apple</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>kāy</form>
-<def>unripe fruit</def>
-<gramGrp><gram type="role">noun</gram>
-</gramGrp></entry>
-<entry>
 <form>eṟintāy</form>
 <def>throw</def>
 <gramGrp>
-  <gram type="role">perfective aspect</gram>
+  <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>pōlum</form>
-<def>like</def>
+<def>it seems</def>
 <gramGrp>
   <gram type="role">habitual future</gram>
 </gramGrp>
@@ -241,15 +243,14 @@
 <form>eṉṟum</form>
 <def>always</def>
 <gramGrp>
-  <gram type="role">adverb</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>eṉ</form>
 <def>my</def>
 <gramGrp>
-  <gram type="role">oblique</gram>
   <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
   <gram type="role">first person</gram>
 </gramGrp>
 </entry>
@@ -262,7 +263,7 @@
 </entry>
 <entry>
 <form>tīmaikaḷ</form>
-<def>mischief</def>
+<def>harassment</def>
 <gramGrp>
   <gram type="role">plural</gram>
 </gramGrp>
@@ -272,15 +273,14 @@
 <def>do</def>
 <gramGrp>
   <gram type="role">participial noun</gram>
-  <gram type="role">imperfective aspect</gram>
   <gram type="role">plural</gram>
+  <gram type="role">imperfective aspect</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>aṅṅaṉam</form>
 <def>manner</def>
 <gramGrp>
-  <gram type="role">adverb</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -288,10 +288,9 @@
 <def>be</def>
 <form type="simple">āvārkaḷ</form>
 <gramGrp>
-  <gram type="role">imperfective aspect</gram>
   <gram type="role">plural</gram>
+  <gram type="role">imperfective aspect</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry>
-</standOff>
+</entry></standOff>
 </TEI>
