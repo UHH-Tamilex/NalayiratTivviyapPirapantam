@@ -1,10 +1,14 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-         <title>
-            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> 3.5.1
-        </title>      
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>3.5.1</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -12,7 +16,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p/>
+            <summary><p></p>
             </summary>
           </msContents>    
         </msDesc>
@@ -20,37 +24,39 @@
     </fileDesc>
     <revisionDesc><change/></revisionDesc>
   </teiHeader>
-<text xml:lang="ta">
+<text xml:lang="ta" type="edition">
   <body>
     <div rend="parallel">
       <lg xml:id="PaLTM3.5.1">
-<l>aṭṭukkuvicōṟṟupparuppatamum</l>
-<l>tayirvāviyumneyyaḷaṟumaṭaṅkap</l>
-<l>poṭṭattuṟṟi mārippakaipuṇartta</l>
-<l>porumākaṭalvaṇṇaṉpoṟuttamalai</l>
-<l>vaṭṭattaṭaṅkaṇmaṭamāṉkaṉṟiṉai</l>
-<l>valaivāyppaṟṟikkoṇṭu kuṟamakaḷir</l>
-<l>koṭṭaittalaippālkoṭuttuvaḷarkkum</l>
-<l>kōvarttaṉameṉṉumkoṟṟakkuṭaiyē.</l>
-</lg>
-<lg xml:lang="en">
-<l>The mountain that the one with a complexion [like] the great, churning sea -</l>
-<l rend="indent">who brought about the enmity of the rain clouds after [he] swiftly and thoroughly ate
- the heaping mountain of cooked rice, river of curd, and bog of ghee -
-</l>
-<l>bore, called Govardhana,</l> 
-<l rend="indent">where little girls catch simple, round, wide eyed fawn in nets and take [them] 
-to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
+<l>aṭṭuk kuvicōṟ ṟuparup patamum</l>
+<l rend="indent">tayirvā viyumney yaḷaṟu maṭaṅkap</l>
+<l>poṭṭat tuṟṟi mārippakai puṇartta</l>
+<l rend="indent">porumā kaṭalvaṇ ṇaṉpoṟut tamalai</l>
+<l>vaṭṭat taṭaṅkaṇ maṭamāṉ kaṉṟiṉai</l>
+<l rend="indent">valaivāyp paṟṟikkoṇ ṭukuṟa makaḷir</l>
+<l>koṭṭait talaippāl koṭuttu vaḷarkkum</l>
+<l rend="indent">kōvart taṉameṉ ṉumkoṟṟak kuṭaiyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The mountain that was borne by the one with a complexion [like] the great, churning sea,</l>
+<l rend="indent">who brought about the enmity of the rain clouds</l>
+<l rend="indent">after [he] swiftly and thoroughly ate</l>
+<l rend="indent"> the heaping mountain of cooked rice,</l>
+<l rend="indent">river of curd, and bog of ghee,</l>
+<l>called Govardhana,</l>
+<l rend="Indent">where little girls catch simple, round,</l>
+<l rend="indent">wide eyed fawn in nets and take [them]</l>
+<l rend="indent">to give [them] milk on the end of a cloth knot</l>
+<l rend="indent">[to suckle] and raise [them],</l>
 <l>is [his] victory umbrella.</l>
-</lg>
+      </lg>
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PaLTM3.5.1">
-<interp type="alignment" select="0">25MG11MG11M2G86ML101MG2M,241MG</interp>
+<standOff type="wordsplit" corresp="#PaLTM3.5.1"><interp type="alignment" select="0">24MG11MG11M2G86ML100MG3M,240MG</interp>
 <entry>
 <form>aṭṭu<c type="geminated">k</c></form>
-<def>cook</def>
+<def>cooked</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -63,7 +69,7 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 </gramGrp>
 </entry>
 <entry>
-<form>cōṟṟu<c type="geminated">p</c></form>
+<form>cōṟṟu</form>
 <def>rice</def>
 <gramGrp>
   <gram type="role">oblique</gram>
@@ -113,7 +119,7 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 </entry>
 <entry>
 <form>aṭaṅka<c type="geminated">p</c></form>
-<def>thoroughly</def>
+<def>thorougly</def>
 <gramGrp>
   <gram type="role">adverb</gram>
 </gramGrp>
@@ -122,7 +128,6 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 <form>poṭṭa<c type="geminated">t</c></form>
 <def>swiftly</def>
 <gramGrp>
-  <gram type="role">adverb</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -150,8 +155,8 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 <form>puṇartta</form>
 <def>brought about</def>
 <gramGrp>
-  <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -165,7 +170,7 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 <form>mā</form>
 <def>great</def>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">adjective</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -177,18 +182,16 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 </entry>
 <entry>
 <form>vaṇṇaṉ</form>
-<def>colour</def>
+<def>colour-he</def>
 <gramGrp>
-  <gram type="role">pronominalised noun</gram>
-  <gram type="role">masculine singular</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>poṟutta</form>
-<def>bear</def>
+<def>borne</def>
 <gramGrp>
-  <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -200,7 +203,7 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 </entry>
 <entry>
 <form>vaṭṭa<c type="geminated">t</c></form>
-<def>round</def>
+<def>roundness</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -210,7 +213,7 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 <def>wide</def>
 <form type="sandhi">taṭaṅ</form>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">adjective</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -222,7 +225,7 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 </entry>
 <entry>
 <form>maṭam</form>
-<def>simple</def>
+<def>simplicity</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -252,19 +255,20 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 <form>vāy<c type="geminated">p</c></form>
 <def>in</def>
 <gramGrp>
+  <gram type="role">locative</gram>
   <gram type="role">postposition</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>paṟṟi<c type="geminated">k</c></form>
-<def>grasp</def>
+<def>catch</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>koṇṭu</form>
-<def>take</def>
+<def>taken</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -281,6 +285,7 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 <def>women</def>
 <gramGrp>
   <gram type="role">plural</gram>
+  <gram type="role">feminine</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -292,7 +297,7 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 </entry>
 <entry>
 <form>talai<c type="geminated">p</c></form>
-<def>tip</def>
+<def>end</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -306,7 +311,7 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 </entry>
 <entry>
 <form>koṭuttu</form>
-<def>give</def>
+<def>given</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -315,7 +320,6 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 <form>vaḷarkkum</form>
 <def>raise</def>
 <gramGrp>
-  <gram type="role">imperfective aspect</gram>
   <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
@@ -323,12 +327,11 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 <form>kōvarttaṉam</form>
 <def>Govardhana</def>
 <gramGrp>
-  <gram type="role">proper name</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>eṉṉum</form>
-<def>say</def>
+<def>called</def>
 <gramGrp>
   <gram type="role">peyareccam</gram>
 </gramGrp>
@@ -341,14 +344,12 @@ to give [them] milk on the end of a cloth knot [to suckle] and raise [them],</l>
 </gramGrp>
 </entry>
 <entry>
-<form>kuṭai<c type="glide">y</c>-ē</form>
+<form>kuṭai-<c type="glide">y</c>ē</form>
 <def>umbrella</def>
 <form type="simple">kuṭai</form>
-<form type="sandhi">kuṭai<c type="glide">y</c></form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry>
-</standOff>
+</entry></standOff>
 </TEI>
