@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvāymoḻi</title> <num>3.3.6</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM3.3.6">
+<l>vēṅkaṭaṅ kaṇmey mēlviṉai muṟṟavun</l>
+<l>tāṅkaṭ ṭaṅkaṭku nallaṉavē ceyvār</l>
+<l>vēṅka ṭattuṟai vārkku namaveṉṉa</l>
+<l>lāṅkaṭa maiyatu cumantār kaṭkē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Burning sins, even though the former karma of the body is finished,</l>
+<l>they will make them good for themselves.</l>
+<l>Paying obeissance to those who stay in Vēṅkaṭam</l>
+<l>that is the duty of those who are burdened.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM3.3.6"><interp type="alignment" select="0">27MG24MG17MG45M2GM,119M</interp>
+<entry>
+<form>vēm</form>
+<def>burning</def>
+<form type="sandhi">vēṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭaṅkaḷ</form>
+<def>sins</def>
+<form type="sandhi">kaṭaṅkaṇ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mey</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>earlier</def>
+</entry>
+<entry>
+<form>viṉai</form>
+<def>karma</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṟṟa-<c type="glide">v</c>um</form>
+<def>fully</def>
+<form type="simple">muṟṟa</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tāṅkaḷ</form>
+<def>they</def>
+<form type="sandhi">tāṅkaṭ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṅkaṭku</form>
+<def>they</def>
+<form type="sandhi">ṭaṅkaṭku</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nallaṉa-<c type="glide">v</c>ē</form>
+<def>good-they</def>
+<form type="simple">nallaṉa</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>ceyvār</form>
+<def>they make</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṅkaṭatt<c type="elided">u</c></form>
+<def>Vēṅkaṭam</def>
+<form type="sandhi">vēṅkaṭatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟaivārkku</form>
+<def>stay-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nama</form>
+<def>obiessance</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉṉal</form>
+<def>saying</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>becomes</def>
+<form type="sandhi">āṅ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭamai</form>
+<def>duty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>atu</form>
+<def>that</def>
+</entry>
+<entry>
+<form>cumantārkaṭk<c type="elided">u</c>-ē</form>
+<def>burdened-they</def>
+<form type="simple">cumantārkaṭku</form>
+<form type="sandhi">cumantārkaṭk</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
