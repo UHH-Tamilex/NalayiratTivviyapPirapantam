@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvāymoḻi</title> <num>3.3.11</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM3.3.11">
+<l>tāḷpa rappimaṇ tāviya vīcaṉai</l>
+<l>nīḷpo ḻilkuru kūrccaṭa kōpaṉcol</l>
+<l>kēḻil lāyirat tippattum vallavar</l>
+<l>vāḻvar vāḻveyti ñālam pukaḻavē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Those who master these ten in the matchless thousand</l> 
+<l>spoken by Caṭakōpaṉ of Kuṟukūr with long groves</l>
+<l>on the lord who spanned the earth, expanding [his] foot</l>
+<l>will live, reaching life while the world praises.</l> 
+
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM3.3.11"><interp type="alignment" select="0">67MG6M2G20MG15MG2M,115M</interp>
+<entry>
+<form>tāḷ</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>parappi</form>
+<def>expanded</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇ</form>
+<def>earth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāviya</form>
+<def>spanned</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>īcaṉai</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīḷ</form>
+<def>be long</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poḻil</form>
+<def>grove</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kurukūr<c type="geminated">c</c></form>
+<def>Kurukūr</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭakōpaṉ</form>
+<def>Caṭakōpaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>speek</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēḻ</form>
+<def>match</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>āyiratt<c type="elided">u</c></form>
+<def>thousand</def>
+<form type="sandhi"><c type="geminated">l</c>āyiratt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">p</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>patt<c type="elided">u</c>-um</form>
+<def>ten</def>
+<form type="simple">pattu</form>
+<form type="sandhi">patt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vallavar</form>
+<def>capable-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻvar</form>
+<def>they will live</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻv<c type="elided">u</c></form>
+<def>life</def>
+<form type="sandhi">vāḻv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eyti</form>
+<def>reached</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ñālam</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukaḻa-<c type="glide">v</c>ē</form>
+<def>praise</def>
+<form type="simple">pukaḻa</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvāymoḻi</title> <num>3.2.3</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM3.2.3">
+<l>kollā mākkōl kolaiceytu pāratappō</l>
+<l>rellāc cēṉaiyu mirunilat tavittaventāy</l>
+<l>pollā vākkaiyiṉ puṇarviṉai yaṟukkalaṟā</l>
+<l>collāyyā ṉuṉṉaic cārvatōr cūḻcciyē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>O our father who, commiting murder with a stick of a horse that did not kill,</l>
+<l>extinguished on the big ground the whole army of the Bhārata war,</l>
+<l>without stopping to cut of the links to [my] wicked body</l>
+<l>give [me] unique counsel about my joining you.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM3.2.3"><interp type="alignment" select="0">41MG12MG68MG8MG2M,135M</interp>
+<entry>
+<form>kollā</form>
+<def>kill-not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā<c type="geminated">k</c></form>
+<def>horse</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōl</form>
+<def>stick</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kolai</form>
+<def>murder</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceytu</form>
+<def>done</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pārata<c type="geminated">p</c></form>
+<def>Bhārata</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōr</form>
+<def>war</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellā<c type="geminated">c</c></form>
+<def>all</def>
+</entry>
+<entry>
+<form>cēṉai-<c type="glide">y</c>um</form>
+<def>army</def>
+<form type="simple">cēṉai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iru</form>
+<def>big(adj.)/dark</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nilatt<c type="elided">u</c></form>
+<def>ground</def>
+<form type="sandhi">nilatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avitta</form>
+<def>ended</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>entāy</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pollā</form>
+<def>wicked</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ākkaiyiṉ</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṇarviṉai</form>
+<def>union</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟukkal</form>
+<def>cutting-off</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟā</form>
+<def>cease-not</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>collāy</form>
+<def>speak</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉṉai<c type="geminated">c</c></form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cārvat<c type="elided">u</c></form>
+<def>approaching</def>
+<form type="sandhi">cārvat</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+</entry>
+<entry>
+<form>cūḻcci-<c type="glide">y</c>ē</form>
+<def>counsel</def>
+<form type="simple">cūḻcci</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

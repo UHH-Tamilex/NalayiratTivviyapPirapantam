@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvāymoḻi</title> <num>3.2.5</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM3.2.5">
+<l>vantāy pōlē vantumeṉ maṉattiṉainī</l>
+<l>cintāmal ceyyā yituvē yituvākil</l>
+<l>kontār kāyāviṉ koḻumalart tiruniṟatta</l>
+<l>ventāyyā ṉuṉṉai yeṅkuvan taṇukiṟpaṉē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Although coming it is like you don’t come. Act you so that</l>
+<l>my mind is not scattered. If this is this only,</l>
+<l>o our father with the luminous colour of the rich blosoom of the ironwood tree</l>
+<l>full of clusters, when shall I come [and] reach you?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM3.2.5"><interp type="alignment" select="0">9MG5M2G33MG15MG53MG9MGM,132M</interp>
+<entry>
+<form>vantāy</form>
+<def>come-you</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōl-ē</form>
+<def>be similar</def>
+<form type="simple">pōl</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>vant<c type="elided">u</c>-um</form>
+<def>come</def>
+<form type="simple">vantu</form>
+<form type="sandhi">vant</form>
+<gramGrp>
+  <gram type="role">concessive</gram>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉattiṉai</form>
+<def>mind</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cintāmal</form>
+<def>scatter-not</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyyāy</form>
+<def>act</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>itu-<c type="glide">v</c>ē</form>
+<def>this</def>
+<form type="simple">itu</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>itu</form>
+<def>this</def>
+</entry>
+<entry>
+<form><c type="glide">v</c>ākil</form>
+<def>be-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kont<c type="elided">u</c></form>
+<def>cluster</def>
+<form type="sandhi">kont</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ār</form>
+<def>be-full</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāyāviṉ</form>
+<def>ironwood tree</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḻu</form>
+<def>rich</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malar<c type="geminated">t</c></form>
+<def>blossom</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>brilliance</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṟatta</form>
+<def>hue</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>entāy</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṉṉai</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṅku</form>
+<def>where</def>
+</entry>
+<entry>
+<form>vant<c type="elided">u</c></form>
+<def>come</def>
+<form type="sandhi">vant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇukiṟpaṉ-ē</form>
+<def>I reach</def>
+<form type="simple">aṇukiṟpaṉ</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
