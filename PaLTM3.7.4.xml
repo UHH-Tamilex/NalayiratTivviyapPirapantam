@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>3.7.4</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM3.7.4">
+<l>ēḻaipē taiyōrpā lakaṉvanteṉ peṇmaka ḷaiyeḷki</l>
+<l>tōḻimārpa larkoṇṭu pōycceyta cūḻcciyai yārkkuraikkēṉ</l>
+<l>āḻiyāṉeṉ ṉumāḻa mōḻaiyil pāycci yakappaṭutti</l>
+<l>mūḻaiyup paṟiyā tateṉṉum mūturai yumilaḷē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Many friends came, disparaging my daughter</l>
+<l rend="indent">–a foolish, simple child–</l>
+<l>to whom do I speak</l>
+<l rend="indent">about [their] intention to lead [her] astray?</l>
+<l>Having pushed [her] into the deep pool</l>
+<l rend="indent">called “discus-bearer”</l>
+<l>you have trapped [her].</l>
+<l>She does not [know] the old saying,</l>
+<l rend="indent">“a ladle does not taste the salt”.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM3.7.4"><interp type="alignment" select="0">23MG57MG22MR35MG8MG8MG4MG7MG2M,173MG</interp>
+<entry>
+<form>ēḻai</form>
+<def>foolishness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pētai</form>
+<def>simplicity</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ōr</form>
+<def>one</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pālakaṉ</form>
+<def>child</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vant<c type="elided">u</c></form>
+<def>come</def>
+<form type="sandhi">vant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇ</form>
+<def>female</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>makaḷai</form>
+<def>daughter</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eḷki</form>
+<def>disparaged</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōḻimār</form>
+<def>female friend</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>palar</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭu</form>
+<def>take</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy<c type="geminated">c</c></form>
+<def>leave</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyta</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūḻcciyai</form>
+<def>intention</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yārkk<c type="elided">u</c></form>
+<def>who</def>
+<form type="sandhi">yārkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uraikkēṉ</form>
+<def>I speak</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āḻiyāṉ</form>
+<def>discus-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āḻa<c type="uncertain">m</c></form>
+<def>depth</def>
+<form type="sandhi">āḻam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mōḻaiyil</form>
+<def>pool</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāycci</form>
+<def>push into</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>akappaṭutti</form>
+<def>trap</def>
+<gramGrp>
+  <gram type="role">subjunctive</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūḻai</form>
+<def>ladle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>upp<c type="elided">u</c></form>
+<def>salt</def>
+<form type="sandhi"><c type="glide">y</c>upp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟiyātat<c type="elided">u</c></form>
+<def>taste</def>
+<form type="sandhi">aṟiyātat</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>saying</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūt<c type="elided">u</c></form>
+<def>old</def>
+<form type="sandhi">mūt</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>urai-<c type="glide">y</c>um</form>
+<def>saying</def>
+<form type="simple">urai</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ilaḷ-ē</form>
+<def>not she</def>
+<form type="simple">ilaḷ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
