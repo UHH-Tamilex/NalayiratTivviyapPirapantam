@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>3.9.8</num>.
+            <persName xml:lang="ta">Periyāḻvār </persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM3.9.8">
+<l>tārkkiḷan tampik karacīntu  taṇṭakam</l>
+<l>nūṟṟavaḷ colkoṇṭu pōki nuṭaṅkiṭaic</l>
+<l>cūrppaṇa kāvaic ceviyoṭu mūkkava</l>
+<l>ḷārkka varintāṉaip pāṭippaṟa</l>
+<l rend="indent">vayōttik karacaṉaip pāṭippaṟa.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Jump and sing about he who,</l>
+<l rend="indent">having given [his] kingdom and [his royal] garland</l>
+<l rend="indent">to [his] younger brother,</l>
+<l rend="indent">[and] gone to the Daṇḍaka forest</l>
+<l rend="indent">at the word of the scheming woman,</l>
+<l>cut off the nose along with the ears of Śūrpaṇakhā,</l>
+<l rend="indent">with a thin waist,</l>
+<l rend="indent">so that [she] howled!</l>
+<l>Jump and sing about the king of Ayodhyā!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM3.9.8"><interp type="alignment" select="0">5MG11MG4MG38MG31MG38MG19M,151MG</interp>
+<entry>
+<form>tārkk<c type="elided">u</c></form>
+<def>garland</def>
+<form type="sandhi">tārkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷam</form>
+<def>young</def>
+<form type="sandhi">iḷan</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tampikk<c type="elided">u</c></form>
+<def>younger brother</def>
+<form type="sandhi">tampikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arac<c type="elided">u</c></form>
+<def>kingdom</def>
+<form type="sandhi">arac</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īntu</form>
+<def>given</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇṭakam</form>
+<def>Daṇḍaka forest</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nūṟṟavaḷ</form>
+<def>to scheme</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">feminine</gram>
+  <gram type="role">singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭu</form>
+<def>taken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōki</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nuṭaṅk<c type="elided">u</c></form>
+<def>thinness</def>
+<form type="sandhi">nuṭaṅk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭai<c type="geminated">c</c></form>
+<def>waist</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūrppaṇakāvai<c type="geminated">c</c></form>
+<def>Śūrpaṇakhā</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceviyoṭu</form>
+<def>ear</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūkk<c type="elided">u</c></form>
+<def>nose</def>
+<form type="sandhi">mūkk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaḷ</form>
+<def>that one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ārkka</form>
+<def>howl</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>arintāṉai<c type="geminated">p</c></form>
+<def>cut off</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭi<c type="geminated">p</c></form>
+<def>sing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṟa</form>
+<def>jump</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ayōttikk<c type="elided">u</c></form>
+<def>Ayodhyā</def>
+<form type="sandhi"><c type="glide">v</c>ayōttikk</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aracaṉai<c type="geminated">p</c></form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭi<c type="geminated">p</c></form>
+<def>sing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṟa</form>
+<def>jump</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
