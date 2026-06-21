@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>3.9.4</num>.
+            <persName xml:lang="ta">Periyāḻvār </persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM3.9.4">
+<l>māṟṟuttāy ceṉṟu vaṉampōkē yeṉṟiṭa</l>
+<l>vīṟṟuttāy piṉtoṭarn tempirā ṉeṉṟaḻa</l>
+<l>kūṟṟuttāy collak koṭiyava ṉampōṉa</l>
+<l>cīṟṟa milātāṉaip pāṭippaṟa</l>
+<l rend="indent">cītai maṇāḷaṉaip pāṭippaṟa</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Jump and sing about him who is without anger, who,</l>
+<l rend="indent">when [his] step-mother approached</l>
+<l rend="indent">[him and] said “go to the forest!</l>
+<l rend="indent">[and] his own mother followed after</l>
+<l rend="indent">[him] weeping, “our Lord!”</l>
+<l>went to the cruel forest</l>
+<l rend="indent">when the mother of death commanded [it].</l>
+<l>Jump and sing about the bridegroom of Sītā!</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM3.9.4"><interp type="alignment" select="0">22M2G5MG22MG10MG81M,145M</interp>
+<entry>
+<form>māṟṟuttāy</form>
+<def>step-mother</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṉṟu</form>
+<def>approached</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṉam</form>
+<def>forest</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōk<c type="elided">u</c>-ē</form>
+<def>go</def>
+<form type="simple">pōku</form>
+<form type="sandhi">pōk</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi"><c type="glide">y</c>eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭa</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>īṟṟuttāy</form>
+<def>own-mother</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>toṭarnt<c type="elided">u</c></form>
+<def>follow</def>
+<form type="sandhi">toṭarnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻa</form>
+<def>weep</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟṟu<c type="geminated">t</c></form>
+<def>Death</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāy</form>
+<def>mother</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>colla<c type="geminated">k</c></form>
+<def>speak</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭiya</form>
+<def>cruel</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṉam</form>
+<def>forest</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōṉa</form>
+<def>went</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cīṟṟam</form>
+<def>anger</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilātāṉai<c type="geminated">p</c></form>
+<def>be without</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭi<c type="geminated">p</c></form>
+<def>sing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṟa</form>
+<def>jump</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cītai</form>
+<def>Sītā</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇāḷaṉai<c type="geminated">p</c></form>
+<def>husband</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭi<c type="geminated">p</c></form>
+<def>sing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṟa</form>
+<def>jump</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
