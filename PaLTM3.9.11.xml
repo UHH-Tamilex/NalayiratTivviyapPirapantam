@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>3.9.11</num>.
+            <persName xml:lang="ta">Periyāḻvār </persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM3.9.11">
+<l>nantaṉ matalaiyaik kākutta ṉainaviṉ</l>
+<l>ṟunti paṟanta voḷiyiḻai yārkaḷcol</l>
+<l>centamiḻt teṉputu vai viṭṭu cittaṉcol</l>
+<l>aintiṉō ṭaintumval lārkkalla lillaiyē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>For those who master [these] five and five [verses],</l>
+<l rend="Indent">Composed in fine Tamil by Viṭṭucittaṉ</l>
+<l rend="indent">of Putuvai in the south</l>
+<l rend="indent">on the words of the bright ornamented ladies</l>
+<l rend="indent">who played a game of jumping and singing,</l>
+<l rend="indent">proclaiming [the stories of] Nanda’s son and Kākutstha,</l>
+<l>there will be no misfortune.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM3.9.11"><interp type="alignment" select="0">33MG70MG4M2G10MG10MG2M,135M</interp>
+<entry>
+<form>nantaṉ</form>
+<def>Nanda</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>matalaiyai<c type="geminated">k</c></form>
+<def>son</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kākuttaṉai</form>
+<def>Kākutstha</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naviṉṟ<c type="elided">u</c></form>
+<def>proclaiming</def>
+<form type="sandhi">naviṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>untipaṟanta</form>
+<def>play game of jumping and singing</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oḷi</form>
+<def>brightness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iḻaiyārkaḷ</form>
+<def>ornament</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>fine</def>
+<form type="sandhi">cen</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tamiḻ<c type="geminated">t</c></form>
+<def>Tamiḻ</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>teṉ</form>
+<def>south</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>putuvai</form>
+<def>Putuvai</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭṭucittaṉ</form>
+<def>Viṣṇucitta</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>composed</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aintiṉōṭ<c type="elided">u</c></form>
+<def>five</def>
+<form type="sandhi">aintiṉōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aint<c type="elided">u</c>-um</form>
+<def>five</def>
+<form type="simple">aintu</form>
+<form type="sandhi">aint</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vallārkk<c type="elided">u</c></form>
+<def>master-they</def>
+<form type="sandhi">vallārkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allal</form>
+<def>misfortune</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illai-<c type="glide">y</c>ē</form>
+<def>is no</def>
+<form type="simple">illai</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
