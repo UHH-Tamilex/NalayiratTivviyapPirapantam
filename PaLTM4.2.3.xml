@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>4.2.3</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Periyāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM4.2.3">
+<l>takkār mikkār kaḷaiccañca lañceyyuñ calavarai</l>
+<l>tekkā neṟiyēpōk kuvikkuñ celvaṉ poṉmalai</l>
+<l>yekkāla muñceṉṟu cēvit tirukku maṭiyarai</l>
+<l>yakkā ṉeṟiyaimāṟṟun taṇtiru māliruñ cōlaiyē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The golden mountain of the wealthy Lord</l>
+<l rend="indent">who sent on the path to hell the ferocious [demons]</l>
+<l rend="indent">who caused [both] virtuous and the excellent men grief,</l>
+<l>is cool Tirumāliruñcōlai where that wilderness path</l>
+<l rend="indent">is transformed for devotees who</l>
+<l rend="indent">are always going and serving [the Lord].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM4.2.3"><interp type="alignment" select="0">45MG5MG48MG21ML31MG3M,157MG</interp>
+<entry>
+<form>takkār</form>
+<def>virtuous-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mikkārkaḷai<c type="geminated">c</c></form>
+<def>excellent-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cañcalam</form>
+<def>grief</def>
+<form type="sandhi">cañcalañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyyum</form>
+<def>caused</def>
+<form type="sandhi">ceyyuñ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>calavarai</form>
+<def>ferocious-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tekk<c type="elided">u</c></form>
+<def>hell</def>
+<form type="sandhi">tekk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ā</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṟi-<c type="glide">y</c>ē</form>
+<def>path</def>
+<form type="simple">neṟi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pōkkuvikkum</form>
+<def>sent</def>
+<form type="sandhi">pōkkuvikkuñ</form>
+<gramGrp>
+  <gram type="role">causative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>celvaṉ</form>
+<def>wealthy-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malai</form>
+<def>mountain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ekkālamum</form>
+<def>always</def>
+<form type="sandhi"><c type="glide">y</c>ekkālamuñ</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṉṟu</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cēvitt<c type="elided">u</c></form>
+<def>serve</def>
+<form type="sandhi">cēvitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irukkum</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭiyarai</form>
+<def>devotee</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>a<c type="geminated">k</c></form>
+<def>that</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṉ</form>
+<def>wilderness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṟiyai</form>
+<def>path</def>
+<form type="sandhi">ṉeṟiyai</form>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṟṟum</form>
+<def>transformed</def>
+<form type="sandhi">māṟṟun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇ</form>
+<def>cool</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirumāliruñcōlai-<c type="glide">y</c>ē</form>
+<def>Tirumāliruñcōlai</def>
+<form type="simple">tirumāliruñcōlai</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
