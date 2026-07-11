@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvāymoḻi</title> <num>5.2.11</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nammāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM5.2.11">
+<l>kaliyuka moṉṟumiṉ ṟikkē taṉṉaṭi yārkkaruḷ ceyyum</l>
+<l>maliyuñ cuṭaroḷi mūrtti māyappi rāṉkaṇṇaṉ ṟaṉṉai</l>
+<l>kalivaya ṟeṉṉaṉ kurukūrk kārimā ṟaṉcaṭa kōpaṉ</l>
+<l>olipuka ḻāyirat tippat tuḷḷattai mācaṟuk kummē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>These ten in the thousand of sounding praise</l>
+<l>by Kāri Māṟaṉ Caṭakōpaṉ from Kurukūr of the Southern [king] with lush fields</l>
+<l>on Kaṇṇaṉ, the miraculous lord with a glowing light form that is plentiful,</l>
+<l>who does grace to his servants except once in the Kaliyuga,</l>
+	<l>will cut off flaws from the mind.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM5.2.11"><interp type="alignment" select="0">12M2G8M2G13MG62ML46MG6MG11MG7MG2M,177M</interp>
+<entry>
+<form>kaliyukam</form>
+<def>Kaliyuga</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṉṟ<c type="elided">u</c>-um</form>
+<def>one-it</def>
+<form type="simple">oṉṟu</form>
+<form type="sandhi">oṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iṉṟikk<c type="elided">u</c>-ē</form>
+<def>except</def>
+<form type="simple">iṉṟikku</form>
+<form type="sandhi">iṉṟikk</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>aṭiyārkk<c type="elided">u</c></form>
+<def>servants</def>
+<form type="sandhi"><c type="geminated">ṉ</c>aṭiyārkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aruḷ</form>
+<def>grace</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyyum</form>
+<def>doing</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maliyum</form>
+<def>abounding</def>
+<form type="sandhi">maliyuñ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṭar</form>
+<def>glow</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḷi</form>
+<def>brightness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūrtti</form>
+<def>form</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māya<c type="geminated">p</c></form>
+<def>wonder</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇaṉ</form>
+<def>Kaṇṇaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉai</form>
+<def>self</def>
+<form type="sandhi">ṟaṉṉai</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kali</form>
+<def>swell</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vayal</form>
+<def>paddy field</def>
+<form type="sandhi">vayaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teṉṉaṉ</form>
+<def>South-he</def>
+<form type="sandhi">ṟeṉṉaṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kurukūr<c type="geminated">k</c></form>
+<def>Kurukūr</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāri</form>
+<def>Kāri</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṟaṉ</form>
+<def>Māṟaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭakōpaṉ</form>
+<def>Caṭakōpaṉ</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oli</form>
+<def>sound</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukaḻ</form>
+<def>praise</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyiratt<c type="elided">u</c></form>
+<def>thousand</def>
+<form type="sandhi">āyiratt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">p</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>patt<c type="elided">u</c></form>
+<def>ten</def>
+<form type="sandhi">patt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷḷattai</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māc<c type="elided">u</c></form>
+<def>flaw</def>
+<form type="sandhi">māc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟukkum-<c type="geminated">m</c>ē</form>
+<def>cut off</def>
+<form type="simple">aṟukkum</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
