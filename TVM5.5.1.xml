@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvāymoḻi</title> <num>5.5.1</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nammāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM5.5.1">
+<l>eṅṅaṉēyō vaṉṉai mīrkā ḷeṉṉai muṉivatunīr</l>
+<l>naṅkaḷkō lattiruk kuṟuṅkuṭi nampiyai nāṉkaṇṭapiṉ</l>
+<l>caṅkiṉōṭu nēmi yōṭun tāmaraik kaṇkaḷoṭuñ</l>
+<l>ceṅkaṉivā yoṉṟi ṉōṭuñ celkiṉṟa teṉṉeñcamē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>How [is it], mothers, [that] you disapprove of me?</l>
+<l>After I saw our Nampi of beautiful Tirukkuṟuṅkuṭi,</l>
+<l>my heart goes for the conch and the discus</l>
+<l>and the lotus eyes and the one mouth [like] a red ripe fruit.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM5.5.1"><interp type="alignment" select="0">5MGMG82M2GMR7M2G18M2G19M2G11MG8MGM,166M</interp>
+<entry>
+<form>eṅṅaṉ-ē-<c type="glide">y</c>ō</form>
+<def>how</def>
+<form type="simple">eṅṅaṉ-ē</form>
+<form type="sandhi">eṅṅaṉē</form>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṉṉaimīrkāḷ</form>
+<def>mothers-you</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉai</form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉivatu</form>
+<def>disapproving</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṅkaḷ</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōla<c type="geminated">t</c></form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirukkuṟuṅkuṭi</form>
+<def>Tirukkuṟuṅkuṭi</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nampiyai</form>
+<def>Nampi</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭa</form>
+<def>seen</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+</entry>
+<entry>
+<form>caṅkiṉōṭ<c type="elided">u</c>-um</form>
+<def>conch</def>
+<form type="simple">caṅkiṉōṭu</form>
+<form type="sandhi">caṅkiṉōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>nēmiyōṭ<c type="elided">u</c>-um</form>
+<def>discus</def>
+<form type="simple">nēmiyōṭu</form>
+<form type="sandhi">nēmiyōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tāmarai<c type="geminated">k</c></form>
+<def>lotus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇkaḷoṭ<c type="elided">u</c>-um</form>
+<def>eyes</def>
+<form type="simple">kaṇkaḷoṭu</form>
+<form type="sandhi">kaṇkaḷoṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<form type="sandhi">ceṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉi</form>
+<def>ripe fruit</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>mouth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṉṟiṉōṭ<c type="elided">u</c>-um</form>
+<def>one-it(n.sg.soc.)</def>
+<form type="simple">oṉṟiṉōṭu</form>
+<form type="sandhi">oṉṟiṉōṭ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>celkiṉṟat<c type="elided">u</c></form>
+<def>it goes</def>
+<form type="sandhi">celkiṉṟat</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">present tense</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcam-ē</form>
+<def>heart</def>
+<form type="simple">neñcam</form>
+<form type="sandhi">ṉeñcam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

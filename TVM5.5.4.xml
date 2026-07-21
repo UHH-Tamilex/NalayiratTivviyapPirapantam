@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvāymoḻi</title> <num>5.5.4</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nammāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM5.5.4">
+<l>nīṅkanillāk kaṇṇa nīrkaḷeṉ ṟaṉṉaiyaru muṉitir.</l>
+<l>tēṉkoḷ cōlait tirukkuṟuṅkuṭi nampiyai nāṉkaṇṭapiṉ</l>
+<l>pūntaṇ mālait taṇṭuḻāyum poṉmuṭi yumvaṭivum</l>
+<l>pāṅku tōṉṟum paṭṭu nāṇum pāviyēṉ pakkattavē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>“When they depart tears are in [your] eyes, unstopping”, so you all will disapprove, mothers.</l>
+<l>After I saw Nampi of Tirukkuṟuṅkuṭi with honey-rich groves,</l>
+<l>the garland cool with flowers, the cool Tulsi, the gold crown, [his] shape</l>
+<l>the silk threads that appear at [his] side are close to me evildoer.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM5.5.4"><interp type="alignment" select="0">25MG8MG2ML72MG9MG8M2G21MG17MG2M,44MG128M</interp>
+<entry>
+<form>nīṅka</form>
+<def>leave</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nillā<c type="geminated">k</c></form>
+<def>stand-not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇa</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīrkaḷ</form>
+<def>tears</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṉaiyar-um</form>
+<def>mothers</def>
+<form type="simple">aṉṉaiyar</form>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>muṉitir</form>
+<def>disapprove-you</def>
+<gramGrp>
+  <gram type="role">subjunctive</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēṉ</form>
+<def>honey</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷ</form>
+<def>take</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cōlai<c type="geminated">t</c></form>
+<def>grove</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirukkuṟuṅkuṭi</form>
+<def>Tirukkuṟuṅkuṭi</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nampiyai</form>
+<def>Nampi</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭa</form>
+<def>seen</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+</entry>
+<entry>
+<form>pūm</form>
+<def>flower</def>
+<form type="sandhi">pūn</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇ</form>
+<def>cool</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mālai<c type="geminated">t</c></form>
+<def>garland</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇ</form>
+<def>cool</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuḻāy-um</form>
+<def>tulasi</def>
+<form type="simple">tuḻāy</form>
+<form type="sandhi">ṭuḻāy</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭi-<c type="glide">y</c>um</form>
+<def>crown</def>
+<form type="simple">muṭi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vaṭiv<c type="elided">u</c>-um</form>
+<def>shape</def>
+<form type="simple">vaṭivu</form>
+<form type="sandhi">vaṭiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pāṅku</form>
+<def>side</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṉṟum</form>
+<def>appearing</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭṭu</form>
+<def>silk-cloth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṇ-um</form>
+<def>thread</def>
+<form type="simple">nāṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pāviyēṉ</form>
+<def>sinner-I</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pakkatta-<c type="glide">v</c>ē</form>
+<def>side-they</def>
+<form type="simple">pakkatta</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

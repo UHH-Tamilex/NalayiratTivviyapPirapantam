@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvāymoḻi</title> <num>5.4.9</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nammāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM5.4.9">
+<l>veñcuṭariṟ ṟāṉaṭumāl. vīṅkiruḷiṉ nuṇṭuḷiyā</l>
+<l>yañcuṭara veyyō ṉaṇineṭuntēr tōṉṟātāl</l>
+<l>ceñcuṭart tāmaraikkaṇ celvaṉum vārāṉāl</l>
+<l>neñciṭartīrp pāriṉiyār niṉṟuruku kiṉṟēṉē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Like the [sun’s] hot glow it will kill [me]. As fine drops of swelling darkness,</l>
+<l>the decorated long chariot of the Kot one with pretty glow doesn’t show.</l>
+<l>The lord with red-glowing lotus eyes will not come.</l>
+<l>Who will end [my] heart’s affliction now? I stand [and] dissolve.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM5.4.9"><interp type="alignment" select="0">17MG7MG47M2G28MG7MG6MG21MG11MGM,20MG133M</interp>
+<entry>
+<form>vem</form>
+<def>hot</def>
+<form type="sandhi">veñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṭariṉ</form>
+<def>glow</def>
+<form type="sandhi">cuṭariṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>self</def>
+<form type="sandhi">ṟāṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭum-āl</form>
+<def>kills</def>
+<form type="simple">aṭum</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">āl</m></gramGrp>
+</entry>
+<entry>
+<form>vīṅk<c type="elided">u</c></form>
+<def>swell</def>
+<form type="sandhi">vīṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruḷiṉ</form>
+<def>darkness</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nuṇ</form>
+<def>fine</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuḷi</form>
+<def>drop</def>
+<form type="sandhi">ṭuḷi</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>am</form>
+<def>pretty</def>
+<form type="sandhi">añ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṭara</form>
+<def>glow</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veyyōṉ</form>
+<def>hot-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇi</form>
+<def>adorn</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṭum</form>
+<def>long</def>
+<form type="sandhi">neṭun</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēr</form>
+<def>chariot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṉṟāt<c type="elided">u</c>-āl</form>
+<def>visible-not-it</def>
+<form type="simple">tōṉṟātu</form>
+<form type="sandhi">tōṉṟāt</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">āl</m></gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<form type="sandhi">ceñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṭar<c type="geminated">t</c></form>
+<def>glow</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāmarai<c type="geminated">k</c></form>
+<def>lotus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>celvaṉ-um</form>
+<def>lord-he</def>
+<form type="simple">celvaṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vārāṉ-āl</form>
+<def>come-not-he</def>
+<form type="simple">vārāṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">āl</m></gramGrp>
+</entry>
+<entry>
+<form>neñc<c type="elided">u</c></form>
+<def>heart</def>
+<form type="sandhi">neñc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭar</form>
+<def>affliction</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīrppār</form>
+<def>they end</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉi</form>
+<def>now</def>
+</entry>
+<entry>
+<form>yār</form>
+<def>who</def>
+</entry>
+<entry>
+<form>niṉṟ<c type="elided">u</c></form>
+<def>stood</def>
+<form type="sandhi">niṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>urukukiṉṟēṉ-ē</form>
+<def>I dissolve</def>
+<form type="simple">urukukiṉṟēṉ</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
