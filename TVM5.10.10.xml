@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvāymoḻi</title> <num>5.10.10</num>.
+            <persName xml:lang="ta">Nammāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nammāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TVM5.10.10">
+<l>kūṭi nīrai kaṭainta vāṟu mamutan tēva ruṇṇa vacurarai</l>
+<l>vīṭum vaṇṇaṅka ḷēceytu pōṉa vittakamu</l>
+<l>mūṭu pukkeṉa tāviyai yurukki yuṇṭiṭu kiṉṟa niṉṟaṉṉai</l>
+<l>nāṭum vaṇṇañ collāy naccunā kaṇaiyāṉē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>You on the coveted serpent bed, tell [me] a manner in which</l>
+<l>to seek you out who melted [and] absorbed my soul when</l> 
+<l>the way [you] jointly churned the water and the skill with which [you] went</l>
+<l>acting in a manner that the Asuras were destroyed when the gods ate the ambrosia</l>
+	<l>entered into [it].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TVM5.10.10"><interp type="alignment" select="0">20M2G40MG18MG9MG4MG17MG42MG7MGM,167M</interp>
+<entry>
+<form>kūṭi</form>
+<def>united</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīrai</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭainta</form>
+<def>churned</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āṟ<c type="elided">u</c>-um</form>
+<def>way</def>
+<form type="simple">āṟu</form>
+<form type="sandhi"><c type="glide">v</c>āṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>amutam</form>
+<def>ambrosia</def>
+<form type="sandhi">amutan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēvar</form>
+<def>gods</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṇa</form>
+<def>eat</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>acurarai</form>
+<def>Asuras</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīṭum</form>
+<def>being-destroyed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇaṅkaḷ-ē</form>
+<def>manners</def>
+<form type="simple">vaṇṇaṅkaḷ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>ceytu</form>
+<def>made</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōṉa</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vittakam-um</form>
+<def>skill</def>
+<form type="simple">vittakam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ūṭu</form>
+<def>middle</def>
+</entry>
+<entry>
+<form>pukk<c type="elided">u</c></form>
+<def>entered</def>
+<form type="sandhi">pukk</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉat<c type="elided">u</c></form>
+<def>my</def>
+<form type="sandhi">eṉat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">genitive</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āviyai</form>
+<def>soul</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>urukki</form>
+<def>melted</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṇṭ<c type="elided">u</c></form>
+<def>absorbed</def>
+<form type="sandhi"><c type="glide">y</c>uṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭukiṉṟa</form>
+<def>placing</def>
+<gramGrp>
+  <gram type="role">present tense</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉai</form>
+<def>self</def>
+<form type="sandhi">ṟaṉṉai</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṭum</form>
+<def>searching</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇam</form>
+<def>manner</def>
+<form type="sandhi">vaṇṇañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>collāy</form>
+<def>speak</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naccu</form>
+<def>covet</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāk<c type="elided">u</c></form>
+<def>snake</def>
+<form type="sandhi">nāk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇaiyāṉ-ē</form>
+<def>bed-he</def>
+<form type="simple">aṇaiyāṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">vocative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
