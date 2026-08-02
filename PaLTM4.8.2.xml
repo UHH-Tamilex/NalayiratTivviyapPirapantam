@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>4.8.2</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Periyāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM4.8.2">
+<l>piṟappakattē māṇṭoḻinta piḷḷaikaḷai nālvaraiyu</l>
+<l>miṟaippoḻutil koṇarntukoṭut toruppaṭuttavu ṟaippaṉūr</l>
+<l>maṟaipperuntī vaḷarttiruppār varuviruntai yaḷittiruppār</l>
+<l>ciṟappuṭaiya maṟaiyavarvāḻ tiruvaraṅka meṉpatuvē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The city where dwells he who retrieved</l>
+<l>and immediately reunited the four children</l>
+<l>who had died in the birthing room</l>
+<l>is called holy Araṅkam, where live eminent men of the Vedas</l>
+<l rend="indent">who maintain the great Vedic fire</l>
+<l rend="indent">and are gracious to guests.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM4.8.2"><interp type="alignment" select="0">6MG5M2G5MG25MG29MG42MG25MG13MG37MG3M,199MG</interp>
+<entry>
+<form>piṟapp<c type="elided">u</c></form>
+<def>birth</def>
+<form type="sandhi">piṟapp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akatt<c type="elided">u</c>-ē</form>
+<def>room</def>
+<form type="simple">akattu</form>
+<form type="sandhi">akatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>māṇṭ<c type="elided">u</c></form>
+<def>die</def>
+<form type="sandhi">māṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻinta</form>
+<def>end</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷḷaikaḷai</form>
+<def>children</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nālvarai-<c type="glide">y</c>um</form>
+<def>four</def>
+<form type="simple">nālvarai</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iṟai<c type="geminated">p</c></form>
+<def>small</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poḻutil</form>
+<def>time</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇarntu</form>
+<def>retrieve</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭutt<c type="elided">u</c></form>
+<def>given</def>
+<form type="sandhi">koṭutt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oruppaṭutta</form>
+<def>reunite</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uṟaippaṉ</form>
+<def>dwell</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūr</form>
+<def>city</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟai<c type="geminated">p</c></form>
+<def>Veda</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perum</form>
+<def>great</def>
+<form type="sandhi">perun</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tī</form>
+<def>fire</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷartt<c type="elided">u</c></form>
+<def>maintain</def>
+<form type="sandhi">vaḷartt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruppār</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varu</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viruntai</form>
+<def>guest</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aḷitt<c type="elided">u</c></form>
+<def>be kind</def>
+<form type="sandhi"><c type="glide">y</c>aḷitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruppār</form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciṟapp<c type="elided">u</c></form>
+<def>eminence</def>
+<form type="sandhi">ciṟapp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiya</form>
+<def>possess</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟaiyavar</form>
+<def>people of the Veda</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻ</form>
+<def>live</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>holiness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>araṅkam</form>
+<def>Araṅkam</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpatu-<c type="glide">v</c>ē</form>
+<def>called-it</def>
+<form type="simple">eṉpatu</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
