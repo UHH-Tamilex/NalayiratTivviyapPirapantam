@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +14,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -35,7 +32,7 @@
 <l>taṭavaraittōḷ cakarapāṇī cārṅkaviṟ cēvakaṉē</l>
       </lg>
       <lg xml:lang="en">
-<l>Like one filling a pot with nectar from the curned sea</l>
+<l>As if filling a pot with nectar from the churned sea</l>
 <l rend="indent">[my] body melting, mouth opening,</l>
 <l>I took and drank of you [to my] fill.</l>
 <l>Swinging my stick, cruel Death won’t get to approach,</l>
@@ -46,7 +43,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PaLTM5.4.4"><interp type="alignment" select="0">12MG58MG38MG60M,171M</interp>
+<standOff type="wordsplit" corresp="#PaLTM5.4.4">
+<interp type="alignment" select="0">12MG58MG38MG60M,171M</interp>
 <entry>
 <form>kaṭal</form>
 <def>sea</def>
@@ -84,14 +82,11 @@
 </gramGrp>
 </entry>
 <entry>
-<form>niṟaittāṉ</form>
+<form>niṟaittāl</form>
 <def>fill</def>
 <form type="sandhi">niṟaittāṟ</form>
 <gramGrp>
-  <gram type="role">perfective aspect</gram>
-  <gram type="role">participial noun</gram>
-  <gram type="role">masculine</gram>
-  <gram type="role">singular</gram>
+  <gram type="role">conditional</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -104,8 +99,6 @@
 <entry>
 <form>uṭal</form>
 <def>body</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>uruki</form>
@@ -180,8 +173,6 @@
 <form>kūṟṟam-um</form>
 <def>god of death</def>
 <form type="simple">kūṟṟam</form>
-<gramGrp>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
@@ -263,8 +254,6 @@
 <entry>
 <form>cārṅka</form>
 <def>śārṅga</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>vil</form>
@@ -282,5 +271,6 @@
   <gram type="role">masculine</gram>
   <gram type="role">vocative</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
