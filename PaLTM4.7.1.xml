@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>4.7.1</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Periyāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM4.7.1">
+<l>taṅkaiyai mūkkun tamaiyaṉait talaiyun taṭintaven tācara tipō</l>
+<l>yeṅkuntaṉ pukaḻā viruntara cāṇṭa vempuru ṭō ttama ṉirukkai</l>
+<l>kaṅkaikaṅ kaiyeṉ ṟavācakat tālē kaṭuviṉai kaḷaintiṭa kiṟkuṅ</l>
+<l>kaṅkaiyiṉ karaimēl kaitoḻa niṉṟa kaṇṭameṉ ṉuṅkaṭi nakarē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The residence of our Puruṣottama</l>
+<l rend="indent">who rules [his] kingdom being praised everywhere,</l>
+<l>[who] came to us as Dāśarathi who cut off the nose of the younger sister</l>
+<l rend="indent">and the head of the older bother,</l>
+<l>is the protected city called Kaṇṭam,</l>
+<l rend="indent">where [he] stands to be worshipped with joined hands</l>
+<l>on the banks of the Ganges,</l>
+<l rend="indent">exterminating painful karma with the words, “Ganges Ganges”.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM4.7.1"><interp type="alignment" select="0">13M2G18MG44MG4MG53MG17MG58MGM,216M</interp>
+<entry>
+<form>taṅkaiyai</form>
+<def>younger sister</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūkk<c type="elided">u</c>-um</form>
+<def>nose</def>
+<form type="simple">mūkku</form>
+<form type="sandhi">mūkk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tamaiyaṉai<c type="geminated">t</c></form>
+<def>elder brother</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai-<c type="glide">y</c>um</form>
+<def>head</def>
+<form type="simple">talai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>taṭinta</form>
+<def>to cut off</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>em</form>
+<def>us</def>
+<form type="sandhi"><c type="glide">v</c>en</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tācarati</form>
+<def>Dāsarathi</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṅkum</form>
+<def>everywhere</def>
+<form type="sandhi">eṅkun</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukaḻā</form>
+<def>praise</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>irunt<c type="elided">u</c></form>
+<def>been</def>
+<form type="sandhi"><c type="glide">v</c>irunt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arac<c type="elided">u</c></form>
+<def>kingdom</def>
+<form type="sandhi">arac</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṇṭa</form>
+<def>ruled</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>em</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puruṭōttamaṉ</form>
+<def>Puruṣottama</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irukkai</form>
+<def>residence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṅkai</form>
+<def>Gangā</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṅkai</form>
+<def>Gangā</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṟa</form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vācakattāl-ē</form>
+<def>word</def>
+<form type="simple">vācakattāl</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kaṭu</form>
+<def>painful</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉai</form>
+<def>karma</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷaint<c type="elided">u</c></form>
+<def>exterminate</def>
+<form type="sandhi">kaḷaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭa</form>
+<def>do</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṟkum</form>
+<def>being-able</def>
+<form type="sandhi">kiṟkuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṅkaiyiṉ</form>
+<def>Ganges</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karai</form>
+<def>banks</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaitoḻa</form>
+<def>hand-worship</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>stand</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭam</form>
+<def>Kaṇṭam</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<form type="sandhi">eṉṉuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭi</form>
+<def>protection</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakar-ē</form>
+<def>city</def>
+<form type="simple">nakar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

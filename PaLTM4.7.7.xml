@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>4.7.7</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Periyāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM4.7.7">
+<l>viṟpiṭit tiṟuttu vēḻattai murukki mēlirun tavaṉtalai cāṭi</l>
+<l>maṟporu teḻappāyn taraiyaṉai yutaitta mālpuru ṭōttamaṉ vāḻ</l>
+<l>vaṟputa muṭaiyai rāvata matamu mavariḷam paṭiyaroṇ cāntuṅ</l>
+<l>kaṟpaka malaruṅ kalantiḻi kaṅkaik kaṇṭameṉ ṉuṅkaṭi nakarē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The dwelling of Māl Puruṣottama</l>
+<l rend="indent">who grabbed and broke the bow, crushed the elephant</l>
+<l rend="indent">[and] beat the head of the one who sat atop [it]</l>
+<l rend="indent">Lept up to fight the wrestlers, and kicked the king,</l>
+<l>is the protected city called Kaṇṭam on the Ganges</l>
+<l rend="indent">which descends, mixing the blossoms of the Kaṟpaka tree</l>
+<l rend="indent">[with] the ichor of Indra’s marvelous elephant</l>
+<l rend="indent">[and] the bright sandal paste [worn by] his damsels.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM4.7.7"><interp type="alignment" select="0">9MG50MG9MG36MG21ML4MG23M2G14MG8MG30MG2M,216MG</interp>
+<entry>
+<form>vil</form>
+<def>bow</def>
+<form type="sandhi">viṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṭitt<c type="elided">u</c></form>
+<def>grabbed</def>
+<form type="sandhi">piṭitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟuttu</form>
+<def>broke</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēḻattai</form>
+<def>elephant bull</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>murukki</form>
+<def>crushed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>atop</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>iruntavaṉ</form>
+<def>sit</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai</form>
+<def>head</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cāṭi</form>
+<def>beat</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mal</form>
+<def>wrestler</def>
+<form type="sandhi">maṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>porut<c type="elided">u</c></form>
+<def>fight</def>
+<form type="sandhi">porut</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻa<c type="geminated">p</c></form>
+<def>go up</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāynt<c type="elided">u</c></form>
+<def>lept</def>
+<form type="sandhi">pāynt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>araiyaṉai</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>utaitta</form>
+<def>kicked</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māl</form>
+<def>Māl</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puruṭōttamaṉ</form>
+<def>Puruṣottama</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻv<c type="elided">u</c></form>
+<def>dwelling place</def>
+<form type="sandhi">vāḻv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟputam</form>
+<def>miracle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭai</form>
+<def>possess</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>airāvatam</form>
+<def>Indra's elephant</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>matam-um</form>
+<def>ichor</def>
+<form type="simple">matam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>avar</form>
+<def>that one</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḷampaṭiyar</form>
+<def>damsel</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḷ</form>
+<def>bright</def>
+<form type="sandhi">oṇ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cānt<c type="elided">u</c>-um</form>
+<def>sandal paste</def>
+<form type="simple">cāntu</form>
+<form type="sandhi">cānt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṟpakam</form>
+<def>Kaṟpaka tree</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alar-um</form>
+<def>blossom</def>
+<form type="simple">alar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kalant<c type="elided">u</c></form>
+<def>mixing</def>
+<form type="sandhi">kalant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḻi</form>
+<def>descends</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṅkai<c type="geminated">k</c></form>
+<def>Gangā</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭam</form>
+<def>Kaṇṭam</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<form type="sandhi">eṉṉuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭi</form>
+<def>protection</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakar-ē</form>
+<def>city</def>
+<form type="simple">nakar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Periyāḻvār Tirumoḻi</title> <num>4.7.9</num>.
+            <persName xml:lang="ta">Periyāḻvār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Periyāḻvār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="PaLTM4.7.9">
+<l>vaṭaticai maturai cāḷaki rāmam vaikuntan tuvaraiya yōtti</l>
+<l>yiṭamuṭai vatari yiṭavakai yuṭaiya vempuru ṭō ttama ṉirukkai</l>
+<l>taṭavarai yatirat taraṇiviṇ ṭiṭiyat talaippaṟṟik karaimarañ cāṭi</l>
+<l>kaṭaliṉaik kalaṅkak kaṭuttiḻi kaṅkaik kaṇṭameṉ ṉuṅkaṭi nakarē.</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The seat of our Puruṣottama</l>
+<l rend="indent">who has the places of Madura in the North,</l>
+<l rend="indent">Śālagrāma, Vaikuntha, Dvārakā, [and] Ayodhyā.</l>
+<l rend="indent">[and] places like Badarī,</l>
+<l>is the protected city called Kaṇṭam</l>
+<l rend="indent">on the Ganges which descends swiflty to agitate the sea,</l>
+<l rend="indent">splitting the earth so [it] crumbles</l>
+<l rend="indent">[and] the broad mountains shake,</l>
+<l rend="indent">seizing the tops [and] breaking the shore trees.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#PaLTM4.7.9"><interp type="alignment" select="0">21MG48MG60MG56MG30MG2M,221MG</interp>
+<entry>
+<form>vaṭa</form>
+<def>north</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ticai</form>
+<def>direction</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maturai</form>
+<def>Maturai</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>cāḷakkirāmam</form>
+<def>Śālagrāma</def>
+<form type="sandhi">cāḷakirāmam</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vaikuntam</form>
+<def>Vaikuṇṭha</def>
+<form type="sandhi">vaikuntan</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tuvarai</form>
+<def>Dvāraka</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ayōtti</form>
+<def>Ayodhyā</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṭam</form>
+<def>place</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭai</form>
+<def>possess</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>vatari</form>
+<def>Badarī</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṭa<c type="uncertain">m</c></form>
+<def>place</def>
+<form type="sandhi"><c type="glide">y</c>iṭa</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vakai</form>
+<def>type</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṭaiya</form>
+<def>possess</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>em</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puruṭōttamaṉ</form>
+<def>Puruṣottama</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irukkai</form>
+<def>seat</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭa</form>
+<def>broad</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varai</form>
+<def>mountain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>atira<c type="geminated">t</c></form>
+<def>shake</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taraṇi</form>
+<def>earth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṇṭ<c type="elided">u</c></form>
+<def>split</def>
+<form type="sandhi">viṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭiya<c type="geminated">t</c></form>
+<def>crumble</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai<c type="geminated">p</c></form>
+<def>top</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṟṟi<c type="geminated">k</c></form>
+<def>grasped</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karai</form>
+<def>shore</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maram</form>
+<def>tree</def>
+<form type="sandhi">marañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cāṭi</form>
+<def>breaking</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭaliṉai<c type="geminated">k</c></form>
+<def>sea</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kalaṅka<c type="geminated">k</c></form>
+<def>agitated</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭutt<c type="elided">u</c></form>
+<def>move swiftly</def>
+<form type="sandhi">kaṭutt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḻi</form>
+<def>descend</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṅkai<c type="geminated">k</c></form>
+<def>Gangā</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭam</form>
+<def>Kaṇṭam</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<form type="sandhi">eṉṉuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭi</form>
+<def>protection</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakar-ē</form>
+<def>city</def>
+<form type="simple">nakar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
