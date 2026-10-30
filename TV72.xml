@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -39,7 +36,7 @@
 <l>in the surrounding night, let it cross. Is this the way to live on today</l>
 <l>for the dark complexion of me, one solitary woman, with a heart low</l>
 <l>because of the Tulsi blossoms? Something pure has turned up.</l>
-<l></l>
+<l/>
 <l>b (= the old topos of the moon that hinders the rendez-vous)</l>
 <l>Let the moon child too be split, that splits the black denseness of unshrinking darkness</l>
 <l>in the surrounding night. Is this the way to live on today</l> 
@@ -162,7 +159,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>tami</form>
 <def>solitude</def>
