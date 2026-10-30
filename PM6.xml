@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -82,7 +79,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PM6"><interp type="alignment" select="0">28MG82MG31MG18MG26MG96MG268MG56MG6MG36MG16MG5M2G16M2G13MG30M2G6MG5M2G115MG61MG14MG12MG8MG88M2G50MG25MG8MG93MG4M2G103MG24MG45MG20MG30MG24MG31MG6MG22MG26MG5MG37M,1633MG</interp>
+<standOff type="wordsplit" corresp="#PM6">
+<interp type="alignment" select="0">28MG82MG31MG18MG26MG96MG268MG56MG6MG36MG16MG5M2G16M2G13MG30M2G6MG5M2G115MG61MG14MG12MG8MG88M2G50MG25MG8MG93MG4M2G103MG24MG45MG20MG30MG24MG31MG6MG22MG26MG5MG37M,1633MG</interp>
 <entry>
 <form>aṉṉa</form>
 <def>such</def>
@@ -2155,5 +2153,6 @@
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>

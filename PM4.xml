@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -85,7 +82,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PM4"><interp type="alignment" select="0">23MG10MG18MG6MG9MG63M2G60MG4MG19MG11MG35MG23MG6M2G14M2G6M2G10MG20MG6MG29MG34MG10M2G5MG33MG31MG11MG25MG23MG16M2G31MG38MG18MG140M2GMGMG5MG3MGMG33MG24MG5MG31ML3MG11MG11MR13MG26MG10MG9MG97M2G29ML27MG11MG34MG36MG31MG27MG7MG12M2G21MG7MG157MG128MG20M2G36M2G32M,452MG310MG645MG351M</interp>
+<standOff type="wordsplit" corresp="#PM4">
+<interp type="alignment" select="0">23MG10MG18MG6MG9MG63M2G60MG4MG19MG11MG35MG23MG6M2G14M2G6M2G10MG20MG6MG29MG34MG10M2G5MG33MG31MG11MG25MG23MG16M2G31MG38MG18MG140M2G7MG37MG24MG5MG31ML3MG11MG11MR13MG26MG10MG9MG97M2G29ML27MG11MG34MG36MG31MG27MG7MG12M2G21MG7MG157MG128MG20M2G36M2G32M,452MG310MG641MG351M</interp>
 <entry>
 <form>miṉṉi</form>
 <def>flashing</def>
@@ -818,11 +816,11 @@
 </gramGrp>
 </entry>
 <entry>
-<form>iv</form>
+<form>i<c type="geminated">v</c></form>
 <def>this</def>
 </entry>
 <entry>
-<form><c type="geminated">v</c>ulakai</form>
+<form><c type="glide">v</c>ulakai</form>
 <def>world</def>
 <gramGrp>
   <gram type="role">accusative</gram>
@@ -969,11 +967,11 @@
 </gramGrp>
 </entry>
 <entry>
-<form>av</form>
+<form>a<c type="geminated">v</c></form>
 <def>that</def>
 </entry>
 <entry>
-<form><c type="geminated">v</c>aṉṟil</form>
+<form><c type="glide">v</c>aṉṟil</form>
 <def>Aṉṟil bird</def>
 </entry>
 <entry>
@@ -1253,9 +1251,9 @@
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
-<form>[v]ilakk<c type="elided">u</c></form>
+<form><c type="glide">v</c>ilakk<c type="elided">u</c></form>
 <def>target</def>
-<form type="sandhi">vilakk</form>
+<form type="sandhi"><c type="glide">v</c>ilakk</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -1268,9 +1266,8 @@
 </gramGrp>
 </entry>
 <entry>
-<form>[y]eykiṉṟāṉ</form>
+<form><c type="glide">y</c>eykiṉṟāṉ</form>
 <def>shoots</def>
-<form type="sandhi">yeykiṉṟāṉ</form>
 <gramGrp>
   <gram type="role">present tense</gram>
   <gram type="role">third person</gram>
@@ -2402,7 +2399,7 @@
 <form><c type="glide">y</c>āyiram</form>
 <def>thousand</def>
 <form type="sandhi"><c type="glide">y</c>āyiraṅ</form>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>kaṇ</form>
 <def>eye</def>
@@ -2545,5 +2542,6 @@
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>

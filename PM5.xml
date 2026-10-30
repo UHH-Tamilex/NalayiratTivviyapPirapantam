@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -85,7 +82,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#PM5"><interp type="alignment" select="0">27M2G153MG90MG36MG27MG5MG9MG3MG13MG18MG3MG65MG35MG58MG43MG51MG18MG4MG18MG5MG2MG69MG4M2G12MG3MG32MG2MG403MG45MG162MG57MG5MG142MG36MG73M,1764M</interp>
+<standOff type="wordsplit" corresp="#PM5">
+<interp type="alignment" select="0">27M2G153MG90MG36MG27MG5MG9MG3MG13MG18MG3MG65MG35MG58MG43MG51MG18MG4MG18MG5MG2MG69MG4M2G12MG3MG32MG405MG45MG162MG57MG5MG142MG36MG73M,1763M</interp>
 <entry>
 <form>kol</form>
 <def>murderous</def>
@@ -345,11 +343,11 @@
 </gramGrp>
 </entry>
 <entry>
-<form>iv</form>
+<form>i<c type="geminated">v</c></form>
 <def>this-</def>
 </entry>
 <entry>
-<form><c type="geminated">v</c>akal</form>
+<form><c type="glide">v</c>akal</form>
 <def>vast</def>
 <gramGrp>
   <gram type="role">verbal root</gram>
@@ -552,7 +550,7 @@
 <entry>
 <form>iru</form>
 <def>two</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>cuṭar-um</form>
 <def>luminaries</def>
@@ -981,7 +979,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>taruka</form>
+<form>taruk<c type="uncertain">a</c></form>
 <def>give</def>
 <form type="sandhi">taruk</form>
 <gramGrp>
@@ -1187,7 +1185,7 @@
 <form type="sandhi">ēḻ</form>
 <gramGrp>
   <gram type="role">noun</gram>
-</gramGrp>
+<gram type="role">numeral</gram></gramGrp>
 </entry>
 <entry>
 <form>ulak<c type="elided">u</c>-um</form>
@@ -1264,12 +1262,11 @@
 </gramGrp>
 </entry>
 <entry>
-<form>iv-</form>
+<form>i<c type="geminated">v</c></form>
 <def>this</def>
-<form type="sandhi">iv</form>
 </entry>
 <entry>
-<form><c type="geminated">v</c>akal</form>
+<form><c type="glide">v</c>akal</form>
 <def>broad</def>
 <gramGrp>
   <gram type="role">verbal root</gram>
@@ -1663,7 +1660,7 @@
 <entry>
 <form><c type="glide">y</c>iru</form>
 <def>two</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>cuṭarai</form>
 <def>luminaries</def>
@@ -2390,5 +2387,6 @@
 <entry>
 <form>kōṭṭiyūr</form>
 <def>Kōṭṭiyūr</def>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>

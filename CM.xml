@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Ciṟiya Tirumaṭal</title> <num></num>.
+            <title xml:lang="ta">Ciṟiya Tirumaṭal</title> <num/>.
             <persName xml:lang="ta">Tirumaṅkai Āḻvār</persName>
         </title>     
       </titleStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -584,7 +581,7 @@
 <form>mūṉṟ<c type="elided">u</c></form>
 <def>three</def>
 <form type="sandhi">mūṉṟ</form>
-</entry>
+<gramGrp><gram type="role">noun</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>aṉṟ<c type="elided">u</c>-ē</form>
 <def>is not so</def>
@@ -707,7 +704,7 @@
 <entry>
 <form>iru</form>
 <def>two</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>kalai-<c type="glide">y</c>um</form>
 <def>portion</def>
@@ -897,7 +894,7 @@
 <entry>
 <form><c type="glide">y</c>ēḻ</form>
 <def>seven</def>
-</entry>
+<gramGrp><gram type="role">noun</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>pūṇṭa</form>
 <def>yoked</def>
@@ -3018,7 +3015,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>nāḷ</form>
 <def>day</def>
@@ -3952,7 +3949,7 @@
 <entry>
 <form>āyiram</form>
 <def>thousand</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>paṇam</form>
 <def>cobra hood</def>
@@ -4397,7 +4394,7 @@
 <def>five</def>
 <gramGrp>
   <gram type="role">noun</gram>
-</gramGrp>
+<gram type="role">numeral</gram></gramGrp>
 </entry>
 <entry>
 <form>cīr</form>
@@ -5327,7 +5324,7 @@
 <entry>
 <form>āyiram</form>
 <def>thousand</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>uṭaiyāṉ</form>
 <def>possess-he</def>

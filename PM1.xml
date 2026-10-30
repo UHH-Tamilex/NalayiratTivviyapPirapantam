@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -595,7 +592,7 @@
 <entry>
 <form>iru</form>
 <def>two</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>cuṭarai</form>
 <def>luminaries</def>
@@ -1222,7 +1219,7 @@
 <form>nāl</form>
 <def>four</def>
 <form type="sandhi">nāṉ</form>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>maṟaikaḷ</form>
 <def>mysteries</def>
@@ -1330,7 +1327,7 @@
 <form>nāṉk<c type="elided">u</c></form>
 <def>four</def>
 <form type="sandhi">nāṉk</form>
-</entry>
+<gramGrp><gram type="role">noun</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>aṉṟ<c type="elided">u</c>-ē</form>
 <def>is not so</def>
@@ -6775,7 +6772,7 @@
 <form>āyiram</form>
 <def>thousand</def>
 <form type="sandhi">āyiran</form>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>tōḷ</form>
 <def>arm</def>
@@ -9815,7 +9812,7 @@
 <form><c type="glide">y</c>āyiram</form>
 <def>thousand</def>
 <form type="sandhi"><c type="glide">y</c>āyiraṅ</form>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>kaṇ</form>
 <def>eye</def>
@@ -10425,7 +10422,7 @@
 <entry>
 <form>iru</form>
 <def>two</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>cuṭar-um</form>
 <def>luminaries</def>
@@ -11060,7 +11057,7 @@
 <form type="sandhi">ēḻ</form>
 <gramGrp>
   <gram type="role">noun</gram>
-</gramGrp>
+<gram type="role">numeral</gram></gramGrp>
 </entry>
 <entry>
 <form>ulak<c type="elided">u</c>-um</form>
@@ -11535,7 +11532,7 @@
 <entry>
 <form><c type="glide">y</c>iru</form>
 <def>two</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>cuṭarai</form>
 <def>luminaries</def>
