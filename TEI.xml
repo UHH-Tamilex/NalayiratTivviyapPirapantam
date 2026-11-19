@@ -1,4 +1,6 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +33,7 @@
 <l>ilaṅkai yirukāl vaḷaiya vorucilai</l>
 <l>oṉṟiya vīreyiṟ ṟaḻalvāy vāḷiyiṉ</l>
 <l>aṭṭaṉai</l>
-<l/>
-<l>mūvaṭi nāṉilam vēṇṭi</l>
+<l rend="space">mūvaṭi nāṉilam vēṇṭi</l>
 <l>muppuri nūloṭu māṉuri yilaṅkum</l>
 <l>mārviṉi lirupiṟap porumā ṇāki</l>
 <l>orumuṟai yīraṭi mūvula kaḷantaṉai</l>
@@ -40,39 +41,34 @@
 <l>ēṟi nālvāy mummatat tirucevi</l>
 <l>orutaṉi vēḻat tarantaiyai yorunāḷ</l>
 <l>irunīr maṭuvuḷ tīrttaṉai</l>
-<l/>
-<l>muttī</l>
+<l rend="space">muttī</l>
 <l>nāṉmaṟai yaivakai vēḷvi yaṟutoḻil</l>
 <l>antaṇar vaṇaṅkun taṉmaiyai yaimpulaṉ</l>
 <l>akattiṉuḷ ceṟuttu nāṉkuṭa ṉaṭakki</l>
 <l>mukkuṇat tiraṇṭavai yakaṟṟi yoṉṟiṉil</l>
 <l>oṉṟi niṉṟāṅ kirupiṟap paṟuppōr</l>
 <l>aṟiyun taṉmaiyai</l>
-<l/>
-<l>mukkaṇ nāṟṟōḷ</l>
+<l rend="space">mukkaṇ nāṟṟōḷ</l>
 <l>aivā yaravō ṭāṟupoti caṭaiyōṉ</l>
 <l>aṟivarun taṉmaip perumaiyuḷ niṉṟaṉai</l>
 <l>ēḻula keyiṟṟiṉil koṇṭaṉai kūṟiya</l>
 <l>aṟucuvaip payaṉu māyiṉai cuṭarviṭum</l>
 <l>aimpaṭai yaṅkaiyu ḷamarntaṉai</l>
-<l/>
-<l>cuntara</l>
+<l rend="space">cuntara</l>
 <l>nāṟṟōḷ munnīr vaṇṇani ṉīraṭi</l>
 <l>oṉṟiya maṉattā lorumati mukattu</l>
 <l>maṅkaiya riruvarum malaraṉa vaṅkaiyil</l>
 <l>muppoḻu tumvaruṭa vaṟituyi lamarntaṉai</l>
 <l>neṟimuṟai nālvakai varuṇamu māyiṉai</l>
 <l>mētaku maimperum pūtamum nīyē</l>
-<l/>
-<l>aṟupatam muraluṅ kūntal kāraṇam</l>
+<l rend="space">aṟupatam muraluṅ kūntal kāraṇam</l>
 <l>ēḻviṭai yaṭaṅkac ceṟṟaṉai yaṟuvakaic</l>
 <l>camayamu maṟivaru nilaiyiṉai yaimpāl</l>
 <l>ōtiyai yākat tiruttiṉai yaṟamutal</l>
 <l>nāṉka vaiyāy mūrtti mūṉṟāy</l>
 <l>iruvakaip payaṉā yoṉṟāy virintu</l>
 <l>niṉṟaṉai</l>
-<l/>
-<l>kuṉṟā matumalarc cōlai</l>
+<l rend="space">kuṉṟā matumalarc cōlai</l>
 <l>vaṇkoṭip paṭappai varupuṉal poṉṉi</l>
 <l>māmaṇi yalaikkuñ cenneloṇ kaḻaṉit</l>
 <l>tikaḻvaṉa muṭutta kaṟpōr puricaik</l>
@@ -81,8 +77,7 @@
 <l>tirukkuṭan taiyantaṇar mantira moḻiyuṭaṉ</l>
 <l>vaṇaṅka vāṭara vamaḷiyi laṟituyil</l>
 <l>amarnta parama</l>
-<l/>
-<l>ni ṉaṭiyiṇai paṇivaṉ</l>
+<l rend="space">ni ṉaṭiyiṇai paṇivaṉ</l>
 <l>varumiṭa rakala māṟṟō viṉaiyē.</l>
       </lg>
       <lg xml:lang="en">
@@ -148,12 +143,15 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#TEI"><interp type="alignment" select="0">132MG30ML53MG30MG58MG20MG127MG19MG32MG3MG9MG5MG40MG19MG35MG37MG120MG27M2G51MG28MG4MG76MG32MG14ML25MG21MG217ML18MG4MG65M2G6MG3M,1392MG</interp>
+<standOff type="wordsplit" corresp="#TEI">
+<interp type="alignment" select="0">132MG30ML53MG30MG58MG20MG127MG19MG32MG3MG9MG5MG40MG19MG35MG37MG120MG27M2G51MG28MG4MG76MG32MG14ML25MG21MG217ML18MG4MG65M2G6MG3M,1392MG</interp>
 <entry>
 <form>oru</form>
 <def>one</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>pēr</form>
@@ -172,8 +170,6 @@
 <entry>
 <form><c type="glide">y</c>iru</form>
 <def>large</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>malar<c type="geminated">t</c></form>
@@ -193,7 +189,9 @@
 <form>oru</form>
 <def>one</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>muṟai</form>
@@ -221,7 +219,9 @@
 <form><c type="glide">y</c>oru</form>
 <def>one</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>muṟai</form>
@@ -234,7 +234,9 @@
 <form>iru</form>
 <def>two</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cuṭar</form>
@@ -262,7 +264,9 @@
 <form>mu<c type="geminated">m</c></form>
 <def>three</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>matiḷ</form>
@@ -274,14 +278,14 @@
 <entry>
 <form>ilaṅkai</form>
 <def>Laṅka</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>iru</form>
 <def>two</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kāl</form>
@@ -301,7 +305,9 @@
 <form><c type="glide">v</c>oru</form>
 <def>one</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cilai</form>
@@ -321,8 +327,6 @@
 <entry>
 <form><c type="glide">v</c>īr</form>
 <def>two</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>eyiṟṟ<c type="elided">u</c></form>
@@ -364,8 +368,6 @@
 <entry>
 <form>mū</form>
 <def>three</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>aṭi</form>
@@ -379,7 +381,9 @@
 <def>four</def>
 <form type="sandhi">nāṉ</form>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>nilam</form>
@@ -400,7 +404,9 @@
 <form>mu<c type="geminated">p</c></form>
 <def>three</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>puri</form>
@@ -448,7 +454,9 @@
 <form>iru</form>
 <def>two</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>piṟapp<c type="elided">u</c></form>
@@ -462,7 +470,9 @@
 <form>oru</form>
 <def>one</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>māṇ</form>
@@ -482,7 +492,9 @@
 <form>oru</form>
 <def>one</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>muṟai</form>
@@ -494,8 +506,6 @@
 <entry>
 <form><c type="glide">y</c>īr</form>
 <def>two</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>aṭi</form>
@@ -507,8 +517,6 @@
 <entry>
 <form>mū</form>
 <def>three</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>ulak<c type="elided">u</c></form>
@@ -531,7 +539,9 @@
 <def>four</def>
 <form type="sandhi">nāṟ</form>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ticai</form>
@@ -595,7 +605,9 @@
 <form>mu<c type="geminated">m</c></form>
 <def>three</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>matatt<c type="elided">u</c></form>
@@ -609,7 +621,9 @@
 <form>iru</form>
 <def>two</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cevi</form>
@@ -622,7 +636,9 @@
 <form>oru</form>
 <def>one</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>taṉi</form>
@@ -650,7 +666,9 @@
 <form><c type="glide">y</c>oru</form>
 <def>one</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>nāḷ</form>
@@ -662,8 +680,6 @@
 <entry>
 <form>iru</form>
 <def>vast</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>nīr</form>
@@ -691,7 +707,9 @@
 <form>mu<c type="geminated">t</c></form>
 <def>three</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>tī</form>
@@ -705,7 +723,9 @@
 <def>four</def>
 <form type="sandhi">nāṉ</form>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>maṟai</form>
@@ -719,7 +739,9 @@
 <def>five</def>
 <gramGrp>
   <gram type="role">noun</gram>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vakai</form>
@@ -752,8 +774,6 @@
 <entry>
 <form>antaṇar</form>
 <def>brahmin</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>vaṇaṅkum</form>
@@ -774,8 +794,6 @@
 <entry>
 <form><c type="glide">y</c>aim</form>
 <def>five</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>pulaṉ</form>
@@ -811,13 +829,13 @@
 <def>four</def>
 <form type="sandhi">nāṉk</form>
 <gramGrp>
-<gram type="role">noun</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>uṭaṉ</form>
 <def>together</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>aṭakki</form>
@@ -830,7 +848,9 @@
 <form>mu<c type="geminated">k</c></form>
 <def>three</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kuṇatt<c type="elided">u</c></form>
@@ -877,14 +897,14 @@
 <form>āṅk<c type="elided">u</c></form>
 <def>there</def>
 <form type="sandhi">āṅk</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>iru</form>
 <def>two</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>piṟapp<c type="elided">u</c></form>
@@ -905,8 +925,6 @@
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>aṟiyum</form>
@@ -928,7 +946,9 @@
 <form>mu<c type="geminated">k</c></form>
 <def>three</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kaṇ</form>
@@ -942,7 +962,9 @@
 <def>four</def>
 <form type="sandhi">nāṟ</form>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>tōḷ</form>
@@ -957,7 +979,9 @@
 <def>five</def>
 <gramGrp>
   <gram type="role">noun</gram>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vāy</form>
@@ -1047,7 +1071,9 @@
 <form>ēḻ</form>
 <def>seven</def>
 <gramGrp>
-<gram type="role">noun</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ulak<c type="elided">u</c></form>
@@ -1130,8 +1156,6 @@
 <entry>
 <form>aim</form>
 <def>five</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>paṭai</form>
@@ -1183,7 +1207,9 @@
 <def>four</def>
 <form type="sandhi">nāṟ</form>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>tōḷ</form>
@@ -1197,7 +1223,9 @@
 <form>mu<c type="geminated">n</c></form>
 <def>three</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>nīr</form>
@@ -1229,8 +1257,6 @@
 <entry>
 <form>īr</form>
 <def>two</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>aṭi</form>
@@ -1258,7 +1284,9 @@
 <form>oru</form>
 <def>one</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>mati</form>
@@ -1318,7 +1346,9 @@
 <form>mu<c type="geminated">p</c></form>
 <def>three</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>poḻut<c type="elided">u</c>-um</form>
@@ -1354,8 +1384,6 @@
 <entry>
 <form>amarntaṉai</form>
 <def>you rest</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>neṟi</form>
@@ -1375,7 +1403,9 @@
 <form>nāl</form>
 <def>four</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vakai</form>
@@ -1412,8 +1442,6 @@
 <entry>
 <form>aim</form>
 <def>five</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>perum</form>
@@ -1482,7 +1510,9 @@
 <form>ēḻ</form>
 <def>seven</def>
 <gramGrp>
-<gram type="role">noun</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>viṭai</form>
@@ -1553,8 +1583,6 @@
 <entry>
 <form><c type="glide">y</c>aim</form>
 <def>five</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>pāl</form>
@@ -1627,7 +1655,9 @@
 <def>three</def>
 <form type="sandhi">mūṉṟ</form>
 <gramGrp>
-<gram type="role">noun</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>āy</form>
@@ -1640,7 +1670,9 @@
 <form>iru</form>
 <def>two</def>
 <gramGrp>
-<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vakai<c type="geminated">p</c></form>
@@ -1761,8 +1793,6 @@
 <entry>
 <form>poṉṉi</form>
 <def>Poṉṉi</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>mā</form>
@@ -1941,8 +1971,6 @@
 <entry>
 <form><c type="glide">y</c>antaṇar</form>
 <def>brahmin</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>mantiram</form>
@@ -1961,8 +1989,6 @@
 <entry>
 <form><c type="glide">y</c>uṭaṉ</form>
 <def>with</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>vaṇaṅka</form>
@@ -2094,5 +2120,6 @@
   <gram type="role">noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
